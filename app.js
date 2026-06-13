@@ -70,6 +70,7 @@
       "domainChip",
       "priorityChip",
       "sourceChip",
+      "crossOutModeBtn",
       "toggleNavigatorBtn",
       "questionBackdropNumber",
       "questionText",
@@ -83,6 +84,9 @@
       "resultsModeChip",
       "resultsHeadline",
       "resultsSummaryText",
+      "resultsJudgement",
+      "resultsEncouragement",
+      "scoreRing",
       "scorePercent",
       "scoreRaw",
       "resultsStats",
@@ -91,8 +95,7 @@
       "retryMissedBtn",
       "newSimulationBtn",
       "saveRoundBtn",
-      "exportJsonBtn",
-      "exportTextBtn",
+      "resultsBackBtn",
       "submitConfirmModal",
       "submitConfirmSummary",
       "submitConfirmCounts",
@@ -501,6 +504,55 @@
     return `${normalized.charAt(0).toUpperCase()}${normalized.slice(1)} confidence`;
   }
 
+  function getPerformanceTier(percent) {
+    if (percent >= 95) {
+      return {
+        label: "Excellent!",
+        note: "Elite result. This is right where you want a polished simulation score to land.",
+        tone: "excellent",
+        positive: true,
+      };
+    }
+    if (percent >= 85) {
+      return {
+        label: "Very Good!",
+        note: "Strong performance. You are answering like someone who is genuinely ready to compete.",
+        tone: "very_good",
+        positive: true,
+      };
+    }
+    if (percent >= 75) {
+      return {
+        label: "Good!",
+        note: "Solid round. You are in good shape, with room to sharpen a few edges.",
+        tone: "good",
+        positive: true,
+      };
+    }
+    if (percent >= 70) {
+      return {
+        label: "Above Average",
+        note: "This is a respectable score, but there is still clear room to raise the floor.",
+        tone: "above_average",
+        positive: false,
+      };
+    }
+    if (percent >= 60) {
+      return {
+        label: "Average",
+        note: "You are in the workable range, but this still needs tightening before you should feel comfortable.",
+        tone: "average",
+        positive: false,
+      };
+    }
+    return {
+      label: "Below Average",
+      note: "This round exposed important weak spots. Use the review and retry flow to clean them up.",
+      tone: "below_average",
+      positive: false,
+    };
+  }
+
   function getFlagButtonMarkup(flagged) {
     return `
       <span class="flag-button-inner">
@@ -510,6 +562,14 @@
         <span>${flagged ? "Bookmarked" : "Flag for Review"}</span>
       </span>
     `;
+  }
+
+  function updateCrossOutModeButton() {
+    if (!dom.crossOutModeBtn || !state.currentTest) return;
+    const active = Boolean(state.currentTest.crossOutMode);
+    dom.crossOutModeBtn.classList.toggle("is-active", active);
+    dom.crossOutModeBtn.setAttribute("aria-pressed", String(active));
+    dom.crossOutModeBtn.setAttribute("aria-label", active ? "Turn off cross out mode" : "Turn on cross out mode");
   }
 
   function showView(viewName) {
@@ -865,6 +925,7 @@
       roundLabel,
       mode: settings.mode,
       settings,
+      crossOutMode: false,
       warnings,
       questions: preparedQuestions,
       startedAt: Date.now(),
@@ -914,6 +975,7 @@
       contextLine: subtopic?.label || "All broad subtopics",
       mode: settings.mode,
       settings,
+      crossOutMode: false,
       warnings,
       questions: preparedQuestions,
       startedAt: Date.now(),
@@ -940,6 +1002,7 @@
       renderedChoices,
       userAnswerId: "",
       flagged: false,
+      crossedOutChoiceIds: [],
       answeredAt: null,
     };
   }
@@ -1063,6 +1126,12 @@
   }
 
   function beginTest(test) {
+    test.crossOutMode = Boolean(test.crossOutMode);
+    test.questions.forEach((entry) => {
+      if (!Array.isArray(entry.crossedOutChoiceIds)) {
+        entry.crossedOutChoiceIds = [];
+      }
+    });
     state.currentTest = test;
     state.currentQuestionIndex = 0;
     renderGenerationWarnings(test.warnings);
@@ -1092,6 +1161,7 @@
     metaParts.push(test.settings.timerEnabled ? `${test.settings.timerMinutes} minute timer` : "untimed");
     metaParts.push("end grading");
     dom.roundMeta.textContent = metaParts.join(" • ");
+    updateCrossOutModeButton();
     renderQuestionGrid();
     renderTestProgress();
   }
@@ -1133,6 +1203,7 @@
   function renderCurrentQuestion() {
     const entry = state.currentTest.questions[state.currentQuestionIndex];
     const question = entry.question;
+    const crossOutMode = Boolean(state.currentTest.crossOutMode);
     dom.questionCounterChip.textContent = `Question ${state.currentQuestionIndex + 1} of ${state.currentTest.questions.length}`;
     dom.priorityChip.textContent = question.priority_tier.replace(/_/g, " ");
     dom.sourceChip.textContent = question.source_name;
@@ -1143,16 +1214,38 @@
     dom.questionMetaLine.textContent = formatConfidenceLabel(question.domain_confidence);
     dom.flagQuestionBtn.innerHTML = getFlagButtonMarkup(entry.flagged);
     dom.flagQuestionBtn.classList.toggle("is-flagged", entry.flagged);
+    updateCrossOutModeButton();
 
     dom.choiceList.innerHTML = entry.renderedChoices
       .map((choice) => {
+        const crossedOut = entry.crossedOutChoiceIds.includes(choice.id);
+        const selected = entry.userAnswerId === choice.id;
         const classes = ["choice-button"];
-        if (entry.userAnswerId === choice.id) classes.push("selected");
+        const rowClasses = ["choice-row"];
+        if (selected) classes.push("selected");
+        if (crossOutMode) rowClasses.push("crossout-mode-on");
+        if (crossedOut) {
+          rowClasses.push("is-crossed-out");
+          classes.push("is-crossed-out");
+        }
         return `
-          <button class="${classes.join(" ")}" type="button" data-choice-id="${choice.id}">
-            <span class="choice-badge">${choice.id}</span>
-            <span class="choice-copy">${choice.text}</span>
-          </button>
+          <div class="${rowClasses.join(" ")}">
+            <button class="${classes.join(" ")}" type="button" data-choice-id="${choice.id}">
+              <span class="choice-badge">${choice.id}</span>
+              <span class="choice-copy">${choice.text}</span>
+            </button>
+            ${crossOutMode ? `
+              <button
+                class="choice-crossout-toggle ${crossedOut ? "is-crossed" : ""}"
+                type="button"
+                data-crossout-choice-id="${choice.id}"
+                aria-pressed="${crossedOut ? "true" : "false"}"
+                aria-label="${crossedOut ? `Undo cross out for choice ${choice.id}` : `Cross out choice ${choice.id}`}"
+              >
+                <span class="choice-crossout-glyph" aria-hidden="true">${choice.id}</span>
+              </button>
+            ` : ""}
+          </div>
         `;
       })
       .join("");
@@ -1185,8 +1278,38 @@
 
   function chooseAnswer(choiceId) {
     const entry = state.currentTest.questions[state.currentQuestionIndex];
+    entry.crossedOutChoiceIds = entry.crossedOutChoiceIds.filter((id) => id !== choiceId);
     entry.userAnswerId = choiceId;
     entry.answeredAt = Date.now();
+    renderCurrentQuestion();
+  }
+
+  function toggleCrossOutMode() {
+    if (!state.currentTest) return;
+    const nextMode = !state.currentTest.crossOutMode;
+    state.currentTest.crossOutMode = nextMode;
+    if (!nextMode) {
+      state.currentTest.questions.forEach((entry) => {
+        entry.crossedOutChoiceIds = [];
+      });
+    }
+    renderCurrentQuestion();
+  }
+
+  function toggleChoiceCrossOut(choiceId) {
+    if (!state.currentTest) return;
+    const entry = state.currentTest.questions[state.currentQuestionIndex];
+    const alreadyCrossed = entry.crossedOutChoiceIds.includes(choiceId);
+
+    if (alreadyCrossed) {
+      entry.crossedOutChoiceIds = entry.crossedOutChoiceIds.filter((id) => id !== choiceId);
+    } else {
+      entry.crossedOutChoiceIds = entry.crossedOutChoiceIds.concat(choiceId);
+      if (entry.userAnswerId === choiceId) {
+        entry.userAnswerId = "";
+      }
+    }
+
     renderCurrentQuestion();
   }
 
@@ -1353,18 +1476,25 @@
   }
 
   function renderResults(result) {
+    const flaggedCount = result.reviewEntries.filter((item) => item.entry.flagged).length;
+    const missedCount = result.reviewEntries.filter((item) => !item.correct).length;
+    const performanceTier = getPerformanceTier(result.percent);
+
     dom.resultsModeChip.textContent = result.roundLabel;
     dom.resultsHeadline.textContent = result.autoSubmitted ? "Time Expired — Test Submitted" : "Simulation Complete";
     dom.resultsSummaryText.textContent = `${result.correct} correct • ${result.incorrect} incorrect • ${result.unanswered} unanswered • ${result.timeUsedLabel} used`;
+    dom.resultsJudgement.textContent = performanceTier.label;
+    dom.resultsEncouragement.textContent = performanceTier.note;
     dom.scorePercent.textContent = `${result.percent}%`;
     dom.scoreRaw.textContent = `${result.correct} / ${result.total}`;
+    dom.scoreRing.className = `score-ring score-ring-${performanceTier.tone}`;
 
     const stats = [
       { label: "Correct", value: result.correct },
       { label: "Incorrect", value: result.incorrect },
       { label: "Unanswered", value: result.unanswered },
-      { label: "Flagged", value: result.reviewEntries.filter((item) => item.entry.flagged).length },
-      { label: "Missed", value: result.reviewEntries.filter((item) => !item.correct).length },
+      { label: "Flagged", value: flaggedCount },
+      { label: "Missed", value: missedCount },
       { label: "Time Used", value: result.timeUsedLabel },
     ];
     dom.resultsStats.innerHTML = stats.map((stat) => `
@@ -1391,26 +1521,42 @@
     });
     dom.resultsDomainBars.innerHTML = domainBars.join("");
 
-    dom.reviewList.innerHTML = result.reviewEntries.map((item, index) => {
+    const orderedReviewEntries = result.reviewEntries
+      .slice()
+      .sort((a, b) => {
+        const aIncorrectRank = a.correct ? 1 : 0;
+        const bIncorrectRank = b.correct ? 1 : 0;
+        if (aIncorrectRank !== bIncorrectRank) return aIncorrectRank - bIncorrectRank;
+        if (a.entry.flagged !== b.entry.flagged) return a.entry.flagged ? -1 : 1;
+        return a.entry.orderIndex - b.entry.orderIndex;
+      });
+
+    dom.reviewList.innerHTML = orderedReviewEntries.map((item) => {
       const question = item.entry.question;
-      const stateText = item.correct ? "Correct" : item.unanswered ? "Unanswered" : "Missed";
+      const questionNumber = item.entry.orderIndex + 1;
+      const stateText = item.correct ? "CORRECT" : "NOT CORRECT";
       const userAnswer = item.userChoice ? `${item.userChoice.id}. ${item.userChoice.text}` : "No answer selected";
+      const questionStateClass = item.correct ? "is-correct" : "is-not-correct";
+      const stateChipClass = item.correct ? "review-status-chip review-status-correct" : "review-status-chip review-status-not-correct";
       return `
-        <article class="review-card">
+        <article class="review-card ${questionStateClass}">
           <div class="review-card-head">
             <div>
-              <h4>${index + 1}. ${question.question_text}</h4>
+              <h4>Question ${questionNumber}. ${question.question_text}</h4>
               <div class="question-meta-line">${question.corpus_id} • ${window.HosaBiotechLoader.DOMAIN_LABELS[question.primary_domain]} • ${question.priority_tier.replace(/_/g, " ")}</div>
             </div>
-            <span class="chip ${item.correct ? "chip-primary" : "chip-secondary"}">${stateText}</span>
+            <div class="review-chip-stack">
+              <span class="${stateChipClass}">${stateText}</span>
+              ${item.entry.flagged ? `<span class="review-status-chip review-flagged-chip">FLAGGED</span>` : ""}
+            </div>
           </div>
           <div class="review-block"><strong>Your answer:</strong> ${userAnswer}</div>
           <div class="review-block"><strong>Correct answer:</strong> ${item.correctChoice.id}. ${item.correctChoice.text}</div>
           <div class="review-block"><strong>Explanation:</strong> ${question.explanation || "No explanation listed."}</div>
           <div class="review-block"><strong>Source cue:</strong> ${question.source_cue || "Not listed."}</div>
           <div class="review-block"><strong>Source:</strong> ${question.source_name}</div>
-          ${question.manual_review ? `<div class="review-block"><strong>Manual review:</strong> ${question.manual_review_reason}</div>` : ""}
           ${item.entry.flagged ? `<div class="review-block"><strong>Flagged during test:</strong> yes</div>` : ""}
+          ${question.manual_review ? `<div class="review-block"><strong>Manual review:</strong> ${question.manual_review_reason}</div>` : ""}
         </article>
       `;
     }).join("");
@@ -1563,6 +1709,8 @@
       setNavigatorCollapsed(!collapsed);
     });
 
+    dom.crossOutModeBtn.addEventListener("click", toggleCrossOutMode);
+
     dom.lengthSelect.addEventListener("change", () => {
       updateSetupModeUi();
       renderSetupWarnings([]);
@@ -1606,6 +1754,11 @@
     });
 
     dom.choiceList.addEventListener("click", (event) => {
+      const crossOutButton = event.target.closest("[data-crossout-choice-id]");
+      if (crossOutButton) {
+        toggleChoiceCrossOut(crossOutButton.dataset.crossoutChoiceId);
+        return;
+      }
       const button = event.target.closest("[data-choice-id]");
       if (!button) return;
       chooseAnswer(button.dataset.choiceId);
@@ -1644,8 +1797,10 @@
       renderSetupWarnings([]);
     });
     dom.saveRoundBtn.addEventListener("click", saveCurrentRound);
-    dom.exportJsonBtn.addEventListener("click", () => exportResult("json"));
-    dom.exportTextBtn.addEventListener("click", () => exportResult("text"));
+    dom.resultsBackBtn.addEventListener("click", () => {
+      showView("setupView");
+      renderSetupWarnings([]);
+    });
 
     dom.savedRoundsList.addEventListener("click", (event) => {
       const load = event.target.closest("[data-load-preset]");

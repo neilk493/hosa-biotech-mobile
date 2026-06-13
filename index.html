@@ -18,7 +18,7 @@
   <div class="app-shell">
     <header class="topbar">
       <div class="brand-block">
-        <span class="eyebrow">iPhone Offline Build</span>
+        <span class="eyebrow">ILC Simulation</span>
         <h1>Written Test Simulation Platform</h1>
         <p>All-in-one HOSA Biotechnology practice with weighted mixed simulations, chapter and bank-specific drilling, timed sets, and end-of-test grading. For iPhone use, open this hosted build in Safari once while online, add it to the Home Screen, and then test offline.</p>
       </div>
@@ -251,6 +251,9 @@
               </div>
               <div class="stage-head-right">
                 <span id="sourceChip" class="chip chip-muted">Source</span>
+                <button id="crossOutModeBtn" class="ghost-button small-button crossout-mode-button" type="button" aria-pressed="false" aria-label="Toggle cross out mode">
+                  <span class="crossout-mode-glyph" aria-hidden="true">ABC</span>
+                </button>
                 <button id="toggleNavigatorBtn" class="ghost-button small-button" type="button">Hide Navigation</button>
               </div>
             </div>
@@ -286,23 +289,30 @@
             <h2 id="resultsHeadline">Simulation Complete</h2>
             <p id="resultsSummaryText" class="muted-text"></p>
           </div>
-          <div class="results-score-block">
-            <div class="score-ring">
-              <strong id="scorePercent">0%</strong>
-              <span id="scoreRaw">0 / 0</span>
+          <div class="results-score-wrap">
+            <button id="resultsBackBtn" class="ghost-button small-button results-back-button" type="button">Back to Setup</button>
+            <div class="results-score-block">
+              <div id="scoreRing" class="score-ring">
+                <strong id="scorePercent">0%</strong>
+                <span id="scoreRaw">0 / 0</span>
+              </div>
+            </div>
+            <div class="results-judgement-block">
+              <strong id="resultsJudgement">Average</strong>
+              <p id="resultsEncouragement" class="muted-text">Your final score summary will appear here after submission.</p>
             </div>
           </div>
         </div>
 
         <div class="results-grid">
-          <section class="panel">
+          <section class="panel results-panel">
             <div class="panel-head">
               <h3>Performance Snapshot</h3>
             </div>
             <div class="stats-grid" id="resultsStats"></div>
           </section>
 
-          <section class="panel">
+          <section class="panel results-panel">
             <div class="panel-head">
               <h3>Domain Performance</h3>
             </div>
@@ -310,17 +320,15 @@
           </section>
         </div>
 
-        <section class="panel action-panel">
+        <section class="panel action-panel results-panel">
           <div class="action-row">
             <button id="retryMissedBtn" class="primary-button" type="button">Retry Missed Questions</button>
             <button id="newSimulationBtn" class="secondary-button" type="button">Generate New Test</button>
             <button id="saveRoundBtn" class="secondary-button" type="button">Save This Round</button>
-            <button id="exportJsonBtn" class="ghost-button" type="button">Export JSON</button>
-            <button id="exportTextBtn" class="ghost-button" type="button">Export Text</button>
           </div>
         </section>
 
-        <section class="panel">
+        <section class="panel results-panel review-panel">
           <div class="panel-head">
             <h3>Review</h3>
             <p>Missed, flagged, and source-backed explanations are shown only after submission.</p>
