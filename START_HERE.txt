@@ -1,0 +1,22 @@
+IPHONE OFFLINE VERSION - SIMPLEST HONEST PATH
+
+You cannot reliably AirDrop this folder to your iPhone and run index.html directly.
+For iPhone, the realistic path is:
+
+1. Upload the contents of this folder to a static host once.
+   Easiest option: GitHub Pages.
+
+2. Open the hosted link in Safari on your iPhone while you still have internet.
+
+3. Wait for the first full load to finish.
+   Because the question bank is large, give it a little time.
+
+4. In Safari, tap Share -> Add to Home Screen.
+
+5. Open the new Home Screen icon once while still online.
+
+6. Then test it in Airplane Mode.
+
+If that works, you can use it on the road without Wi-Fi.
+
+Read README.md for exact steps.
