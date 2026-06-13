@@ -5,6 +5,7 @@
   const state = {
     config: null,
     bank: [],
+    bankCatalog: null,
     history: null,
     currentTest: null,
     currentQuestionIndex: 0,
@@ -22,6 +23,11 @@
     [
       "themeToggle",
       "modeSelect",
+      "bankField",
+      "bankSelect",
+      "subtopicField",
+      "subtopicSelect",
+      "bankSelectionSummary",
       "lengthSelect",
       "customLengthField",
       "customLengthInput",
@@ -29,14 +35,8 @@
       "timerMinutesInput",
       "feedbackModeSelect",
       "priorityModeSelect",
-      "careerBiasSelect",
       "answerRandomizationToggle",
       "showDomainToggle",
-      "chapterOnlyToggle",
-      "includeCareersToggle",
-      "includeEntityToggle",
-      "includeOldChatToggle",
-      "includeManualReviewToggle",
       "customDomainPanel",
       "customDomainGrid",
       "setupWarnings",
@@ -71,6 +71,7 @@
       "priorityChip",
       "sourceChip",
       "toggleNavigatorBtn",
+      "questionBackdropNumber",
       "questionText",
       "questionMetaLine",
       "choiceList",
@@ -110,6 +111,320 @@
 
   function normalize(value) {
     return window.HosaBiotechLoader.normalize(value);
+  }
+
+  function toSubtopicId(label) {
+    return String(label || "")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, "_")
+      .replace(/^_|_$/g, "") || "uncategorized";
+  }
+
+  const BANK_DEFINITIONS = [
+    {
+      id: "chapter_1",
+      label: "Chapter 1",
+      description: "Foundations, applications, regulation, and introductory biotechnology context.",
+      match: (question) => question.source_name === "Chapter 1 Final Standalone Bank",
+    },
+    {
+      id: "chapter_2",
+      label: "Chapter 2",
+      description: "Basic laboratory skills, safety, measurements, and documentation.",
+      match: (question) => question.source_name === "Chapter 2 Practice Platform",
+    },
+    {
+      id: "chapter_3",
+      label: "Chapter 3",
+      description: "Microbiology, cell structure, culture systems, and recombinant production.",
+      match: (question) => question.source_name === "Chapter 3 Practice Platform",
+    },
+    {
+      id: "chapter_4",
+      label: "Chapter 4",
+      description: "DNA structure, gene expression, restriction biology, and analysis.",
+      match: (question) => question.source_name === "Chapter 4 Practice Platform",
+    },
+    {
+      id: "chapter_5",
+      label: "Chapter 5",
+      description: "Transformation, plasmids, quantitation, purification, and selection.",
+      match: (question) => question.source_name === "Chapter 5 Practice Platform",
+    },
+    {
+      id: "chapter_6",
+      label: "Chapter 6",
+      description: "PCR history, chemistry, design, variants, sequencing, and forensics.",
+      match: (question) => question.source_name === "Chapter 6 Practice Platform",
+    },
+    {
+      id: "chapter_7",
+      label: "Chapter 7",
+      description: "Proteins, amino acids, transcription, translation, and analysis methods.",
+      match: (question) => question.source_name === "Chapter 7 Practice Platform" || question.source_name === "Phase 2 SLC Anchor Addition",
+    },
+    {
+      id: "chapter_8",
+      label: "Chapter 8",
+      description: "Immunology, antibodies, diagnostics, therapeutic antibodies, and assays.",
+      match: (question) => question.source_name === "Chapter 8 Practice Platform",
+    },
+    {
+      id: "careers_bank",
+      label: "Careers Bank",
+      description: "Career descriptions, education, technical skills, and role comparison.",
+      match: (question) => question.source_group === "careers",
+    },
+    {
+      id: "artifact_entity_bank",
+      label: "Artifact / Entity Bank",
+      description: "People, organizations, bacteria, and year-date associations.",
+      match: (question) => question.source_group === "entity_bank",
+    },
+    {
+      id: "old_chat_master",
+      label: "Old Chat Master",
+      description: "Legacy master-bank review sets spanning many content domains.",
+      match: (question) => question.source_group === "old_chat_master",
+    },
+  ];
+
+  function includesAny(text, patterns) {
+    return patterns.some((pattern) => text.includes(pattern));
+  }
+
+  function getBankDefinition(bankId) {
+    return BANK_DEFINITIONS.find((bank) => bank.id === bankId) || BANK_DEFINITIONS[0];
+  }
+
+  function getBankIdForQuestion(question) {
+    const match = BANK_DEFINITIONS.find((bank) => bank.match(question));
+    return match ? match.id : "chapter_1";
+  }
+
+  function getDomainLabel(domain) {
+    return window.HosaBiotechLoader.DOMAIN_LABELS[domain] || domain;
+  }
+
+  function inferBroadSubtopic(question, bankId = getBankIdForQuestion(question)) {
+    const chapter = String(question.chapter_or_category || "");
+    const topic = String(question.topic_group || "");
+    const text = `${chapter} ${topic} ${question.question_text || ""}`.toLowerCase();
+
+    if (bankId === "chapter_1") {
+      if (includesAny(text, ["timeline", "first mentioned", "history", "milestone", "print", "biotechnology toolkit"])) return "History, Milestones & Core Ideas";
+      if (includesAny(text, ["gmo", "regulation", "fda", "epa", "usda", "waste", "safety", "bioethic"])) return "Regulation, Safety & Ethics";
+      if (includesAny(text, ["career", "industry", "company", "manufactur", "toolkit", "industry practices"])) return "Industry & Careers";
+      return "Applications in Agriculture, Health & Food";
+    }
+
+    if (bankId === "chapter_2") {
+      if (includesAny(text, ["notebook", "documentation", "entry", "record", "label"])) return "Documentation & Lab Records";
+      if (includesAny(text, ["micropip", "pipet", "graduated cylinder", "meniscus", "erlenmeyer", "flask", "beaker", "volume", "measure"])) return "Measurement, Pipetting & Glassware";
+      if (includesAny(text, ["hazard", "biohazard", "waste", "safety", "ppe", "goggle", "bsl", "prohibited"])) return "Safety, PPE & Waste";
+      if (includesAny(text, ["centrifuge", "rcf", "rpm", "equipment", "reagent bottle", "pipet pump"])) return "Equipment & Lab Setup";
+      return "Core Laboratory Skills";
+    }
+
+    if (bankId === "chapter_3") {
+      if (includesAny(text, ["microorganism", "history", "bacteria", "mrsa", "artificial life"])) return "Microbial Foundations & History";
+      if (includesAny(text, ["organelle", "organelles", "cell wall", "nucleus", "ribosome", "membrane"])) return "Cell Structure & Organelles";
+      if (includesAny(text, ["cell culture", "stem cell", "eukaryotic cell culture"])) return "Cell Culture & Stem Cells";
+      if (includesAny(text, ["recombinant insulin", "protein production", "somatotropin", "bioreactor"])) return "Recombinant Products & Production";
+      return "Microbiology & Biotechnology Applications";
+    }
+
+    if (bankId === "chapter_4") {
+      if (includesAny(text, ["central dogma", "transcription", "rna", "gene expression"])) return "Central Dogma & Gene Expression";
+      if (includesAny(text, ["restriction", "sticky end", "ligase", "enzyme", "southern blot", "recombinant"])) return "Restriction Enzymes, Blotting & Recombinant DNA";
+      if (includesAny(text, ["gel", "electrophoresis", "tracking dye", "standard curve", "semilog", "dna standards"])) return "Electrophoresis & Analytical Methods";
+      if (includesAny(text, ["fingerprint", "forensic", "gina", "medicine", "application"])) return "Forensics, Genomics & Applications";
+      return "DNA Structure & Chemistry";
+    }
+
+    if (["chapter_5", "chapter_6", "chapter_7", "chapter_8"].includes(bankId)) {
+      return chapter || getDomainLabel(question.primary_domain);
+    }
+
+    if (bankId === "careers_bank") {
+      const careerMap = {
+        "Career Description": "Career Descriptions",
+        "Education & Training": "Education & Training",
+        "Knowledge Skills": "Knowledge & Skills",
+        "Technical Skills": "Technical Skills",
+        "Career Options": "Career Options",
+        Comparison: "Role Comparison",
+        "Related Job Areas": "Related Job Areas",
+        "Professional Skills": "Professional Skills",
+      };
+      return careerMap[topic] || "Career Review";
+    }
+
+    if (bankId === "artifact_entity_bank") {
+      return chapter || "Entity Review";
+    }
+
+    if (bankId === "old_chat_master") {
+      const domain = question.primary_domain;
+      if (["biotechnology_industry_practices_and_careers", "biotechnology_in_health", "governmental_regulation_of_biotechnology"].includes(domain)) {
+        return "Industry, Health & Regulation";
+      }
+      return getDomainLabel(domain);
+    }
+
+    return chapter || topic || getDomainLabel(question.primary_domain);
+  }
+
+  function buildBankCatalog() {
+    const banks = BANK_DEFINITIONS.map((definition) => {
+      const questions = state.bank
+        .filter((question) => definition.match(question))
+        .filter((question) => !question.manual_review && question.priority_tier !== "avoid_until_review");
+      const subtopicCounts = new Map();
+      questions.forEach((question) => {
+        const label = inferBroadSubtopic(question, definition.id);
+        subtopicCounts.set(label, (subtopicCounts.get(label) || 0) + 1);
+      });
+
+      const subtopics = [
+        { id: "all_subtopics", label: "All broad subtopics", count: questions.length },
+        ...Array.from(subtopicCounts.entries())
+          .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+          .map(([label, count]) => ({
+            id: toSubtopicId(label),
+            label,
+            count,
+          })),
+      ];
+
+      return {
+        id: definition.id,
+        label: definition.label,
+        description: definition.description,
+        count: questions.length,
+        questions,
+        subtopics,
+      };
+    });
+
+    return {
+      banks,
+      byId: Object.fromEntries(banks.map((bank) => [bank.id, bank])),
+    };
+  }
+
+  function populateBankOptions() {
+    if (!state.bankCatalog) return;
+    const banks = state.bankCatalog.banks;
+    dom.bankSelect.innerHTML = banks
+      .map((bank) => `<option value="${bank.id}">${bank.label} (${bank.count})</option>`)
+      .join("");
+
+    if (!dom.bankSelect.value && banks.length) {
+      dom.bankSelect.value = banks[0].id;
+    }
+
+    populateSubtopicOptions(dom.bankSelect.value || banks[0]?.id || "");
+  }
+
+  function populateSubtopicOptions(bankId) {
+    if (!state.bankCatalog) return;
+    const bank = state.bankCatalog.byId[bankId] || state.bankCatalog.banks[0];
+    if (!bank) return;
+
+    dom.subtopicSelect.innerHTML = bank.subtopics
+      .map((subtopic) => `<option value="${subtopic.id}">${subtopic.label} (${subtopic.count})</option>`)
+      .join("");
+  }
+
+  function questionMatchesBankFilters(question, settings) {
+    if (settings.mode !== "bank_practice") return true;
+    if (getBankIdForQuestion(question) !== settings.selectedBankId) return false;
+    if (!settings.selectedSubtopicId || settings.selectedSubtopicId === "all_subtopics") return true;
+    return toSubtopicId(inferBroadSubtopic(question, settings.selectedBankId)) === settings.selectedSubtopicId;
+  }
+
+  function getSelectedBankInfo() {
+    if (!state.bankCatalog) return null;
+    return state.bankCatalog.byId[dom.bankSelect.value] || state.bankCatalog.banks[0] || null;
+  }
+
+  function getSelectedSubtopicInfo(bank) {
+    if (!bank) return null;
+    return bank.subtopics.find((item) => item.id === dom.subtopicSelect.value) || bank.subtopics[0] || null;
+  }
+
+  function getModeLabel(mode) {
+    const labels = {
+      hosa_weighted_full_simulation: "HOSA Weighted",
+      high_yield_only: "High-Yield Mixed",
+      fresh_questions_only: "Fresh Mixed",
+      missed_questions: "Missed Mixed",
+      weak_domains: "Weak-Domain Mixed",
+      custom_domain_mix: "Custom Mix",
+      bank_practice: "Bank Practice",
+      untimed_review_mode: "Untimed Review",
+      saved_preset: "Saved Preset",
+    };
+    return labels[mode] || mode.replace(/_/g, " ");
+  }
+
+  function updateBankSelectionSummary() {
+    const bank = getSelectedBankInfo();
+    const subtopic = getSelectedSubtopicInfo(bank);
+    const isBankPractice = dom.modeSelect.value === "bank_practice";
+
+    dom.bankSelectionSummary.classList.toggle("hidden", !isBankPractice || !bank || !subtopic);
+    if (!isBankPractice || !bank || !subtopic) {
+      dom.bankSelectionSummary.innerHTML = "";
+      return;
+    }
+
+    const broadSubtopicCount = Math.max(0, bank.subtopics.length - 1);
+    const availableCount = subtopic.count;
+    const requestedLength = getLengthValue();
+    const coverageLine = subtopic.id === "all_subtopics"
+      ? `${bank.count} usable questions across ${broadSubtopicCount} broad subtopic${broadSubtopicCount === 1 ? "" : "s"}.`
+      : `${availableCount} usable questions in ${subtopic.label}.`;
+    const warningLine = availableCount < requestedLength
+      ? `<div class="selection-summary-warning">Current length asks for ${requestedLength}, but this selection only has ${availableCount} usable questions.</div>`
+      : "";
+
+    dom.bankSelectionSummary.innerHTML = `
+      <div class="selection-summary-head">
+        <strong>${bank.label}</strong>
+        <span>${subtopic.label}</span>
+      </div>
+      <p>${bank.description}</p>
+      <div class="selection-summary-meta">
+        <span>${coverageLine}</span>
+        <span>Randomized, weighted selection stays inside this bank only.</span>
+      </div>
+      ${warningLine}
+    `;
+  }
+
+  function updateSetupModeUi() {
+    const mode = dom.modeSelect.value;
+    const customLength = dom.lengthSelect.value === "custom";
+    const customDomain = mode === "custom_domain_mix";
+    const bankPractice = mode === "bank_practice";
+
+    dom.customLengthField.classList.toggle("hidden", !customLength);
+    dom.customDomainPanel.classList.toggle("hidden", !customDomain);
+    dom.customDomainPanel.open = customDomain;
+    dom.bankField.classList.toggle("hidden", !bankPractice);
+    dom.subtopicField.classList.toggle("hidden", !bankPractice);
+    dom.startNextRoundBtn.classList.toggle("hidden", mode !== "hosa_weighted_full_simulation");
+    dom.startSimulationBtn.textContent = bankPractice
+      ? "Start Bank Set"
+      : customDomain
+        ? "Start Custom Simulation"
+        : mode === "untimed_review_mode"
+          ? "Start Review Set"
+          : "Start Simulation";
+
+    updateBankSelectionSummary();
   }
 
   function canUseLocalStorage() {
@@ -339,8 +654,8 @@
     const timerMinutes = options.forceTimerMinutes || Math.max(1, Number(dom.timerMinutesInput.value) || length);
     const feedbackMode = mode === "untimed_review_mode" ? "immediate_review" : dom.feedbackModeSelect.value;
     const priorityMode = dom.priorityModeSelect.value;
-    const careerBias = dom.careerBiasSelect.value;
-    const includeCareers = careerBias === "exclude_careers" ? false : dom.includeCareersToggle.checked;
+    const selectedBankId = dom.bankSelect.value || state.bankCatalog?.banks?.[0]?.id || "chapter_1";
+    const selectedSubtopicId = dom.subtopicSelect.value || "all_subtopics";
 
     let customDistribution = null;
     let warnings = [];
@@ -362,7 +677,7 @@
       customDistribution = buildWeakDomainDistribution(length);
     }
 
-    if (!customDistribution && mode !== "custom_domain_mix") {
+    if (!customDistribution && !["custom_domain_mix", "bank_practice"].includes(mode)) {
       customDistribution = window.HosaBiotechLoader.getScaledDistribution(state.config.exact_50_distribution, length);
     }
 
@@ -372,36 +687,35 @@
       timerEnabled,
       timerMinutes,
       feedbackMode,
-      includeManualReview: dom.includeManualReviewToggle.checked,
-      includeEntityBank: dom.includeEntityToggle.checked,
-      includeOldChat: dom.includeOldChatToggle.checked,
-      includeCareers,
-      chapterOnly: dom.chapterOnlyToggle.checked,
+      includeManualReview: false,
+      includeEntityBank: true,
+      includeOldChat: true,
+      includeCareers: true,
+      chapterOnly: false,
       priorityMode,
       answerRandomization: dom.answerRandomizationToggle.checked,
       showDomainLabels: dom.showDomainToggle.checked,
-      careerBias,
+      careerBias: "education_training_bias",
       customDistribution,
       allowLowPriorityFallback: !["gold_high_only", "exclude_low"].includes(priorityMode),
       weakDomainSet: getWeakDomainSet(),
       warnings,
       roundMode: Boolean(options.roundMode),
+      selectedBankId,
+      selectedSubtopicId,
     };
   }
 
   function questionAllowed(question, settings) {
-    if (!settings.includeManualReview && question.manual_review) return false;
-    if (!settings.includeEntityBank && question.source_group === "entity_bank") return false;
-    if (!settings.includeOldChat && question.source_group === "old_chat_master") return false;
-    if (!settings.includeCareers && question.source_group === "careers") return false;
-    if (settings.chapterOnly && !["chapter_platform", "anchor_addition"].includes(question.source_group)) return false;
+    if (question.manual_review) return false;
+    if (question.priority_tier === "avoid_until_review") return false;
+    if (settings.mode === "bank_practice" && !questionMatchesBankFilters(question, settings)) return false;
 
     if (settings.priorityMode === "gold_high_only") {
       if (!["gold_anchor", "high_yield_seed", "manual_scored_high", "provisional_high"].includes(question.priority_tier)) return false;
     }
 
     if (settings.priorityMode === "exclude_low" && question.priority_tier === "low_priority") return false;
-    if (question.priority_tier === "avoid_until_review" && !settings.includeManualReview) return false;
 
     if (settings.mode === "high_yield_only") {
       return ["gold_anchor", "high_yield_seed", "manual_scored_high", "provisional_high"].includes(question.priority_tier);
@@ -447,8 +761,8 @@
     }
 
     if (question.primary_domain === "biotechnology_industry_practices_and_careers") {
-      if (settings.careerBias === "education_training_bias" && question.career_question_type === "education_training") weight *= 1.55;
-      if (settings.careerBias === "technician_task_bias" && question.career_question_type === "task_matching") weight *= 1.8;
+      if (settings.mode !== "bank_practice" && question.career_question_type === "education_training") weight *= 1.55;
+      if (settings.mode !== "bank_practice" && question.career_question_type === "task_matching") weight *= 1.18;
       if (["related_job_areas", "career_options", "professional_skills"].includes(question.career_question_type)) weight *= 0.55;
     }
 
@@ -488,6 +802,10 @@
   function generateTest(settings) {
     if (settings.warnings.length) {
       throw new Error(settings.warnings.join(" "));
+    }
+
+    if (settings.mode === "bank_practice") {
+      return generateBankPracticeTest(settings);
     }
 
     const rng = makeRng(Math.floor(Date.now() % 2147483647));
@@ -545,6 +863,55 @@
       testId: `test-${Date.now()}`,
       createdAt: Date.now(),
       roundLabel,
+      mode: settings.mode,
+      settings,
+      warnings,
+      questions: preparedQuestions,
+      startedAt: Date.now(),
+      endsAt: settings.timerEnabled ? Date.now() + settings.timerMinutes * 60 * 1000 : null,
+    };
+  }
+
+  function generateBankPracticeTest(settings) {
+    const rng = makeRng(Math.floor(Date.now() % 2147483647));
+    const warnings = [];
+    const bank = state.bankCatalog?.byId?.[settings.selectedBankId];
+    if (!bank) {
+      throw new Error("The selected bank could not be found in the compiled platform.");
+    }
+
+    const subtopic = bank.subtopics.find((item) => item.id === settings.selectedSubtopicId) || bank.subtopics[0];
+    const allCandidates = bank.questions.filter((question) => questionAllowed(question, settings));
+
+    let candidates = allCandidates;
+    if (settings.priorityMode !== "include_low") {
+      candidates = candidates.filter((question) => question.priority_tier !== "low_priority");
+    }
+
+    if (candidates.length < settings.length && settings.allowLowPriorityFallback) {
+      if (allCandidates.length >= settings.length) {
+        warnings.push(`${bank.label} required low-priority fallback to fill the requested set.`);
+      }
+      candidates = allCandidates;
+    }
+
+    if (candidates.length < settings.length) {
+      throw new Error(`${bank.label}${subtopic && subtopic.id !== "all_subtopics" ? ` - ${subtopic.label}` : ""} only has ${candidates.length} usable question(s) for a requested length of ${settings.length}.`);
+    }
+
+    const picked = sampleWeightedWithoutReplacement(candidates, settings.length, rng, (question) => computeQuestionWeight(question, settings));
+    if (picked.length < settings.length) {
+      throw new Error(`${bank.label} could not produce enough weighted picks for this bank-practice session.`);
+    }
+
+    shuffleArray(picked, rng);
+    const preparedQuestions = picked.map((question, index) => prepareQuestionForSession(question, index, settings, rng));
+
+    return {
+      testId: `test-${Date.now()}`,
+      createdAt: Date.now(),
+      roundLabel: bank.label,
+      contextLine: subtopic?.label || "All broad subtopics",
       mode: settings.mode,
       settings,
       warnings,
@@ -717,9 +1084,14 @@
 
   function renderTestScaffold() {
     const test = state.currentTest;
-    dom.testModeChip.textContent = test.mode === "hosa_weighted_full_simulation" ? "HOSA Weighted" : test.mode.replace(/_/g, " ");
+    dom.testModeChip.textContent = getModeLabel(test.mode);
     dom.roundTitle.textContent = test.roundLabel;
-    dom.roundMeta.textContent = `${test.questions.length} questions • ${test.settings.timerEnabled ? `${test.settings.timerMinutes} minute timer` : "untimed"} • end grading`;
+    const metaParts = [];
+    if (test.contextLine) metaParts.push(test.contextLine);
+    metaParts.push(`${test.questions.length} questions`);
+    metaParts.push(test.settings.timerEnabled ? `${test.settings.timerMinutes} minute timer` : "untimed");
+    metaParts.push("end grading");
+    dom.roundMeta.textContent = metaParts.join(" • ");
     renderQuestionGrid();
     renderTestProgress();
   }
@@ -766,6 +1138,7 @@
     dom.sourceChip.textContent = question.source_name;
     dom.domainChip.textContent = window.HosaBiotechLoader.DOMAIN_LABELS[question.primary_domain] || question.primary_domain;
     dom.domainChip.classList.toggle("hidden", !state.currentTest.settings.showDomainLabels);
+    dom.questionBackdropNumber.textContent = String(state.currentQuestionIndex + 1).padStart(2, "0");
     dom.questionText.textContent = question.question_text;
     dom.questionMetaLine.textContent = formatConfidenceLabel(question.domain_confidence);
     dom.flagQuestionBtn.innerHTML = getFlagButtonMarkup(entry.flagged);
@@ -1191,12 +1564,27 @@
     });
 
     dom.lengthSelect.addEventListener("change", () => {
-      dom.customLengthField.classList.toggle("hidden", dom.lengthSelect.value !== "custom");
+      updateSetupModeUi();
+      renderSetupWarnings([]);
     });
 
     dom.modeSelect.addEventListener("change", () => {
-      const custom = dom.modeSelect.value === "custom_domain_mix";
-      dom.customDomainPanel.open = custom;
+      updateSetupModeUi();
+      renderSetupWarnings([]);
+    });
+
+    dom.bankSelect.addEventListener("change", () => {
+      populateSubtopicOptions(dom.bankSelect.value);
+      updateSetupModeUi();
+      renderSetupWarnings([]);
+    });
+
+    dom.subtopicSelect.addEventListener("change", () => {
+      updateSetupModeUi();
+      renderSetupWarnings([]);
+    });
+    dom.customLengthInput.addEventListener("input", () => {
+      updateSetupModeUi();
       renderSetupWarnings([]);
     });
 
@@ -1272,11 +1660,14 @@
     registerServiceWorker();
     state.config = await window.HosaBiotechLoader.loadConfig();
     state.bank = window.HosaBiotechLoader.getBank();
+    state.bankCatalog = buildBankCatalog();
     state.history = loadHistory();
     buildCustomDomainInputs();
+    populateBankOptions();
     bindEvents();
     setTheme(state.history.theme || "dark");
     setNavigatorCollapsed(Boolean(state.history.navigatorCollapsed));
+    updateSetupModeUi();
     renderSetupWarnings([]);
     renderSetupSummary();
     showView("setupView");
