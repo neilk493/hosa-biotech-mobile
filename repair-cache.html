@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repair HOSA Biotech Cache</title>
+  <meta name="theme-color" content="#355778">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg-0: #11161b;
+      --bg-1: #171d24;
+      --panel: #182028;
+      --line: #384555;
+      --text-main: #f2ede3;
+      --text-soft: #cfc6b7;
+      --accent: #d8c3a3;
+      --accent-ink: #21384b;
+      --danger: #c68484;
+      --success: #8ead90;
+    }
+
+    * { box-sizing: border-box; }
+    html, body { margin: 0; min-height: 100%; }
+    body {
+      min-height: 100vh;
+      padding: 24px;
+      font-family: "Trebuchet MS", "Segoe UI", Tahoma, sans-serif;
+      color: var(--text-main);
+      background: linear-gradient(135deg, var(--bg-0) 0%, var(--bg-1) 100%);
+      display: grid;
+      place-items: center;
+    }
+
+    .card {
+      width: min(100%, 620px);
+      padding: 24px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: var(--panel);
+      box-shadow: 0 18px 44px rgba(0, 0, 0, 0.28);
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-family: Georgia, serif;
+      font-size: clamp(1.9rem, 5vw, 2.7rem);
+      line-height: 1.06;
+    }
+
+    p, li {
+      color: var(--text-soft);
+      line-height: 1.6;
+    }
+
+    ol {
+      padding-left: 20px;
+      margin: 16px 0 0;
+    }
+
+    .status {
+      margin-top: 18px;
+      padding: 14px;
+      border-radius: 12px;
+      border: 1px solid var(--line);
+      background: rgba(255, 255, 255, 0.03);
+      white-space: pre-line;
+    }
+
+    .status.success {
+      border-color: rgba(142, 173, 144, 0.45);
+      color: #dfeadf;
+    }
+
+    .status.error {
+      border-color: rgba(198, 132, 132, 0.55);
+      color: #f4d8d8;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 20px;
+    }
+
+    button, a {
+      min-height: 46px;
+      padding: 12px 16px;
+      border-radius: 12px;
+      border: 1px solid transparent;
+      font: inherit;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+    }
+
+    .primary {
+      background: var(--accent);
+      color: var(--accent-ink);
+      border-color: rgba(216, 195, 163, 0.6);
+    }
+
+    .secondary {
+      background: transparent;
+      color: var(--text-main);
+      border-color: var(--line);
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>Repair This Repo’s Cached Phone Version</h1>
+    <p>This page is for when the phone keeps showing an older GitHub Pages version even though the laptop shows the new one.</p>
+    <ol>
+      <li>Tap <strong>Run Repair</strong>.</li>
+      <li>Wait for the success message.</li>
+      <li>Tap <strong>Open Fresh App</strong>.</li>
+      <li>Stay on the app page for about 20 to 30 seconds while online.</li>
+    </ol>
+
+    <div id="statusBox" class="status">Ready.</div>
+
+    <div class="row">
+      <button id="runRepairBtn" class="primary" type="button">Run Repair</button>
+      <a id="openFreshLink" class="secondary" href="./index.html">Open Fresh App</a>
+    </div>
+  </main>
+
+  <script>
+    (function () {
+      const statusBox = document.getElementById("statusBox");
+      const runRepairBtn = document.getElementById("runRepairBtn");
+      const openFreshLink = document.getElementById("openFreshLink");
+
+      function setStatus(message, kind) {
+        statusBox.textContent = message;
+        statusBox.className = "status" + (kind ? " " + kind : "");
+      }
+
+      async function runRepair() {
+        runRepairBtn.disabled = true;
+        setStatus("Repair running...\n- unregistering service workers\n- deleting caches\n- clearing local storage", "");
+
+        try {
+          if ("serviceWorker" in navigator) {
+            const registrations = await navigator.serviceWorker.getRegistrations();
+            await Promise.all(registrations.map((registration) => registration.unregister()));
+          }
+
+          if ("caches" in window) {
+            const keys = await caches.keys();
+            await Promise.all(keys.map((key) => caches.delete(key)));
+          }
+
+          try { localStorage.clear(); } catch (error) {}
+          try { sessionStorage.clear(); } catch (error) {}
+
+          const freshUrl = "./index.html?refresh=" + Date.now();
+          openFreshLink.href = freshUrl;
+
+          setStatus(
+            "Repair complete.\nNow tap 'Open Fresh App'.\nIf the new version appears, the repo is fixed on this phone.",
+            "success"
+          );
+        } catch (error) {
+          setStatus("Repair failed.\n" + (error && error.message ? error.message : String(error)), "error");
+        } finally {
+          runRepairBtn.disabled = false;
+        }
+      }
+
+      runRepairBtn.addEventListener("click", runRepair);
+    })();
+  </script>
+</body>
+</html>
