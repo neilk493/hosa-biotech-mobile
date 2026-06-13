@@ -275,7 +275,7 @@
             <div class="panel question-card">
               <div class="question-card-head">
                 <h2 id="questionText">Question text</h2>
-                <button id="flagQuestionBtn" class="ghost-button small-button" type="button">Flag for Review</button>
+                <button id="flagQuestionBtn" class="flag-button small-button" type="button">Flag for Review</button>
               </div>
               <div id="questionMetaLine" class="question-meta-line"></div>
               <div id="choiceList" class="choice-list"></div>
@@ -283,11 +283,11 @@
             </div>
 
             <div class="panel stage-footer">
-              <div class="footer-left">
-                <button id="previousQuestionBtn" class="secondary-button" type="button">Previous</button>
-                <button id="nextQuestionBtn" class="secondary-button" type="button">Next</button>
+              <div class="footer-nav-row">
+                <button id="previousQuestionBtn" class="primary-button nav-action-button nav-prev-button" type="button">Previous</button>
+                <button id="nextQuestionBtn" class="primary-button nav-action-button nav-next-button" type="button">Next</button>
               </div>
-              <div class="footer-right">
+              <div class="footer-utility-row">
                 <button id="jumpUnansweredBtn" class="ghost-button" type="button">Jump to Unanswered</button>
               </div>
             </div>
@@ -345,6 +345,22 @@
         </section>
       </section>
     </main>
+  </div>
+
+  <div id="submitConfirmModal" class="modal-backdrop hidden" aria-hidden="true">
+    <div class="panel modal-card" role="dialog" aria-modal="true" aria-labelledby="submitConfirmTitle">
+      <div class="modal-head">
+        <h3 id="submitConfirmTitle">Submit Simulation?</h3>
+        <button id="closeSubmitConfirmBtn" class="ghost-button small-button" type="button">Close</button>
+      </div>
+      <p id="submitConfirmSummary" class="muted-text"></p>
+      <div id="submitConfirmCounts" class="modal-count-grid"></div>
+      <div class="modal-actions">
+        <button id="cancelSubmitConfirmBtn" class="ghost-button" type="button">Cancel</button>
+        <button id="jumpFlaggedBtn" class="secondary-button" type="button">Jump to Flagged</button>
+        <button id="confirmSubmitBtn" class="primary-button" type="button">Confirm Submit</button>
+      </div>
+    </div>
   </div>
 
   <script src="question_bank_compiled.js"></script>

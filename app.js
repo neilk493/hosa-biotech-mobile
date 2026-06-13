@@ -92,6 +92,13 @@
       "saveRoundBtn",
       "exportJsonBtn",
       "exportTextBtn",
+      "submitConfirmModal",
+      "submitConfirmSummary",
+      "submitConfirmCounts",
+      "closeSubmitConfirmBtn",
+      "cancelSubmitConfirmBtn",
+      "jumpFlaggedBtn",
+      "confirmSubmitBtn",
     ].forEach((id) => {
       dom[id] = $(id);
     });
@@ -173,11 +180,67 @@
     return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
   }
 
+  function formatConfidenceLabel(value) {
+    const normalized = String(value || "").trim().toLowerCase();
+    if (!normalized) return "Confidence not listed";
+    return `${normalized.charAt(0).toUpperCase()}${normalized.slice(1)} confidence`;
+  }
+
+  function getFlagButtonMarkup(flagged) {
+    return `
+      <span class="flag-button-inner">
+        <svg class="flag-button-icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M7 4.5h10a1 1 0 0 1 1 1V20l-6-3.6L6 20V5.5a1 1 0 0 1 1-1Z"></path>
+        </svg>
+        <span>${flagged ? "Bookmarked" : "Flag for Review"}</span>
+      </span>
+    `;
+  }
+
   function showView(viewName) {
     ["setupView", "testView", "resultsView"].forEach((name) => {
       dom[name].classList.toggle("hidden", name !== viewName);
       dom[name].classList.toggle("active", name === viewName);
     });
+  }
+
+  function getFlaggedCount() {
+    if (!state.currentTest) return 0;
+    return state.currentTest.questions.filter((entry) => entry.flagged).length;
+  }
+
+  function getUnansweredCount() {
+    if (!state.currentTest) return 0;
+    return state.currentTest.questions.filter((entry) => !entry.userAnswerId).length;
+  }
+
+  function closeSubmitConfirmModal() {
+    if (!dom.submitConfirmModal) return;
+    dom.submitConfirmModal.classList.add("hidden");
+    dom.submitConfirmModal.setAttribute("aria-hidden", "true");
+    document.body.classList.remove("modal-open");
+  }
+
+  function openSubmitConfirmModal() {
+    if (!state.currentTest) return;
+    const flagged = getFlaggedCount();
+    const unanswered = getUnansweredCount();
+    const answered = state.currentTest.questions.length - unanswered;
+    dom.submitConfirmSummary.textContent = `You are about to submit this simulation. You currently have ${flagged} flagged and ${unanswered} unanswered question(s).`;
+    dom.submitConfirmCounts.innerHTML = [
+      { label: "Flagged", value: flagged },
+      { label: "Unanswered", value: unanswered },
+      { label: "Answered", value: answered },
+    ].map((item) => `
+      <div class="modal-count-card">
+        <span class="label">${item.label}</span>
+        <strong>${item.value}</strong>
+      </div>
+    `).join("");
+    dom.jumpFlaggedBtn.disabled = flagged === 0;
+    dom.submitConfirmModal.classList.remove("hidden");
+    dom.submitConfirmModal.setAttribute("aria-hidden", "false");
+    document.body.classList.add("modal-open");
   }
 
   async function registerServiceWorker() {
@@ -685,6 +748,16 @@
     dom.progressFill.style.width = `${progressPercent}%`;
   }
 
+  function updateNavigationButtons() {
+    if (!state.currentTest) return;
+    const isFirst = state.currentQuestionIndex === 0;
+    const isLast = state.currentQuestionIndex === state.currentTest.questions.length - 1;
+    dom.previousQuestionBtn.disabled = isFirst;
+    dom.previousQuestionBtn.classList.toggle("is-edge-disabled", isFirst);
+    dom.nextQuestionBtn.textContent = isLast ? "Submit Test" : "Next";
+    dom.nextQuestionBtn.classList.toggle("is-submit-mode", isLast);
+  }
+
   function renderCurrentQuestion() {
     const entry = state.currentTest.questions[state.currentQuestionIndex];
     const question = entry.question;
@@ -694,8 +767,9 @@
     dom.domainChip.textContent = window.HosaBiotechLoader.DOMAIN_LABELS[question.primary_domain] || question.primary_domain;
     dom.domainChip.classList.toggle("hidden", !state.currentTest.settings.showDomainLabels);
     dom.questionText.textContent = question.question_text;
-    dom.questionMetaLine.textContent = `${question.corpus_id} • ${question.choice_count} choices • ${question.domain_confidence} confidence`;
-    dom.flagQuestionBtn.textContent = entry.flagged ? "Unflag Question" : "Flag for Review";
+    dom.questionMetaLine.textContent = formatConfidenceLabel(question.domain_confidence);
+    dom.flagQuestionBtn.innerHTML = getFlagButtonMarkup(entry.flagged);
+    dom.flagQuestionBtn.classList.toggle("is-flagged", entry.flagged);
 
     dom.choiceList.innerHTML = entry.renderedChoices
       .map((choice) => {
@@ -713,6 +787,7 @@
     renderImmediateFeedback(entry);
     renderQuestionGrid();
     renderTestProgress();
+    updateNavigationButtons();
   }
 
   function renderImmediateFeedback(entry) {
@@ -763,6 +838,16 @@
     }
   }
 
+  function jumpToFirstFlagged() {
+    const index = state.currentTest.questions.findIndex((entry) => entry.flagged);
+    if (index >= 0) {
+      closeSubmitConfirmModal();
+      jumpToQuestion(index);
+    } else {
+      alert("No flagged questions to review.");
+    }
+  }
+
   function startTimer() {
     stopTimer();
     if (!state.currentTest.settings.timerEnabled || !state.currentTest.endsAt) {
@@ -786,12 +871,6 @@
   function finalizeTest(autoSubmitted) {
     stopTimer();
     const test = state.currentTest;
-    const unanswered = test.questions.filter((entry) => !entry.userAnswerId).length;
-    if (!autoSubmitted && unanswered > 0) {
-      const confirmed = window.confirm(`You still have ${unanswered} unanswered question(s). Submit anyway?`);
-      if (!confirmed) return;
-    }
-
     const endedAt = Date.now();
     const reviewEntries = test.questions.map((entry) => {
       const correctChoice = entry.renderedChoices.find((choice) => choice.isCorrect);
@@ -849,6 +928,7 @@
     state.currentTest.result = result;
     renderResults(result);
     showView("resultsView");
+    closeSubmitConfirmModal();
   }
 
   function updateHistoryFromResult(result) {
@@ -1144,13 +1224,30 @@
     });
 
     dom.previousQuestionBtn.addEventListener("click", () => jumpToQuestion(state.currentQuestionIndex - 1));
-    dom.nextQuestionBtn.addEventListener("click", () => jumpToQuestion(state.currentQuestionIndex + 1));
+    dom.nextQuestionBtn.addEventListener("click", () => {
+      const isLast = state.currentQuestionIndex >= state.currentTest.questions.length - 1;
+      if (isLast) {
+        openSubmitConfirmModal();
+      } else {
+        jumpToQuestion(state.currentQuestionIndex + 1);
+      }
+    });
     dom.flagQuestionBtn.addEventListener("click", toggleFlagCurrentQuestion);
     dom.jumpUnansweredBtn.addEventListener("click", jumpToFirstUnanswered);
-    dom.submitTestBtn.addEventListener("click", () => finalizeTest(false));
+    dom.submitTestBtn.addEventListener("click", openSubmitConfirmModal);
     dom.abandonTestBtn.addEventListener("click", () => {
       stopTimer();
+      closeSubmitConfirmModal();
       showView("setupView");
+    });
+    dom.closeSubmitConfirmBtn.addEventListener("click", closeSubmitConfirmModal);
+    dom.cancelSubmitConfirmBtn.addEventListener("click", closeSubmitConfirmModal);
+    dom.jumpFlaggedBtn.addEventListener("click", jumpToFirstFlagged);
+    dom.confirmSubmitBtn.addEventListener("click", () => finalizeTest(false));
+    dom.submitConfirmModal.addEventListener("click", (event) => {
+      if (event.target === dom.submitConfirmModal) {
+        closeSubmitConfirmModal();
+      }
     });
 
     dom.retryMissedBtn.addEventListener("click", startRetryMissedSession);
