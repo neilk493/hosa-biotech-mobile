@@ -1,4 +1,4 @@
-const CACHE_NAME = "hosa-biotech-iphone-offline-v5";
+const CACHE_NAME = "hosa-biotech-iphone-offline-v8";
 const CORE_ASSETS = [
   "./",
   "./index.html",

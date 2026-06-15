@@ -23,6 +23,7 @@
     [
       "themeToggle",
       "modeSelect",
+      "modeDescriptor",
       "bankField",
       "bankSelect",
       "subtopicField",
@@ -175,7 +176,7 @@
     {
       id: "careers_bank",
       label: "Careers Bank",
-      description: "Career descriptions, education, technical skills, and role comparison.",
+      description: "Higher-quality career questions built around education, responsibilities, clue sets, and role distinctions.",
       match: (question) => question.source_group === "careers",
     },
     {
@@ -259,6 +260,12 @@
         Comparison: "Role Comparison",
         "Related Job Areas": "Related Job Areas",
         "Professional Skills": "Professional Skills",
+        "Responsibility Match": "Responsibility Match",
+        "Education / Certification": "Education & Certification",
+        "Role Association": "Role Associations",
+        "Training Detail": "Training Details",
+        "Career Clue Match": "Career Clue Match",
+        "Responsibility Set": "Responsibility Sets",
       };
       return careerMap[topic] || "Career Review";
     }
@@ -359,17 +366,85 @@
 
   function getModeLabel(mode) {
     const labels = {
-      hosa_weighted_full_simulation: "HOSA Weighted",
-      high_yield_only: "High-Yield Mixed",
-      fresh_questions_only: "Fresh Mixed",
-      missed_questions: "Missed Mixed",
-      weak_domains: "Weak-Domain Mixed",
-      custom_domain_mix: "Custom Mix",
-      bank_practice: "Bank Practice",
+      hosa_weighted_full_simulation: "HOSA 50-Question Simulation",
+      high_yield_only: "High-Yield Mixed Review",
+      fresh_questions_only: "Unseen-Question Mixed Review",
+      missed_questions: "Retry Missed / Flagged",
+      weak_domains: "Weak-Domain Recovery",
+      custom_domain_mix: "Custom Domain Simulation",
+      bank_practice: "Single-Bank Practice",
       untimed_review_mode: "Untimed Review",
       saved_preset: "Saved Preset",
     };
     return labels[mode] || mode.replace(/_/g, " ");
+  }
+
+  function getModeDescriptor(mode) {
+    const bank = getSelectedBankInfo();
+    const subtopic = getSelectedSubtopicInfo(bank);
+
+    const descriptors = {
+      hosa_weighted_full_simulation: {
+        title: "Official-style full simulation",
+        summary: "Uses the exact 50-question HOSA distribution with a timer and end-only grading.",
+        detail: "Questions are randomized from the eligible mixed pool. Correct unflagged questions retire until you reset history.",
+      },
+      high_yield_only: {
+        title: "High-yield mixed review",
+        summary: "Keeps the mixed-domain format, but only pulls from gold and high-yield questions.",
+        detail: "Use this when you want realistic coverage without low-priority filler.",
+      },
+      fresh_questions_only: {
+        title: "Unseen-question mixed review",
+        summary: "Builds a mixed set using only questions you have never seen on this device.",
+        detail: "Previously seen questions stay out entirely, even if you answered them correctly.",
+      },
+      missed_questions: {
+        title: "Retry missed / flagged",
+        summary: "Pulls only questions you missed, left unanswered, or flagged in earlier sessions.",
+        detail: "This is the fastest way to recycle weak spots without reintroducing mastered questions.",
+      },
+      weak_domains: {
+        title: "Weak-domain recovery",
+        summary: "Concentrates the session into your four lowest-accuracy domains using your local history.",
+        detail: "Use this when you want to patch weak categories before going back to full simulations.",
+      },
+      custom_domain_mix: {
+        title: "Custom domain simulation",
+        summary: "You choose the exact number of questions from each HOSA domain.",
+        detail: "The custom domain counts must add up exactly to the session length you selected.",
+      },
+      bank_practice: {
+        title: "Single-bank practice",
+        summary: "Draws randomized questions from one selected bank and optional broad subtopic only.",
+        detail: bank && subtopic
+          ? `Current focus: ${bank.label} • ${subtopic.label}. Correct unflagged questions still retire until reset.`
+          : "Choose a bank and optional broad subtopic, then the session is drawn only from that pool.",
+      },
+      untimed_review_mode: {
+        title: "Untimed mixed review",
+        summary: "Runs a mixed session with no timer and immediate feedback after each answer.",
+        detail: "Best for slower study passes when you want explanations and source cues right away.",
+      },
+    };
+
+    return descriptors[mode] || {
+      title: "Mixed practice session",
+      summary: "Uses the current settings to build a randomized review set.",
+      detail: "Correct unflagged questions retire until reset, while missed or flagged questions stay eligible.",
+    };
+  }
+
+  function renderModeDescriptor(mode) {
+    if (!dom.modeDescriptor) return;
+    const descriptor = getModeDescriptor(mode);
+    dom.modeDescriptor.innerHTML = `
+      <div class="mode-brief-top">
+        <strong>${descriptor.title}</strong>
+      </div>
+      <p>${descriptor.summary}</p>
+      <div class="mode-brief-note">${descriptor.detail}</div>
+    `;
   }
 
   function updateBankSelectionSummary() {
@@ -384,13 +459,25 @@
     }
 
     const broadSubtopicCount = Math.max(0, bank.subtopics.length - 1);
-    const availableCount = subtopic.count;
+    const eligibleCount = bank.questions
+      .filter((question) => {
+        if (subtopic.id === "all_subtopics") return true;
+        return toSubtopicId(inferBroadSubtopic(question, bank.id)) === subtopic.id;
+      })
+      .filter((question) => {
+        const stats = getQuestionStats(question.corpus_id);
+        const unseen = !stats || !stats.attempts;
+        const retryEligible = isRetryEligibleStats(stats);
+        return unseen || retryEligible;
+      })
+      .filter((question) => questionMatchesPriorityMode(question, dom.priorityModeSelect.value))
+      .length;
     const requestedLength = getLengthValue();
     const coverageLine = subtopic.id === "all_subtopics"
-      ? `${bank.count} usable questions across ${broadSubtopicCount} broad subtopic${broadSubtopicCount === 1 ? "" : "s"}.`
-      : `${availableCount} usable questions in ${subtopic.label}.`;
-    const warningLine = availableCount < requestedLength
-      ? `<div class="selection-summary-warning">Current length asks for ${requestedLength}, but this selection only has ${availableCount} usable questions.</div>`
+      ? `${eligibleCount} currently eligible questions across ${broadSubtopicCount} broad subtopic${broadSubtopicCount === 1 ? "" : "s"}.`
+      : `${eligibleCount} currently eligible questions in ${subtopic.label}.`;
+    const warningLine = eligibleCount < requestedLength
+      ? `<div class="selection-summary-warning">Current length asks for ${requestedLength}, but this selection only has ${eligibleCount} currently eligible questions.</div>`
       : "";
 
     dom.bankSelectionSummary.innerHTML = `
@@ -401,7 +488,7 @@
       <p>${bank.description}</p>
       <div class="selection-summary-meta">
         <span>${coverageLine}</span>
-        <span>Randomized, weighted selection stays inside this bank only.</span>
+        <span>Randomized selection stays inside this bank only, and correctly answered unflagged questions retire until reset.</span>
       </div>
       ${warningLine}
     `;
@@ -427,6 +514,7 @@
           ? "Start Review Set"
           : "Start Simulation";
 
+    renderModeDescriptor(mode);
     updateBankSelectionSummary();
   }
 
@@ -450,7 +538,85 @@
     try {
       const raw = localStorage.getItem(STORAGE_KEY);
       if (!raw) return window.HosaBiotechLoader.createEmptyHistoryState();
-      return Object.assign(window.HosaBiotechLoader.createEmptyHistoryState(), JSON.parse(raw));
+      const parsed = JSON.parse(raw);
+      const incomingVersion = Number(parsed?.version) || 0;
+      const history = Object.assign(window.HosaBiotechLoader.createEmptyHistoryState(), parsed);
+
+      if (!history.questionStats || typeof history.questionStats !== "object") {
+        history.questionStats = {};
+      }
+
+      Object.entries(history.questionStats).forEach(([questionId, value]) => {
+        const current = value && typeof value === "object" ? value : {};
+        const attempts = Math.max(0, Number(current.attempts) || 0);
+        const correct = Math.max(0, Number(current.correct) || 0);
+        const incorrect = Math.max(0, Number(current.incorrect) || 0);
+        const flaggedForRetry = typeof current.flaggedForRetry === "boolean" ? current.flaggedForRetry : false;
+        const lastAttemptCorrect = typeof current.lastAttemptCorrect === "boolean" ? current.lastAttemptCorrect : null;
+        const lastAttemptUnanswered = typeof current.lastAttemptUnanswered === "boolean" ? current.lastAttemptUnanswered : null;
+        const recentChoiceOrderSignatures = Array.isArray(current.recentChoiceOrderSignatures)
+          ? current.recentChoiceOrderSignatures.filter((item) => typeof item === "string" && item).slice(-6)
+          : [];
+
+        let retryEligible = false;
+        if (flaggedForRetry) {
+          retryEligible = true;
+        } else if (typeof lastAttemptCorrect === "boolean") {
+          retryEligible = !lastAttemptCorrect;
+        } else if (incomingVersion >= 3 && typeof current.retryEligible === "boolean") {
+          retryEligible = current.retryEligible;
+        } else if (attempts > 0 && correct === 0) {
+          // Conservative migration: if a legacy record has never been answered correctly, keep it retry-eligible.
+          retryEligible = true;
+        }
+
+        history.questionStats[questionId] = Object.assign(
+          {
+            attempts: 0,
+            correct: 0,
+            incorrect: 0,
+            retryEligible: false,
+            flaggedForRetry: false,
+            lastChoiceOrderSignature: "",
+            recentChoiceOrderSignatures: [],
+            lastSeenAt: null,
+            lastTestId: null,
+            lastAttemptCorrect: null,
+            lastAttemptUnanswered: null,
+          },
+          current,
+          {
+            attempts,
+            correct,
+            incorrect,
+            retryEligible,
+            flaggedForRetry,
+            lastChoiceOrderSignature: typeof current.lastChoiceOrderSignature === "string" ? current.lastChoiceOrderSignature : "",
+            recentChoiceOrderSignatures: recentChoiceOrderSignatures.length
+              ? recentChoiceOrderSignatures
+              : (typeof current.lastChoiceOrderSignature === "string" && current.lastChoiceOrderSignature
+                  ? [current.lastChoiceOrderSignature]
+                  : []),
+            lastAttemptCorrect,
+            lastAttemptUnanswered,
+          }
+        );
+      });
+
+      if (!history.perDomain || typeof history.perDomain !== "object") {
+        history.perDomain = {};
+      }
+
+      if (!Array.isArray(history.tests)) {
+        history.tests = [];
+      }
+
+      if (!Array.isArray(history.savedRounds)) {
+        history.savedRounds = [];
+      }
+
+      history.version = Math.max(3, Number(history.version) || 0);
+      return history;
     } catch (error) {
       return window.HosaBiotechLoader.createEmptyHistoryState();
     }
@@ -652,6 +818,42 @@
     });
   }
 
+  function applyConfigDefaults() {
+    const config = state.config || {};
+    const defaultFilters = config.default_filters || {};
+
+    if (config.default_mode) {
+      const hasMode = Array.from(dom.modeSelect.options).some((option) => option.value === config.default_mode);
+      if (hasMode) {
+        dom.modeSelect.value = config.default_mode;
+      }
+    }
+
+    if (typeof config.default_test_length === "number") {
+      const lengthValue = String(config.default_test_length);
+      const hasPresetLength = Array.from(dom.lengthSelect.options).some((option) => option.value === lengthValue);
+      dom.lengthSelect.value = hasPresetLength ? lengthValue : "custom";
+      if (!hasPresetLength) {
+        dom.customLengthInput.value = String(config.default_test_length);
+      }
+    }
+
+    if (typeof config.default_timer_minutes === "number") {
+      dom.timerMinutesInput.value = String(config.default_timer_minutes);
+    }
+
+    if (typeof defaultFilters.answer_randomization === "boolean") {
+      dom.answerRandomizationToggle.checked = defaultFilters.answer_randomization;
+    }
+
+    if (defaultFilters.priority_mode) {
+      const hasPriorityMode = Array.from(dom.priorityModeSelect.options).some((option) => option.value === defaultFilters.priority_mode);
+      if (hasPriorityMode) {
+        dom.priorityModeSelect.value = defaultFilters.priority_mode;
+      }
+    }
+  }
+
   function getDomainInputs() {
     return Array.from(dom.customDomainGrid.querySelectorAll("input[data-domain-key]"));
   }
@@ -747,17 +949,10 @@
       timerEnabled,
       timerMinutes,
       feedbackMode,
-      includeManualReview: false,
-      includeEntityBank: true,
-      includeOldChat: true,
-      includeCareers: true,
-      chapterOnly: false,
       priorityMode,
       answerRandomization: dom.answerRandomizationToggle.checked,
       showDomainLabels: dom.showDomainToggle.checked,
-      careerBias: "education_training_bias",
       customDistribution,
-      allowLowPriorityFallback: !["gold_high_only", "exclude_low"].includes(priorityMode),
       weakDomainSet: getWeakDomainSet(),
       warnings,
       roundMode: Boolean(options.roundMode),
@@ -766,16 +961,57 @@
     };
   }
 
+  function getQuestionStats(questionId) {
+    return state.history.questionStats[questionId] || null;
+  }
+
+  function isRetryEligibleStats(stats) {
+    if (!stats || !stats.attempts) return false;
+    if (typeof stats.retryEligible === "boolean") return stats.retryEligible;
+    return Boolean(stats.flaggedForRetry);
+  }
+
+  function isEligibleByMemory(question, settings) {
+    const stats = getQuestionStats(question.corpus_id);
+    const unseen = !stats || !stats.attempts;
+    const retryEligible = isRetryEligibleStats(stats);
+
+    if (settings.mode === "fresh_questions_only") {
+      return unseen;
+    }
+
+    if (settings.mode === "missed_questions") {
+      return Boolean(stats && stats.attempts && retryEligible);
+    }
+
+    return unseen || retryEligible;
+  }
+
+  function questionMatchesPriorityMode(question, priorityMode) {
+    if (priorityMode === "gold_high_only") {
+      return ["gold_anchor", "high_yield_seed", "manual_scored_high", "provisional_high"].includes(question.priority_tier);
+    }
+
+    if (priorityMode === "exclude_low") {
+      return question.priority_tier !== "low_priority";
+    }
+
+    return true;
+  }
+
+  function questionAllowedByCareerSource(question, mode = "") {
+    if (mode === "bank_practice") return true;
+    if (question.primary_domain !== "biotechnology_industry_practices_and_careers") return true;
+    return question.source_group === "careers";
+  }
+
   function questionAllowed(question, settings) {
     if (question.manual_review) return false;
     if (question.priority_tier === "avoid_until_review") return false;
+    if (!questionAllowedByCareerSource(question, settings.mode)) return false;
     if (settings.mode === "bank_practice" && !questionMatchesBankFilters(question, settings)) return false;
-
-    if (settings.priorityMode === "gold_high_only") {
-      if (!["gold_anchor", "high_yield_seed", "manual_scored_high", "provisional_high"].includes(question.priority_tier)) return false;
-    }
-
-    if (settings.priorityMode === "exclude_low" && question.priority_tier === "low_priority") return false;
+    if (!isEligibleByMemory(question, settings)) return false;
+    if (!questionMatchesPriorityMode(question, settings.priorityMode)) return false;
 
     if (settings.mode === "high_yield_only") {
       return ["gold_anchor", "high_yield_seed", "manual_scored_high", "provisional_high"].includes(question.priority_tier);
@@ -784,71 +1020,15 @@
     return true;
   }
 
-  function getLastTwoTests() {
-    return state.history.tests.slice(-2);
+  function createGenerationRng() {
+    const seed = ((Date.now() >>> 0) ^ Math.floor(Math.random() * 0xffffffff)) >>> 0;
+    return makeRng(seed);
   }
 
-  function computeQuestionWeight(question, settings) {
-    let weight = state.config.priority_weights[question.priority_tier] || 1;
-    const stats = state.history.questionStats[question.corpus_id];
-    const recentTests = getLastTwoTests();
-
-    if (!stats || !stats.attempts) {
-      weight *= state.config.freshness_weights.unseen_multiplier;
-    } else {
-      if ((stats.incorrect || 0) > 0) weight *= state.config.freshness_weights.missed_multiplier * Math.min(1.5, 1 + stats.incorrect * 0.08);
-      if ((stats.correct || 0) > 0 && (stats.incorrect || 0) === 0) weight *= state.config.freshness_weights.recent_correct_multiplier;
-    }
-
-    if (recentTests.some((test) => test.questionIds.includes(question.corpus_id))) {
-      weight *= state.config.freshness_weights.recent_last_two_tests_multiplier;
-    }
-
-    if (settings.mode === "fresh_questions_only") {
-      weight *= (!stats || !stats.attempts) ? 1.6 : 0.22;
-    }
-
-    if (settings.mode === "missed_questions") {
-      weight *= stats && (stats.incorrect || 0) > 0 ? 2.4 : 0.22;
-    }
-
-    if (settings.mode === "weak_domains") {
-      weight *= settings.weakDomainSet.has(question.primary_domain) ? 1.8 : 0.34;
-    }
-
-    if (question.slc_sqt_anchor && question.priority_tier === "gold_anchor") {
-      weight *= 1.1;
-    }
-
-    if (question.primary_domain === "biotechnology_industry_practices_and_careers") {
-      if (settings.mode !== "bank_practice" && question.career_question_type === "education_training") weight *= 1.55;
-      if (settings.mode !== "bank_practice" && question.career_question_type === "task_matching") weight *= 1.18;
-      if (["related_job_areas", "career_options", "professional_skills"].includes(question.career_question_type)) weight *= 0.55;
-    }
-
-    return Math.max(0, weight);
-  }
-
-  function sampleWeightedWithoutReplacement(items, count, rng, weightFn) {
+  function sampleRandomWithoutReplacement(items, count, rng) {
     const pool = items.slice();
-    const selected = [];
-    while (pool.length && selected.length < count) {
-      const weights = pool.map(weightFn);
-      const total = weights.reduce((sum, value) => sum + value, 0);
-      if (total <= 0) break;
-      let target = rng() * total;
-      let chosenIndex = 0;
-      for (let i = 0; i < pool.length; i += 1) {
-        target -= weights[i];
-        if (target <= 0) {
-          chosenIndex = i;
-          break;
-        }
-      }
-      selected.push(pool[chosenIndex]);
-      pool.splice(chosenIndex, 1);
-    }
-    return selected;
+    shuffleArray(pool, rng);
+    return pool.slice(0, count);
   }
 
   function makeRng(seed) {
@@ -868,7 +1048,7 @@
       return generateBankPracticeTest(settings);
     }
 
-    const rng = makeRng(Math.floor(Date.now() % 2147483647));
+    const rng = createGenerationRng();
     const warnings = [];
     const selectedIds = new Set();
     const questions = [];
@@ -882,25 +1062,14 @@
         .filter((question) => !selectedIds.has(question.corpus_id))
         .filter((question) => questionAllowed(question, settings));
 
-      let candidates = allCandidates;
-      if (settings.priorityMode !== "include_low") {
-        candidates = candidates.filter((question) => question.priority_tier !== "low_priority");
-      }
-
-      if (candidates.length < needed && settings.allowLowPriorityFallback) {
-        candidates = allCandidates;
-        if (allCandidates.length >= needed) {
-          warnings.push(`${window.HosaBiotechLoader.DOMAIN_LABELS[domain]} required low-priority fallback to fill quota.`);
-        }
-      }
-
+      const candidates = allCandidates;
       if (candidates.length < needed) {
-        throw new Error(`${window.HosaBiotechLoader.DOMAIN_LABELS[domain]} only has ${candidates.length} available questions for a quota of ${needed}.`);
+        throw new Error(`${window.HosaBiotechLoader.DOMAIN_LABELS[domain]} only has ${candidates.length} eligible question(s) for a quota of ${needed}. Correctly answered unflagged questions are retired until you reset history.`);
       }
 
-      const picked = sampleWeightedWithoutReplacement(candidates, needed, rng, (question) => computeQuestionWeight(question, settings));
+      const picked = sampleRandomWithoutReplacement(candidates, needed, rng);
       if (picked.length < needed) {
-        throw new Error(`${window.HosaBiotechLoader.DOMAIN_LABELS[domain]} could not produce enough weighted picks.`);
+        throw new Error(`${window.HosaBiotechLoader.DOMAIN_LABELS[domain]} could not produce enough randomized picks.`);
       }
 
       picked.forEach((question) => {
@@ -934,7 +1103,7 @@
   }
 
   function generateBankPracticeTest(settings) {
-    const rng = makeRng(Math.floor(Date.now() % 2147483647));
+    const rng = createGenerationRng();
     const warnings = [];
     const bank = state.bankCatalog?.byId?.[settings.selectedBankId];
     if (!bank) {
@@ -944,25 +1113,15 @@
     const subtopic = bank.subtopics.find((item) => item.id === settings.selectedSubtopicId) || bank.subtopics[0];
     const allCandidates = bank.questions.filter((question) => questionAllowed(question, settings));
 
-    let candidates = allCandidates;
-    if (settings.priorityMode !== "include_low") {
-      candidates = candidates.filter((question) => question.priority_tier !== "low_priority");
-    }
-
-    if (candidates.length < settings.length && settings.allowLowPriorityFallback) {
-      if (allCandidates.length >= settings.length) {
-        warnings.push(`${bank.label} required low-priority fallback to fill the requested set.`);
-      }
-      candidates = allCandidates;
-    }
+    const candidates = allCandidates;
 
     if (candidates.length < settings.length) {
-      throw new Error(`${bank.label}${subtopic && subtopic.id !== "all_subtopics" ? ` - ${subtopic.label}` : ""} only has ${candidates.length} usable question(s) for a requested length of ${settings.length}.`);
+      throw new Error(`${bank.label}${subtopic && subtopic.id !== "all_subtopics" ? ` - ${subtopic.label}` : ""} only has ${candidates.length} eligible question(s) for a requested length of ${settings.length}. Correctly answered unflagged questions are retired until you reset history.`);
     }
 
-    const picked = sampleWeightedWithoutReplacement(candidates, settings.length, rng, (question) => computeQuestionWeight(question, settings));
+    const picked = sampleRandomWithoutReplacement(candidates, settings.length, rng);
     if (picked.length < settings.length) {
-      throw new Error(`${bank.label} could not produce enough weighted picks for this bank-practice session.`);
+      throw new Error(`${bank.label} could not produce enough randomized picks for this bank-practice session.`);
     }
 
     shuffleArray(picked, rng);
@@ -985,8 +1144,37 @@
 
   function prepareQuestionForSession(question, index, settings, rng) {
     const choices = deepClone(question.choices);
-    if (settings.answerRandomization && question.shuffle_safe) {
-      shuffleArray(choices, rng);
+    const stats = getQuestionStats(question.corpus_id);
+    if (settings.answerRandomization && question.shuffle_safe && choices.length > 1) {
+      const recentSignatures = Array.isArray(stats?.recentChoiceOrderSignatures)
+        ? stats.recentChoiceOrderSignatures.filter((item) => typeof item === "string" && item)
+        : [];
+      const blockedSignatures = new Set(
+        recentSignatures.length
+          ? recentSignatures
+          : (stats?.lastChoiceOrderSignature ? [stats.lastChoiceOrderSignature] : [])
+      );
+      const baselineOrder = choices.slice();
+      let signature = choices.map((choice) => choice.letter_original).join("");
+      let attempts = 0;
+      while (attempts < 16) {
+        shuffleArray(choices, rng);
+        signature = choices.map((choice) => choice.letter_original).join("");
+        if (!blockedSignatures.has(signature)) break;
+        attempts += 1;
+      }
+      if (blockedSignatures.has(signature)) {
+        for (let i = 0; i < baselineOrder.length - 1; i += 1) {
+          const variant = baselineOrder.slice();
+          [variant[i], variant[i + 1]] = [variant[i + 1], variant[i]];
+          const variantSignature = variant.map((choice) => choice.letter_original).join("");
+          if (!blockedSignatures.has(variantSignature)) {
+            choices.splice(0, choices.length, ...variant);
+            signature = variantSignature;
+            break;
+          }
+        }
+      }
     }
 
     const renderedChoices = choices.map((choice, choiceIndex) => ({
@@ -1017,9 +1205,14 @@
 
   function renderSetupSummary() {
     const summary = window.HOSA_BIOTECH_BANK_SUMMARY || {};
+    const defaultUsable = state.bank.filter((question) => {
+      if (question.manual_review) return false;
+      if (["avoid_until_review", "low_priority"].includes(question.priority_tier)) return false;
+      return questionAllowedByCareerSource(question, "hosa_weighted_full_simulation");
+    });
     const stats = [
       { label: "Compiled Bank", value: summary.totalQuestions || state.bank.length },
-      { label: "Default Usable", value: summary.defaultUsableQuestions || state.bank.length },
+      { label: "Default Usable", value: defaultUsable.length },
       { label: "Anchors", value: state.bank.filter((question) => question.slc_sqt_anchor).length },
       { label: "Rounds Taken", value: state.history.tests.length },
       { label: "Saved Rounds", value: state.history.savedRounds.length },
@@ -1038,7 +1231,6 @@
       `)
       .join("");
 
-    const defaultUsable = state.bank.filter((question) => !question.manual_review && !["avoid_until_review", "low_priority"].includes(question.priority_tier));
     const counts = new Map();
     defaultUsable.forEach((question) => counts.set(question.primary_domain, (counts.get(question.primary_domain) || 0) + 1));
     const maxValue = Math.max(...Array.from(counts.values()), 1);
@@ -1434,14 +1626,30 @@
         attempts: 0,
         correct: 0,
         incorrect: 0,
+        retryEligible: false,
+        flaggedForRetry: false,
+        lastChoiceOrderSignature: "",
+        recentChoiceOrderSignatures: [],
         lastSeenAt: null,
         lastTestId: null,
+        lastAttemptCorrect: null,
+        lastAttemptUnanswered: null,
       };
       stats.attempts += 1;
       if (item.correct) stats.correct += 1;
       else if (!item.unanswered) stats.incorrect += 1;
+      const choiceOrderSignature = item.entry.renderedChoices.map((choice) => choice.original_letter).join("");
+      const priorSignatures = Array.isArray(stats.recentChoiceOrderSignatures)
+        ? stats.recentChoiceOrderSignatures.filter((signature) => typeof signature === "string" && signature && signature !== choiceOrderSignature)
+        : [];
+      stats.retryEligible = Boolean(item.entry.flagged || !item.correct);
+      stats.flaggedForRetry = Boolean(item.entry.flagged);
+      stats.lastChoiceOrderSignature = choiceOrderSignature;
+      stats.recentChoiceOrderSignatures = [...priorSignatures, choiceOrderSignature].slice(-6);
       stats.lastSeenAt = result.completedAt;
       stats.lastTestId = result.testId;
+      stats.lastAttemptCorrect = item.correct;
+      stats.lastAttemptUnanswered = item.unanswered;
       state.history.questionStats[id] = stats;
 
       const domain = item.entry.question.primary_domain;
@@ -1565,15 +1773,15 @@
   function startRetryMissedSession() {
     if (!state.currentTest || !state.currentTest.result) return;
     const missedQuestions = state.currentTest.result.reviewEntries
-      .filter((item) => !item.correct)
+      .filter((item) => !item.correct || item.entry.flagged)
       .map((item) => item.entry.question);
 
     if (!missedQuestions.length) {
-      alert("There are no missed questions to retry.");
+      alert("There are no missed or flagged questions to retry.");
       return;
     }
 
-    const rng = makeRng(Math.floor(Date.now() % 2147483647));
+    const rng = createGenerationRng();
     const settings = Object.assign({}, state.currentTest.settings, {
       mode: "untimed_review_mode",
       timerEnabled: false,
@@ -1584,7 +1792,7 @@
     const test = {
       testId: `retry-${Date.now()}`,
       createdAt: Date.now(),
-      roundLabel: "Retry Missed Questions",
+      roundLabel: "Retry Missed / Flagged Questions",
       mode: "untimed_review_mode",
       settings,
       warnings: [],
@@ -1594,46 +1802,6 @@
     };
 
     beginTest(test);
-  }
-
-  function exportResult(format) {
-    if (!state.currentTest || !state.currentTest.result) return;
-    const result = state.currentTest.result;
-
-    let blob;
-    let filename;
-    if (format === "json") {
-      blob = new Blob([JSON.stringify(result, null, 2)], { type: "application/json" });
-      filename = `${result.testId}.json`;
-    } else {
-      const text = [
-        `${result.roundLabel}`,
-        `Score: ${result.correct}/${result.total} (${result.percent}%)`,
-        `Time used: ${result.timeUsedLabel}`,
-        "",
-        ...result.reviewEntries.map((item, index) => {
-          const question = item.entry.question;
-          const userAnswer = item.userChoice ? `${item.userChoice.id}. ${item.userChoice.text}` : "No answer";
-          return [
-            `${index + 1}. ${question.question_text}`,
-            `Your answer: ${userAnswer}`,
-            `Correct answer: ${item.correctChoice.id}. ${item.correctChoice.text}`,
-            `Explanation: ${question.explanation || "No explanation listed."}`,
-            `Source cue: ${question.source_cue || "Not listed."}`,
-            "",
-          ].join("\n");
-        }),
-      ].join("\n");
-      blob = new Blob([text], { type: "text/plain" });
-      filename = `${result.testId}.txt`;
-    }
-
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = filename;
-    link.click();
-    URL.revokeObjectURL(url);
   }
 
   function saveCurrentRound() {
@@ -1657,13 +1825,17 @@
   function loadSavedRound(presetId) {
     const preset = state.history.savedRounds.find((item) => item.id === presetId);
     if (!preset) return;
-    const rng = makeRng(Math.floor(Date.now() % 2147483647));
-    const questions = preset.questionIds
+    const rng = createGenerationRng();
+    const loadedQuestions = preset.questionIds
       .map((id) => state.bank.find((question) => question.corpus_id === id))
       .filter(Boolean);
+    const skippedQuestions = loadedQuestions.filter((question) => question.manual_review || question.priority_tier === "avoid_until_review");
+    const questions = loadedQuestions.filter((question) => !question.manual_review && question.priority_tier !== "avoid_until_review");
 
     if (!questions.length) {
-      alert("That saved round no longer matches any questions in the compiled bank.");
+      alert(skippedQuestions.length
+        ? "That saved round only contains questions that are now excluded for manual review."
+        : "That saved round no longer matches any questions in the compiled bank.");
       return;
     }
 
@@ -1673,7 +1845,10 @@
       roundLabel: preset.label,
       mode: "saved_preset",
       settings: Object.assign({}, preset.settings, { timerEnabled: false }),
-      warnings: ["Loaded from local saved round preset."],
+      warnings: [
+        "Loaded from local saved round preset.",
+        ...(skippedQuestions.length ? [`${skippedQuestions.length} legacy saved question(s) were skipped because they are now marked for manual review.`] : []),
+      ],
       questions: questions.map((question, index) => prepareQuestionForSession(question, index, Object.assign({}, preset.settings, { timerEnabled: false }), rng)),
       startedAt: Date.now(),
       endsAt: null,
@@ -1688,11 +1863,12 @@
   }
 
   function resetHistory() {
-    const confirmed = window.confirm("Reset local question history, scores, saved rounds, and freshness tracking?");
+    const confirmed = window.confirm("Reset local question history, scores, saved rounds, and retry memory?");
     if (!confirmed) return;
     state.history = window.HosaBiotechLoader.createEmptyHistoryState();
     saveHistory();
     renderSetupSummary();
+    updateSetupModeUi();
     setTheme("dark");
     setNavigatorCollapsed(false);
     alert("History reset.");
@@ -1731,6 +1907,12 @@
       updateSetupModeUi();
       renderSetupWarnings([]);
     });
+
+    dom.priorityModeSelect.addEventListener("change", () => {
+      updateSetupModeUi();
+      renderSetupWarnings([]);
+    });
+
     dom.customLengthInput.addEventListener("input", () => {
       updateSetupModeUi();
       renderSetupWarnings([]);
@@ -1814,6 +1996,7 @@
     cacheDom();
     registerServiceWorker();
     state.config = await window.HosaBiotechLoader.loadConfig();
+    applyConfigDefaults();
     state.bank = window.HosaBiotechLoader.getBank();
     state.bankCatalog = buildBankCatalog();
     state.history = loadHistory();

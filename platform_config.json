@@ -1,7 +1,7 @@
 {
   "app_name": "HOSA Biotechnology Simulation Platform",
   "version": "1.0.0",
-  "generated_at": "2026-06-13T00:51:15.489Z",
+  "generated_at": "2026-06-15T19:20:05.220Z",
   "default_mode": "hosa_weighted_full_simulation",
   "default_test_length": 50,
   "default_timer_minutes": 50,
@@ -17,30 +17,9 @@
     "protein_structure_function_and_analysis": 7,
     "immunological_applications": 5
   },
-  "priority_weights": {
-    "gold_anchor": 8,
-    "high_yield_seed": 6,
-    "manual_scored_high": 5,
-    "provisional_high": 4,
-    "normal": 2,
-    "low_priority": 0.5,
-    "avoid_until_review": 0
-  },
-  "freshness_weights": {
-    "unseen_multiplier": 1.8,
-    "missed_multiplier": 1.2,
-    "recent_correct_multiplier": 0.72,
-    "recent_last_two_tests_multiplier": 0.08
-  },
   "default_filters": {
-    "include_manual_review": false,
-    "include_entity_bank": true,
-    "include_old_chat_master": true,
-    "include_careers": true,
-    "chapter_only": false,
-    "priority_mode": "normal_weighted",
-    "answer_randomization": true,
-    "career_bias": "education_training_bias"
+    "priority_mode": "exclude_low",
+    "answer_randomization": true
   },
   "domain_labels": {
     "biotechnology_industry_practices_and_careers": "Industry Practices & Careers",
@@ -54,5 +33,5 @@
     "protein_structure_function_and_analysis": "Protein Structure / Function / Analysis",
     "immunological_applications": "Immunological Applications"
   },
-  "default_usable_question_count": 2927
+  "default_usable_question_count": 2715
 }

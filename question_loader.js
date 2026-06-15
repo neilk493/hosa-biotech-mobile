@@ -30,30 +30,9 @@
       protein_structure_function_and_analysis: 7,
       immunological_applications: 5,
     },
-    priority_weights: {
-      gold_anchor: 8,
-      high_yield_seed: 6,
-      manual_scored_high: 5,
-      provisional_high: 4,
-      normal: 2,
-      low_priority: 0.5,
-      avoid_until_review: 0,
-    },
-    freshness_weights: {
-      unseen_multiplier: 1.8,
-      missed_multiplier: 1.2,
-      recent_correct_multiplier: 0.72,
-      recent_last_two_tests_multiplier: 0.08,
-    },
     default_filters: {
-      include_manual_review: false,
-      include_entity_bank: true,
-      include_old_chat_master: true,
-      include_careers: true,
-      chapter_only: false,
-      priority_mode: "normal_weighted",
+      priority_mode: "exclude_low",
       answer_randomization: true,
-      career_bias: "education_training_bias",
     },
     domain_labels: DOMAIN_LABELS,
   };
@@ -126,7 +105,7 @@
 
   function createEmptyHistoryState() {
     return {
-      version: 1,
+      version: 3,
       questionStats: {},
       perDomain: {},
       tests: [],

@@ -20,7 +20,7 @@
       <div class="brand-block">
         <span class="eyebrow">ILC Simulation</span>
         <h1>Written Test Simulation Platform</h1>
-        <p>All-in-one HOSA Biotechnology practice with weighted mixed simulations, chapter and bank-specific drilling, timed sets, and end-of-test grading. For iPhone use, open this hosted build in Safari once while online, add it to the Home Screen, and then test offline.</p>
+        <p>All-in-one HOSA Biotechnology practice with mixed simulations, chapter and bank-specific drilling, timed sets, and end-of-test grading. For iPhone use, open this hosted build in Safari once while online, add it to the Home Screen, and then test offline.</p>
       </div>
       <div class="topbar-actions">
         <button id="themeToggle" class="ghost-button" type="button">Light / Dark</button>
@@ -35,7 +35,7 @@
               <div>
                 <span class="chip chip-primary">Exact Domain Distribution</span>
                 <span class="chip chip-secondary">Chapter & Bank Practice</span>
-                <span class="chip chip-secondary">History-Aware Selection</span>
+                <span class="chip chip-secondary">Retire Correct Answers</span>
               </div>
               <h2>Run mixed simulations or drill any bank from one platform.</h2>
               <p>The default configuration produces a realistic 50-question HOSA simulation, while bank practice lets you target any chapter, careers, the artifact/entity bank, or the old chat master with broad subtopics and custom question counts.</p>
@@ -67,18 +67,20 @@
 
             <div class="form-grid">
               <label class="field">
-                <span>Practice Mode</span>
+                <span>Session Type</span>
                 <select id="modeSelect">
-                  <option value="hosa_weighted_full_simulation">HOSA weighted full simulation</option>
-                  <option value="high_yield_only">High-yield mixed drill</option>
-                  <option value="fresh_questions_only">Fresh mixed drill</option>
-                  <option value="missed_questions">Missed mixed drill</option>
-                  <option value="weak_domains">Weak-domain mixed drill</option>
-                  <option value="custom_domain_mix">Custom-domain simulation</option>
-                  <option value="bank_practice">Bank practice</option>
+                  <option value="hosa_weighted_full_simulation">HOSA 50-question simulation</option>
+                  <option value="high_yield_only">High-yield mixed review</option>
+                  <option value="fresh_questions_only">Unseen-question mixed review</option>
+                  <option value="missed_questions">Retry missed / flagged</option>
+                  <option value="weak_domains">Weak-domain recovery</option>
+                  <option value="custom_domain_mix">Custom domain simulation</option>
+                  <option value="bank_practice">Single-bank practice</option>
                   <option value="untimed_review_mode">Untimed mixed review</option>
                 </select>
               </label>
+
+              <div id="modeDescriptor" class="mode-brief"></div>
 
               <label class="field hidden" id="bankField">
                 <span>Practice Bank</span>
@@ -127,10 +129,9 @@
               <label class="field">
                 <span>Priority Filter</span>
                 <select id="priorityModeSelect">
-                  <option value="normal_weighted" selected>Normal weighted</option>
+                  <option value="include_all">Include everything</option>
                   <option value="gold_high_only">Gold / high-yield only</option>
-                  <option value="exclude_low">Exclude low priority</option>
-                  <option value="include_low">Include low priority</option>
+                  <option value="exclude_low" selected>Exclude low priority</option>
                 </select>
               </label>
             </div>
@@ -322,7 +323,7 @@
 
         <section class="panel action-panel results-panel">
           <div class="action-row">
-            <button id="retryMissedBtn" class="primary-button" type="button">Retry Missed Questions</button>
+            <button id="retryMissedBtn" class="primary-button" type="button">Retry Missed / Flagged Questions</button>
             <button id="newSimulationBtn" class="secondary-button" type="button">Generate New Test</button>
             <button id="saveRoundBtn" class="secondary-button" type="button">Save This Round</button>
           </div>

@@ -319,6 +319,46 @@ summary:focus-visible {
   color: var(--text-main);
 }
 
+.mode-brief {
+  grid-column: 1 / -1;
+  margin-top: -2px;
+  padding: 15px 16px;
+  border-radius: var(--radius-md);
+  border: 1px solid color-mix(in srgb, var(--accent) 24%, var(--line-soft));
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0)),
+    color-mix(in srgb, var(--accent) 7%, var(--panel-alt));
+}
+
+.mode-brief-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.mode-brief strong {
+  display: block;
+  font-size: 0.98rem;
+  letter-spacing: -0.01em;
+}
+
+.mode-brief p,
+.mode-brief-note {
+  margin: 0;
+  color: var(--text-soft);
+  line-height: 1.55;
+}
+
+.mode-brief p {
+  margin-top: 6px;
+}
+
+.mode-brief-note {
+  margin-top: 8px;
+  font-size: 0.9rem;
+}
+
 .toggle-field {
   flex-direction: row;
   justify-content: space-between;
@@ -1087,8 +1127,19 @@ summary:focus-visible {
 }
 
 .feedback-box.correct {
-  border-color: color-mix(in srgb, var(--success) 55%, var(--line-soft));
-  background: color-mix(in srgb, var(--success) 10%, var(--panel-alt));
+  border-color: color-mix(in srgb, #66b17b 62%, var(--line-soft));
+  background:
+    linear-gradient(180deg, rgba(102, 177, 123, 0.11), rgba(102, 177, 123, 0.04)),
+    color-mix(in srgb, #66b17b 9%, var(--panel-alt));
+  color: #d8f0de;
+}
+
+.feedback-box.correct strong {
+  color: #8fd4a1;
+}
+
+.feedback-box.correct .review-block strong {
+  color: #9ddbaf;
 }
 
 .feedback-box.incorrect {
