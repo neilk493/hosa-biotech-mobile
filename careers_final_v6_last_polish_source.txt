@@ -1,0 +1,1889 @@
+HOSA Biotechnology Careers — FINAL V6 LAST-POLISH Short Association Bank
+Purpose: final careers-only drill for HOSA-style short association questions.
+Format: short association → career; one defensible correct answer per item.
+Design rules used: fully mixed order, clustered distractors, short stems, no bundled spoonfeeding, no self-referential answer choices, no explanations in the drill.
+Total: 204 questions (34 careers × 6 questions each).
+Answer distribution: A=41, B=41, C=41, D=41, E=40.
+
+QUESTIONS
+
+#1
+Which career may require hazmat certification when inspecting environmental sites?
+A. Environmental Science and Protection Technician
+B. Environmental Health & Safety Technician
+C. Agricultural Technician
+D. Laboratory Safety Associate
+E. Facilities Technician
+
+#2
+Which career follows SOPs to select random samples for routine measurements and inspections?
+A. Quality Assurance Specialist
+B. Quality Control Technician
+C. Food Sample Inspector
+D. QA Documentation Coordinator
+E. Quality Control Technician - Chemistry
+
+#3
+Which career best matches maintaining primary cell lines obtained from tumor biopsies?
+A. Molecular Biology Technician
+B. Genomics Technician
+C. Cell Culture Technician
+D. Biomanufacturing Technician - Upstream
+E. Quality Control Technician - Microbiology
+
+#4
+Which career investigates pollution and contamination sources affecting public health?
+A. Environmental Health & Safety Technician
+B. Water Quality Technician
+C. Laboratory Safety Associate
+D. Environmental Science and Protection Technician
+E. Food Sample Inspector
+
+#5
+Which career tests manufacturing process conditions during scale-up to improve yield?
+A. Product Development Technician
+B. Validation Specialist
+C. Quality Control Technician
+D. Manufacturing Assistant
+E. Process Development Associate
+
+#6
+Which career supports manufacturing, sales, and lab teams during product improvement?
+A. Product Development Technician
+B. Technical Services Representative
+C. Process Development Associate
+D. Manufacturing Assistant
+E. Quality Assurance Specialist
+
+#7
+Which career is most associated with DNA/RNA sequencing workflows and sequence comparison?
+A. Molecular Biology Technician
+B. Genomics Technician
+C. Laboratory Technician
+D. Cell Culture Technician
+E. Quality Control Technician
+
+#8
+Which career may benefit from a boiler-operations license?
+A. Instrumentation / Calibration Technician
+B. Water Quality Technician
+C. Facilities Technician
+D. Environmental Health & Safety Technician
+E. Manufacturing Assistant
+
+#9
+Which career prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification?
+A. Biomanufacturing Technician - Downstream
+B. Quality Control Technician - Chemistry
+C. Process Development Associate
+D. Purification Technician
+E. Laboratory Technician
+
+#10
+Which career performs general bench research procedures across lab projects?
+A. Molecular Biology Technician
+B. Genomics Technician
+C. Cell Culture Technician
+D. Quality Control Technician
+E. Laboratory Technician
+
+#11
+Which career handles chemical and radioactive waste in the context of laboratory safety standards?
+A. Laboratory Safety Associate
+B. Environmental Health & Safety Technician
+C. Compliance Specialist
+D. Environmental Science and Protection Technician
+E. Quality Control Technician - Microbiology
+
+#12
+Which career performs DNA/RNA extraction, PCR, cloning, transformation, and clone selection?
+A. Genomics Technician
+B. Molecular Biology Technician
+C. Laboratory Technician
+D. Cell Culture Technician
+E. Quality Control Technician - Microbiology
+
+#13
+Which career usually follows upstream cell growth and prepares product for later use?
+A. Biomanufacturing Technician - Upstream
+B. Cell Culture Technician
+C. Biomanufacturing Technician - Downstream
+D. Manufacturing Assistant
+E. Validation Specialist
+
+#14
+Which career may require a state Water Treatment Plant Operator certification?
+A. Environmental Science and Protection Technician
+B. Facilities Technician
+C. Environmental Health & Safety Technician
+D. Water Quality Technician
+E. Quality Control Technician - Microbiology
+
+#15
+Which career is most associated with sequencing libraries, BLAST, and NCBI?
+A. Molecular Biology Technician
+B. Laboratory Technician
+C. Cell Culture Technician
+D. Technical Services Representative
+E. Genomics Technician
+
+#16
+Which career best matches an Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing?
+A. Agricultural Technician
+B. Animal Technician
+C. Food Technologist
+D. Greenhouse or Field Technician
+E. Plant Tissue Culture Technician
+
+#17
+Which career runs general research procedures from SOPs and presents data at lab meetings?
+A. Quality Control Technician
+B. Laboratory Technician
+C. Molecular Biology Technician
+D. Laboratory Assistant
+E. Genomics Technician
+
+#18
+Which career prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth?
+A. Cell Culture Technician
+B. Biomanufacturing Technician - Downstream
+C. Biomanufacturing Technician - Upstream
+D. Biofuel Technician
+E. Process Development Associate
+
+#19
+Which career may require an associate degree in biotechnology or microbiology when the work involves PCR and cloning?
+A. Genomics Technician
+B. Cell Culture Technician
+C. Laboratory Technician
+D. Molecular Biology Technician
+E. Quality Control Technician - Microbiology
+
+#20
+Which career handles workplace exposure monitoring, industrial hygiene, and safety training?
+A. Laboratory Safety Associate
+B. Environmental Science and Protection Technician
+C. Water Quality Technician
+D. Facilities Technician
+E. Environmental Health & Safety Technician
+
+#21
+Which career is associated with creating medical science products such as devices?
+A. Product Development Technician
+B. Process Development Associate
+C. Manufacturing Assistant
+D. Validation Specialist
+E. Quality Control Technician
+
+#22
+Which career collects dirty glassware after laboratory experiments?
+A. Laboratory Assistant
+B. Glass Washer
+C. Laboratory Technician
+D. Manufacturing Assistant
+E. Facilities Technician
+
+#23
+Which career may require a two-year associate degree plus lab or science experience for facility safety work?
+A. Laboratory Safety Associate
+B. Environmental Science and Protection Technician
+C. Environmental Health & Safety Technician
+D. Water Quality Technician
+E. Facilities Technician
+
+#24
+Which career may use assays, autoclave, aseptic technique, and antibody techniques in a QC setting?
+A. Quality Control Technician - Chemistry
+B. Cell Culture Technician
+C. Molecular Biology Technician
+D. Quality Control Technician - Microbiology
+E. Laboratory Technician
+
+#25
+Which career is associated with ALAT, LAT, and LATG certifications?
+A. Laboratory Assistant
+B. Agricultural Technician
+C. Laboratory Safety Associate
+D. Quality Control Technician - Microbiology
+E. Animal Technician
+
+#26
+Which career often comes from a Laboratory Technician background but works customer-facing?
+A. Technical Services Representative
+B. Laboratory Technician
+C. Instrumentation / Calibration Technician
+D. Product Development Technician
+E. Quality Assurance Specialist
+
+#27
+Which career may benefit from metrology or quality-management-system certification?
+A. Instrumentation / Calibration Technician
+B. Quality Control Technician
+C. Quality Assurance Specialist
+D. Validation Specialist
+E. QA Documentation Coordinator
+
+#28
+Which career uses sterile technique to propagate plant clippings on agar?
+A. Greenhouse or Field Technician
+B. Agricultural Technician
+C. Plant Tissue Culture Technician
+D. Cell Culture Technician
+E. Laboratory Technician
+
+#29
+Which career manages broad bioscience-facility safety programs and workplace hazard prevention?
+A. Laboratory Safety Associate
+B. Facilities Technician
+C. Compliance Specialist
+D. Environmental Health & Safety Technician
+E. Quality Assurance Specialist
+
+#30
+Which career performs temperature mapping and compares results to acceptance criteria?
+A. Instrumentation / Calibration Technician
+B. Facilities Technician
+C. Quality Assurance Specialist
+D. QA Documentation Coordinator
+E. Validation Specialist
+
+#31
+Which career may work on an aseptic fill process while improving manufacturing procedures?
+A. Process Development Associate
+B. Product Development Technician
+C. Manufacturing Assistant
+D. Biomanufacturing Technician - Downstream
+E. Validation Specialist
+
+#32
+Which career may handle APHIS-regulated plant material before disposal?
+A. Plant Tissue Culture Technician
+B. Greenhouse or Field Technician
+C. Agricultural Technician
+D. Laboratory Safety Associate
+E. Environmental Science and Protection Technician
+
+#33
+Which career best matches an associate degree in veterinary technology with work involving mice and rats used in product testing?
+A. Agricultural Technician
+B. Clinical Research Associate
+C. Animal Technician
+D. Laboratory Technician
+E. Environmental Health & Safety Technician
+
+#34
+Which career is also described as Lab Safety Officer or Lab Safety Specialist?
+A. Environmental Health & Safety Technician
+B. Compliance Specialist
+C. Quality Assurance Specialist
+D. Laboratory Safety Associate
+E. Environmental Science and Protection Technician
+
+#35
+Which career inspects restaurants, supermarkets, and slaughterhouses?
+A. Food Technologist
+B. Quality Control Technician
+C. Agricultural Technician
+D. Environmental Health & Safety Technician
+E. Food Sample Inspector
+
+#36
+Which career controls SOPs, batch records, document histories, and deviation files?
+A. QA Documentation Coordinator
+B. Compliance Specialist
+C. Quality Assurance Specialist
+D. Validation Specialist
+E. Quality Control Technician
+
+#37
+Which career places plant clippings into sterile containers for micropropagation?
+A. Greenhouse or Field Technician
+B. Plant Tissue Culture Technician
+C. Cell Culture Technician
+D. Agricultural Technician
+E. Laboratory Technician
+
+#38
+Which career documents attendance at lab safety training sessions?
+A. Environmental Health & Safety Technician
+B. QA Documentation Coordinator
+C. Laboratory Safety Associate
+D. Compliance Specialist
+E. Quality Assurance Specialist
+
+#39
+Which career may use farm equipment while maintaining biotech plants?
+A. Agricultural Technician
+B. Facilities Technician
+C. Plant Tissue Culture Technician
+D. Greenhouse or Field Technician
+E. Biofuel Technician
+
+#40
+Which career may prefer HACCP certification when the work involves processing conditions and food safety parameters?
+A. Food Sample Inspector
+B. Quality Control Technician
+C. Laboratory Safety Associate
+D. Compliance Specialist
+E. Food Technologist
+
+#41
+Which career may prefer labeling experience in regulated documentation work?
+A. QA Documentation Coordinator
+B. Compliance Specialist
+C. Quality Assurance Specialist
+D. Food Technologist
+E. Validation Specialist
+
+#42
+Which career manages adherence to grant requirements and federal, state, or local regulations?
+A. Quality Assurance Specialist
+B. Compliance Specialist
+C. QA Documentation Coordinator
+D. Validation Specialist
+E. Clinical Research Associate
+
+#43
+Which career maintains glassware and similar-item inventory as a general support role?
+A. Glass Washer
+B. Laboratory Technician
+C. Laboratory Assistant
+D. Manufacturing Assistant
+E. Quality Control Technician
+
+#44
+Which career often needs a science or engineering bachelor’s degree plus regulated GMP experience?
+A. Validation Specialist
+B. Process Development Associate
+C. Quality Assurance Specialist
+D. Compliance Specialist
+E. Product Development Technician
+
+#45
+Which career is associated with an associate degree in environmental science, environmental health, or public health?
+A. Environmental Health & Safety Technician
+B. Water Quality Technician
+C. Laboratory Safety Associate
+D. Facilities Technician
+E. Environmental Science and Protection Technician
+
+#46
+Which career is most associated with ICH-GCP and clinical study-site monitoring?
+A. Clinical Research Associate
+B. Compliance Specialist
+C. QA Documentation Coordinator
+D. Validation Specialist
+E. Quality Assurance Specialist
+
+#47
+Which career operates sophisticated test equipment and uses LIMS for chemistry-based QC data?
+A. Quality Control Technician - Microbiology
+B. Quality Control Technician - Chemistry
+C. Instrumentation / Calibration Technician
+D. Quality Control Technician
+E. Laboratory Technician
+
+#48
+Which career is associated with chemical quality specifications in a QC laboratory?
+A. Quality Control Technician - Microbiology
+B. Purification Technician
+C. Quality Control Technician - Chemistry
+D. Food Technologist
+E. Quality Control Technician
+
+#49
+Which career evaluates biomanufacturing processes to improve yield and scale to larger batches?
+A. Product Development Technician
+B. Validation Specialist
+C. Biomanufacturing Technician - Upstream
+D. Process Development Associate
+E. Quality Assurance Specialist
+
+#50
+Which career manages soil media and fertilization solutions for plant care?
+A. Plant Tissue Culture Technician
+B. Agricultural Technician
+C. Food Technologist
+D. Facilities Technician
+E. Greenhouse or Field Technician
+
+#51
+Which career commonly starts with high school or some college coursework and provides general lab support?
+A. Laboratory Assistant
+B. Glass Washer
+C. Manufacturing Assistant
+D. Laboratory Technician
+E. Animal Technician
+
+#52
+Which career may perform instrument QC and preventive maintenance while supporting experiments?
+A. Instrumentation / Calibration Technician
+B. Laboratory Technician
+C. Laboratory Assistant
+D. Quality Control Technician
+E. Facilities Technician
+
+#53
+Which career records measurement data and reports nonconforming results?
+A. Quality Assurance Specialist
+B. QA Documentation Coordinator
+C. Quality Control Technician
+D. Compliance Specialist
+E. Validation Specialist
+
+#54
+Which career prepares media and isolates cells for preclinical in vitro experiments?
+A. Molecular Biology Technician
+B. Laboratory Technician
+C. Clinical Research Associate
+D. Cell Culture Technician
+E. Quality Control Technician - Microbiology
+
+#55
+Which career tests potable water for microbes and chemical contaminants?
+A. Quality Control Technician - Microbiology
+B. Environmental Science and Protection Technician
+C. Food Sample Inspector
+D. Environmental Health & Safety Technician
+E. Water Quality Technician
+
+#56
+Which career monitors protein purity using fluorescence technologies, SDS-PAGE, and western blot?
+A. Purification Technician
+B. Quality Control Technician - Chemistry
+C. Biomanufacturing Technician - Downstream
+D. Molecular Biology Technician
+E. Laboratory Technician
+
+#57
+Which career prepares calibration certificates and out-of-tolerance reports?
+A. Validation Specialist
+B. Instrumentation / Calibration Technician
+C. QA Documentation Coordinator
+D. Quality Assurance Specialist
+E. Facilities Technician
+
+#58
+Which career uses buffer preparation and analytical chemistry in quality testing?
+A. Purification Technician
+B. Quality Control Technician - Microbiology
+C. Quality Control Technician - Chemistry
+D. Food Technologist
+E. Laboratory Technician
+
+#59
+Which career works with sales and marketing staff while solving technical product problems?
+A. Product Development Technician
+B. Instrumentation / Calibration Technician
+C. Clinical Research Associate
+D. Technical Services Representative
+E. Compliance Specialist
+
+#60
+Which career may work in a BSL-2 lab and humidity-controlled environment while doing entry-level production support?
+A. Laboratory Assistant
+B. Quality Control Technician - Microbiology
+C. Biomanufacturing Technician - Upstream
+D. Facilities Technician
+E. Manufacturing Assistant
+
+#61
+Which career assists with the creation and production of medical devices?
+A. Product Development Technician
+B. Process Development Associate
+C. Manufacturing Assistant
+D. Validation Specialist
+E. Quality Control Technician
+
+#62
+Which career documents proof that equipment, software, methods, or processes meet acceptance criteria?
+A. Instrumentation / Calibration Technician
+B. Validation Specialist
+C. QA Documentation Coordinator
+D. Quality Assurance Specialist
+E. Facilities Technician
+
+#63
+Which career is most closely linked to collecting plant tissue, soil, and water samples as a field technician?
+A. Greenhouse or Field Technician
+B. Environmental Science and Protection Technician
+C. Agricultural Technician
+D. Water Quality Technician
+E. Food Sample Inspector
+
+#64
+Which career measures pressure, flow, force, torque, humidity, mass, and electrical parameters?
+A. Validation Specialist
+B. Facilities Technician
+C. Quality Control Technician - Chemistry
+D. Instrumentation / Calibration Technician
+E. Process Development Associate
+
+#65
+Which career is associated with pouching, kitting, loading machines, and checking materials?
+A. Laboratory Assistant
+B. Biomanufacturing Technician - Downstream
+C. Product Development Technician
+D. Quality Control Technician
+E. Manufacturing Assistant
+
+#66
+Which career may benefit from biosafety and hazardous-material certifications in a lab-specific safety role?
+A. Laboratory Safety Associate
+B. Environmental Health & Safety Technician
+C. Environmental Science and Protection Technician
+D. Compliance Specialist
+E. Facilities Technician
+
+#67
+Which career purifies proteins using column chromatography, HPLC, and FPLC?
+A. Biomanufacturing Technician - Downstream
+B. Purification Technician
+C. Quality Control Technician - Chemistry
+D. Laboratory Technician
+E. Process Development Associate
+
+#68
+Which career works with cells from plants, animals, fungi, or insects in flasks, plates, or containers?
+A. Plant Tissue Culture Technician
+B. Biomanufacturing Technician - Upstream
+C. Cell Culture Technician
+D. Molecular Biology Technician
+E. Genomics Technician
+
+#69
+Which career tests prepared items for sterility and maintains clean-room lab support?
+A. Glass Washer
+B. Laboratory Technician
+C. Manufacturing Assistant
+D. Laboratory Assistant
+E. Laboratory Safety Associate
+
+#70
+Which career uses raw materials and formulas in food-production work?
+A. Food Sample Inspector
+B. Quality Control Technician - Chemistry
+C. Agricultural Technician
+D. Quality Assurance Specialist
+E. Food Technologist
+
+#71
+Which career focuses on developing medical devices and medical-science products?
+A. Product Development Technician
+B. Process Development Associate
+C. Validation Specialist
+D. Manufacturing Assistant
+E. Quality Control Technician
+
+#72
+Which career maintains master copies of controlled documents and archives scanned records?
+A. Quality Assurance Specialist
+B. QA Documentation Coordinator
+C. Compliance Specialist
+D. Validation Specialist
+E. Quality Control Technician
+
+#73
+Which career may use transformation and clone propagation during DNA work?
+A. Genomics Technician
+B. Laboratory Technician
+C. Molecular Biology Technician
+D. Cell Culture Technician
+E. Purification Technician
+
+#74
+Which career uses bacterial, yeast, mammalian, or insect expression systems?
+A. Cell Culture Technician
+B. Genomics Technician
+C. Purification Technician
+D. Molecular Biology Technician
+E. Laboratory Technician
+
+#75
+Which career can be prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work?
+A. Biomanufacturing Technician - Upstream
+B. Purification Technician
+C. Manufacturing Assistant
+D. Process Development Associate
+E. Biomanufacturing Technician - Downstream
+
+#76
+Which career updates microbiology lab SOPs after contamination-related testing?
+A. Quality Control Technician - Microbiology
+B. Laboratory Safety Associate
+C. Water Quality Technician
+D. Quality Control Technician - Chemistry
+E. Environmental Science and Protection Technician
+
+#77
+Which career monitors sterility and microbial contamination in finished packaged product?
+A. Water Quality Technician
+B. Quality Control Technician - Microbiology
+C. Quality Control Technician - Chemistry
+D. Food Technologist
+E. Environmental Science and Protection Technician
+
+#78
+Which career maintains records for laboratory animals used in veterinary research?
+A. Agricultural Technician
+B. Clinical Research Associate
+C. Animal Technician
+D. Laboratory Assistant
+E. Quality Assurance Specialist
+
+#79
+Which career trains workers on routine lab safety standards?
+A. Environmental Health & Safety Technician
+B. Laboratory Technician
+C. Laboratory Assistant
+D. Laboratory Safety Associate
+E. Compliance Specialist
+
+#80
+Which career is associated with an associate degree in food science, microbiology, biotechnology, or a related field?
+A. Food Sample Inspector
+B. Agricultural Technician
+C. Quality Control Technician
+D. Laboratory Technician
+E. Food Technologist
+
+#81
+Which career answers customer questions by phone or email about scientific products and services?
+A. Technical Services Representative
+B. Instrumentation / Calibration Technician
+C. Laboratory Technician
+D. Product Development Technician
+E. Manufacturing Assistant
+
+#82
+Which career often favors a four-year degree, though strong two-year graduates may sometimes qualify?
+A. Clinical Research Associate
+B. Technical Services Representative
+C. Product Development Technician
+D. Instrumentation / Calibration Technician
+E. Laboratory Technician
+
+#83
+Which career performs chemistry-based QC testing on raw materials, components, and finished products?
+A. Quality Control Technician - Microbiology
+B. Quality Control Technician
+C. Quality Control Technician - Chemistry
+D. Purification Technician
+E. Food Technologist
+
+#84
+Which career is most associated with mammalian cells in bioreactors and microbial cells in fermenters?
+A. Cell Culture Technician
+B. Molecular Biology Technician
+C. Biofuel Technician
+D. Biomanufacturing Technician - Upstream
+E. Purification Technician
+
+#85
+Which career uses chromatography within a manufacturing harvest-and-packaging workflow?
+A. Purification Technician
+B. Quality Control Technician - Chemistry
+C. Laboratory Technician
+D. Molecular Biology Technician
+E. Biomanufacturing Technician - Downstream
+
+#86
+Which career may supervise manufacturing assistants in a plant producing fuel?
+A. Biofuel Technician
+B. Manufacturing Assistant
+C. Facilities Technician
+D. Process Development Associate
+E. Biomanufacturing Technician - Downstream
+
+#87
+Which career may test prepared items to ensure sterility as a support role?
+A. Glass Washer
+B. Laboratory Assistant
+C. Quality Control Technician - Microbiology
+D. Laboratory Technician
+E. Manufacturing Assistant
+
+#88
+Which career pollinates flowers, waters beds, weeds beds, and monitors pests?
+A. Plant Tissue Culture Technician
+B. Agricultural Technician
+C. Greenhouse or Field Technician
+D. Laboratory Technician
+E. Food Technologist
+
+#89
+Which career can often start with high school plus vocational training and focuses on building utilities?
+A. Instrumentation / Calibration Technician
+B. Manufacturing Assistant
+C. Glass Washer
+D. Facilities Technician
+E. Laboratory Assistant
+
+#90
+Which career may require coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation?
+A. Greenhouse or Field Technician
+B. Agricultural Technician
+C. Food Technologist
+D. Cell Culture Technician
+E. Plant Tissue Culture Technician
+
+#91
+Which career characterizes and compares DNA and RNA sequences?
+A. Genomics Technician
+B. Molecular Biology Technician
+C. Laboratory Technician
+D. Cell Culture Technician
+E. Quality Control Technician - Microbiology
+
+#92
+Which career controls SOP revisions, batch records, and document histories?
+A. Compliance Specialist
+B. QA Documentation Coordinator
+C. Quality Assurance Specialist
+D. Validation Specialist
+E. Quality Control Technician
+
+#93
+Which career is associated with protein expression vectors and clone propagation?
+A. Genomics Technician
+B. Cell Culture Technician
+C. Molecular Biology Technician
+D. Laboratory Technician
+E. Purification Technician
+
+#94
+Which career may use Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing?
+A. Molecular Biology Technician
+B. Laboratory Technician
+C. Quality Control Technician - Chemistry
+D. Genomics Technician
+E. Instrumentation / Calibration Technician
+
+#95
+Which career monitors control panels and gauges while converting raw materials into ethanol?
+A. Biomanufacturing Technician - Upstream
+B. Facilities Technician
+C. Manufacturing Assistant
+D. Process Development Associate
+E. Biofuel Technician
+
+#96
+Which career is most associated with ATCC-supplied cells and fluorescence microscopy of stained cells?
+A. Cell Culture Technician
+B. Genomics Technician
+C. Molecular Biology Technician
+D. Laboratory Technician
+E. Biomanufacturing Technician - Upstream
+
+#97
+Which career may require prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis?
+A. Molecular Biology Technician
+B. Genomics Technician
+C. Laboratory Technician
+D. Cell Culture Technician
+E. Quality Control Technician - Microbiology
+
+#98
+Which career measures instrument or software performance to determine whether tools perform as described?
+A. Instrumentation / Calibration Technician
+B. Quality Control Technician
+C. Validation Specialist
+D. Quality Assurance Specialist
+E. QA Documentation Coordinator
+
+#99
+Which career maintains clean-room supplies and orders needed laboratory items?
+A. Glass Washer
+B. Laboratory Technician
+C. Manufacturing Assistant
+D. Laboratory Assistant
+E. QA Documentation Coordinator
+
+#100
+Which career uses HACCP while inspecting food-handling organizations?
+A. Food Technologist
+B. Quality Control Technician
+C. Compliance Specialist
+D. Laboratory Safety Associate
+E. Food Sample Inspector
+
+#101
+Which career measures viable cell concentration before product harvest?
+A. Biomanufacturing Technician - Upstream
+B. Cell Culture Technician
+C. Biomanufacturing Technician - Downstream
+D. Quality Control Technician - Microbiology
+E. Laboratory Technician
+
+#102
+Which career coordinates clinical data quality and patient safety during study-site monitoring?
+A. Quality Assurance Specialist
+B. Clinical Research Associate
+C. Compliance Specialist
+D. Laboratory Technician
+E. QA Documentation Coordinator
+
+#103
+Which career can advance to manufacturing technician after a two-year degree?
+A. Laboratory Assistant
+B. Biomanufacturing Technician - Upstream
+C. Manufacturing Assistant
+D. Process Development Associate
+E. Facilities Technician
+
+#104
+Which career monitors and prevents microbial contaminants in biomanufacturing production systems?
+A. Quality Control Technician - Chemistry
+B. Water Quality Technician
+C. Environmental Science and Protection Technician
+D. Quality Control Technician - Microbiology
+E. Laboratory Safety Associate
+
+#105
+Which career writes protocols proving equipment, software, methods, or processes perform as intended?
+A. Instrumentation / Calibration Technician
+B. QA Documentation Coordinator
+C. Quality Assurance Specialist
+D. Quality Control Technician
+E. Validation Specialist
+
+#106
+Which career disposes of experiment liquids and chemicals as part of glassware handling?
+A. Glass Washer
+B. Laboratory Safety Associate
+C. Laboratory Assistant
+D. Environmental Health & Safety Technician
+E. Laboratory Technician
+
+#107
+Which career can often be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest?
+A. Cell Culture Technician
+B. Biomanufacturing Technician - Upstream
+C. Process Development Associate
+D. Manufacturing Assistant
+E. Quality Control Technician - Microbiology
+
+#108
+Which career may benefit from an ASQ Calibration Technician Certificate?
+A. Quality Control Technician
+B. Validation Specialist
+C. Instrumentation / Calibration Technician
+D. Quality Assurance Specialist
+E. Technical Services Representative
+
+#109
+Which career may reserve bachelor’s-level training for plant breeder or lead cultivator roles?
+A. Greenhouse or Field Technician
+B. Agricultural Technician
+C. Cell Culture Technician
+D. Plant Tissue Culture Technician
+E. Food Technologist
+
+#110
+Which career would recommend equipment changes after evaluating safety conditions with plant managers and engineers?
+A. Facilities Technician
+B. Instrumentation / Calibration Technician
+C. Validation Specialist
+D. Laboratory Safety Associate
+E. Environmental Health & Safety Technician
+
+#111
+Which career best matches ultrafiltration and diafiltration after a recombinant protein has been produced?
+A. Biomanufacturing Technician - Downstream
+B. Purification Technician
+C. Biomanufacturing Technician - Upstream
+D. Quality Control Technician - Chemistry
+E. Process Development Associate
+
+#112
+Which career prepares samples for analysis and presents data at lab meetings?
+A. Laboratory Assistant
+B. Laboratory Technician
+C. Molecular Biology Technician
+D. Genomics Technician
+E. Quality Assurance Specialist
+
+#113
+Which career performs preventive maintenance on biomanufacturing building systems?
+A. Instrumentation / Calibration Technician
+B. Manufacturing Assistant
+C. Facilities Technician
+D. Validation Specialist
+E. Environmental Health & Safety Technician
+
+#114
+Which career performs consistent repetitive production-support tasks under GMP?
+A. Laboratory Assistant
+B. Quality Control Technician
+C. Biomanufacturing Technician - Downstream
+D. Manufacturing Assistant
+E. Product Development Technician
+
+#115
+Which career is centered on laws, regulatory requirements, submissions, and CAPA?
+A. QA Documentation Coordinator
+B. Quality Assurance Specialist
+C. Validation Specialist
+D. Quality Control Technician
+E. Compliance Specialist
+
+#116
+Which career is most associated with inspections of food-handling organizations?
+A. Food Sample Inspector
+B. Food Technologist
+C. Quality Control Technician - Chemistry
+D. Agricultural Technician
+E. Environmental Health & Safety Technician
+
+#117
+Which career is narrower than downstream manufacturing and centered on protein purity?
+A. Biomanufacturing Technician - Downstream
+B. Purification Technician
+C. Quality Control Technician
+D. Molecular Biology Technician
+E. Process Development Associate
+
+#118
+Which career measures, weighs, samples, and takes temperatures of agricultural products during inspections?
+A. Agricultural Technician
+B. Food Technologist
+C. Food Sample Inspector
+D. Quality Control Technician
+E. Water Quality Technician
+
+#119
+Which career is an entry-level production role commonly requiring a GED or high school diploma?
+A. Laboratory Assistant
+B. Glass Washer
+C. Biomanufacturing Technician - Upstream
+D. Manufacturing Assistant
+E. Facilities Technician
+
+#120
+Which career tests raw materials and products against required quality levels?
+A. Quality Assurance Specialist
+B. QA Documentation Coordinator
+C. Compliance Specialist
+D. Validation Specialist
+E. Quality Control Technician
+
+#121
+Which career uses technical writing for compliance documents and regulation updates?
+A. Compliance Specialist
+B. QA Documentation Coordinator
+C. Validation Specialist
+D. Quality Assurance Specialist
+E. Technical Services Representative
+
+#122
+Which career manages systems and procedures that prevent manufacturing mistakes?
+A. Quality Control Technician
+B. Quality Assurance Specialist
+C. Compliance Specialist
+D. QA Documentation Coordinator
+E. Validation Specialist
+
+#123
+Which career is most associated with grain preparation, algae culture, oil chemistry, and separations technology?
+A. Agricultural Technician
+B. Food Technologist
+C. Biofuel Technician
+D. Process Development Associate
+E. Purification Technician
+
+#124
+Which career oversees HVAC, plumbing, refrigeration, water purification, and air filtering systems?
+A. Instrumentation / Calibration Technician
+B. Environmental Health & Safety Technician
+C. Manufacturing Assistant
+D. Facilities Technician
+E. Validation Specialist
+
+#125
+Which career is associated with plant/crop/botany or agriculture/agronomy training for whole-plant care?
+A. Plant Tissue Culture Technician
+B. Agricultural Technician
+C. Food Technologist
+D. Cell Culture Technician
+E. Greenhouse or Field Technician
+
+#126
+Which career oversees quality systems, records, equipment, storage areas, and step sign-offs?
+A. Quality Assurance Specialist
+B. Quality Control Technician
+C. QA Documentation Coordinator
+D. Compliance Specialist
+E. Validation Specialist
+
+#127
+Which career may require outdoor or roof work while supporting biomanufacturing operations?
+A. Environmental Health & Safety Technician
+B. Facilities Technician
+C. Instrumentation / Calibration Technician
+D. Greenhouse or Field Technician
+E. Water Quality Technician
+
+#128
+Which career may work with clone propagation and antibody-related techniques in a molecular lab?
+A. Genomics Technician
+B. Cell Culture Technician
+C. Molecular Biology Technician
+D. Laboratory Technician
+E. Quality Control Technician - Microbiology
+
+#129
+Which career provides customer support for scientific reagents, instruments, and product problems?
+A. Clinical Research Associate
+B. Quality Control Technician
+C. Instrumentation / Calibration Technician
+D. Technical Services Representative
+E. Product Development Technician
+
+#130
+Which career compares DNA/RNA sequence data?
+A. Molecular Biology Technician
+B. Laboratory Technician
+C. Cell Culture Technician
+D. Clinical Research Associate
+E. Genomics Technician
+
+#131
+Which career is most associated with pH, concentration, purity, and analytical chemistry in QC?
+A. Quality Control Technician - Chemistry
+B. Quality Control Technician - Microbiology
+C. Food Technologist
+D. Purification Technician
+E. Water Quality Technician
+
+#132
+Which career inspects raw-material and product storage areas and signs off manufacturing steps?
+A. Quality Control Technician
+B. Quality Assurance Specialist
+C. QA Documentation Coordinator
+D. Compliance Specialist
+E. Validation Specialist
+
+#133
+Which career shifts between field sample collection and lab testing for pollutants?
+A. Water Quality Technician
+B. Agricultural Technician
+C. Environmental Science and Protection Technician
+D. Environmental Health & Safety Technician
+E. Quality Control Technician - Microbiology
+
+#134
+Which career orders replacement laboratory glassware when needed?
+A. Laboratory Assistant
+B. Facilities Technician
+C. Laboratory Technician
+D. Glass Washer
+E. Manufacturing Assistant
+
+#135
+Which career would make sterile connections between a bioreactor, harvest tank, hold tank, and containers?
+A. Biomanufacturing Technician - Downstream
+B. Facilities Technician
+C. Instrumentation / Calibration Technician
+D. Cell Culture Technician
+E. Biomanufacturing Technician - Upstream
+
+#136
+Which career handles the stage where products are harvested, tested, purified, and packaged?
+A. Biomanufacturing Technician - Downstream
+B. Biomanufacturing Technician - Upstream
+C. Purification Technician
+D. Quality Control Technician
+E. Process Development Associate
+
+#137
+Which career documents scale-up work and manufacturing-development results?
+A. Validation Specialist
+B. Process Development Associate
+C. Product Development Technician
+D. Quality Assurance Specialist
+E. QA Documentation Coordinator
+
+#138
+Which career cares for genetically engineered whole plants in greenhouse or outdoor settings?
+A. Plant Tissue Culture Technician
+B. Agricultural Technician
+C. Greenhouse or Field Technician
+D. Food Technologist
+E. Environmental Science and Protection Technician
+
+#139
+Which career maintains cleaned glassware inventory?
+A. Laboratory Assistant
+B. Laboratory Technician
+C. Manufacturing Assistant
+D. Glass Washer
+E. Facilities Technician
+
+#140
+Which career may monitor FDA and Department of Agriculture compliance for agricultural materials?
+A. Food Sample Inspector
+B. Compliance Specialist
+C. Food Technologist
+D. Environmental Health & Safety Technician
+E. Agricultural Technician
+
+#141
+Which career monitors QC technicians and oversees their record keeping?
+A. Quality Assurance Specialist
+B. Quality Control Technician
+C. QA Documentation Coordinator
+D. Compliance Specialist
+E. Validation Specialist
+
+#142
+Which career tests recreational, potable, and wastewater for microbes and chemical contaminants?
+A. Environmental Science and Protection Technician
+B. Water Quality Technician
+C. Environmental Health & Safety Technician
+D. Quality Control Technician - Microbiology
+E. Food Sample Inspector
+
+#143
+Which career is the best match for the alternate title County Extension Agent?
+A. Greenhouse or Field Technician
+B. Food Technologist
+C. Agricultural Technician
+D. Environmental Science and Protection Technician
+E. Plant Tissue Culture Technician
+
+#144
+Which career executes qualification studies and analyzes results against predetermined criteria?
+A. Instrumentation / Calibration Technician
+B. Quality Control Technician
+C. QA Documentation Coordinator
+D. Validation Specialist
+E. Quality Assurance Specialist
+
+#145
+Which career maintains lab coats, face shields, chemical hazard kits, first aid supplies, and chemical inventories?
+A. Environmental Health & Safety Technician
+B. Laboratory Assistant
+C. Compliance Specialist
+D. Facilities Technician
+E. Laboratory Safety Associate
+
+#146
+Which career may require 50–75% travel for monitoring work?
+A. Clinical Research Associate
+B. Technical Services Representative
+C. Compliance Specialist
+D. Environmental Science and Protection Technician
+E. Validation Specialist
+
+#147
+Which career may require a scientific two-year degree plus process-development experience?
+A. Product Development Technician
+B. Process Development Associate
+C. Validation Specialist
+D. Purification Technician
+E. Biomanufacturing Technician - Downstream
+
+#148
+Which career determines whether water meets EPA standards?
+A. Environmental Science and Protection Technician
+B. Quality Control Technician - Microbiology
+C. Water Quality Technician
+D. Environmental Health & Safety Technician
+E. Laboratory Safety Associate
+
+#149
+Which career is associated with manufacturing operations and hazardous materials in a fuel-production setting?
+A. Manufacturing Assistant
+B. Biomanufacturing Technician - Upstream
+C. Facilities Technician
+D. Biofuel Technician
+E. Process Development Associate
+
+#150
+Which career may require a bachelor’s degree plus quality-system experience?
+A. Compliance Specialist
+B. QA Documentation Coordinator
+C. Validation Specialist
+D. Quality Control Technician
+E. Quality Assurance Specialist
+
+#151
+Which career examines safety and efficacy of new drugs in human patients?
+A. Clinical Research Associate
+B. Compliance Specialist
+C. Laboratory Technician
+D. Quality Assurance Specialist
+E. Technical Services Representative
+
+#152
+Which career is also called lab helper, lab aide, or equipment preparation technician?
+A. Glass Washer
+B. Laboratory Assistant
+C. Laboratory Technician
+D. Manufacturing Assistant
+E. Laboratory Safety Associate
+
+#153
+Which career is associated with associate training in electronics, instrumentation technology, or engineering technology?
+A. Validation Specialist
+B. Facilities Technician
+C. Instrumentation / Calibration Technician
+D. Technical Services Representative
+E. Quality Control Technician
+
+#154
+Which career may conduct GMP inspections and report SQF deviations in food manufacturing?
+A. Food Sample Inspector
+B. Quality Assurance Specialist
+C. Compliance Specialist
+D. Food Technologist
+E. Quality Control Technician
+
+#155
+Which career loads machines, checks materials, pouches, kits, and packages finished products?
+A. Laboratory Assistant
+B. Biomanufacturing Technician - Downstream
+C. Product Development Technician
+D. Facilities Technician
+E. Manufacturing Assistant
+
+#156
+Which career may use automation in high-throughput sequencing or process development?
+A. Process Development Associate
+B. Genomics Technician
+C. Product Development Technician
+D. Validation Specialist
+E. Technical Services Representative
+
+#157
+Which career keeps formal notebooks and traceability documents during general lab research?
+A. QA Documentation Coordinator
+B. Laboratory Technician
+C. Laboratory Assistant
+D. Molecular Biology Technician
+E. Quality Control Technician
+
+#158
+Which career prepares quality reports after monitoring QC work?
+A. Quality Control Technician
+B. QA Documentation Coordinator
+C. Quality Assurance Specialist
+D. Compliance Specialist
+E. Validation Specialist
+
+#159
+Which career is most associated with umbilical-cord tissue cultures and mammalian cell maintenance?
+A. Clinical Research Associate
+B. Plant Tissue Culture Technician
+C. Genomics Technician
+D. Cell Culture Technician
+E. Molecular Biology Technician
+
+#160
+Which career checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy?
+A. Validation Specialist
+B. Facilities Technician
+C. Quality Control Technician
+D. Laboratory Technician
+E. Instrumentation / Calibration Technician
+
+#161
+Which career may draw blood as a simple medical procedure while assisting scientists?
+A. Animal Technician
+B. Clinical Research Associate
+C. Laboratory Technician
+D. Agricultural Technician
+E. Cell Culture Technician
+
+#162
+Which career tests materials before, during, and after production against specifications?
+A. Quality Assurance Specialist
+B. Quality Control Technician
+C. QA Documentation Coordinator
+D. Compliance Specialist
+E. Validation Specialist
+
+#163
+Which career develops or validates chromatographic methods for protein purification?
+A. Biomanufacturing Technician - Downstream
+B. Quality Control Technician - Chemistry
+C. Purification Technician
+D. Molecular Biology Technician
+E. Process Development Associate
+
+#164
+Which career is focused on sample specifications and nonconforming results?
+A. Quality Assurance Specialist
+B. QA Documentation Coordinator
+C. Compliance Specialist
+D. Quality Control Technician
+E. Validation Specialist
+
+#165
+Which career best matches a two-year degree when the work involves fermenters, distillation systems, and biodiesel production?
+A. Biomanufacturing Technician - Upstream
+B. Process Development Associate
+C. Manufacturing Assistant
+D. Agricultural Technician
+E. Biofuel Technician
+
+#166
+Which career may prefer a four-year degree plus 1–2 years of experience, though targeted two-year training may help?
+A. Quality Control Technician - Microbiology
+B. Quality Control Technician - Chemistry
+C. Water Quality Technician
+D. Food Technologist
+E. Laboratory Technician
+
+#167
+Which career may require a Registered Environmental Health Specialist certificate in California?
+A. Environmental Science and Protection Technician
+B. Food Sample Inspector
+C. Food Technologist
+D. Environmental Health & Safety Technician
+E. Laboratory Safety Associate
+
+#168
+Which career installs and maintains equipment that samples air, water, and the workplace environment?
+A. Environmental Science and Protection Technician
+B. Water Quality Technician
+C. Environmental Health & Safety Technician
+D. Instrumentation / Calibration Technician
+E. Facilities Technician
+
+#169
+Which career prepares regulatory submissions and handles compliance documents?
+A. Quality Control Technician
+B. Clinical Research Associate
+C. QA Documentation Coordinator
+D. Compliance Specialist
+E. Validation Specialist
+
+#170
+Which career may work with booster stations, wells, valves, fire hydrants, and sampling taps?
+A. Facilities Technician
+B. Environmental Science and Protection Technician
+C. Environmental Health & Safety Technician
+D. Instrumentation / Calibration Technician
+E. Water Quality Technician
+
+#171
+Which career may demonstrate products for customers or help set up purchased equipment?
+A. Technical Services Representative
+B. Instrumentation / Calibration Technician
+C. Product Development Technician
+D. Clinical Research Associate
+E. Manufacturing Assistant
+
+#172
+Which career is associated with an Associate in Animal Science when the context is crop and animal sample protocols?
+A. Animal Technician
+B. Agricultural Technician
+C. Food Technologist
+D. Greenhouse or Field Technician
+E. Plant Tissue Culture Technician
+
+#173
+Which career may obtain certificates or two-year degrees in food safety?
+A. Food Technologist
+B. Quality Control Technician
+C. Food Sample Inspector
+D. Agricultural Technician
+E. Laboratory Safety Associate
+
+#174
+Which career likely requires a four-year degree or beyond for medical-product development work?
+A. Process Development Associate
+B. Manufacturing Assistant
+C. Technical Services Representative
+D. Product Development Technician
+E. Quality Assurance Specialist
+
+#175
+Which career may require an associate degree in biotechnology when the work involves maintaining mammalian cell lines?
+A. Molecular Biology Technician
+B. Biomanufacturing Technician - Upstream
+C. Genomics Technician
+D. Laboratory Technician
+E. Cell Culture Technician
+
+#176
+Which career calibrates mechanical and laboratory instruments throughout biomanufacturing facilities?
+A. Instrumentation / Calibration Technician
+B. Validation Specialist
+C. Facilities Technician
+D. Quality Control Technician
+E. Quality Assurance Specialist
+
+#177
+Which career is most associated with micropropagation, clones, and laminar flow hoods?
+A. Greenhouse or Field Technician
+B. Plant Tissue Culture Technician
+C. Cell Culture Technician
+D. Agricultural Technician
+E. Molecular Biology Technician
+
+#178
+Which career is associated with an associate degree in veterinary technology?
+A. Agricultural Technician
+B. Laboratory Technician
+C. Animal Technician
+D. Clinical Research Associate
+E. Laboratory Assistant
+
+#179
+Which career may require a scientific two-year degree plus biotech and validation experience?
+A. Instrumentation / Calibration Technician
+B. Compliance Specialist
+C. Quality Assurance Specialist
+D. Validation Specialist
+E. Process Development Associate
+
+#180
+Which career is specific to water systems and EPA water standards?
+A. Quality Control Technician - Microbiology
+B. Environmental Science and Protection Technician
+C. Environmental Health & Safety Technician
+D. Facilities Technician
+E. Water Quality Technician
+
+#181
+Which career tests food additives, food containers, and production formulas?
+A. Food Technologist
+B. Food Sample Inspector
+C. Quality Control Technician - Chemistry
+D. Agricultural Technician
+E. Quality Control Technician
+
+#182
+Which career monitors food production and food safety?
+A. Food Sample Inspector
+B. Food Technologist
+C. Quality Control Technician - Chemistry
+D. Agricultural Technician
+E. Compliance Specialist
+
+#183
+Which career grows production cultures under controlled conditions before harvest?
+A. Biomanufacturing Technician - Downstream
+B. Cell Culture Technician
+C. Biomanufacturing Technician - Upstream
+D. Biofuel Technician
+E. Manufacturing Assistant
+
+#184
+Which career may require a four-year degree in biochemistry or a related field for protein-purification work?
+A. Quality Control Technician
+B. Process Development Associate
+C. Quality Control Technician - Chemistry
+D. Purification Technician
+E. Molecular Biology Technician
+
+#185
+Which career prevents contamination and disease transmission during plant cloning in the lab?
+A. Greenhouse or Field Technician
+B. Quality Control Technician - Microbiology
+C. Agricultural Technician
+D. Laboratory Safety Associate
+E. Plant Tissue Culture Technician
+
+#186
+Which career performs daily bench work testing raw materials, packaging materials, and finished products chemically?
+A. Quality Control Technician - Chemistry
+B. Quality Control Technician - Microbiology
+C. Quality Control Technician
+D. Food Technologist
+E. Purification Technician
+
+#187
+Which career may test buildings for radon in states that require licensing?
+A. Environmental Health & Safety Technician
+B. Environmental Science and Protection Technician
+C. Facilities Technician
+D. Water Quality Technician
+E. Laboratory Safety Associate
+
+#188
+Which career is associated with coronary artery stents, orthopedic devices, dental products, and surgical products?
+A. Process Development Associate
+B. Clinical Research Associate
+C. Product Development Technician
+D. Manufacturing Assistant
+E. Validation Specialist
+
+#189
+Which career maintains electrical systems, utilities, HVAC, plumbing, and water purification systems?
+A. Instrumentation / Calibration Technician
+B. Environmental Health & Safety Technician
+C. Manufacturing Assistant
+D. Facilities Technician
+E. Validation Specialist
+
+#190
+Which career evaluates raw materials, supplies, and finished packaged products for microbiology quality?
+A. Quality Control Technician - Chemistry
+B. Quality Control Technician
+C. Water Quality Technician
+D. Food Technologist
+E. Quality Control Technician - Microbiology
+
+#191
+Which career can sometimes start with high school plus 1–3 years of animal-related experience?
+A. Animal Technician
+B. Laboratory Assistant
+C. Greenhouse or Field Technician
+D. Manufacturing Assistant
+E. Glass Washer
+
+#192
+Which career may start as entry-level biotechnology work while the worker pursues further education and focuses on glassware?
+A. Laboratory Assistant
+B. Glass Washer
+C. Manufacturing Assistant
+D. Laboratory Technician
+E. Facilities Technician
+
+#193
+Which career commonly requires a bachelor’s degree for clinical-trial monitoring work?
+A. Compliance Specialist
+B. Quality Assurance Specialist
+C. Clinical Research Associate
+D. Laboratory Technician
+E. Technical Services Representative
+
+#194
+Which career sterilizes glassware with an autoclave or high-temperature washer?
+A. Laboratory Assistant
+B. Quality Control Technician - Microbiology
+C. Laboratory Technician
+D. Glass Washer
+E. Manufacturing Assistant
+
+#195
+Which career uses cGMP knowledge while maintaining controlled quality documents?
+A. Quality Assurance Specialist
+B. Compliance Specialist
+C. Validation Specialist
+D. Manufacturing Assistant
+E. QA Documentation Coordinator
+
+#196
+Which career is focused on controlled documents, SOPs, batch records, and archives?
+A. QA Documentation Coordinator
+B. Quality Assurance Specialist
+C. Compliance Specialist
+D. Validation Specialist
+E. Quality Control Technician
+
+#197
+Which career may review informed consent forms and case report forms?
+A. Compliance Specialist
+B. Clinical Research Associate
+C. QA Documentation Coordinator
+D. Quality Assurance Specialist
+E. Technical Services Representative
+
+#198
+Which career most directly communicates with upstream staff after cells have produced the target material?
+A. Process Development Associate
+B. Manufacturing Assistant
+C. Biomanufacturing Technician - Downstream
+D. Quality Assurance Specialist
+E. Purification Technician
+
+#199
+Which career may work for state or local governments, testing laboratories, or consulting firms?
+A. Environmental Health & Safety Technician
+B. Water Quality Technician
+C. Facilities Technician
+D. Environmental Science and Protection Technician
+E. Food Sample Inspector
+
+#200
+Which career performs experiments and procedures as part of research projects?
+A. Laboratory Assistant
+B. Molecular Biology Technician
+C. Genomics Technician
+D. Quality Control Technician
+E. Laboratory Technician
+
+#201
+Which career is most closely associated with CAPA when the context is regulatory deviations and submissions?
+A. Compliance Specialist
+B. Quality Control Technician
+C. Quality Assurance Specialist
+D. QA Documentation Coordinator
+E. Validation Specialist
+
+#202
+Which career may specialize in carbon management and sequestration within an agricultural setting?
+A. Environmental Science and Protection Technician
+B. Agricultural Technician
+C. Greenhouse or Field Technician
+D. Biofuel Technician
+E. Process Development Associate
+
+#203
+Which career investigates workplace incidents involving chemical, biological, or physical hazards?
+A. Environmental Science and Protection Technician
+B. Laboratory Safety Associate
+C. Environmental Health & Safety Technician
+D. Compliance Specialist
+E. Facilities Technician
+
+#204
+Which career is tied to aquaculture and biofuels through fuel-production work?
+A. Animal Technician
+B. Water Quality Technician
+C. Purification Technician
+D. Biofuel Technician
+E. Clinical Research Associate
+
+ANSWER KEY
+
+1. A — Environmental Science and Protection Technician
+2. B — Quality Control Technician
+3. C — Cell Culture Technician
+4. D — Environmental Science and Protection Technician
+5. E — Process Development Associate
+6. A — Product Development Technician
+7. B — Genomics Technician
+8. C — Facilities Technician
+9. D — Purification Technician
+10. E — Laboratory Technician
+11. A — Laboratory Safety Associate
+12. B — Molecular Biology Technician
+13. C — Biomanufacturing Technician - Downstream
+14. D — Water Quality Technician
+15. E — Genomics Technician
+16. A — Agricultural Technician
+17. B — Laboratory Technician
+18. C — Biomanufacturing Technician - Upstream
+19. D — Molecular Biology Technician
+20. E — Environmental Health & Safety Technician
+21. A — Product Development Technician
+22. B — Glass Washer
+23. C — Environmental Health & Safety Technician
+24. D — Quality Control Technician - Microbiology
+25. E — Animal Technician
+26. A — Technical Services Representative
+27. B — Quality Control Technician
+28. C — Plant Tissue Culture Technician
+29. D — Environmental Health & Safety Technician
+30. E — Validation Specialist
+31. A — Process Development Associate
+32. B — Greenhouse or Field Technician
+33. C — Animal Technician
+34. D — Laboratory Safety Associate
+35. E — Food Sample Inspector
+36. A — QA Documentation Coordinator
+37. B — Plant Tissue Culture Technician
+38. C — Laboratory Safety Associate
+39. D — Greenhouse or Field Technician
+40. E — Food Technologist
+41. A — QA Documentation Coordinator
+42. B — Compliance Specialist
+43. C — Laboratory Assistant
+44. D — Compliance Specialist
+45. E — Environmental Science and Protection Technician
+46. A — Clinical Research Associate
+47. B — Quality Control Technician - Chemistry
+48. C — Quality Control Technician - Chemistry
+49. D — Process Development Associate
+50. E — Greenhouse or Field Technician
+51. A — Laboratory Assistant
+52. B — Laboratory Technician
+53. C — Quality Control Technician
+54. D — Cell Culture Technician
+55. E — Water Quality Technician
+56. A — Purification Technician
+57. B — Instrumentation / Calibration Technician
+58. C — Quality Control Technician - Chemistry
+59. D — Technical Services Representative
+60. E — Manufacturing Assistant
+61. A — Product Development Technician
+62. B — Validation Specialist
+63. C — Agricultural Technician
+64. D — Instrumentation / Calibration Technician
+65. E — Manufacturing Assistant
+66. A — Laboratory Safety Associate
+67. B — Purification Technician
+68. C — Cell Culture Technician
+69. D — Laboratory Assistant
+70. E — Food Technologist
+71. A — Product Development Technician
+72. B — QA Documentation Coordinator
+73. C — Molecular Biology Technician
+74. D — Molecular Biology Technician
+75. E — Biomanufacturing Technician - Downstream
+76. A — Quality Control Technician - Microbiology
+77. B — Quality Control Technician - Microbiology
+78. C — Animal Technician
+79. D — Laboratory Safety Associate
+80. E — Food Technologist
+81. A — Technical Services Representative
+82. B — Technical Services Representative
+83. C — Quality Control Technician - Chemistry
+84. D — Biomanufacturing Technician - Upstream
+85. E — Biomanufacturing Technician - Downstream
+86. A — Biofuel Technician
+87. B — Laboratory Assistant
+88. C — Greenhouse or Field Technician
+89. D — Facilities Technician
+90. E — Plant Tissue Culture Technician
+91. A — Genomics Technician
+92. B — QA Documentation Coordinator
+93. C — Molecular Biology Technician
+94. D — Genomics Technician
+95. E — Biofuel Technician
+96. A — Cell Culture Technician
+97. B — Genomics Technician
+98. C — Validation Specialist
+99. D — Laboratory Assistant
+100. E — Food Sample Inspector
+101. A — Biomanufacturing Technician - Upstream
+102. B — Clinical Research Associate
+103. C — Manufacturing Assistant
+104. D — Quality Control Technician - Microbiology
+105. E — Validation Specialist
+106. A — Glass Washer
+107. B — Biomanufacturing Technician - Upstream
+108. C — Instrumentation / Calibration Technician
+109. D — Plant Tissue Culture Technician
+110. E — Environmental Health & Safety Technician
+111. A — Biomanufacturing Technician - Downstream
+112. B — Laboratory Technician
+113. C — Facilities Technician
+114. D — Manufacturing Assistant
+115. E — Compliance Specialist
+116. A — Food Sample Inspector
+117. B — Purification Technician
+118. C — Food Sample Inspector
+119. D — Manufacturing Assistant
+120. E — Quality Control Technician
+121. A — Compliance Specialist
+122. B — Quality Assurance Specialist
+123. C — Biofuel Technician
+124. D — Facilities Technician
+125. E — Greenhouse or Field Technician
+126. A — Quality Assurance Specialist
+127. B — Facilities Technician
+128. C — Molecular Biology Technician
+129. D — Technical Services Representative
+130. E — Genomics Technician
+131. A — Quality Control Technician - Chemistry
+132. B — Quality Assurance Specialist
+133. C — Environmental Science and Protection Technician
+134. D — Glass Washer
+135. E — Biomanufacturing Technician - Upstream
+136. A — Biomanufacturing Technician - Downstream
+137. B — Process Development Associate
+138. C — Greenhouse or Field Technician
+139. D — Glass Washer
+140. E — Agricultural Technician
+141. A — Quality Assurance Specialist
+142. B — Water Quality Technician
+143. C — Agricultural Technician
+144. D — Validation Specialist
+145. E — Laboratory Safety Associate
+146. A — Clinical Research Associate
+147. B — Process Development Associate
+148. C — Water Quality Technician
+149. D — Biofuel Technician
+150. E — Quality Assurance Specialist
+151. A — Clinical Research Associate
+152. B — Laboratory Assistant
+153. C — Instrumentation / Calibration Technician
+154. D — Food Technologist
+155. E — Manufacturing Assistant
+156. A — Process Development Associate
+157. B — Laboratory Technician
+158. C — Quality Assurance Specialist
+159. D — Cell Culture Technician
+160. E — Instrumentation / Calibration Technician
+161. A — Animal Technician
+162. B — Quality Control Technician
+163. C — Purification Technician
+164. D — Quality Control Technician
+165. E — Biofuel Technician
+166. A — Quality Control Technician - Microbiology
+167. B — Food Sample Inspector
+168. C — Environmental Health & Safety Technician
+169. D — Compliance Specialist
+170. E — Water Quality Technician
+171. A — Technical Services Representative
+172. B — Agricultural Technician
+173. C — Food Sample Inspector
+174. D — Product Development Technician
+175. E — Cell Culture Technician
+176. A — Instrumentation / Calibration Technician
+177. B — Plant Tissue Culture Technician
+178. C — Animal Technician
+179. D — Validation Specialist
+180. E — Water Quality Technician
+181. A — Food Technologist
+182. B — Food Technologist
+183. C — Biomanufacturing Technician - Upstream
+184. D — Purification Technician
+185. E — Plant Tissue Culture Technician
+186. A — Quality Control Technician - Chemistry
+187. B — Environmental Science and Protection Technician
+188. C — Product Development Technician
+189. D — Facilities Technician
+190. E — Quality Control Technician - Microbiology
+191. A — Animal Technician
+192. B — Glass Washer
+193. C — Clinical Research Associate
+194. D — Glass Washer
+195. E — QA Documentation Coordinator
+196. A — QA Documentation Coordinator
+197. B — Clinical Research Associate
+198. C — Biomanufacturing Technician - Downstream
+199. D — Environmental Science and Protection Technician
+200. E — Laboratory Technician
+201. A — Compliance Specialist
+202. B — Agricultural Technician
+203. C — Environmental Health & Safety Technician
+204. D — Biofuel Technician
+
+AUDIT
+
+Re-audit 1 — Structural cleanup: passed. All self-referential answer choices from V4 were removed; all stems now ask for a career answer.
+Re-audit 2 — Stem realism: passed. Removed contrast-language giveaways, clue-label stems, responsibility-label stems, education-label stems, and self-answer wording.
+Re-audit 3 — Answer/key integrity: passed. All questions have five unique answer choices; answer letters remain balanced; each of the 34 careers appears exactly six times in the answer key.
+Answer distribution: A=41, B=41, C=41, D=41, E=40
+Career coverage:
+- Agricultural Technician: 6 questions
+- Animal Technician: 6 questions
+- Biofuel Technician: 6 questions
+- Biomanufacturing Technician - Downstream: 6 questions
+- Biomanufacturing Technician - Upstream: 6 questions
+- Cell Culture Technician: 6 questions
+- Clinical Research Associate: 6 questions
+- Compliance Specialist: 6 questions
+- Environmental Health & Safety Technician: 6 questions
+- Environmental Science and Protection Technician: 6 questions
+- Facilities Technician: 6 questions
+- Food Sample Inspector: 6 questions
+- Food Technologist: 6 questions
+- Genomics Technician: 6 questions
+- Glass Washer: 6 questions
+- Greenhouse or Field Technician: 6 questions
+- Instrumentation / Calibration Technician: 6 questions
+- Laboratory Assistant: 6 questions
+- Laboratory Safety Associate: 6 questions
+- Laboratory Technician: 6 questions
+- Manufacturing Assistant: 6 questions
+- Molecular Biology Technician: 6 questions
+- Plant Tissue Culture Technician: 6 questions
+- Process Development Associate: 6 questions
+- Product Development Technician: 6 questions
+- Purification Technician: 6 questions
+- QA Documentation Coordinator: 6 questions
+- Quality Assurance Specialist: 6 questions
+- Quality Control Technician: 6 questions
+- Quality Control Technician - Chemistry: 6 questions
+- Quality Control Technician - Microbiology: 6 questions
+- Technical Services Representative: 6 questions
+- Validation Specialist: 6 questions
+- Water Quality Technician: 6 questions

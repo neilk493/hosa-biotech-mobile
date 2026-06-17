@@ -1,0 +1,1218 @@
+101–250 Second-Edition Update Questions
+CRISPR-Cas9
+
+101. In the commonly taught CRISPR-Cas9 system, which feature is searched for by Cas9 before the guide RNA fully checks sequence complementarity?
+A. Origin of replication
+B. PAM sequence
+C. Shine-Dalgarno sequence
+D. Poly-A signal
+E. Start codon
+Correct answer: B
+
+102. A CRISPR edit produces a few bases inserted or deleted at the target site, disrupting the reading frame. Which repair pathway most likely produced this outcome?
+A. Homology-directed repair
+B. Base excision repair
+C. Non-homologous end joining
+D. Mismatch repair
+E. Nucleotide excision repair
+Correct answer: C
+
+103. Which statement best explains why a CRISPR spacer can guide defense against a phage?
+A. It encodes a viral capsid protein.
+B. It is copied into RNA that can base-pair with matching invading DNA.
+C. It methylates bacterial ribosomal RNA.
+D. It prevents plasmids from replicating.
+E. It translates into a DNA polymerase subunit.
+Correct answer: B
+
+104. In a Type II CRISPR-Cas9 system, which component supplies the DNA-cutting enzymatic activity?
+A. Cas9
+B. tracrRNA
+C. Spacer DNA
+D. PAM
+E. Donor template
+Correct answer: A
+
+105. A donor DNA template is included in a CRISPR experiment to insert a precise sequence at the cut site. Which outcome is being attempted?
+A. Restriction mapping
+B. Homology-directed editing
+C. Transduction
+D. TA cloning
+E. Digital quantification
+Correct answer: B
+
+106. Which sequence is found in the target DNA, not in the guide RNA, but is required for common SpCas9 targeting?
+A. PAM
+B. Spacer
+C. Scaffold RNA
+D. tracrRNA loop
+E. Donor homology arm
+Correct answer: A
+
+107. A guide RNA matches a genomic site perfectly, but the site lacks the proper PAM. What is the most likely result?
+A. Cas9 cutting is strongly reduced or absent.
+B. Cas9 cuts more efficiently than usual.
+C. The guide RNA becomes a primer for PCR.
+D. HDR occurs without a break.
+E. The target is copied into a plasmid.
+Correct answer: A
+
+108. Which CRISPR-associated name is most directly linked to identifying the CRISPR acronym and nearby cas genes?
+A. Ruud Jansen
+B. Alexander Fleming
+C. Frederick Griffith
+D. Paul Hebert
+E. Hamilton Smith
+Correct answer: A
+
+109. Which statement best distinguishes a CRISPR spacer from a protospacer?
+A. A spacer is in the CRISPR array; a protospacer is the matching sequence in invading DNA.
+B. A spacer is a protein domain; a protospacer is a ribosome-binding site.
+C. A spacer is a PAM; a protospacer is a Cas gene.
+D. A spacer is a PCR primer; a protospacer is a dNTP.
+E. A spacer is a donor template; a protospacer is a ligase site.
+Correct answer: A
+
+110. In the natural CRISPR immune process, acquisition of a new spacer most directly represents:
+A. storage of information from an invading genetic element.
+B. insertion of an antibiotic resistance cassette.
+C. repair of a double-strand break by HDR.
+D. translation of Cas9 into a guide RNA.
+E. ligation of PCR products into a vector.
+Correct answer: A
+
+111. A CRISPR-Cas9 cut is followed by repair that restores the original sequence perfectly. What would be the likely effect on gene function?
+A. Gene function would necessarily be destroyed.
+B. Gene function may remain unchanged.
+C. The gene would become a plasmid.
+D. The gene would be converted to RNA.
+E. The cell would become Gram-negative.
+Correct answer: B
+
+112. Which feature makes CRISPR-Cas9 more easily retargeted than a traditional restriction enzyme?
+A. The Cas9 protein is redesigned for every target.
+B. A new guide RNA sequence can be designed for a different DNA target.
+C. The PAM is removed from all chromosomes.
+D. Restriction enzymes require antibodies.
+E. Cas9 uses ddNTPs instead of dNTPs.
+Correct answer: B
+
+113. The HNH and RuvC nuclease domains of Cas9 are most directly involved in:
+A. cutting the two DNA strands.
+B. adding adapters to sequencing libraries.
+C. producing ATP from pyrophosphate.
+D. sorting T cells by fluorescence.
+E. adding A overhangs to PCR products.
+Correct answer: A
+
+114. A CRISPR experiment uses a Cas9 variant that binds DNA but does not cut it. Which term best describes this type of tool?
+A. dCas9
+B. ddPCR
+C. Bst polymerase
+D. Taq ligase
+E. EcoRI
+Correct answer: A
+
+115. Which use would best fit a catalytically inactive Cas9 fused to a transcriptional repressor?
+A. Cutting DNA to make indels
+B. Silencing gene expression without changing the DNA sequence
+C. Adding 3′ A tails to PCR products
+D. Separating proteins by size
+E. Detecting pyrophosphate release
+Correct answer: B
+
+116. A researcher wants to increase the chance of HDR after CRISPR cutting. Which addition is most directly needed?
+A. Safranin
+B. Donor repair template
+C. Gram’s iodine
+D. Bradford reagent
+E. Agarose ladder
+Correct answer: B
+
+117. Which statement about CRISPR off-target effects is most accurate?
+A. They occur when Cas9 cuts sequences similar to the intended target.
+B. They occur when Sanger ddNTPs stop DNA synthesis.
+C. They are caused by a missing flow cell adapter.
+D. They are required for accurate HDR.
+E. They only happen in Gram-negative bacteria.
+Correct answer: A
+
+118. In CRISPR guide design, why is the seed region near the PAM often important?
+A. Mismatches there can strongly affect target recognition.
+B. It encodes the β-lactamase enzyme.
+C. It is where DNA ligase binds adapters.
+D. It forms the cap of an mRNA.
+E. It determines agarose gel percentage.
+Correct answer: A
+
+119. Which organism is most closely tied to the 2007 demonstration that CRISPR spacers could provide phage resistance in a dairy bacterium?
+A. Streptococcus thermophilus
+B. Staphylococcus aureus
+C. Thermus aquaticus
+D. Aequorea victoria
+E. Bacillus anthracis
+Correct answer: A
+
+120. A CRISPR question asks for the pair most linked to programmable “genetic scissors” and the 2020 Chemistry Nobel Prize. Which pair is best?
+A. Doudna and Charpentier
+B. Mullis and Venter
+C. Griffith and Avery
+D. Sanger and Hebert
+E. Koch and Pasteur
+Correct answer: A
+
+121. Which description best matches Francisco Mojica’s CRISPR significance?
+A. He first used PCR to amplify DNA in a thermal cycler.
+B. He connected unusual prokaryotic repeats/spacers with a possible immune function.
+C. He created the first CAR T-cell therapy.
+D. He invented ddNTP chain termination sequencing.
+E. He developed Bio-Rad’s pGLO plasmid.
+Correct answer: B
+
+122. In an E. coli lacZ CRISPR activity, why might PCR be used after editing?
+A. To confirm whether the genomic target region was changed.
+B. To stain proteins with Coomassie dye.
+C. To measure antibody concentration.
+D. To remove the PAM from all cells.
+E. To grow cells on selective medium.
+Correct answer: A
+
+123. If a guide RNA targets the coding region of a gene and NHEJ creates a one-base deletion, which outcome is most likely?
+A. Silent repair with no sequence change
+B. Frameshift mutation
+C. Perfect homologous recombination
+D. Formation of a TOPO vector
+E. Conversion of DNA into RNA
+Correct answer: B
+
+124. Which term best describes the region of donor DNA matching sequences on both sides of a CRISPR cut site?
+A. Homology arm
+B. Antibody epitope
+C. Flow cell adapter
+D. T overhang
+E. Restriction palindrome
+Correct answer: A
+
+125. Which statement best explains why CRISPR is considered programmable?
+A. The guide RNA sequence can be changed to target different DNA sequences.
+B. The same PAM sequence edits every gene equally.
+C. Cas9 automatically finds mutated genes without a guide.
+D. NHEJ copies donor templates precisely.
+E. Restriction enzymes are removed from the genome.
+Correct answer: A
+
+Golden Gate, Gibson, TOPO/TA, and cloning method traps
+
+126. A plasmid assembly strategy is designed so the restriction enzyme recognition sequences are removed from the final construct after ligation. Which method best fits this design?
+A. Golden Gate Assembly
+B. Sanger sequencing
+C. Digital PCR
+D. ELISA
+E. Gram staining
+Correct answer: A
+
+127. In Golden Gate Assembly, why can multiple fragments assemble in a defined order?
+A. Each fragment has designed overhangs that match only the intended neighboring fragment.
+B. Every fragment has the same blunt end.
+C. Polymerase reads each base by fluorescence.
+D. Topoisomerase adds A overhangs to the inserts.
+E. Cas9 cuts each fragment beside a PAM.
+Correct answer: A
+
+128. A student says Golden Gate is just the same as EcoRI sticky-end cloning. What is the best correction?
+A. Golden Gate uses Type IIS enzymes that cut outside their recognition sites, allowing designed overhangs.
+B. Golden Gate uses ddNTPs to terminate DNA synthesis.
+C. Golden Gate depends on antibody binding.
+D. Golden Gate requires no DNA ligase.
+E. Golden Gate is a protein quantitation method.
+Correct answer: A
+
+129. In Golden Gate cloning, “domesticating” a DNA part usually means:
+A. removing internal Type IIS sites that would interfere with assembly.
+B. adding Gram’s iodine to stabilize DNA.
+C. converting RNA into cDNA.
+D. selecting cells with methicillin.
+E. removing all GC base pairs.
+Correct answer: A
+
+130. Which situation would most strongly favor Gibson Assembly over TOPO TA cloning?
+A. Rapid cloning of a single Taq PCR product without caring about orientation
+B. Assembly of several fragments with designed sequence overlaps
+C. Counting rare mutant alleles in droplets
+D. Amplifying DNA at 65°C using loop primers
+E. Detecting pH changes during sequencing
+Correct answer: B
+
+131. In Gibson Assembly, which enzyme activity acts first to expose single-stranded complementary regions?
+A. 5′ exonuclease activity
+B. Reverse transcriptase activity
+C. Restriction endonuclease activity
+D. Cas nuclease activity
+E. Topoisomerase relaxation activity
+Correct answer: A
+
+132. After DNA fragments anneal through their overlapping ends in Gibson Assembly, which activity fills in missing bases?
+A. DNA polymerase
+B. RNase H
+C. Gram’s iodine
+D. DNA helicase only
+E. Protease
+Correct answer: A
+
+133. In Gibson Assembly, DNA ligase is needed because:
+A. the annealed fragments still contain nicks in the sugar-phosphate backbone.
+B. the fragments need to become fluorescent.
+C. topoisomerase must be removed from the vector.
+D. PCR primers must be degraded.
+E. Cas9 must bind the PAM.
+Correct answer: A
+
+134. Why does Gibson Assembly usually require primer/design planning before the reaction?
+A. The fragments must contain overlapping sequences that define how they join.
+B. The reaction requires 3′ T overhangs on every insert.
+C. The method only works if the product contains lacZ.
+D. The DNA must be methylated at every restriction site.
+E. The method requires Sanger ddNTPs in every fragment.
+Correct answer: A
+
+135. Which cloning method is most directly associated with the 2010 synthetic-genome/artificial-cell work at the J. Craig Venter Institute?
+A. Gibson Assembly
+B. Ouchterlony diffusion
+C. Ion semiconductor sequencing
+D. Bradford assay
+E. ELISA
+Correct answer: A
+
+136. The synthetic-cell project did not simply assemble a 1.08 Mb genome in one small ligation step. What made the assembly feasible?
+A. Hierarchical assembly of overlapping DNA fragments, including yeast-based assembly
+B. Gram staining of every cassette
+C. Direct translation of DNA into proteins
+D. ddNTP termination of the complete chromosome
+E. ELISA detection of every gene
+Correct answer: A
+
+137. In TOPO TA cloning, why is Taq polymerase commonly preferred over Pfu polymerase for generating the insert?
+A. Taq often leaves 3′ A overhangs, while Pfu tends to produce blunt-ended products.
+B. Taq contains topoisomerase, while Pfu does not.
+C. Taq cuts Type IIS recognition sites.
+D. Taq removes all primer dimers after PCR.
+E. Taq performs ligation inside the vector.
+Correct answer: A
+
+138. A PCR product made with a proofreading polymerase must be used in a TA vector. Which extra step may be needed?
+A. A-tailing the PCR product
+B. Adding a PAM to Cas9
+C. Removing the origin of replication
+D. Staining with safranin
+E. Sorting by FACS
+Correct answer: A
+
+139. Which description best fits the vector in a standard TOPO TA reaction?
+A. Linearized vector with T overhangs and covalently attached topoisomerase
+B. Circular vector with no selectable marker
+C. Chromosomal DNA from M. mycoides
+D. Flow cell coated with sequencing primers
+E. Protein gel containing SDS
+Correct answer: A
+
+140. What is the main practical advantage of TOPO TA cloning for PCR products?
+A. It allows rapid insertion into a vector without separate restriction digestion and ligase setup.
+B. It sequences millions of fragments in parallel.
+C. It edits the chromosome at a guide RNA target.
+D. It quantifies DNA by Poisson statistics.
+E. It stains Gram-positive cells purple.
+Correct answer: A
+
+141. Why is standard TOPO TA cloning often followed by colony screening?
+A. The insert may enter in either orientation or colonies may lack the desired insert.
+B. Topoisomerase always mutates the insert sequence.
+C. The method cannot transform bacteria.
+D. The vector cannot carry antibiotic resistance.
+E. All inserts are degraded by Taq.
+Correct answer: A
+
+142. Which feature distinguishes blunt-end TOPO cloning from TOPO TA cloning?
+A. It accepts blunt PCR products rather than relying on A/T overhang complementarity.
+B. It requires mitochondrial COI sequences.
+C. It uses Cas9 instead of topoisomerase.
+D. It detects hydrogen ions during nucleotide incorporation.
+E. It separates proteins under native conditions.
+Correct answer: A
+
+143. Which statement best explains why TOPO cloning can work without added DNA ligase?
+A. Topoisomerase forms an activated covalent DNA intermediate that can reseal DNA ends.
+B. Taq polymerase ligates all vector ends after PCR.
+C. A-overhangs automatically form phosphodiester bonds without enzymes.
+D. The plasmid replicates before it is closed.
+E. The bacterial ribosome seals nicks after transformation.
+Correct answer: A
+
+144. Which cloning method is most dependent on 3′ A overhangs on the insert?
+A. TOPO TA cloning
+B. Gibson Assembly
+C. Golden Gate Assembly
+D. CRISPR HDR
+E. Bridge PCR
+Correct answer: A
+
+145. Which method would best build a scarless multi-part construct from standardized DNA parts using Type IIS sites?
+A. Golden Gate Assembly
+B. TOPO TA cloning
+C. Digital PCR
+D. LAMP
+E. Sanger sequencing
+Correct answer: A
+
+Digital PCR, ddPCR, and quantification traps
+
+146. A digital PCR assay has 20,000 partitions, but positive partitions are not individually counted as single molecules. Why?
+A. A positive partition can contain one or more target molecules.
+B. A positive partition always contains exactly zero targets.
+C. Digital PCR detects protein mass rather than DNA copies.
+D. PCR cannot occur in small volumes.
+E. Fluorescence is measured only during annealing.
+Correct answer: A
+
+147. If the fraction of negative digital PCR partitions is used to estimate target concentration, which mathematical idea is being applied?
+A. Poisson distribution
+B. Hardy-Weinberg equilibrium
+C. Henderson-Hasselbalch equation
+D. Beer-Lambert law
+E. Michaelis-Menten kinetics
+Correct answer: A
+
+148. In digital PCR, a sample with too few target molecules would most likely produce:
+A. mostly negative partitions.
+B. mostly double-positive partitions.
+C. no partitions at all.
+D. a gel ladder.
+E. a precipitin line.
+Correct answer: A
+
+149. Which scenario best justifies using digital PCR instead of endpoint gel PCR?
+A. Determining an absolute low-copy target concentration
+B. Checking whether a protein is denatured by SDS
+C. Identifying Gram-positive morphology
+D. Growing cells in selective broth
+E. Measuring pH of an agar plate
+Correct answer: A
+
+150. Which dPCR result would reduce confidence because the assay is saturated?
+A. Nearly all partitions are positive.
+B. A moderate mix of positive and negative partitions is observed.
+C. Many partitions are negative but some are positive.
+D. No template control is negative.
+E. The sample is diluted before partitioning.
+Correct answer: A
+
+151. A no-template control in digital PCR shows positive partitions. What is the main concern?
+A. Contamination
+B. Low primer melting temperature only
+C. High DNA purity
+D. Correct Poisson loading
+E. Proper droplet generation
+Correct answer: A
+
+152. Which statement best explains why digital PCR can detect rare alleles in a wild-type background?
+A. Partitioning separates molecules into many individual reactions, making rare positives easier to distinguish.
+B. It converts every wild-type allele into mutant DNA.
+C. It uses antibodies to remove wild-type DNA.
+D. It relies on Gram’s iodine to stabilize rare alleles.
+E. It permanently terminates wild-type strands with ddNTPs.
+Correct answer: A
+
+153. Which result best supports the presence of PCR inhibitors in a digital PCR assay?
+A. Poor amplification even when target molecules are expected in partitions
+B. Perfect separation of positive and negative droplets
+C. A correct no-template negative result
+D. Increased adapter ligation efficiency
+E. Strong protein staining by Coomassie
+Correct answer: A
+
+154. In multiplex ddPCR, how can two different DNA targets be distinguished in the same reaction?
+A. Different fluorescent probes can mark different targets.
+B. Each droplet is Gram-stained separately.
+C. One target is sequenced by ligation, and the other by pyrosequencing.
+D. Taq polymerase adds different amino acids to each product.
+E. Each target must be in a separate organism.
+Correct answer: A
+
+155. Why is a standard curve often less central in digital PCR than in qPCR?
+A. dPCR estimates copy number from partition counts rather than Cq comparison to standards.
+B. dPCR does not use primers.
+C. qPCR cannot produce fluorescence.
+D. dPCR measures protein concentration directly.
+E. qPCR cannot quantify DNA.
+Correct answer: A
+
+156. Which statement best distinguishes endpoint PCR, qPCR, and dPCR?
+A. Endpoint PCR shows final product presence/size; qPCR tracks amplification curves; dPCR counts positive partitions.
+B. Endpoint PCR uses antibodies; qPCR uses agarose; dPCR uses Gram stain.
+C. Endpoint PCR is quantitative by default; qPCR is qualitative; dPCR is sequencing.
+D. Endpoint PCR requires no primers; qPCR uses no polymerase; dPCR uses no template.
+E. All three are identical except for dye color.
+Correct answer: A
+
+157. A droplet digital PCR assay is described as having nanoliter droplets. Which role do those droplets play?
+A. Independent PCR microreactions
+B. Antibody-coated ELISA wells
+C. Sequencing-by-ligation probes
+D. Agarose gel lanes
+E. Gram stain mordants
+Correct answer: A
+
+158. Why should “ddPCR is always the most accurate digital PCR” be avoided?
+A. Accuracy depends on assay design, partition quality, thresholding, and sample conditions.
+B. ddPCR is not a form of digital PCR.
+C. ddPCR cannot quantify nucleic acids.
+D. ddPCR uses no partitions.
+E. ddPCR is the same as Sanger sequencing.
+Correct answer: A
+
+159. Which application is least aligned with digital PCR?
+A. Protein separation by molecular weight
+B. Copy number variation analysis
+C. Rare mutation detection
+D. Absolute viral load measurement
+E. Measuring low-abundance target DNA
+Correct answer: A
+
+160. Which partition outcome has the most direct effect on Poisson correction in dPCR?
+A. Fraction of negative partitions
+B. Length of the agarose gel
+C. Color of Coomassie dye
+D. Number of Gram-positive cells
+E. Mass of the electrophoresis ladder
+Correct answer: A
+
+Isothermal amplification
+
+161. Which statement best captures why LAMP can run without repeated denaturation at 95°C?
+A. A strand-displacing polymerase and primer design allow amplification at a constant temperature.
+B. The DNA template is replaced by protein.
+C. Cas9 cuts DNA into single-stranded fragments.
+D. ddNTPs create a sequencing ladder.
+E. Gram’s iodine stabilizes the DNA helix.
+Correct answer: A
+
+162. Which enzyme property is especially important for Bst polymerase in LAMP?
+A. Strand displacement
+B. 3′ A tailing only
+C. Antibody binding
+D. Fluorescent termination
+E. Protein cleavage
+Correct answer: A
+
+163. A LAMP reaction uses several primers recognizing multiple regions of the target. What is the main benefit of this design?
+A. Increased specificity and rapid loop-mediated amplification
+B. Permanent chain termination
+C. Adapter ligation for sequencing
+D. Direct protein quantitation
+E. Formation of T overhangs
+Correct answer: A
+
+164. Which temperature would be most reasonable for a typical LAMP reaction?
+A. 65°C
+B. 4°C
+C. 25°C
+D. 92°C cycling every second
+E. 100°C for the entire reaction
+Correct answer: A
+
+165. Which is a common visual or simple detection approach for LAMP products?
+A. Colorimetric or turbidity change
+B. Oil immersion microscopy only
+C. Western blot membrane transfer
+D. Gram-positive purple staining
+E. Protein pI focusing
+Correct answer: A
+
+166. Which is the best description of RPA?
+A. Recombinase helps primers invade double-stranded DNA at low temperature.
+B. Restriction enzymes cut outside recognition sites.
+C. Topoisomerase seals PCR products into plasmids.
+D. DNA ligase reads fluorescent probes.
+E. Cas9 cuts beside an NGG PAM.
+Correct answer: A
+
+167. Which temperature range is most consistent with the common description of RPA?
+A. Around body temperature, roughly 37–42°C
+B. Constant 95°C
+C. Alternating 92°C and 70°C
+D. −20°C storage temperature
+E. 80–90°C extension temperature
+Correct answer: A
+
+168. In HDA, which enzyme replaces the repeated heat-denaturation role of PCR?
+A. Helicase
+B. DNA ligase
+C. Topoisomerase I
+D. Cas9
+E. Reverse transcriptase only
+Correct answer: A
+
+169. A method uses a helicase to separate DNA strands and a polymerase to extend primers at one temperature. Which method is most likely?
+A. HDA
+B. Golden Gate Assembly
+C. Sanger sequencing
+D. Western blot
+E. TOPO TA cloning
+Correct answer: A
+
+170. Why are isothermal amplification methods attractive for field or point-of-care testing?
+A. They can use simpler constant-temperature heating instead of a thermal cycler.
+B. They require no enzymes.
+C. They always identify every species without primers.
+D. They use agarose gels as the reaction chamber.
+E. They work only with purified proteins.
+Correct answer: A
+
+171. Which is the best comparison of fast PCR and isothermal amplification?
+A. Fast PCR still cycles temperatures; isothermal amplification holds one temperature.
+B. Fast PCR uses no primers; isothermal amplification uses ddNTPs.
+C. Fast PCR is antibody-based; isothermal amplification is protein-based.
+D. Fast PCR is sequencing; isothermal amplification is cloning.
+E. They are identical terms.
+Correct answer: A
+
+172. A reverse-transcription LAMP assay is used to detect an RNA virus. What extra enzymatic step is required before or during amplification?
+A. RNA must be copied into DNA.
+B. DNA must be stained with safranin.
+C. Protein must be denatured by SDS.
+D. T cells must be engineered.
+E. Plasmids must be electroporated.
+Correct answer: A
+
+173. Which is the best reason LAMP primer design is more complex than ordinary two-primer PCR?
+A. Multiple primers target several regions and create loop structures.
+B. LAMP primers must contain antibodies.
+C. LAMP primers must be ddNTPs.
+D. LAMP primers must encode Cas9.
+E. LAMP primers must be fluorescent proteins.
+Correct answer: A
+
+174. Which amplification method is most likely to use loop primers called LF and LB to accelerate the reaction?
+A. LAMP
+B. Sanger sequencing
+C. Digital PCR
+D. TOPO TA cloning
+E. Golden Gate Assembly
+Correct answer: A
+
+175. Which statement about isothermal amplification is most accurate?
+A. Different isothermal methods use different mechanisms, such as strand displacement, recombinase invasion, or helicase unwinding.
+B. All isothermal methods are just ordinary PCR with longer denaturation.
+C. Isothermal methods cannot amplify nucleic acid.
+D. Isothermal methods require fluorescent ddNTPs.
+E. Isothermal methods always use Type IIS restriction enzymes.
+Correct answer: A
+
+NGS: library prep, chemistry, data terms
+
+176. During NGS library preparation, why is genomic DNA usually fragmented?
+A. Sequencing platforms read manageable fragment lengths rather than intact chromosomes.
+B. Fragmentation creates antibodies against DNA.
+C. Fragmentation converts DNA into RNA.
+D. Fragmentation removes all adapters.
+E. Fragmentation replaces the need for primers.
+Correct answer: A
+
+177. Which library-preparation step makes unknown DNA fragments compatible with known sequencing primers?
+A. Adapter ligation
+B. Gram staining
+C. Bradford dye binding
+D. Cell sorting
+E. Heat shock
+Correct answer: A
+
+178. What is a sample index in NGS?
+A. A short barcode sequence used to identify which sample a read came from
+B. A restriction enzyme recognition site
+C. A protein molecular-weight marker
+D. A bacterial capsule stain
+E. A strand-displacing polymerase
+Correct answer: A
+
+179. What is the main purpose of pooling indexed libraries?
+A. Sequencing multiple samples in the same run and sorting reads later by index
+B. Preventing any sequence analysis from occurring
+C. Converting DNA to protein
+D. Making all reads come from one sample
+E. Removing all adapter sequences before sequencing
+Correct answer: A
+
+180. Why does NGS often require clonal amplification before sequencing?
+A. A single DNA molecule usually gives too weak a signal, so many identical copies improve detection.
+B. Clonal amplification creates antibodies against adapters.
+C. It converts each DNA fragment into a T cell.
+D. It removes all sequencing errors.
+E. It replaces bioinformatics.
+Correct answer: A
+
+181. In Illumina-style bridge amplification, why is the term “bridge” used?
+A. The DNA fragment bends over to bind another nearby surface primer.
+B. Antibodies bridge two proteins in a gel.
+C. T cells bridge cancer cells to macrophages.
+D. Helicase bridges two DNA strands permanently.
+E. Topoisomerase bridges an insert to a T vector.
+Correct answer: A
+
+182. What is an NGS cluster?
+A. A localized group of identical DNA copies derived from one library fragment
+B. A grape-like arrangement of cocci
+C. A group of antibodies in a precipitin line
+D. A collection of PCR primers with no template
+E. A band in SDS-PAGE
+Correct answer: A
+
+183. What is the main distinction between a sequencing read and a contig?
+A. A read is an individual sequence output; a contig is assembled from overlapping reads.
+B. A contig is a PCR primer; a read is a protein domain.
+C. A read is an antibody; a contig is a T cell.
+D. A read is a cell line; a contig is a plasmid.
+E. They are the same in all contexts.
+Correct answer: A
+
+184. Which term describes aligning sequencing reads to a known genome?
+A. Read mapping
+B. Gram decolorization
+C. A-tailing
+D. Cell passaging
+E. Antibody neutralization
+Correct answer: A
+
+185. Which term best describes building longer sequences from overlapping reads without using a reference genome?
+A. De novo assembly
+B. Direct ELISA
+C. Electroporation
+D. Protein purification
+E. Colony PCR only
+Correct answer: A
+
+186. Which sequencing quality term is commonly used to express the probability that a base call is wrong?
+A. Phred quality score
+B. Transformation efficiency
+C. A260/A280 ratio
+D. Retention factor
+E. Percent agarose
+Correct answer: A
+
+187. In sequencing-by-synthesis, what does each imaging cycle determine?
+A. Which base was incorporated at each cluster during that cycle
+B. Which protein band is heaviest
+C. Which bacterial cell has a capsule
+D. Which antibody is polyclonal
+E. Which plasmid is supercoiled
+Correct answer: A
+
+188. A reversible terminator nucleotide differs from a Sanger ddNTP because it:
+A. temporarily blocks extension and can be chemically unblocked.
+B. lacks every phosphate group.
+C. permanently ends the strand and cannot be continued.
+D. acts as a protein stain.
+E. functions as a restriction enzyme.
+Correct answer: A
+
+189. Which event produces the signal in pyrosequencing?
+A. Pyrophosphate release after nucleotide incorporation
+B. Antibody binding to a membrane
+C. Cas9 recognition of a PAM
+D. A/T overhang annealing
+E. Gram’s iodine mordanting
+Correct answer: A
+
+190. In pyrosequencing, why can a run of identical bases be challenging?
+A. Multiple incorporations can produce a stronger signal that must be interpreted quantitatively.
+B. Identical bases cannot be copied by polymerase.
+C. Pyrophosphate is not released from identical bases.
+D. The sequence becomes a protein.
+E. All identical bases become ddNTPs.
+Correct answer: A
+
+191. Ion semiconductor sequencing most directly avoids which type of detection system?
+A. Optical fluorescence/light imaging as the primary signal
+B. Electronic pH measurement
+C. DNA polymerase incorporation
+D. Sequencing adapters
+E. Template DNA
+Correct answer: A
+
+192. What chemical event does ion semiconductor sequencing exploit?
+A. Hydrogen ion release during nucleotide incorporation
+B. Iodine binding to starch
+C. Coomassie dye binding to arginine
+D. Cas9 cleavage at the PAM
+E. Protein transfer to nitrocellulose
+Correct answer: A
+
+193. Which sequencing method reads bases through repeated ligation of labeled oligonucleotide probes?
+A. Sequencing by ligation
+B. Pyrosequencing
+C. Ion semiconductor sequencing
+D. Nanopore-free Sanger sequencing
+E. Golden Gate Assembly
+Correct answer: A
+
+194. Which enzyme is central to sequencing by ligation?
+A. DNA ligase
+B. Topoisomerase I
+C. Bst polymerase
+D. Cas9
+E. Coomassie oxidase
+Correct answer: A
+
+195. In NGS, why are adapter dimers undesirable?
+A. They can sequence as short non-informative library products.
+B. They improve target coverage.
+C. They are required for CAR T infusion.
+D. They act as mitochondrial barcodes.
+E. They are necessary for Gram staining.
+Correct answer: A
+
+196. Which result would most directly indicate low sequencing depth at a genomic position?
+A. Very few reads cover that position.
+B. Too many colonies grow on LB.
+C. A protein band is too bright.
+D. A culture has high OD600.
+E. A sample has high A280.
+Correct answer: A
+
+197. In paired-end sequencing, why can reading both ends of a fragment be useful?
+A. It helps with alignment, insert-size information, and detecting some structural features.
+B. It permanently terminates both strands.
+C. It replaces all library preparation steps.
+D. It makes DNA fluorescent without imaging.
+E. It removes all sequencing errors.
+Correct answer: A
+
+198. Which statement best describes short-read NGS?
+A. Many relatively short fragments are sequenced in parallel and computationally aligned or assembled.
+B. One full chromosome is read end-to-end with no computation.
+C. Proteins are sorted by size in a gel.
+D. Bacterial colonies are counted after transformation.
+E. Antibodies are detected by substrate color.
+Correct answer: A
+
+199. Why is bioinformatics essential after NGS?
+A. The instrument produces many reads that must be filtered, aligned, assembled, or interpreted.
+B. Bioinformatics adds adapters before sequencing.
+C. Bioinformatics performs PCR in droplets.
+D. Bioinformatics converts antibodies into T cells.
+E. Bioinformatics stains DNA with ethidium bromide.
+Correct answer: A
+
+200. Which NGS problem would most directly cause reads from one sample to be assigned to another?
+A. Index hopping or barcode misassignment
+B. Low Gram’s iodine concentration
+C. Excess agarose in an SDS gel
+D. Wrong cuvette path length
+E. Lack of topoisomerase in a TA vector
+Correct answer: A
+
+DNA barcoding and sequence identification
+
+201. In fish DNA barcoding, why is a mitochondrial gene often targeted instead of a single-copy nuclear gene?
+A. Mitochondrial DNA is present in many copies per cell, aiding recovery from small samples.
+B. Mitochondrial DNA contains no mutations.
+C. Nuclear genes cannot be amplified by PCR.
+D. Mitochondria contain antibodies.
+E. COI is found only in bacteria.
+Correct answer: A
+
+202. Which database-style task is most central after obtaining a barcode sequence?
+A. Comparing the sequence to reference sequences from known species
+B. Measuring absorbance at 595 nm
+C. Transforming cells with pGLO
+D. Sorting T cells by receptor expression
+E. Adding T overhangs to plasmids
+Correct answer: A
+
+203. Which result would most weaken confidence in a DNA barcoding species identification?
+A. The best database match has low sequence similarity and poor coverage.
+B. The PCR product has the expected size.
+C. The negative control has no band.
+D. The forward and reverse reads agree.
+E. The sequence matches a known species strongly.
+Correct answer: A
+
+204. In DNA barcoding, why can primer design be difficult across many species?
+A. Primers must bind conserved regions while flanking variable regions.
+B. Primers must be antibodies.
+C. Primers must contain topoisomerase.
+D. Primers must lack all nucleotides.
+E. Primers must be translated into protein.
+Correct answer: A
+
+205. A seafood sample gives a COI sequence matching a cheaper fish species rather than the label. What is the most direct conclusion?
+A. The sample may be mislabeled or substituted.
+B. The sample has no DNA.
+C. The PCR primers failed completely.
+D. The fish is definitely bacterial.
+E. The COI gene is a protein assay.
+Correct answer: A
+
+206. Why does a DNA barcode need both conserved and variable features?
+A. Conserved regions allow primer binding, while variable regions help distinguish species.
+B. Conserved regions prevent PCR, while variable regions bind antibodies.
+C. Variable regions are always removed before sequencing.
+D. Conserved regions create A overhangs.
+E. Variable regions serve as PAMs for Cas9 only.
+Correct answer: A
+
+207. Which method would most directly confirm that a barcode PCR produced a single strong amplicon before sequencing?
+A. Agarose gel electrophoresis
+B. Bradford assay
+C. Flow cytometry
+D. Gram staining
+E. Western blotting
+Correct answer: A
+
+208. Which organism group is most associated with ITS barcoding rather than COI as the main marker?
+A. Fungi
+B. Mammals
+C. Fish
+D. Birds
+E. Insects
+Correct answer: A
+
+209. Which interpretation is most appropriate if forward and reverse barcode reads disagree at several positions?
+A. Sequence quality should be checked before relying on the species call.
+B. The sample must be a new species.
+C. The DNA is definitely protein.
+D. The PCR product was transformed into bacteria.
+E. The COI gene cannot be mitochondrial.
+Correct answer: A
+
+210. Which result best supports a clean barcoding PCR?
+A. Expected-size band in the sample and no band in the no-template control
+B. Strong band in the no-template control
+C. Many nonspecific bands in every lane
+D. No band in the positive control
+E. DNA ladder absent from the gel
+Correct answer: A
+
+Fluorometric DNA quantitation and sample quality
+
+211. Which quantitation method is most likely to use a dye that fluoresces strongly only when bound to double-stranded DNA?
+A. Fluorometric DNA quantitation
+B. Gram staining
+C. Bradford assay
+D. Starch hydrolysis
+E. Ouchterlony diffusion
+Correct answer: A
+
+212. Why can A260 overestimate usable DNA concentration?
+A. RNA, free nucleotides, and other UV-absorbing contaminants can contribute to absorbance.
+B. DNA does not absorb UV light.
+C. A260 detects only double-stranded DNA.
+D. A260 is a protein-only assay.
+E. A260 requires antibodies.
+Correct answer: A
+
+213. A DNA sample has an A260/A280 ratio near 1.0. What concern is most likely?
+A. Protein contamination or poor purity
+B. Perfectly pure DNA
+C. Excessively high transformation efficiency
+D. Too many fish barcode matches
+E. Proper LAMP primer design
+Correct answer: A
+
+214. A relatively pure DNA sample often has an A260/A280 ratio closest to:
+A. 1.8
+B. 0.3
+C. 0.8
+D. 3.5
+E. 5.0
+Correct answer: A
+
+215. Which method would be best if the main goal is estimating DNA mass by comparing an unknown band to standards on the same gel?
+A. Gel-based DNA quantitation
+B. Fluorometric quantitation
+C. A260/A280 purity analysis
+D. ddPCR rare allele detection
+E. CAR T expansion
+Correct answer: A
+
+216. Which statement best distinguishes fluorometer-based DNA quantitation from digital PCR?
+A. Fluorometry estimates total DNA amount using dye signal; dPCR estimates target copy number by partition counting.
+B. Fluorometry counts positive droplets; dPCR measures A260.
+C. Fluorometry sequences each molecule; dPCR stains proteins.
+D. Fluorometry edits DNA; dPCR ligates PCR products.
+E. They are identical methods.
+Correct answer: A
+
+217. Why might a fluorometer be preferred before NGS library preparation?
+A. It can more specifically estimate DNA available for library prep than UV absorbance alone.
+B. It adds adapters to DNA fragments.
+C. It performs bridge amplification.
+D. It directly calls bases during sequencing.
+E. It replaces all PCR controls.
+Correct answer: A
+
+218. A sample has good A260 concentration but poor library preparation performance. Which issue could explain the discrepancy?
+A. UV absorbance measured contaminants rather than intact usable dsDNA.
+B. Fluorometers always destroy DNA.
+C. A260 measures only protein.
+D. Sequencing adapters cannot bind DNA.
+E. PCR never requires template quality.
+Correct answer: A
+
+219. Which measurement is most directly associated with nucleic acid purity rather than concentration alone?
+A. A260/A280 ratio
+B. Number of CAR domains
+C. LAMP primer count
+D. PAM sequence length
+E. Antibody titer only
+Correct answer: A
+
+220. Which sample would most likely give misleadingly high A260 but not a proportionally high dsDNA fluorometer reading?
+A. DNA prep containing abundant RNA
+B. Pure double-stranded DNA only
+C. Empty buffer with no nucleic acid
+D. A clean DNA ladder lane
+E. Purified plasmid with no contaminants
+Correct answer: A
+
+CAR T and current therapeutic biotech
+
+221. Which part of a CAR most directly binds the tumor antigen?
+A. Extracellular antibody-derived binding region
+B. Bacterial origin of replication
+C. Mitochondrial COI region
+D. Type IIS recognition site
+E. Gram-positive peptidoglycan
+Correct answer: A
+
+222. Why are CAR T cells considered genetically modified cells?
+A. A gene encoding the chimeric antigen receptor is introduced into T cells.
+B. The patient’s antibodies are stained with iodine.
+C. The cells are separated by agarose gel electrophoresis.
+D. The patient’s DNA is sequenced but not changed.
+E. Tumor cells are transformed with pGLO.
+Correct answer: A
+
+223. Which delivery method is commonly associated with inserting CAR genes into T cells?
+A. Viral vector delivery, such as lentiviral or retroviral systems
+B. Gram staining
+C. Starch hydrolysis
+D. Fish COI barcoding
+E. Bradford dye binding
+Correct answer: A
+
+224. Which statement best explains why CAR T manufacturing requires cell culture expertise?
+A. Modified patient T cells must be grown and expanded before infusion.
+B. PCR primers must be translated into proteins.
+C. Gram-positive cells must be decolorized.
+D. DNA ladders must be cultured in broth.
+E. Restriction enzymes must be grown on plates.
+Correct answer: A
+
+225. Which side effect is most associated with rapid immune activation after CAR T infusion?
+A. Cytokine release syndrome
+B. Loss of A overhangs
+C. DNA ladder compression
+D. Protein precipitation by iodine
+E. Restriction enzyme star activity only
+Correct answer: A
+
+226. Why can CD19-targeted CAR T therapy also affect normal B cells?
+A. Normal B cells can express CD19 too.
+B. CD19 is a mitochondrial DNA barcode.
+C. CD19 is found only on bacteria.
+D. CD19 is a restriction enzyme.
+E. CD19 is the same as GFP.
+Correct answer: A
+
+227. Which term best describes CAR T therapy made using the patient’s own cells?
+A. Autologous
+B. Isothermal
+C. Prokaryotic
+D. Differential
+E. Gram-negative
+Correct answer: A
+
+228. Which comparison is most accurate?
+A. CAR T therapy is a living cell therapy; monoclonal antibody therapy is usually a protein biologic.
+B. CAR T therapy is a DNA barcode; monoclonal antibody therapy is a sequencing method.
+C. CAR T therapy uses Gram’s iodine; monoclonal antibodies use safranin.
+D. CAR T therapy clones PCR fragments into plasmids; monoclonal antibodies use Type IIS enzymes.
+E. CAR T therapy is identical to vaccination.
+Correct answer: A
+
+229. Which feature helps CAR signaling activate the T cell after antigen binding?
+A. Intracellular signaling domains such as CD3ζ and costimulatory domains
+B. The 3′ A overhang of Taq products
+C. The COI barcode region
+D. The A260/A280 ratio
+E. The bacterial capsule
+Correct answer: A
+
+230. Why is antigen selection critical in CAR T therapy?
+A. The target should distinguish cancer cells well enough to limit damage to essential normal cells.
+B. Any antigen on any normal tissue is equally safe.
+C. The antigen must be a PCR primer.
+D. The antigen must contain a Type IIS site.
+E. The antigen must be mitochondrial DNA.
+Correct answer: A
+
+Mixed hard integration
+
+231. A method uses Cas9, guide RNA, a donor template, and PCR verification of a chromosomal locus. Which workflow is most likely?
+A. CRISPR genome editing
+B. TOPO TA cloning
+C. Fish DNA barcoding
+D. SDS-PAGE
+E. Pyrosequencing
+Correct answer: A
+
+232. A method uses BsaI-like enzymes, designed four-base overhangs, and ligase to assemble multiple parts. Which method is most likely?
+A. Golden Gate Assembly
+B. Gibson Assembly
+C. Digital PCR
+D. RPA
+E. CAR T expansion
+Correct answer: A
+
+233. A method uses a 50°C overlap-assembly reaction with exonuclease, polymerase, and ligase. Which method is most likely?
+A. Gibson Assembly
+B. LAMP
+C. TOPO TA cloning
+D. qPCR
+E. Ion sequencing
+Correct answer: A
+
+234. A method uses a T-overhang plasmid and Taq-amplified insert with A overhangs. Which method is most likely?
+A. TOPO TA cloning
+B. Golden Gate Assembly
+C. CRISPR HDR
+D. Bridge PCR
+E. RPA
+Correct answer: A
+
+235. A method partitions a reaction, performs endpoint PCR, and uses the fraction of negative partitions to infer concentration. Which method is most likely?
+A. Digital PCR
+B. Fast PCR
+C. Sanger sequencing
+D. HDA
+E. Ouchterlony diffusion
+Correct answer: A
+
+236. A method uses four to six primers, Bst polymerase, and a 60–65°C hold. Which method is most likely?
+A. LAMP
+B. ddPCR
+C. TOPO cloning
+D. Ion Torrent sequencing
+E. Golden Gate Assembly
+Correct answer: A
+
+237. A method detects H⁺ release from nucleotide incorporation on a semiconductor chip. Which method is most likely?
+A. Ion semiconductor sequencing
+B. Pyrosequencing
+C. Sequencing by ligation
+D. Fluorometric quantitation
+E. CAR T therapy
+Correct answer: A
+
+238. A method detects light produced after pyrophosphate release during nucleotide incorporation. Which method is most likely?
+A. Pyrosequencing
+B. Ion semiconductor sequencing
+C. Sequencing by ligation
+D. TOPO TA cloning
+E. Digital PCR
+Correct answer: A
+
+239. A method uses labeled oligonucleotide probes and DNA ligase to infer base sequence. Which method is most likely?
+A. Sequencing by ligation
+B. Sequencing by synthesis
+C. LAMP
+D. Gibson Assembly
+E. Bradford assay
+Correct answer: A
+
+240. A method identifies seafood species by amplifying and sequencing a mitochondrial barcode. Which target is most likely?
+A. COI
+B. lacZ
+C. Cas9
+D. bla
+E. araC
+Correct answer: A
+
+241. Which method would be least appropriate for determining whether a PCR product was inserted into a plasmid?
+A. Cytokine release monitoring
+B. Colony PCR
+C. Restriction digest analysis
+D. Sanger sequencing
+E. Blue-white screening if the vector supports it
+Correct answer: A
+
+242. Which pair is correctly matched?
+A. Streptococcus pyogenes — common SpCas9 source
+B. Aequorea victoria — Bst polymerase source
+C. Thermus aquaticus — COI barcode source
+D. Pyrococcus furiosus — Taq polymerase source
+E. Streptococcus thermophilus — Gram stain inventor
+Correct answer: A
+
+243. Which pair is correctly matched?
+A. Pyrococcus furiosus — Pfu proofreading polymerase
+B. Thermus aquaticus — Cas9
+C. E. coli — GFP source organism
+D. Aequorea victoria — Bst polymerase
+E. Streptococcus pyogenes — Taq polymerase
+Correct answer: A
+
+244. A researcher wants fast cloning of a PCR product but later needs to verify orientation. Which method best fits this limitation?
+A. Standard TOPO TA cloning
+B. Digital PCR
+C. Ion semiconductor sequencing
+D. CAR T therapy
+E. Fluorometric quantitation
+Correct answer: A
+
+245. A researcher wants to assemble parts without leaving unwanted restriction-site scars. Which method is most likely designed for this?
+A. Golden Gate Assembly
+B. Endpoint PCR
+C. ddPCR
+D. A260 quantitation
+E. Gram staining
+Correct answer: A
+
+246. Which statement best links Gibson Assembly to synthetic biology history?
+A. It allowed overlapping DNA fragments to be assembled in synthetic-genome projects associated with Daniel Gibson and JCVI.
+B. It was the first method for Gram staining bacteria.
+C. It discovered penicillin from mold.
+D. It uses ddNTPs to sequence DNA.
+E. It detects antibody levels in serum.
+Correct answer: A
+
+247. Which statement best compares LAMP and digital PCR?
+A. LAMP is an amplification mechanism; digital PCR is a partition-based quantification strategy.
+B. LAMP requires droplets; digital PCR requires loop primers.
+C. LAMP is sequencing; digital PCR is cloning.
+D. LAMP uses antibodies; digital PCR uses T cells.
+E. They are identical methods.
+Correct answer: A
+
+248. Which statement best compares NGS and fish DNA barcoding?
+A. Barcoding may use sequencing and bioinformatics to identify species; NGS is a broader high-throughput sequencing technology.
+B. Barcoding is protein quantitation; NGS is Gram staining.
+C. Barcoding requires CAR T cells; NGS requires T overhangs.
+D. Barcoding uses no DNA; NGS uses no sequencing.
+E. They are unrelated to sequence comparison.
+Correct answer: A
+
+249. Which statement best captures the main reason these newer methods extend the 2011 core material rather than replace it?
+A. They build on the same principles of DNA complementarity, enzyme specificity, amplification, sequencing, and cell engineering.
+B. They eliminate the need for DNA, RNA, proteins, and cells.
+C. They are all staining methods.
+D. They are all forms of SDS-PAGE.
+E. They require no controls or validation.
+Correct answer: A
+
+250. Which answer best represents the most useful way to study the second-edition update topics?
+A. Match each named technique to its mechanism, key enzyme or signal, and best application.
+B. Memorize only the years of every discovery.
+C. Treat all PCR-related methods as identical.
+D. Ignore organisms and enzyme sources.
+E. Study only the career vignettes.
+Correct answer: A

@@ -1,7 +1,7 @@
 {
   "app_name": "HOSA Biotechnology Simulation Platform",
   "version": "1.0.0",
-  "generated_at": "2026-06-15T19:20:05.220Z",
+  "generated_at": "2026-06-17T05:23:09.881Z",
   "default_mode": "hosa_weighted_full_simulation",
   "default_test_length": 50,
   "default_timer_minutes": 50,
@@ -33,5 +33,5 @@
     "protein_structure_function_and_analysis": "Protein Structure / Function / Analysis",
     "immunological_applications": "Immunological Applications"
   },
-  "default_usable_question_count": 2715
+  "default_usable_question_count": 2955
 }

@@ -176,7 +176,7 @@
     {
       id: "careers_bank",
       label: "Careers Bank",
-      description: "Higher-quality career questions built around education, responsibilities, clue sets, and role distinctions.",
+      description: "Higher-quality career questions focused on direct technician duties, responsibilities, and training details.",
       match: (question) => question.source_group === "careers",
     },
     {
@@ -190,6 +190,12 @@
       label: "Old Chat Master",
       description: "Legacy master-bank review sets spanning many content domains.",
       match: (question) => question.source_group === "old_chat_master",
+    },
+    {
+      id: "second_edition_update",
+      label: "Second-Edition Update",
+      description: "CRISPR, cloning assemblies, digital PCR, isothermal amplification, NGS, barcoding, CAR T, and newer second-edition topics.",
+      match: (question) => question.source_group === "second_edition_update",
     },
   ];
 
@@ -262,10 +268,7 @@
         "Professional Skills": "Professional Skills",
         "Responsibility Match": "Responsibility Match",
         "Education / Certification": "Education & Certification",
-        "Role Association": "Role Associations",
         "Training Detail": "Training Details",
-        "Career Clue Match": "Career Clue Match",
-        "Responsibility Set": "Responsibility Sets",
       };
       return careerMap[topic] || "Career Review";
     }
@@ -280,6 +283,10 @@
         return "Industry, Health & Regulation";
       }
       return getDomainLabel(domain);
+    }
+
+    if (bankId === "second_edition_update") {
+      return chapter || topic || getDomainLabel(question.primary_domain);
     }
 
     return chapter || topic || getDomainLabel(question.primary_domain);
@@ -727,6 +734,36 @@
         </svg>
         <span>${flagged ? "Bookmarked" : "Flag for Review"}</span>
       </span>
+    `;
+  }
+
+  function escapeHtml(value) {
+    return String(value || "")
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  function getChoiceContextLines(choice) {
+    if (!choice || !Array.isArray(choice.choice_context)) return [];
+    return choice.choice_context
+      .map((line) => String(line || "").trim())
+      .filter(Boolean);
+  }
+
+  function renderChoiceContextMarkup(choice, headingText = "Your selected choice corresponds to:") {
+    const lines = getChoiceContextLines(choice);
+    if (!lines.length) return "";
+
+    return `
+      <div class="choice-context-block">
+        <strong class="choice-context-title">${escapeHtml(headingText)}</strong>
+        <ul class="choice-context-list">
+          ${lines.map((line) => `<li class="choice-context-item">${escapeHtml(line)}</li>`).join("")}
+        </ul>
+      </div>
     `;
   }
 
@@ -1181,6 +1218,7 @@
       id: LETTERS[choiceIndex],
       original_letter: choice.letter_original,
       text: choice.text,
+      choice_context: Array.isArray(choice.choice_context) ? choice.choice_context.slice() : [],
       isCorrect: normalize(choice.text) === normalize(question.correct_answer_text),
     }));
 
@@ -1459,10 +1497,13 @@
     const picked = entry.renderedChoices.find((choice) => choice.id === entry.userAnswerId);
     const correctChoice = entry.renderedChoices.find((choice) => choice.isCorrect);
     const isCorrect = Boolean(picked && picked.isCorrect);
+    const selectedChoiceContextMarkup = renderChoiceContextMarkup(picked);
     dom.immediateFeedbackBox.className = `feedback-box ${isCorrect ? "correct" : "incorrect"}`;
     dom.immediateFeedbackBox.innerHTML = `
       <strong>${isCorrect ? "Correct" : "Not correct yet"}</strong>
+      <div class="review-block">Your answer: ${picked ? `${picked.id}. ${picked.text}` : "No answer selected"}</div>
       <div class="review-block">Correct answer: ${correctChoice.id}. ${correctChoice.text}</div>
+      ${selectedChoiceContextMarkup}
       <div class="review-block">${entry.question.explanation}</div>
       <div class="review-block">Source cue: ${entry.question.source_cue || "Not listed."}</div>
     `;
@@ -1746,6 +1787,9 @@
       const userAnswer = item.userChoice ? `${item.userChoice.id}. ${item.userChoice.text}` : "No answer selected";
       const questionStateClass = item.correct ? "is-correct" : "is-not-correct";
       const stateChipClass = item.correct ? "review-status-chip review-status-correct" : "review-status-chip review-status-not-correct";
+      const selectedChoiceContextMarkup = !item.correct && item.userChoice
+        ? renderChoiceContextMarkup(item.userChoice)
+        : "";
       return `
         <article class="review-card ${questionStateClass}">
           <div class="review-card-head">
@@ -1759,6 +1803,7 @@
             </div>
           </div>
           <div class="review-block"><strong>Your answer:</strong> ${userAnswer}</div>
+          ${selectedChoiceContextMarkup}
           <div class="review-block"><strong>Correct answer:</strong> ${item.correctChoice.id}. ${item.correctChoice.text}</div>
           <div class="review-block"><strong>Explanation:</strong> ${question.explanation || "No explanation listed."}</div>
           <div class="review-block"><strong>Source cue:</strong> ${question.source_cue || "Not listed."}</div>

@@ -1147,6 +1147,45 @@ summary:focus-visible {
   background: color-mix(in srgb, var(--danger) 10%, var(--panel-alt));
 }
 
+.choice-context-block {
+  margin-top: 10px;
+  padding: 12px 14px;
+  border-radius: 14px;
+  border: 1px solid color-mix(in srgb, var(--line-med) 82%, transparent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--panel-alt));
+}
+
+.feedback-box.correct .choice-context-block {
+  border-color: color-mix(in srgb, var(--success) 48%, var(--line-soft));
+  background: color-mix(in srgb, var(--success) 10%, var(--panel-alt));
+}
+
+.feedback-box.incorrect .choice-context-block {
+  border-color: color-mix(in srgb, var(--danger) 44%, var(--line-soft));
+  background: color-mix(in srgb, var(--danger) 8%, var(--panel-alt));
+}
+
+.choice-context-title {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--text-main);
+  font-size: 0.92rem;
+  line-height: 1.45;
+}
+
+.choice-context-list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+}
+
+.choice-context-item {
+  color: var(--text-soft);
+  font-size: 0.92rem;
+  line-height: 1.5;
+}
+
 .inline-warnings {
   margin-top: 16px;
   display: grid;
