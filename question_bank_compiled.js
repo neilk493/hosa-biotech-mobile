@@ -67025,74 +67025,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q001014",
-    "source_name": "Chapter 5 Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\chapter5_practice_platform\\chapter5_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "chapter5_practice_platform",
-    "source_group": "chapter_platform",
-    "chapter_or_category": "DNA Quantitation & Purity",
-    "topic_group": "dna quantitation, gel quantitation, a260, and cuvettes",
-    "question_text": "Why is plasmid 2 in the gel example not quantifiable?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "It is more intense than any ruler band."
-      },
-      {
-        "letter_original": "B",
-        "text": "It is in lane 7 with the 20 µl mass ruler."
-      },
-      {
-        "letter_original": "C",
-        "text": "It is circular rather than linear."
-      },
-      {
-        "letter_original": "D",
-        "text": "It is not visible."
-      },
-      {
-        "letter_original": "E",
-        "text": "It is stained with Hoechst 33258."
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "It is more intense than any ruler band.",
-      "It is in lane 7 with the 20 µl mass ruler.",
-      "It is circular rather than linear.",
-      "It is not visible.",
-      "It is stained with Hoechst 33258."
-    ],
-    "correct_answer_text": "It is not visible.",
-    "correct_letter_original": "D",
-    "explanation": "The example states that plasmid 2 in lane 4 is not visible. That is why concentration and purity values are interpreted together rather than as isolated numbers. These measurements tell you both how much nucleic acid you have and how clean it is. That matters because downstream steps like digestion, PCR, ligation, and sequencing all work better when the DNA concentration and purity are known rather than guessed.",
-    "source_cue": "Chapter 5, p. 147 / DNA quantitation, gel quantitation, A260, and cuvettes; Screenshot 25.",
-    "primary_domain": "bacterial_transformation",
-    "domain_confidence": "high",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "DNA Quantitation & Purity",
-      "p. 147",
-      "bacterial_transformation",
-      "normal"
-    ],
-    "notes": "",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q001015",
     "source_name": "Chapter 5 Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\chapter5_practice_platform\\chapter5_question_dataset.json",
@@ -106862,210 +106794,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "correct_letter_original": "B",
     "explanation": "Affinity-bound proteins can be eluted by adding another molecule that binds the ligand more strongly. Chromatography works by exploiting one dominant property of the protein, such as charge, hydrophobicity, size, or specific binding affinity.",
     "source_cue": "Chapter 7, p. 227 / Affinity chromatography.",
-    "primary_domain": "protein_structure_function_and_analysis",
-    "domain_confidence": "high",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Chromatography & Protein Purification",
-      "p. 227",
-      "protein_structure_function_and_analysis",
-      "normal"
-    ],
-    "notes": "",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q001609",
-    "source_name": "Chapter 7 Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\chapter7_practice_platform\\chapter7_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "chapter7_practice_platform",
-    "source_group": "chapter_platform",
-    "chapter_or_category": "Chromatography & Protein Purification",
-    "topic_group": "His-tag purification",
-    "question_text": "Which lane contains protein size standards in the His-tag purification result?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Lane 2"
-      },
-      {
-        "letter_original": "B",
-        "text": "Lane 3"
-      },
-      {
-        "letter_original": "C",
-        "text": "Lane 4"
-      },
-      {
-        "letter_original": "D",
-        "text": "Lane 5"
-      },
-      {
-        "letter_original": "E",
-        "text": "Lane 1"
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "Lane 2",
-      "Lane 3",
-      "Lane 4",
-      "Lane 5",
-      "Lane 1"
-    ],
-    "correct_answer_text": "Lane 1",
-    "correct_letter_original": "E",
-    "explanation": "Lane 1 contains the protein size standards in the His-tag purification result. A His-tag simplifies purification because the tagged protein binds specifically to a metal-affinity matrix while many contaminants flow through.",
-    "source_cue": "Chapter 7, p. 227 / His-tag purification.",
-    "primary_domain": "protein_structure_function_and_analysis",
-    "domain_confidence": "high",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Chromatography & Protein Purification",
-      "p. 227",
-      "protein_structure_function_and_analysis",
-      "normal"
-    ],
-    "notes": "",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q001610",
-    "source_name": "Chapter 7 Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\chapter7_practice_platform\\chapter7_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "chapter7_practice_platform",
-    "source_group": "chapter_platform",
-    "chapter_or_category": "Chromatography & Protein Purification",
-    "topic_group": "His-tag purification",
-    "question_text": "Which lane contains the initial protein mixture in the His-tag purification result?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Lane 1"
-      },
-      {
-        "letter_original": "B",
-        "text": "Lane 3"
-      },
-      {
-        "letter_original": "C",
-        "text": "Lane 2"
-      },
-      {
-        "letter_original": "D",
-        "text": "Lane 4"
-      },
-      {
-        "letter_original": "E",
-        "text": "Lane 5"
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "Lane 1",
-      "Lane 3",
-      "Lane 2",
-      "Lane 4",
-      "Lane 5"
-    ],
-    "correct_answer_text": "Lane 2",
-    "correct_letter_original": "C",
-    "explanation": "Lane 2 contains the initial mixture of proteins loaded onto the column. A His-tag simplifies purification because the tagged protein binds specifically to a metal-affinity matrix while many contaminants flow through.",
-    "source_cue": "Chapter 7, p. 227 / His-tag purification.",
-    "primary_domain": "protein_structure_function_and_analysis",
-    "domain_confidence": "high",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Chromatography & Protein Purification",
-      "p. 227",
-      "protein_structure_function_and_analysis",
-      "normal"
-    ],
-    "notes": "",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q001611",
-    "source_name": "Chapter 7 Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\chapter7_practice_platform\\chapter7_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "chapter7_practice_platform",
-    "source_group": "chapter_platform",
-    "chapter_or_category": "Chromatography & Protein Purification",
-    "topic_group": "His-tag purification",
-    "question_text": "Which lane contains the eluted purified protein in the His-tag result?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Lane 1"
-      },
-      {
-        "letter_original": "B",
-        "text": "Lane 3"
-      },
-      {
-        "letter_original": "C",
-        "text": "Lane 2"
-      },
-      {
-        "letter_original": "D",
-        "text": "Lane 4"
-      },
-      {
-        "letter_original": "E",
-        "text": "Lane 5"
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "Lane 1",
-      "Lane 3",
-      "Lane 2",
-      "Lane 4",
-      "Lane 5"
-    ],
-    "correct_answer_text": "Lane 3",
-    "correct_letter_original": "B",
-    "explanation": "Lane 3 contains the eluted purified protein fraction. A His-tag simplifies purification because the tagged protein binds specifically to a metal-affinity matrix while many contaminants flow through.",
-    "source_cue": "Chapter 7, p. 227 / His-tag purification.",
     "primary_domain": "protein_structure_function_and_analysis",
     "domain_confidence": "high",
     "priority_tier": "normal",
@@ -202916,40 +202644,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "CRISPR-Cas9",
     "topic_group": "CRISPR-Cas9",
-    "question_text": "A student says, \"CRISPR transformation and plasmid transformation are the same because both put DNA into bacteria.\" What is the best correction?",
+    "question_text": "What best distinguishes CRISPR editing from plasmid transformation?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "CRISPR uses antibodies, while plasmid transformation uses enzymes."
+        "text": "Antibody use / enzyme use"
       },
       {
         "letter_original": "B",
-        "text": "Transformation may deliver DNA, but CRISPR uses RNA-guided nuclease cutting to edit a genomic target."
+        "text": "DNA delivery / RNA-guided genome editing"
       },
       {
         "letter_original": "C",
-        "text": "CRISPR can amplify DNA, while transformation cannot."
+        "text": "DNA amplification / DNA delivery"
       },
       {
         "letter_original": "D",
-        "text": "Plasmid transformation requires PAM sites, while CRISPR does not."
+        "text": "PAM requirement / no PAM requirement"
       },
       {
         "letter_original": "E",
-        "text": "CRISPR edits proteins directly after translation."
+        "text": "Protein editing / translation"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "CRISPR uses antibodies, while plasmid transformation uses enzymes.",
-      "Transformation may deliver DNA, but CRISPR uses RNA-guided nuclease cutting to edit a genomic target.",
-      "CRISPR can amplify DNA, while transformation cannot.",
-      "Plasmid transformation requires PAM sites, while CRISPR does not.",
-      "CRISPR edits proteins directly after translation."
+      "Antibody use / enzyme use",
+      "DNA delivery / RNA-guided genome editing",
+      "DNA amplification / DNA delivery",
+      "PAM requirement / no PAM requirement",
+      "Protein editing / translation"
     ],
-    "correct_answer_text": "Transformation may deliver DNA, but CRISPR uses RNA-guided nuclease cutting to edit a genomic target.",
+    "correct_answer_text": "DNA delivery / RNA-guided genome editing",
     "correct_letter_original": "B",
-    "explanation": "Transformation may deliver DNA, but CRISPR uses RNA-guided nuclease cutting to edit a genomic target. is correct because it is the CRISPR-related factor, mechanism, or historical association described in the stem.",
+    "explanation": "DNA delivery / RNA-guided genome editing is correct because it is the CRISPR-related factor, mechanism, or historical association described in the stem.",
     "source_cue": "Second-Edition Update Set / CRISPR-Cas9 / Q11",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -203732,40 +203460,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Cloning and Assembly Methods",
     "topic_group": "Cloning and Assembly Methods",
-    "question_text": "Which association is most accurate for Daniel Gibson?",
+    "question_text": "Which scientist is most associated with Gibson Assembly?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Digital PCR partition counting"
+        "text": "Kary Mullis"
       },
       {
         "letter_original": "B",
-        "text": "Discovery of CRISPR repeat-spacer arrays"
+        "text": "Daniel Gibson"
       },
       {
         "letter_original": "C",
-        "text": "Invention of Gram staining"
+        "text": "Francisco Mojica"
       },
       {
         "letter_original": "D",
-        "text": "Sequencing by ligation"
+        "text": "Frederick Sanger"
       },
       {
         "letter_original": "E",
-        "text": "Overlap-based DNA assembly used in synthetic-genome work"
+        "text": "Emmanuelle Charpentier"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Digital PCR partition counting",
-      "Discovery of CRISPR repeat-spacer arrays",
-      "Invention of Gram staining",
-      "Sequencing by ligation",
-      "Overlap-based DNA assembly used in synthetic-genome work"
+      "Kary Mullis",
+      "Daniel Gibson",
+      "Francisco Mojica",
+      "Frederick Sanger",
+      "Emmanuelle Charpentier"
     ],
-    "correct_answer_text": "Overlap-based DNA assembly used in synthetic-genome work",
-    "correct_letter_original": "E",
-    "explanation": "Overlap-based DNA assembly used in synthetic-genome work is correct because it matches the cloning or DNA-assembly mechanism described in the question.",
+    "correct_answer_text": "Daniel Gibson",
+    "correct_letter_original": "B",
+    "explanation": "Daniel Gibson is correct because it matches the cloning or DNA-assembly mechanism described in the question.",
     "source_cue": "Second-Edition Update Set / Cloning and Assembly Methods / Q23",
     "primary_domain": "bacterial_transformation",
     "domain_confidence": "high",
@@ -204208,40 +203936,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Cloning and Assembly Methods",
     "topic_group": "Cloning and Assembly Methods",
-    "question_text": "Which comparison is accurate?",
+    "question_text": "Which pairing correctly distinguishes Golden Gate Assembly from Gibson Assembly?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Golden Gate uses guide RNA; Gibson uses Cas9."
+        "text": "Guide RNA / Cas9"
       },
       {
         "letter_original": "B",
-        "text": "Golden Gate uses designed overhangs from Type IIS enzymes; Gibson uses overlapping DNA ends."
+        "text": "Type IIS overhangs / overlapping DNA ends"
       },
       {
         "letter_original": "C",
-        "text": "Gibson requires Taq-added A overhangs; TOPO TA requires 40 bp overlaps."
+        "text": "A-tailed inserts / 40-bp overlaps"
       },
       {
         "letter_original": "D",
-        "text": "TOPO TA uses emulsion PCR; Golden Gate uses bridge PCR."
+        "text": "Emulsion PCR / bridge PCR"
       },
       {
         "letter_original": "E",
-        "text": "Gibson is an antibody-based detection method."
+        "text": "Antibody assay / overlap assembly"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Golden Gate uses guide RNA; Gibson uses Cas9.",
-      "Golden Gate uses designed overhangs from Type IIS enzymes; Gibson uses overlapping DNA ends.",
-      "Gibson requires Taq-added A overhangs; TOPO TA requires 40 bp overlaps.",
-      "TOPO TA uses emulsion PCR; Golden Gate uses bridge PCR.",
-      "Gibson is an antibody-based detection method."
+      "Guide RNA / Cas9",
+      "Type IIS overhangs / overlapping DNA ends",
+      "A-tailed inserts / 40-bp overlaps",
+      "Emulsion PCR / bridge PCR",
+      "Antibody assay / overlap assembly"
     ],
-    "correct_answer_text": "Golden Gate uses designed overhangs from Type IIS enzymes; Gibson uses overlapping DNA ends.",
+    "correct_answer_text": "Type IIS overhangs / overlapping DNA ends",
     "correct_letter_original": "B",
-    "explanation": "Golden Gate uses designed overhangs from Type IIS enzymes; Gibson uses overlapping DNA ends. is correct because it matches the cloning or DNA-assembly mechanism described in the question.",
+    "explanation": "Type IIS overhangs / overlapping DNA ends is correct because Golden Gate assembly uses Type IIS enzymes that cut outside their recognition sites to create designed overhangs.",
     "source_cue": "Second-Edition Update Set / Cloning and Assembly Methods / Q30",
     "primary_domain": "bacterial_transformation",
     "domain_confidence": "high",
@@ -204484,36 +204212,36 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "choices": [
       {
         "letter_original": "A",
-        "text": "qPCR uses DNA polymerase, while digital PCR does not."
+        "text": "Fluorescence curves and Cq values / endpoint partition counting"
       },
       {
         "letter_original": "B",
-        "text": "qPCR detects proteins, while digital PCR detects DNA."
+        "text": "DNA polymerase / no polymerase"
       },
       {
         "letter_original": "C",
-        "text": "qPCR is always endpoint-only, while digital PCR is always real-time."
+        "text": "Protein detection / DNA detection"
       },
       {
         "letter_original": "D",
-        "text": "qPCR requires droplets, while digital PCR requires a gel."
+        "text": "Endpoint-only / real-time-only"
       },
       {
         "letter_original": "E",
-        "text": "qPCR uses fluorescence curves/Cq values; digital PCR uses endpoint partition counting."
+        "text": "Droplets / gels"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "qPCR uses DNA polymerase, while digital PCR does not.",
-      "qPCR detects proteins, while digital PCR detects DNA.",
-      "qPCR is always endpoint-only, while digital PCR is always real-time.",
-      "qPCR requires droplets, while digital PCR requires a gel.",
-      "qPCR uses fluorescence curves/Cq values; digital PCR uses endpoint partition counting."
+      "Fluorescence curves and Cq values / endpoint partition counting",
+      "DNA polymerase / no polymerase",
+      "Protein detection / DNA detection",
+      "Endpoint-only / real-time-only",
+      "Droplets / gels"
     ],
-    "correct_answer_text": "qPCR uses fluorescence curves/Cq values; digital PCR uses endpoint partition counting.",
-    "correct_letter_original": "E",
-    "explanation": "qPCR uses fluorescence curves/Cq values; digital PCR uses endpoint partition counting. is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
+    "correct_answer_text": "Fluorescence curves and Cq values / endpoint partition counting",
+    "correct_letter_original": "A",
+    "explanation": "Fluorescence curves and Cq values / endpoint partition counting is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
     "source_cue": "Second-Edition Update Set / Digital PCR and Isothermal Amplification / Q34",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -204752,40 +204480,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Digital PCR and Isothermal Amplification",
     "topic_group": "Digital PCR and Isothermal Amplification",
-    "question_text": "Why is digital PCR often described as allowing absolute quantification?",
+    "question_text": "Why is digital PCR often considered an absolute-quantification method?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "It sequences every molecule completely."
+        "text": "Complete sequencing of every molecule"
       },
       {
         "letter_original": "B",
-        "text": "It measures absorbance at 260 nm."
+        "text": "A260 absorbance measurement"
       },
       {
         "letter_original": "C",
-        "text": "It uses antibody binding to determine protein concentration."
+        "text": "Antibody-based concentration testing"
       },
       {
         "letter_original": "D",
-        "text": "It estimates concentration only after gel extraction."
+        "text": "Gel-extraction concentration estimates"
       },
       {
         "letter_original": "E",
-        "text": "It counts partition outcomes to infer copy number without necessarily using a standard curve."
+        "text": "Partition counting without a standard curve"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "It sequences every molecule completely.",
-      "It measures absorbance at 260 nm.",
-      "It uses antibody binding to determine protein concentration.",
-      "It estimates concentration only after gel extraction.",
-      "It counts partition outcomes to infer copy number without necessarily using a standard curve."
+      "Complete sequencing of every molecule",
+      "A260 absorbance measurement",
+      "Antibody-based concentration testing",
+      "Gel-extraction concentration estimates",
+      "Partition counting without a standard curve"
     ],
-    "correct_answer_text": "It counts partition outcomes to infer copy number without necessarily using a standard curve.",
+    "correct_answer_text": "Partition counting without a standard curve",
     "correct_letter_original": "E",
-    "explanation": "It counts partition outcomes to infer copy number without necessarily using a standard curve. is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
+    "explanation": "Partition counting without a standard curve is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
     "source_cue": "Second-Edition Update Set / Digital PCR and Isothermal Amplification / Q38",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -205160,40 +204888,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Digital PCR and Isothermal Amplification",
     "topic_group": "Digital PCR and Isothermal Amplification",
-    "question_text": "Which temperature-pattern comparison is most accurate?",
+    "question_text": "Which temperature pattern correctly matches LAMP and standard PCR?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Standard PCR runs at one constant temperature, while LAMP cycles through three temperatures."
+        "text": "PCR at one temperature / LAMP thermal cycling"
       },
       {
         "letter_original": "B",
-        "text": "Digital PCR requires 65°C because droplets cannot be heated."
+        "text": "Digital PCR fixed at 65 degrees C"
       },
       {
         "letter_original": "C",
-        "text": "Isothermal methods require 95°C denaturation every cycle."
+        "text": "Isothermal methods at 95 degrees C every cycle"
       },
       {
         "letter_original": "D",
-        "text": "LAMP is commonly run around 60-65°C, while standard PCR cycles through denaturation, annealing, and extension."
+        "text": "LAMP at one temperature / PCR denaturation-annealing-extension cycles"
       },
       {
         "letter_original": "E",
-        "text": "qPCR cannot use thermal cycling."
+        "text": "qPCR without thermal cycling"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Standard PCR runs at one constant temperature, while LAMP cycles through three temperatures.",
-      "Digital PCR requires 65°C because droplets cannot be heated.",
-      "Isothermal methods require 95°C denaturation every cycle.",
-      "LAMP is commonly run around 60-65°C, while standard PCR cycles through denaturation, annealing, and extension.",
-      "qPCR cannot use thermal cycling."
+      "PCR at one temperature / LAMP thermal cycling",
+      "Digital PCR fixed at 65 degrees C",
+      "Isothermal methods at 95 degrees C every cycle",
+      "LAMP at one temperature / PCR denaturation-annealing-extension cycles",
+      "qPCR without thermal cycling"
     ],
-    "correct_answer_text": "LAMP is commonly run around 60-65°C, while standard PCR cycles through denaturation, annealing, and extension.",
+    "correct_answer_text": "LAMP at one temperature / PCR denaturation-annealing-extension cycles",
     "correct_letter_original": "D",
-    "explanation": "LAMP is commonly run around 60-65°C, while standard PCR cycles through denaturation, annealing, and extension. is correct because it fits the amplification or quantification mechanism described in the stem.",
+    "explanation": "LAMP at one temperature / PCR denaturation-annealing-extension cycles is correct because LAMP uses multiple primers and strand-displacing polymerase at a constant temperature.",
     "source_cue": "Second-Edition Update Set / Digital PCR and Isothermal Amplification / Q44",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -205704,40 +205432,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Next-Generation Sequencing",
     "topic_group": "Next-Generation Sequencing",
-    "question_text": "Why is Illumina-style sequencing by synthesis not the same as Sanger sequencing even though both use modified nucleotides?",
+    "question_text": "Which comparison correctly distinguishes Illumina sequencing by synthesis from Sanger sequencing?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Illumina reversible terminators pause extension temporarily, while Sanger ddNTPs permanently terminate strands."
+        "text": "Reversible blocking / permanent termination"
       },
       {
         "letter_original": "B",
-        "text": "Sanger uses no DNA polymerase."
+        "text": "No polymerase / DNA polymerase"
       },
       {
         "letter_original": "C",
-        "text": "Illumina reads protein sequences, while Sanger reads DNA."
+        "text": "Protein sequencing / DNA sequencing"
       },
       {
         "letter_original": "D",
-        "text": "Sanger uses bridge PCR to form clusters."
+        "text": "Bridge PCR / capillary electrophoresis"
       },
       {
         "letter_original": "E",
-        "text": "Illumina uses no fluorescent signal."
+        "text": "No fluorescence / fluorescence"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Illumina reversible terminators pause extension temporarily, while Sanger ddNTPs permanently terminate strands.",
-      "Sanger uses no DNA polymerase.",
-      "Illumina reads protein sequences, while Sanger reads DNA.",
-      "Sanger uses bridge PCR to form clusters.",
-      "Illumina uses no fluorescent signal."
+      "Reversible blocking / permanent termination",
+      "No polymerase / DNA polymerase",
+      "Protein sequencing / DNA sequencing",
+      "Bridge PCR / capillary electrophoresis",
+      "No fluorescence / fluorescence"
     ],
-    "correct_answer_text": "Illumina reversible terminators pause extension temporarily, while Sanger ddNTPs permanently terminate strands.",
+    "correct_answer_text": "Reversible blocking / permanent termination",
     "correct_letter_original": "A",
-    "explanation": "Illumina reversible terminators pause extension temporarily, while Sanger ddNTPs permanently terminate strands. is correct because reversible terminators allow one base to be added, read, and then chemically unblocked for the next cycle.",
+    "explanation": "Reversible blocking / permanent termination is correct because reversible terminators allow one base to be added, read, and then chemically unblocked for the next cycle.",
     "source_cue": "Second-Edition Update Set / Next-Generation Sequencing / Q52",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -205840,40 +205568,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Next-Generation Sequencing",
     "topic_group": "Next-Generation Sequencing",
-    "question_text": "In Illumina sequencing by synthesis, why are reversible terminators useful?",
+    "question_text": "Why are reversible terminators useful in Illumina sequencing by synthesis?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "They permanently stop every DNA strand at a different length."
+        "text": "One incorporated base can be imaged each cycle"
       },
       {
         "letter_original": "B",
-        "text": "They digest adapters from DNA fragments."
+        "text": "Adapters are digested after every cycle"
       },
       {
         "letter_original": "C",
-        "text": "They generate H+ ions for pH detection."
+        "text": "Hydrogen ions are detected directly"
       },
       {
         "letter_original": "D",
-        "text": "They form antibody-antigen complexes."
+        "text": "Antibody complexes form during extension"
       },
       {
         "letter_original": "E",
-        "text": "They allow one base to be incorporated and imaged per cycle before synthesis continues."
+        "text": "All strands stop permanently at different lengths"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "They permanently stop every DNA strand at a different length.",
-      "They digest adapters from DNA fragments.",
-      "They generate H+ ions for pH detection.",
-      "They form antibody-antigen complexes.",
-      "They allow one base to be incorporated and imaged per cycle before synthesis continues."
+      "One incorporated base can be imaged each cycle",
+      "Adapters are digested after every cycle",
+      "Hydrogen ions are detected directly",
+      "Antibody complexes form during extension",
+      "All strands stop permanently at different lengths"
     ],
-    "correct_answer_text": "They allow one base to be incorporated and imaged per cycle before synthesis continues.",
-    "correct_letter_original": "E",
-    "explanation": "They allow one base to be incorporated and imaged per cycle before synthesis continues. is correct because reversible terminators allow one base to be added, read, and then chemically unblocked for the next cycle.",
+    "correct_answer_text": "One incorporated base can be imaged each cycle",
+    "correct_letter_original": "A",
+    "explanation": "One incorporated base can be imaged each cycle is correct because reversible terminators allow one base to be added, read, and then chemically unblocked for the next cycle.",
     "source_cue": "Second-Edition Update Set / Next-Generation Sequencing / Q54",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -207268,40 +206996,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "DNA Barcoding and Species Identification",
     "topic_group": "DNA Barcoding and Species Identification",
-    "question_text": "Why might DNA barcoding be more reliable than morphology for processed seafood?",
+    "question_text": "Why can DNA barcoding outperform morphology for processed seafood?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Protein bands always identify species without sequencing."
+        "text": "Protein bands alone identify species"
       },
       {
         "letter_original": "B",
-        "text": "Processing can remove visible identifying traits, but DNA sequence can remain informative."
+        "text": "DNA can remain informative after visible traits are lost"
       },
       {
         "letter_original": "C",
-        "text": "Processed seafood contains no DNA."
+        "text": "Processed seafood contains no DNA"
       },
       {
         "letter_original": "D",
-        "text": "Morphology is required before PCR can work."
+        "text": "Morphology is required before PCR"
       },
       {
         "letter_original": "E",
-        "text": "COI is found only in unprocessed tissue."
+        "text": "COI occurs only in unprocessed tissue"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Protein bands always identify species without sequencing.",
-      "Processing can remove visible identifying traits, but DNA sequence can remain informative.",
-      "Processed seafood contains no DNA.",
-      "Morphology is required before PCR can work.",
-      "COI is found only in unprocessed tissue."
+      "Protein bands alone identify species",
+      "DNA can remain informative after visible traits are lost",
+      "Processed seafood contains no DNA",
+      "Morphology is required before PCR",
+      "COI occurs only in unprocessed tissue"
     ],
-    "correct_answer_text": "Processing can remove visible identifying traits, but DNA sequence can remain informative.",
+    "correct_answer_text": "DNA can remain informative after visible traits are lost",
     "correct_letter_original": "B",
-    "explanation": "Processing can remove visible identifying traits, but DNA sequence can remain informative. is correct because DNA barcoding is especially useful for revealing seafood substitution when visible traits are gone.",
+    "explanation": "DNA can remain informative after visible traits are lost is correct because DNA barcoding is especially useful for revealing seafood substitution when visible traits are gone.",
     "source_cue": "Second-Edition Update Set / DNA Barcoding and Species Identification / Q75",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -207472,40 +207200,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "CAR T and Current Immunology Applications",
     "topic_group": "CAR T and Current Immunology Applications",
-    "question_text": "Which statement best distinguishes CAR T therapy from monoclonal antibody therapy?",
+    "question_text": "Which comparison best distinguishes CAR T therapy from monoclonal antibody therapy?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "CAR T uses no antigen recognition."
+        "text": "DNA sequencing / protein staining"
       },
       {
         "letter_original": "B",
-        "text": "Monoclonal antibodies are living engineered cells."
+        "text": "Antigen loss / Gram staining"
       },
       {
         "letter_original": "C",
-        "text": "CAR T is a dye-based protein quantitation assay."
+        "text": "Living engineered cells / antibody proteins"
       },
       {
         "letter_original": "D",
-        "text": "Monoclonal antibodies require Cas9 cutting before infusion."
+        "text": "PCR amplification / cell infusion"
       },
       {
         "letter_original": "E",
-        "text": "CAR T administers engineered immune cells, while monoclonal antibodies administer antibody proteins."
+        "text": "Restriction digestion / vaccine design"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "CAR T uses no antigen recognition.",
-      "Monoclonal antibodies are living engineered cells.",
-      "CAR T is a dye-based protein quantitation assay.",
-      "Monoclonal antibodies require Cas9 cutting before infusion.",
-      "CAR T administers engineered immune cells, while monoclonal antibodies administer antibody proteins."
+      "DNA sequencing / protein staining",
+      "Antigen loss / Gram staining",
+      "Living engineered cells / antibody proteins",
+      "PCR amplification / cell infusion",
+      "Restriction digestion / vaccine design"
     ],
-    "correct_answer_text": "CAR T administers engineered immune cells, while monoclonal antibodies administer antibody proteins.",
-    "correct_letter_original": "E",
-    "explanation": "CAR T administers engineered immune cells, while monoclonal antibodies administer antibody proteins. is correct because CAR T therapy uses engineered T cells and immunology-specific targeting features to recognize tumor antigens.",
+    "correct_answer_text": "Living engineered cells / antibody proteins",
+    "correct_letter_original": "C",
+    "explanation": "Living engineered cells / antibody proteins is correct because CAR T therapy uses engineered T cells and immunology-specific targeting features to recognize tumor antigens.",
     "source_cue": "Second-Edition Update Set / CAR T and Current Immunology Applications / Q78",
     "primary_domain": "immunological_applications",
     "domain_confidence": "high",
@@ -207948,40 +207676,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "CAR T and Current Immunology Applications",
     "topic_group": "CAR T and Current Immunology Applications",
-    "question_text": "Why is CAR T not simply \"a vaccine\"?",
+    "question_text": "Why is CAR T therapy not simply a vaccine?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "It uses PCR rather than immune cells."
+        "text": "PCR-based detection assay"
       },
       {
         "letter_original": "B",
-        "text": "It prevents all future cancers by antibody memory."
+        "text": "Future-prevention antibody memory"
       },
       {
         "letter_original": "C",
-        "text": "It relies on bacterial transformation."
+        "text": "Bacterial transformation workflow"
       },
       {
         "letter_original": "D",
-        "text": "It is a therapeutic infusion of engineered T cells designed to attack existing target cells."
+        "text": "Engineered-cell treatment of existing target cells"
       },
       {
         "letter_original": "E",
-        "text": "It detects seafood substitution."
+        "text": "Seafood substitution test"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "It uses PCR rather than immune cells.",
-      "It prevents all future cancers by antibody memory.",
-      "It relies on bacterial transformation.",
-      "It is a therapeutic infusion of engineered T cells designed to attack existing target cells.",
-      "It detects seafood substitution."
+      "PCR-based detection assay",
+      "Future-prevention antibody memory",
+      "Bacterial transformation workflow",
+      "Engineered-cell treatment of existing target cells",
+      "Seafood substitution test"
     ],
-    "correct_answer_text": "It is a therapeutic infusion of engineered T cells designed to attack existing target cells.",
+    "correct_answer_text": "Engineered-cell treatment of existing target cells",
     "correct_letter_original": "D",
-    "explanation": "It is a therapeutic infusion of engineered T cells designed to attack existing target cells. is correct because CAR T therapy uses engineered T cells and immunology-specific targeting features to recognize tumor antigens.",
+    "explanation": "Engineered-cell treatment of existing target cells is correct because CAR T therapy uses engineered T cells and immunology-specific targeting features to recognize tumor antigens.",
     "source_cue": "Second-Edition Update Set / CAR T and Current Immunology Applications / Q85",
     "primary_domain": "immunological_applications",
     "domain_confidence": "high",
@@ -208020,36 +207748,36 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "choices": [
       {
         "letter_original": "A",
-        "text": "Fluorescent dyes can be designed to bind nucleic acids more selectively than absorbance detects them."
+        "text": "Selective dye binding to nucleic acids"
       },
       {
         "letter_original": "B",
-        "text": "It requires no DNA-binding chemistry."
+        "text": "No DNA-binding chemistry"
       },
       {
         "letter_original": "C",
-        "text": "It measures protein only at 595 nm."
+        "text": "Protein-only detection at 595 nm"
       },
       {
         "letter_original": "D",
-        "text": "It counts bacterial colonies directly."
+        "text": "Bacterial colony counting"
       },
       {
         "letter_original": "E",
-        "text": "It identifies species by COI sequence."
+        "text": "COI species identification"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Fluorescent dyes can be designed to bind nucleic acids more selectively than absorbance detects them.",
-      "It requires no DNA-binding chemistry.",
-      "It measures protein only at 595 nm.",
-      "It counts bacterial colonies directly.",
-      "It identifies species by COI sequence."
+      "Selective dye binding to nucleic acids",
+      "No DNA-binding chemistry",
+      "Protein-only detection at 595 nm",
+      "Bacterial colony counting",
+      "COI species identification"
     ],
-    "correct_answer_text": "Fluorescent dyes can be designed to bind nucleic acids more selectively than absorbance detects them.",
+    "correct_answer_text": "Selective dye binding to nucleic acids",
     "correct_letter_original": "A",
-    "explanation": "Fluorescent dyes can be designed to bind nucleic acids more selectively than absorbance detects them. is correct because UV absorbance and fluorometric assays measure nucleic-acid quantity differently and can diverge when contaminants are present.",
+    "explanation": "Selective dye binding to nucleic acids is correct because UV absorbance and fluorometric assays measure nucleic-acid quantity differently and can diverge when contaminants are present.",
     "source_cue": "Second-Edition Update Set / Fluorometric Quantitation, Regulation, and Current Topics / Q86",
     "primary_domain": "basic_laboratory_skills",
     "domain_confidence": "high",
@@ -208900,42 +208628,42 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Fluorometric Quantitation, Regulation, and Current Topics",
     "topic_group": "Fluorometric Quantitation, Regulation, and Current Topics",
-    "question_text": "Which pair is most directly connected through the 2010 synthetic-cell/synthetic-genome story?",
+    "question_text": "Which institute is most directly associated with the 2010 synthetic-cell/synthetic-genome story?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Doudna and fish COI barcoding"
+        "text": "National Institutes of Health"
       },
       {
         "letter_original": "B",
-        "text": "Daniel Gibson and overlap-based assembly of synthetic genome fragments"
+        "text": "J. Craig Venter Institute"
       },
       {
         "letter_original": "C",
-        "text": "Francisco Mojica and TOPO TA cloning"
+        "text": "Broad Institute"
       },
       {
         "letter_original": "D",
-        "text": "Feng Zhang and pyrosequencing"
+        "text": "Centers for Disease Control and Prevention"
       },
       {
         "letter_original": "E",
-        "text": "Emmanuelle Charpentier and A260/A280 ratios"
+        "text": "United States Department of Agriculture"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Doudna and fish COI barcoding",
-      "Daniel Gibson and overlap-based assembly of synthetic genome fragments",
-      "Francisco Mojica and TOPO TA cloning",
-      "Feng Zhang and pyrosequencing",
-      "Emmanuelle Charpentier and A260/A280 ratios"
+      "National Institutes of Health",
+      "J. Craig Venter Institute",
+      "Broad Institute",
+      "Centers for Disease Control and Prevention",
+      "United States Department of Agriculture"
     ],
-    "correct_answer_text": "Daniel Gibson and overlap-based assembly of synthetic genome fragments",
+    "correct_answer_text": "J. Craig Venter Institute",
     "correct_letter_original": "B",
-    "explanation": "Daniel Gibson and overlap-based assembly of synthetic genome fragments is correct because it best matches the newer quantitation, regulation, or current-method detail being tested.",
+    "explanation": "J. Craig Venter Institute is correct because it best matches the newer quantitation, regulation, or current-method detail being tested.",
     "source_cue": "Second-Edition Update Set / Fluorometric Quantitation, Regulation, and Current Topics / Q99",
-    "primary_domain": "bacterial_transformation",
+    "primary_domain": "basic_laboratory_skills",
     "domain_confidence": "high",
     "priority_tier": "high_yield_seed",
     "priority_weight_base": 6,
@@ -208946,7 +208674,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "tags": [
       "second_edition_update",
       "Fluorometric Quantitation, Regulation, and Current Topics",
-      "bacterial_transformation",
+      "basic_laboratory_skills",
       "high_yield_seed"
     ],
     "notes": "Imported from the user-provided second-edition update set.",
@@ -208968,40 +208696,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Fluorometric Quantitation, Regulation, and Current Topics",
     "topic_group": "Fluorometric Quantitation, Regulation, and Current Topics",
-    "question_text": "Which statement best captures the \"new second-edition update\" relationship among your older PCR knowledge and current methods?",
+    "question_text": "Which statement best describes how newer second-edition methods relate to core PCR-era concepts?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Digital PCR replaces polymerase with antibodies."
+        "text": "Polymerase is replaced by antibodies."
       },
       {
         "letter_original": "B",
-        "text": "Isothermal amplification requires the same 95°C denaturation step as standard PCR."
+        "text": "All newer methods require 95 degrees C cycling."
       },
       {
         "letter_original": "C",
-        "text": "NGS is just Sanger sequencing with larger gels."
+        "text": "NGS is Sanger sequencing with larger gels."
       },
       {
         "letter_original": "D",
-        "text": "Newer methods extend the same core nucleic-acid logic into partition counting, constant-temperature amplification, high-throughput sequencing, and programmable editing."
+        "text": "They extend the same core nucleic-acid logic into newer methods."
       },
       {
         "letter_original": "E",
-        "text": "CRISPR is another name for restriction enzyme digestion."
+        "text": "CRISPR is another name for restriction digestion."
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Digital PCR replaces polymerase with antibodies.",
-      "Isothermal amplification requires the same 95°C denaturation step as standard PCR.",
-      "NGS is just Sanger sequencing with larger gels.",
-      "Newer methods extend the same core nucleic-acid logic into partition counting, constant-temperature amplification, high-throughput sequencing, and programmable editing.",
-      "CRISPR is another name for restriction enzyme digestion."
+      "Polymerase is replaced by antibodies.",
+      "All newer methods require 95 degrees C cycling.",
+      "NGS is Sanger sequencing with larger gels.",
+      "They extend the same core nucleic-acid logic into newer methods.",
+      "CRISPR is another name for restriction digestion."
     ],
-    "correct_answer_text": "Newer methods extend the same core nucleic-acid logic into partition counting, constant-temperature amplification, high-throughput sequencing, and programmable editing.",
+    "correct_answer_text": "They extend the same core nucleic-acid logic into newer methods.",
     "correct_letter_original": "D",
-    "explanation": "Newer methods extend the same core nucleic-acid logic into partition counting, constant-temperature amplification, high-throughput sequencing, and programmable editing. is correct because it best matches the newer quantitation, regulation, or current-method detail being tested.",
+    "explanation": "They extend the same core nucleic-acid logic into newer methods. is correct because it best matches the newer quantitation, regulation, or current-method detail being tested.",
     "source_cue": "Second-Edition Update Set / Fluorometric Quantitation, Regulation, and Current Topics / Q100",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -210328,7 +210056,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "CRISPR-Cas9",
     "topic_group": "CRISPR-Cas9",
-    "question_text": "A CRISPR question asks for the pair most linked to programmable \"genetic scissors\" and the 2020 Chemistry Nobel Prize. Which pair is best?",
+    "question_text": "Which pair is most associated with programmable \"genetic scissors\" and the 2020 Chemistry Nobel Prize?",
     "choices": [
       {
         "letter_original": "A",
@@ -210396,40 +210124,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "CRISPR-Cas9",
     "topic_group": "CRISPR-Cas9",
-    "question_text": "Which description best matches Francisco Mojica's CRISPR significance?",
+    "question_text": "Francisco Mojica is most associated with which CRISPR idea?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "He first used PCR to amplify DNA in a thermal cycler."
+        "text": "Thermal-cycler PCR"
       },
       {
         "letter_original": "B",
-        "text": "He connected unusual prokaryotic repeats/spacers with a possible immune function."
+        "text": "Repeat-spacer immune-function link"
       },
       {
         "letter_original": "C",
-        "text": "He created the first CAR T-cell therapy."
+        "text": "First CAR T therapy"
       },
       {
         "letter_original": "D",
-        "text": "He invented ddNTP chain termination sequencing."
+        "text": "ddNTP chain termination"
       },
       {
         "letter_original": "E",
-        "text": "He developed Bio-Rad's pGLO plasmid."
+        "text": "pGLO plasmid design"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "He first used PCR to amplify DNA in a thermal cycler.",
-      "He connected unusual prokaryotic repeats/spacers with a possible immune function.",
-      "He created the first CAR T-cell therapy.",
-      "He invented ddNTP chain termination sequencing.",
-      "He developed Bio-Rad's pGLO plasmid."
+      "Thermal-cycler PCR",
+      "Repeat-spacer immune-function link",
+      "First CAR T therapy",
+      "ddNTP chain termination",
+      "pGLO plasmid design"
     ],
-    "correct_answer_text": "He connected unusual prokaryotic repeats/spacers with a possible immune function.",
+    "correct_answer_text": "Repeat-spacer immune-function link",
     "correct_letter_original": "B",
-    "explanation": "He connected unusual prokaryotic repeats/spacers with a possible immune function. is correct because it is the CRISPR-related factor, mechanism, or historical association described in the stem.",
+    "explanation": "Repeat-spacer immune-function link is correct because it is the CRISPR-related factor, mechanism, or historical association described in the stem.",
     "source_cue": "Second-Edition Update Set / CRISPR-Cas9 / Q121",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -210804,40 +210532,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Cloning and Assembly Methods",
     "topic_group": "Cloning and Assembly Methods",
-    "question_text": "In Golden Gate Assembly, why can multiple fragments assemble in a defined order?",
+    "question_text": "Why can Golden Gate Assembly place multiple fragments in a defined order?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Each fragment has designed overhangs that match only the intended neighboring fragment."
+        "text": "Designed overhangs match only the intended neighbor"
       },
       {
         "letter_original": "B",
-        "text": "Every fragment has the same blunt end."
+        "text": "Every fragment has the same blunt end"
       },
       {
         "letter_original": "C",
-        "text": "Polymerase reads each base by fluorescence."
+        "text": "Polymerase reads bases by fluorescence"
       },
       {
         "letter_original": "D",
-        "text": "Topoisomerase adds A overhangs to the inserts."
+        "text": "Topoisomerase adds A overhangs"
       },
       {
         "letter_original": "E",
-        "text": "Cas9 cuts each fragment beside a PAM."
+        "text": "Cas9 cuts beside a PAM"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Each fragment has designed overhangs that match only the intended neighboring fragment.",
-      "Every fragment has the same blunt end.",
-      "Polymerase reads each base by fluorescence.",
-      "Topoisomerase adds A overhangs to the inserts.",
-      "Cas9 cuts each fragment beside a PAM."
+      "Designed overhangs match only the intended neighbor",
+      "Every fragment has the same blunt end",
+      "Polymerase reads bases by fluorescence",
+      "Topoisomerase adds A overhangs",
+      "Cas9 cuts beside a PAM"
     ],
-    "correct_answer_text": "Each fragment has designed overhangs that match only the intended neighboring fragment.",
+    "correct_answer_text": "Designed overhangs match only the intended neighbor",
     "correct_letter_original": "A",
-    "explanation": "Each fragment has designed overhangs that match only the intended neighboring fragment. is correct because Golden Gate assembly uses Type IIS enzymes that cut outside their recognition sites to create designed overhangs.",
+    "explanation": "Designed overhangs match only the intended neighbor is correct because Golden Gate assembly uses Type IIS enzymes that cut outside their recognition sites to create designed overhangs.",
     "source_cue": "Second-Edition Update Set / Cloning and Assembly Methods / Q127",
     "primary_domain": "bacterial_transformation",
     "domain_confidence": "high",
@@ -210872,40 +210600,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Cloning and Assembly Methods",
     "topic_group": "Cloning and Assembly Methods",
-    "question_text": "A student says Golden Gate is just the same as EcoRI sticky-end cloning. What is the best correction?",
+    "question_text": "What best distinguishes Golden Gate Assembly from ordinary EcoRI sticky-end cloning?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Golden Gate uses Type IIS enzymes that cut outside their recognition sites, allowing designed overhangs."
+        "text": "Type IIS cutting outside the recognition site"
       },
       {
         "letter_original": "B",
-        "text": "Golden Gate uses ddNTPs to terminate DNA synthesis."
+        "text": "ddNTP chain termination"
       },
       {
         "letter_original": "C",
-        "text": "Golden Gate depends on antibody binding."
+        "text": "Antibody-dependent detection"
       },
       {
         "letter_original": "D",
-        "text": "Golden Gate requires no DNA ligase."
+        "text": "No ligase requirement"
       },
       {
         "letter_original": "E",
-        "text": "Golden Gate is a protein quantitation method."
+        "text": "Protein quantitation"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Golden Gate uses Type IIS enzymes that cut outside their recognition sites, allowing designed overhangs.",
-      "Golden Gate uses ddNTPs to terminate DNA synthesis.",
-      "Golden Gate depends on antibody binding.",
-      "Golden Gate requires no DNA ligase.",
-      "Golden Gate is a protein quantitation method."
+      "Type IIS cutting outside the recognition site",
+      "ddNTP chain termination",
+      "Antibody-dependent detection",
+      "No ligase requirement",
+      "Protein quantitation"
     ],
-    "correct_answer_text": "Golden Gate uses Type IIS enzymes that cut outside their recognition sites, allowing designed overhangs.",
+    "correct_answer_text": "Type IIS cutting outside the recognition site",
     "correct_letter_original": "A",
-    "explanation": "Golden Gate uses Type IIS enzymes that cut outside their recognition sites, allowing designed overhangs. is correct because Golden Gate assembly uses Type IIS enzymes that cut outside their recognition sites to create designed overhangs.",
+    "explanation": "Type IIS cutting outside the recognition site is correct because Golden Gate assembly uses Type IIS enzymes that cut outside their recognition sites to create designed overhangs.",
     "source_cue": "Second-Edition Update Set / Cloning and Assembly Methods / Q128",
     "primary_domain": "bacterial_transformation",
     "domain_confidence": "high",
@@ -211348,7 +211076,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Cloning and Assembly Methods",
     "topic_group": "Cloning and Assembly Methods",
-    "question_text": "Which cloning method is most directly associated with the 2010 synthetic-genome/artificial-cell work at the J. Craig Venter Institute?",
+    "question_text": "Which cloning method is most associated with the 2010 synthetic-genome work at JCVI?",
     "choices": [
       {
         "letter_original": "A",
@@ -211356,28 +211084,28 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       },
       {
         "letter_original": "B",
-        "text": "Ouchterlony diffusion"
+        "text": "Golden Gate Assembly"
       },
       {
         "letter_original": "C",
-        "text": "Ion semiconductor sequencing"
+        "text": "TOPO TA cloning"
       },
       {
         "letter_original": "D",
-        "text": "Bradford assay"
+        "text": "Blunt-end ligation"
       },
       {
         "letter_original": "E",
-        "text": "ELISA"
+        "text": "Gateway cloning"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
       "Gibson Assembly",
-      "Ouchterlony diffusion",
-      "Ion semiconductor sequencing",
-      "Bradford assay",
-      "ELISA"
+      "Golden Gate Assembly",
+      "TOPO TA cloning",
+      "Blunt-end ligation",
+      "Gateway cloning"
     ],
     "correct_answer_text": "Gibson Assembly",
     "correct_letter_original": "A",
@@ -211688,42 +211416,42 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Cloning and Assembly Methods",
     "topic_group": "Cloning and Assembly Methods",
-    "question_text": "What is the main practical advantage of TOPO TA cloning for PCR products?",
+    "question_text": "What is the main practical advantage of TOPO TA cloning?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "It allows rapid insertion into a vector without separate restriction digestion and ligase setup."
+        "text": "Rapid vector insertion without separate digest and ligation steps"
       },
       {
         "letter_original": "B",
-        "text": "It sequences millions of fragments in parallel."
+        "text": "Parallel sequencing of millions of fragments"
       },
       {
         "letter_original": "C",
-        "text": "It edits the chromosome at a guide RNA target."
+        "text": "Guide-RNA chromosome editing"
       },
       {
         "letter_original": "D",
-        "text": "It quantifies DNA by Poisson statistics."
+        "text": "Poisson-based DNA quantitation"
       },
       {
         "letter_original": "E",
-        "text": "It stains Gram-positive cells purple."
+        "text": "Gram staining"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "It allows rapid insertion into a vector without separate restriction digestion and ligase setup.",
-      "It sequences millions of fragments in parallel.",
-      "It edits the chromosome at a guide RNA target.",
-      "It quantifies DNA by Poisson statistics.",
-      "It stains Gram-positive cells purple."
+      "Rapid vector insertion without separate digest and ligation steps",
+      "Parallel sequencing of millions of fragments",
+      "Guide-RNA chromosome editing",
+      "Poisson-based DNA quantitation",
+      "Gram staining"
     ],
-    "correct_answer_text": "It allows rapid insertion into a vector without separate restriction digestion and ligase setup.",
+    "correct_answer_text": "Rapid vector insertion without separate digest and ligation steps",
     "correct_letter_original": "A",
-    "explanation": "It allows rapid insertion into a vector without separate restriction digestion and ligase setup. is correct because TA/TOPO cloning relies on Taq-style A overhangs and a prepared vector that captures the PCR product quickly.",
+    "explanation": "Rapid vector insertion without separate digest and ligation steps is correct because TA/TOPO cloning relies on Taq-style A overhangs and a prepared vector that captures the PCR product quickly.",
     "source_cue": "Second-Edition Update Set / Cloning and Assembly Methods / Q140",
-    "primary_domain": "polymerase_chain_reaction",
+    "primary_domain": "bacterial_transformation",
     "domain_confidence": "high",
     "priority_tier": "high_yield_seed",
     "priority_weight_base": 6,
@@ -211734,7 +211462,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "tags": [
       "second_edition_update",
       "Cloning and Assembly Methods",
-      "polymerase_chain_reaction",
+      "bacterial_transformation",
       "high_yield_seed"
     ],
     "notes": "Imported from the user-provided second-edition update set.",
@@ -212504,40 +212232,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Digital PCR and Isothermal Amplification",
     "topic_group": "Digital PCR and Isothermal Amplification",
-    "question_text": "Which statement best explains why digital PCR can detect rare alleles in a wild-type background?",
+    "question_text": "Why can digital PCR detect rare alleles in a wild-type background?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Partitioning separates molecules into many individual reactions, making rare positives easier to distinguish."
+        "text": "Partitioning separates rare targets into individual reactions"
       },
       {
         "letter_original": "B",
-        "text": "It converts every wild-type allele into mutant DNA."
+        "text": "Wild-type DNA is converted into mutant DNA"
       },
       {
         "letter_original": "C",
-        "text": "It uses antibodies to remove wild-type DNA."
+        "text": "Antibodies remove wild-type DNA"
       },
       {
         "letter_original": "D",
-        "text": "It relies on Gram's iodine to stabilize rare alleles."
+        "text": "Gram's iodine stabilizes rare alleles"
       },
       {
         "letter_original": "E",
-        "text": "It permanently terminates wild-type strands with ddNTPs."
+        "text": "ddNTPs terminate wild-type strands"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Partitioning separates molecules into many individual reactions, making rare positives easier to distinguish.",
-      "It converts every wild-type allele into mutant DNA.",
-      "It uses antibodies to remove wild-type DNA.",
-      "It relies on Gram's iodine to stabilize rare alleles.",
-      "It permanently terminates wild-type strands with ddNTPs."
+      "Partitioning separates rare targets into individual reactions",
+      "Wild-type DNA is converted into mutant DNA",
+      "Antibodies remove wild-type DNA",
+      "Gram's iodine stabilizes rare alleles",
+      "ddNTPs terminate wild-type strands"
     ],
-    "correct_answer_text": "Partitioning separates molecules into many individual reactions, making rare positives easier to distinguish.",
+    "correct_answer_text": "Partitioning separates rare targets into individual reactions",
     "correct_letter_original": "A",
-    "explanation": "Partitioning separates molecules into many individual reactions, making rare positives easier to distinguish. is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
+    "explanation": "Partitioning separates rare targets into individual reactions is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
     "source_cue": "Second-Edition Update Set / Digital PCR and Isothermal Amplification / Q152",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -212712,36 +212440,36 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "choices": [
       {
         "letter_original": "A",
-        "text": "dPCR estimates copy number from partition counts rather than Cq comparison to standards."
+        "text": "Partition counts replace Cq comparison to standards"
       },
       {
         "letter_original": "B",
-        "text": "dPCR does not use primers."
+        "text": "Digital PCR uses no primers"
       },
       {
         "letter_original": "C",
-        "text": "qPCR cannot produce fluorescence."
+        "text": "qPCR cannot produce fluorescence"
       },
       {
         "letter_original": "D",
-        "text": "dPCR measures protein concentration directly."
+        "text": "Digital PCR measures protein concentration directly"
       },
       {
         "letter_original": "E",
-        "text": "qPCR cannot quantify DNA."
+        "text": "qPCR cannot quantify DNA"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "dPCR estimates copy number from partition counts rather than Cq comparison to standards.",
-      "dPCR does not use primers.",
-      "qPCR cannot produce fluorescence.",
-      "dPCR measures protein concentration directly.",
-      "qPCR cannot quantify DNA."
+      "Partition counts replace Cq comparison to standards",
+      "Digital PCR uses no primers",
+      "qPCR cannot produce fluorescence",
+      "Digital PCR measures protein concentration directly",
+      "qPCR cannot quantify DNA"
     ],
-    "correct_answer_text": "dPCR estimates copy number from partition counts rather than Cq comparison to standards.",
+    "correct_answer_text": "Partition counts replace Cq comparison to standards",
     "correct_letter_original": "A",
-    "explanation": "dPCR estimates copy number from partition counts rather than Cq comparison to standards. is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
+    "explanation": "Partition counts replace Cq comparison to standards is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
     "source_cue": "Second-Edition Update Set / Digital PCR and Isothermal Amplification / Q155",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -212776,40 +212504,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Digital PCR and Isothermal Amplification",
     "topic_group": "Digital PCR and Isothermal Amplification",
-    "question_text": "Which statement best distinguishes endpoint PCR, qPCR, and dPCR?",
+    "question_text": "Which description correctly matches endpoint PCR, qPCR, and digital PCR?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Endpoint PCR shows final product presence/size; qPCR tracks amplification curves; dPCR counts positive partitions."
+        "text": "Final band / fluorescence curve / positive partition count"
       },
       {
         "letter_original": "B",
-        "text": "Endpoint PCR uses antibodies; qPCR uses agarose; dPCR uses Gram stain."
+        "text": "Antibody assay / agarose gel / Gram stain"
       },
       {
         "letter_original": "C",
-        "text": "Endpoint PCR is quantitative by default; qPCR is qualitative; dPCR is sequencing."
+        "text": "Quantitative by default / qualitative only / sequencing"
       },
       {
         "letter_original": "D",
-        "text": "Endpoint PCR requires no primers; qPCR uses no polymerase; dPCR uses no template."
+        "text": "No primers / no polymerase / no template"
       },
       {
         "letter_original": "E",
-        "text": "All three are identical except for dye color."
+        "text": "Same method / different dye"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Endpoint PCR shows final product presence/size; qPCR tracks amplification curves; dPCR counts positive partitions.",
-      "Endpoint PCR uses antibodies; qPCR uses agarose; dPCR uses Gram stain.",
-      "Endpoint PCR is quantitative by default; qPCR is qualitative; dPCR is sequencing.",
-      "Endpoint PCR requires no primers; qPCR uses no polymerase; dPCR uses no template.",
-      "All three are identical except for dye color."
+      "Final band / fluorescence curve / positive partition count",
+      "Antibody assay / agarose gel / Gram stain",
+      "Quantitative by default / qualitative only / sequencing",
+      "No primers / no polymerase / no template",
+      "Same method / different dye"
     ],
-    "correct_answer_text": "Endpoint PCR shows final product presence/size; qPCR tracks amplification curves; dPCR counts positive partitions.",
+    "correct_answer_text": "Final band / fluorescence curve / positive partition count",
     "correct_letter_original": "A",
-    "explanation": "Endpoint PCR shows final product presence/size; qPCR tracks amplification curves; dPCR counts positive partitions. is correct because it fits the amplification or quantification mechanism described in the stem.",
+    "explanation": "Final band / fluorescence curve / positive partition count is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
     "source_cue": "Second-Edition Update Set / Digital PCR and Isothermal Amplification / Q156",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -213116,40 +212844,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Digital PCR and Isothermal Amplification",
     "topic_group": "Digital PCR and Isothermal Amplification",
-    "question_text": "Which statement best captures why LAMP can run without repeated denaturation at 95°C?",
+    "question_text": "Why can LAMP run without repeated 95 degrees C denaturation?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "A strand-displacing polymerase and primer design allow amplification at a constant temperature."
+        "text": "Strand-displacing polymerase plus loop-primer design"
       },
       {
         "letter_original": "B",
-        "text": "The DNA template is replaced by protein."
+        "text": "DNA replacement by protein"
       },
       {
         "letter_original": "C",
-        "text": "Cas9 cuts DNA into single-stranded fragments."
+        "text": "Cas9 strand cutting"
       },
       {
         "letter_original": "D",
-        "text": "ddNTPs create a sequencing ladder."
+        "text": "ddNTP ladder formation"
       },
       {
         "letter_original": "E",
-        "text": "Gram's iodine stabilizes the DNA helix."
+        "text": "Gram's iodine stabilization"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "A strand-displacing polymerase and primer design allow amplification at a constant temperature.",
-      "The DNA template is replaced by protein.",
-      "Cas9 cuts DNA into single-stranded fragments.",
-      "ddNTPs create a sequencing ladder.",
-      "Gram's iodine stabilizes the DNA helix."
+      "Strand-displacing polymerase plus loop-primer design",
+      "DNA replacement by protein",
+      "Cas9 strand cutting",
+      "ddNTP ladder formation",
+      "Gram's iodine stabilization"
     ],
-    "correct_answer_text": "A strand-displacing polymerase and primer design allow amplification at a constant temperature.",
+    "correct_answer_text": "Strand-displacing polymerase plus loop-primer design",
     "correct_letter_original": "A",
-    "explanation": "A strand-displacing polymerase and primer design allow amplification at a constant temperature. is correct because LAMP uses multiple primers and strand-displacing polymerase at a constant temperature.",
+    "explanation": "Strand-displacing polymerase plus loop-primer design is correct because LAMP uses multiple primers and strand-displacing polymerase at a constant temperature.",
     "source_cue": "Second-Edition Update Set / Digital PCR and Isothermal Amplification / Q161",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -214072,36 +213800,36 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "choices": [
       {
         "letter_original": "A",
-        "text": "Different isothermal methods use different mechanisms, such as strand displacement, recombinase invasion, or helicase unwinding."
+        "text": "Different mechanisms, same constant-temperature goal"
       },
       {
         "letter_original": "B",
-        "text": "All isothermal methods are just ordinary PCR with longer denaturation."
+        "text": "Longer-denaturation PCR"
       },
       {
         "letter_original": "C",
-        "text": "Isothermal methods cannot amplify nucleic acid."
+        "text": "No nucleic-acid amplification"
       },
       {
         "letter_original": "D",
-        "text": "Isothermal methods require fluorescent ddNTPs."
+        "text": "ddNTP-dependent amplification"
       },
       {
         "letter_original": "E",
-        "text": "Isothermal methods always use Type IIS restriction enzymes."
+        "text": "Type IIS-dependent amplification"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Different isothermal methods use different mechanisms, such as strand displacement, recombinase invasion, or helicase unwinding.",
-      "All isothermal methods are just ordinary PCR with longer denaturation.",
-      "Isothermal methods cannot amplify nucleic acid.",
-      "Isothermal methods require fluorescent ddNTPs.",
-      "Isothermal methods always use Type IIS restriction enzymes."
+      "Different mechanisms, same constant-temperature goal",
+      "Longer-denaturation PCR",
+      "No nucleic-acid amplification",
+      "ddNTP-dependent amplification",
+      "Type IIS-dependent amplification"
     ],
-    "correct_answer_text": "Different isothermal methods use different mechanisms, such as strand displacement, recombinase invasion, or helicase unwinding.",
+    "correct_answer_text": "Different mechanisms, same constant-temperature goal",
     "correct_letter_original": "A",
-    "explanation": "Different isothermal methods use different mechanisms, such as strand displacement, recombinase invasion, or helicase unwinding. is correct because it fits the amplification or quantification mechanism described in the stem.",
+    "explanation": "Different mechanisms, same constant-temperature goal is correct because it fits the amplification or quantification mechanism described in the stem.",
     "source_cue": "Second-Edition Update Set / Digital PCR and Isothermal Amplification / Q175",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -214408,40 +214136,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Next-Generation Sequencing",
     "topic_group": "Next-Generation Sequencing",
-    "question_text": "Why does NGS often require clonal amplification before sequencing?",
+    "question_text": "Why does NGS often require clonal amplification?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "A single DNA molecule usually gives too weak a signal, so many identical copies improve detection."
+        "text": "Single DNA molecules produce signals that are too weak"
       },
       {
         "letter_original": "B",
-        "text": "Clonal amplification creates antibodies against adapters."
+        "text": "Adapters must trigger antibody formation"
       },
       {
         "letter_original": "C",
-        "text": "It converts each DNA fragment into a T cell."
+        "text": "DNA fragments must become T cells"
       },
       {
         "letter_original": "D",
-        "text": "It removes all sequencing errors."
+        "text": "Clonal amplification removes all sequencing errors"
       },
       {
         "letter_original": "E",
-        "text": "It replaces bioinformatics."
+        "text": "Clonal amplification replaces bioinformatics"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "A single DNA molecule usually gives too weak a signal, so many identical copies improve detection.",
-      "Clonal amplification creates antibodies against adapters.",
-      "It converts each DNA fragment into a T cell.",
-      "It removes all sequencing errors.",
-      "It replaces bioinformatics."
+      "Single DNA molecules produce signals that are too weak",
+      "Adapters must trigger antibody formation",
+      "DNA fragments must become T cells",
+      "Clonal amplification removes all sequencing errors",
+      "Clonal amplification replaces bioinformatics"
     ],
-    "correct_answer_text": "A single DNA molecule usually gives too weak a signal, so many identical copies improve detection.",
+    "correct_answer_text": "Single DNA molecules produce signals that are too weak",
     "correct_letter_original": "A",
-    "explanation": "A single DNA molecule usually gives too weak a signal, so many identical copies improve detection. is correct because it matches the sequencing chemistry, library concept, or analysis term described in the item.",
+    "explanation": "Single DNA molecules produce signals that are too weak is correct because it matches the sequencing chemistry, library concept, or analysis term described in the item.",
     "source_cue": "Second-Edition Update Set / Next-Generation Sequencing / Q180",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -215088,40 +214816,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Next-Generation Sequencing",
     "topic_group": "Next-Generation Sequencing",
-    "question_text": "In pyrosequencing, why can a run of identical bases be challenging?",
+    "question_text": "Why can homopolymer runs challenge pyrosequencing?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Multiple incorporations can produce a stronger signal that must be interpreted quantitatively."
+        "text": "Signal strength must reflect multiple incorporations"
       },
       {
         "letter_original": "B",
-        "text": "Identical bases cannot be copied by polymerase."
+        "text": "Identical bases cannot be copied"
       },
       {
         "letter_original": "C",
-        "text": "Pyrophosphate is not released from identical bases."
+        "text": "Pyrophosphate is not released"
       },
       {
         "letter_original": "D",
-        "text": "The sequence becomes a protein."
+        "text": "DNA sequence becomes protein"
       },
       {
         "letter_original": "E",
-        "text": "All identical bases become ddNTPs."
+        "text": "Identical bases become ddNTPs"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Multiple incorporations can produce a stronger signal that must be interpreted quantitatively.",
-      "Identical bases cannot be copied by polymerase.",
-      "Pyrophosphate is not released from identical bases.",
-      "The sequence becomes a protein.",
-      "All identical bases become ddNTPs."
+      "Signal strength must reflect multiple incorporations",
+      "Identical bases cannot be copied",
+      "Pyrophosphate is not released",
+      "DNA sequence becomes protein",
+      "Identical bases become ddNTPs"
     ],
-    "correct_answer_text": "Multiple incorporations can produce a stronger signal that must be interpreted quantitatively.",
+    "correct_answer_text": "Signal strength must reflect multiple incorporations",
     "correct_letter_original": "A",
-    "explanation": "Multiple incorporations can produce a stronger signal that must be interpreted quantitatively. is correct because pyrosequencing detects pyrophosphate released during nucleotide incorporation.",
+    "explanation": "Signal strength must reflect multiple incorporations is correct because pyrosequencing detects pyrophosphate released during nucleotide incorporation.",
     "source_cue": "Second-Edition Update Set / Next-Generation Sequencing / Q190",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -215564,40 +215292,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Next-Generation Sequencing",
     "topic_group": "Next-Generation Sequencing",
-    "question_text": "In paired-end sequencing, why can reading both ends of a fragment be useful?",
+    "question_text": "Why can paired-end sequencing be useful?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "It helps with alignment, insert-size information, and detecting some structural features."
+        "text": "Alignment and insert-size information"
       },
       {
         "letter_original": "B",
-        "text": "It permanently terminates both strands."
+        "text": "Permanent termination of both strands"
       },
       {
         "letter_original": "C",
-        "text": "It replaces all library preparation steps."
+        "text": "No library preparation required"
       },
       {
         "letter_original": "D",
-        "text": "It makes DNA fluorescent without imaging."
+        "text": "Fluorescence without imaging"
       },
       {
         "letter_original": "E",
-        "text": "It removes all sequencing errors."
+        "text": "Complete removal of sequencing errors"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "It helps with alignment, insert-size information, and detecting some structural features.",
-      "It permanently terminates both strands.",
-      "It replaces all library preparation steps.",
-      "It makes DNA fluorescent without imaging.",
-      "It removes all sequencing errors."
+      "Alignment and insert-size information",
+      "Permanent termination of both strands",
+      "No library preparation required",
+      "Fluorescence without imaging",
+      "Complete removal of sequencing errors"
     ],
-    "correct_answer_text": "It helps with alignment, insert-size information, and detecting some structural features.",
+    "correct_answer_text": "Alignment and insert-size information",
     "correct_letter_original": "A",
-    "explanation": "It helps with alignment, insert-size information, and detecting some structural features. is correct because paired-end sequencing reads both ends of the same fragment to improve alignment and interpretation.",
+    "explanation": "Alignment and insert-size information is correct because paired-end sequencing reads both ends of the same fragment to improve alignment and interpretation.",
     "source_cue": "Second-Edition Update Set / Next-Generation Sequencing / Q197",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -215636,36 +215364,36 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "choices": [
       {
         "letter_original": "A",
-        "text": "Many relatively short fragments are sequenced in parallel and computationally aligned or assembled."
+        "text": "Many short fragments are sequenced in parallel"
       },
       {
         "letter_original": "B",
-        "text": "One full chromosome is read end-to-end with no computation."
+        "text": "One chromosome is read end-to-end without computation"
       },
       {
         "letter_original": "C",
-        "text": "Proteins are sorted by size in a gel."
+        "text": "Proteins are sorted by gel size"
       },
       {
         "letter_original": "D",
-        "text": "Bacterial colonies are counted after transformation."
+        "text": "Colonies are counted after transformation"
       },
       {
         "letter_original": "E",
-        "text": "Antibodies are detected by substrate color."
+        "text": "Antibodies are detected by color"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Many relatively short fragments are sequenced in parallel and computationally aligned or assembled.",
-      "One full chromosome is read end-to-end with no computation.",
-      "Proteins are sorted by size in a gel.",
-      "Bacterial colonies are counted after transformation.",
-      "Antibodies are detected by substrate color."
+      "Many short fragments are sequenced in parallel",
+      "One chromosome is read end-to-end without computation",
+      "Proteins are sorted by gel size",
+      "Colonies are counted after transformation",
+      "Antibodies are detected by color"
     ],
-    "correct_answer_text": "Many relatively short fragments are sequenced in parallel and computationally aligned or assembled.",
+    "correct_answer_text": "Many short fragments are sequenced in parallel",
     "correct_letter_original": "A",
-    "explanation": "Many relatively short fragments are sequenced in parallel and computationally aligned or assembled. is correct because it matches the sequencing chemistry, library concept, or analysis term described in the item.",
+    "explanation": "Many short fragments are sequenced in parallel is correct because it matches the sequencing chemistry, library concept, or analysis term described in the item.",
     "source_cue": "Second-Edition Update Set / Next-Generation Sequencing / Q198",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -215704,36 +215432,36 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "choices": [
       {
         "letter_original": "A",
-        "text": "The instrument produces many reads that must be filtered, aligned, assembled, or interpreted."
+        "text": "Read filtering, alignment, assembly, and interpretation"
       },
       {
         "letter_original": "B",
-        "text": "Bioinformatics adds adapters before sequencing."
+        "text": "Adapter ligation before sequencing"
       },
       {
         "letter_original": "C",
-        "text": "Bioinformatics performs PCR in droplets."
+        "text": "PCR in droplets"
       },
       {
         "letter_original": "D",
-        "text": "Bioinformatics converts antibodies into T cells."
+        "text": "Antibody-to-T-cell conversion"
       },
       {
         "letter_original": "E",
-        "text": "Bioinformatics stains DNA with ethidium bromide."
+        "text": "DNA staining with ethidium bromide"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "The instrument produces many reads that must be filtered, aligned, assembled, or interpreted.",
-      "Bioinformatics adds adapters before sequencing.",
-      "Bioinformatics performs PCR in droplets.",
-      "Bioinformatics converts antibodies into T cells.",
-      "Bioinformatics stains DNA with ethidium bromide."
+      "Read filtering, alignment, assembly, and interpretation",
+      "Adapter ligation before sequencing",
+      "PCR in droplets",
+      "Antibody-to-T-cell conversion",
+      "DNA staining with ethidium bromide"
     ],
-    "correct_answer_text": "The instrument produces many reads that must be filtered, aligned, assembled, or interpreted.",
+    "correct_answer_text": "Read filtering, alignment, assembly, and interpretation",
     "correct_letter_original": "A",
-    "explanation": "The instrument produces many reads that must be filtered, aligned, assembled, or interpreted. is correct because it matches the sequencing chemistry, library concept, or analysis term described in the item.",
+    "explanation": "Read filtering, alignment, assembly, and interpretation is correct because it matches the sequencing chemistry, library concept, or analysis term described in the item.",
     "source_cue": "Second-Edition Update Set / Next-Generation Sequencing / Q199",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -215836,40 +215564,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "DNA Barcoding and Species Identification",
     "topic_group": "DNA Barcoding and Species Identification",
-    "question_text": "In fish DNA barcoding, why is a mitochondrial gene often targeted instead of a single-copy nuclear gene?",
+    "question_text": "Why is a mitochondrial gene often targeted in fish DNA barcoding?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Mitochondrial DNA is present in many copies per cell, aiding recovery from small samples."
+        "text": "High copy number per cell"
       },
       {
         "letter_original": "B",
-        "text": "Mitochondrial DNA contains no mutations."
+        "text": "No sequence variation"
       },
       {
         "letter_original": "C",
-        "text": "Nuclear genes cannot be amplified by PCR."
+        "text": "Nuclear genes cannot be amplified"
       },
       {
         "letter_original": "D",
-        "text": "Mitochondria contain antibodies."
+        "text": "Mitochondria contain antibodies"
       },
       {
         "letter_original": "E",
-        "text": "COI is found only in bacteria."
+        "text": "COI occurs only in bacteria"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Mitochondrial DNA is present in many copies per cell, aiding recovery from small samples.",
-      "Mitochondrial DNA contains no mutations.",
-      "Nuclear genes cannot be amplified by PCR.",
-      "Mitochondria contain antibodies.",
-      "COI is found only in bacteria."
+      "High copy number per cell",
+      "No sequence variation",
+      "Nuclear genes cannot be amplified",
+      "Mitochondria contain antibodies",
+      "COI occurs only in bacteria"
     ],
-    "correct_answer_text": "Mitochondrial DNA is present in many copies per cell, aiding recovery from small samples.",
+    "correct_answer_text": "High copy number per cell",
     "correct_letter_original": "A",
-    "explanation": "Mitochondrial DNA is present in many copies per cell, aiding recovery from small samples. is correct because it matches the barcode target, workflow, or species-identification use described in the question.",
+    "explanation": "High copy number per cell is correct because it matches the barcode target, workflow, or species-identification use described in the question.",
     "source_cue": "Second-Edition Update Set / DNA Barcoding and Species Identification / Q201",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -216588,36 +216316,36 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "choices": [
       {
         "letter_original": "A",
-        "text": "RNA, free nucleotides, and other UV-absorbing contaminants can contribute to absorbance."
+        "text": "RNA and free nucleotides also add UV absorbance"
       },
       {
         "letter_original": "B",
-        "text": "DNA does not absorb UV light."
+        "text": "DNA does not absorb UV light"
       },
       {
         "letter_original": "C",
-        "text": "A260 detects only double-stranded DNA."
+        "text": "A260 detects only double-stranded DNA"
       },
       {
         "letter_original": "D",
-        "text": "A260 is a protein-only assay."
+        "text": "A260 is protein-only"
       },
       {
         "letter_original": "E",
-        "text": "A260 requires antibodies."
+        "text": "A260 requires antibodies"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "RNA, free nucleotides, and other UV-absorbing contaminants can contribute to absorbance.",
-      "DNA does not absorb UV light.",
-      "A260 detects only double-stranded DNA.",
-      "A260 is a protein-only assay.",
-      "A260 requires antibodies."
+      "RNA and free nucleotides also add UV absorbance",
+      "DNA does not absorb UV light",
+      "A260 detects only double-stranded DNA",
+      "A260 is protein-only",
+      "A260 requires antibodies"
     ],
-    "correct_answer_text": "RNA, free nucleotides, and other UV-absorbing contaminants can contribute to absorbance.",
+    "correct_answer_text": "RNA and free nucleotides also add UV absorbance",
     "correct_letter_original": "A",
-    "explanation": "RNA, free nucleotides, and other UV-absorbing contaminants can contribute to absorbance. is correct because UV absorbance and fluorometric assays measure nucleic-acid quantity differently and can diverge when contaminants are present.",
+    "explanation": "RNA and free nucleotides also add UV absorbance is correct because UV absorbance and fluorometric assays measure nucleic-acid quantity differently and can diverge when contaminants are present.",
     "source_cue": "Second-Edition Update Set / Fluorometric Quantitation, Regulation, and Current Topics / Q212",
     "primary_domain": "basic_laboratory_skills",
     "domain_confidence": "high",
@@ -216856,40 +216584,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Fluorometric Quantitation, Regulation, and Current Topics",
     "topic_group": "Fluorometric Quantitation, Regulation, and Current Topics",
-    "question_text": "Which statement best distinguishes fluorometer-based DNA quantitation from digital PCR?",
+    "question_text": "Which comparison best distinguishes fluorometric DNA quantitation from digital PCR?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Fluorometry estimates total DNA amount using dye signal; dPCR estimates target copy number by partition counting."
+        "text": "Total DNA amount / target copy number"
       },
       {
         "letter_original": "B",
-        "text": "Fluorometry counts positive droplets; dPCR measures A260."
+        "text": "Positive droplets / A260 absorbance"
       },
       {
         "letter_original": "C",
-        "text": "Fluorometry sequences each molecule; dPCR stains proteins."
+        "text": "Sequencing / protein staining"
       },
       {
         "letter_original": "D",
-        "text": "Fluorometry edits DNA; dPCR ligates PCR products."
+        "text": "DNA editing / PCR-product ligation"
       },
       {
         "letter_original": "E",
-        "text": "They are identical methods."
+        "text": "Identical methods"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Fluorometry estimates total DNA amount using dye signal; dPCR estimates target copy number by partition counting.",
-      "Fluorometry counts positive droplets; dPCR measures A260.",
-      "Fluorometry sequences each molecule; dPCR stains proteins.",
-      "Fluorometry edits DNA; dPCR ligates PCR products.",
-      "They are identical methods."
+      "Total DNA amount / target copy number",
+      "Positive droplets / A260 absorbance",
+      "Sequencing / protein staining",
+      "DNA editing / PCR-product ligation",
+      "Identical methods"
     ],
-    "correct_answer_text": "Fluorometry estimates total DNA amount using dye signal; dPCR estimates target copy number by partition counting.",
+    "correct_answer_text": "Total DNA amount / target copy number",
     "correct_letter_original": "A",
-    "explanation": "Fluorometry estimates total DNA amount using dye signal; dPCR estimates target copy number by partition counting. is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
+    "explanation": "Total DNA amount / target copy number is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
     "source_cue": "Second-Edition Update Set / Fluorometric Quantitation, Regulation, and Current Topics / Q216",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -216928,36 +216656,36 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "choices": [
       {
         "letter_original": "A",
-        "text": "It can more specifically estimate DNA available for library prep than UV absorbance alone."
+        "text": "It more specifically estimates usable DNA for library prep"
       },
       {
         "letter_original": "B",
-        "text": "It adds adapters to DNA fragments."
+        "text": "It adds adapters to DNA fragments"
       },
       {
         "letter_original": "C",
-        "text": "It performs bridge amplification."
+        "text": "It performs bridge amplification"
       },
       {
         "letter_original": "D",
-        "text": "It directly calls bases during sequencing."
+        "text": "It directly calls bases during sequencing"
       },
       {
         "letter_original": "E",
-        "text": "It replaces all PCR controls."
+        "text": "It replaces PCR controls"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "It can more specifically estimate DNA available for library prep than UV absorbance alone.",
-      "It adds adapters to DNA fragments.",
-      "It performs bridge amplification.",
-      "It directly calls bases during sequencing.",
-      "It replaces all PCR controls."
+      "It more specifically estimates usable DNA for library prep",
+      "It adds adapters to DNA fragments",
+      "It performs bridge amplification",
+      "It directly calls bases during sequencing",
+      "It replaces PCR controls"
     ],
-    "correct_answer_text": "It can more specifically estimate DNA available for library prep than UV absorbance alone.",
+    "correct_answer_text": "It more specifically estimates usable DNA for library prep",
     "correct_letter_original": "A",
-    "explanation": "It can more specifically estimate DNA available for library prep than UV absorbance alone. is correct because library preparation adds known adapter sequences so fragments can be amplified, bound, and sequenced.",
+    "explanation": "It more specifically estimates usable DNA for library prep is correct because library preparation adds known adapter sequences so fragments can be amplified, bound, and sequenced.",
     "source_cue": "Second-Edition Update Set / Fluorometric Quantitation, Regulation, and Current Topics / Q217",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -217672,40 +217400,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "CAR T and Current Immunology Applications",
     "topic_group": "CAR T and Current Immunology Applications",
-    "question_text": "Which comparison is most accurate?",
+    "question_text": "Which description best matches CAR T therapy?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "CAR T therapy is a living cell therapy; monoclonal antibody therapy is usually a protein biologic."
+        "text": "Living engineered-cell therapy"
       },
       {
         "letter_original": "B",
-        "text": "CAR T therapy is a DNA barcode; monoclonal antibody therapy is a sequencing method."
+        "text": "Seafood barcoding method"
       },
       {
         "letter_original": "C",
-        "text": "CAR T therapy uses Gram's iodine; monoclonal antibodies use safranin."
+        "text": "Gram-stain reagent"
       },
       {
         "letter_original": "D",
-        "text": "CAR T therapy clones PCR fragments into plasmids; monoclonal antibodies use Type IIS enzymes."
+        "text": "Type IIS cloning method"
       },
       {
         "letter_original": "E",
-        "text": "CAR T therapy is identical to vaccination."
+        "text": "Fluorometric DNA assay"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "CAR T therapy is a living cell therapy; monoclonal antibody therapy is usually a protein biologic.",
-      "CAR T therapy is a DNA barcode; monoclonal antibody therapy is a sequencing method.",
-      "CAR T therapy uses Gram's iodine; monoclonal antibodies use safranin.",
-      "CAR T therapy clones PCR fragments into plasmids; monoclonal antibodies use Type IIS enzymes.",
-      "CAR T therapy is identical to vaccination."
+      "Living engineered-cell therapy",
+      "Seafood barcoding method",
+      "Gram-stain reagent",
+      "Type IIS cloning method",
+      "Fluorometric DNA assay"
     ],
-    "correct_answer_text": "CAR T therapy is a living cell therapy; monoclonal antibody therapy is usually a protein biologic.",
+    "correct_answer_text": "Living engineered-cell therapy",
     "correct_letter_original": "A",
-    "explanation": "CAR T therapy is a living cell therapy; monoclonal antibody therapy is usually a protein biologic. is correct because it matches the engineered-cell therapy concept described in the stem.",
+    "explanation": "Living engineered-cell therapy is correct because CAR T therapy uses engineered T cells and immunology-specific targeting features to recognize tumor antigens.",
     "source_cue": "Second-Edition Update Set / CAR T and Current Immunology Applications / Q228",
     "primary_domain": "immunological_applications",
     "domain_confidence": "high",
@@ -217812,36 +217540,36 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "choices": [
       {
         "letter_original": "A",
-        "text": "The target should distinguish cancer cells well enough to limit damage to essential normal cells."
+        "text": "Tumor targeting with limited normal-tissue damage"
       },
       {
         "letter_original": "B",
-        "text": "Any antigen on any normal tissue is equally safe."
+        "text": "Any normal-tissue antigen is safe"
       },
       {
         "letter_original": "C",
-        "text": "The antigen must be a PCR primer."
+        "text": "The antigen must be a PCR primer"
       },
       {
         "letter_original": "D",
-        "text": "The antigen must contain a Type IIS site."
+        "text": "The antigen must contain a Type IIS site"
       },
       {
         "letter_original": "E",
-        "text": "The antigen must be mitochondrial DNA."
+        "text": "The antigen must be mitochondrial DNA"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "The target should distinguish cancer cells well enough to limit damage to essential normal cells.",
-      "Any antigen on any normal tissue is equally safe.",
-      "The antigen must be a PCR primer.",
-      "The antigen must contain a Type IIS site.",
-      "The antigen must be mitochondrial DNA."
+      "Tumor targeting with limited normal-tissue damage",
+      "Any normal-tissue antigen is safe",
+      "The antigen must be a PCR primer",
+      "The antigen must contain a Type IIS site",
+      "The antigen must be mitochondrial DNA"
     ],
-    "correct_answer_text": "The target should distinguish cancer cells well enough to limit damage to essential normal cells.",
+    "correct_answer_text": "Tumor targeting with limited normal-tissue damage",
     "correct_letter_original": "A",
-    "explanation": "The target should distinguish cancer cells well enough to limit damage to essential normal cells. is correct because CAR T therapy uses engineered T cells and immunology-specific targeting features to recognize tumor antigens.",
+    "explanation": "Tumor targeting with limited normal-tissue damage is correct because CAR T therapy uses engineered T cells and immunology-specific targeting features to recognize tumor antigens.",
     "source_cue": "Second-Edition Update Set / CAR T and Current Immunology Applications / Q230",
     "primary_domain": "immunological_applications",
     "domain_confidence": "high",
@@ -218896,40 +218624,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Mixed Current-Methods Integration",
     "topic_group": "Mixed Current-Methods Integration",
-    "question_text": "Which statement best links Gibson Assembly to synthetic biology history?",
+    "question_text": "Which feature of Gibson Assembly made it useful in early synthetic-genome assembly projects?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "It allowed overlapping DNA fragments to be assembled in synthetic-genome projects associated with Daniel Gibson and JCVI."
+        "text": "Overlapping DNA ends"
       },
       {
         "letter_original": "B",
-        "text": "It was the first method for Gram staining bacteria."
+        "text": "RNA-guided cleavage"
       },
       {
         "letter_original": "C",
-        "text": "It discovered penicillin from mold."
+        "text": "Bead-based emulsion amplification"
       },
       {
         "letter_original": "D",
-        "text": "It uses ddNTPs to sequence DNA."
+        "text": "T-overhang vector capture"
       },
       {
         "letter_original": "E",
-        "text": "It detects antibody levels in serum."
+        "text": "ddNTP chain termination"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "It allowed overlapping DNA fragments to be assembled in synthetic-genome projects associated with Daniel Gibson and JCVI.",
-      "It was the first method for Gram staining bacteria.",
-      "It discovered penicillin from mold.",
-      "It uses ddNTPs to sequence DNA.",
-      "It detects antibody levels in serum."
+      "Overlapping DNA ends",
+      "RNA-guided cleavage",
+      "Bead-based emulsion amplification",
+      "T-overhang vector capture",
+      "ddNTP chain termination"
     ],
-    "correct_answer_text": "It allowed overlapping DNA fragments to be assembled in synthetic-genome projects associated with Daniel Gibson and JCVI.",
+    "correct_answer_text": "Overlapping DNA ends",
     "correct_letter_original": "A",
-    "explanation": "It allowed overlapping DNA fragments to be assembled in synthetic-genome projects associated with Daniel Gibson and JCVI. is correct because it is the best match for the mechanism, feature, or application described in the stem.",
+    "explanation": "Overlapping DNA ends is correct because it is the best match for the mechanism, feature, or application described in the stem.",
     "source_cue": "Second-Edition Update Set / Mixed Current-Methods Integration / Q246",
     "primary_domain": "bacterial_transformation",
     "domain_confidence": "high",
@@ -218964,40 +218692,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Mixed Current-Methods Integration",
     "topic_group": "Mixed Current-Methods Integration",
-    "question_text": "Which statement best compares LAMP and digital PCR?",
+    "question_text": "Which comparison best matches LAMP and digital PCR?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "LAMP is an amplification mechanism; digital PCR is a partition-based quantification strategy."
+        "text": "Amplification mechanism / partition-count quantification"
       },
       {
         "letter_original": "B",
-        "text": "LAMP requires droplets; digital PCR requires loop primers."
+        "text": "Droplet partitioning / loop-primer design"
       },
       {
         "letter_original": "C",
-        "text": "LAMP is sequencing; digital PCR is cloning."
+        "text": "Sequencing method / cloning method"
       },
       {
         "letter_original": "D",
-        "text": "LAMP uses antibodies; digital PCR uses T cells."
+        "text": "Antibody assay / cell therapy"
       },
       {
         "letter_original": "E",
-        "text": "They are identical methods."
+        "text": "Identical methods"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "LAMP is an amplification mechanism; digital PCR is a partition-based quantification strategy.",
-      "LAMP requires droplets; digital PCR requires loop primers.",
-      "LAMP is sequencing; digital PCR is cloning.",
-      "LAMP uses antibodies; digital PCR uses T cells.",
-      "They are identical methods."
+      "Amplification mechanism / partition-count quantification",
+      "Droplet partitioning / loop-primer design",
+      "Sequencing method / cloning method",
+      "Antibody assay / cell therapy",
+      "Identical methods"
     ],
-    "correct_answer_text": "LAMP is an amplification mechanism; digital PCR is a partition-based quantification strategy.",
+    "correct_answer_text": "Amplification mechanism / partition-count quantification",
     "correct_letter_original": "A",
-    "explanation": "LAMP is an amplification mechanism; digital PCR is a partition-based quantification strategy. is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
+    "explanation": "Amplification mechanism / partition-count quantification is correct because digital PCR works by partitioning the sample and interpreting positive versus negative endpoint reactions.",
     "source_cue": "Second-Edition Update Set / Mixed Current-Methods Integration / Q247",
     "primary_domain": "polymerase_chain_reaction",
     "domain_confidence": "high",
@@ -219032,40 +218760,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Mixed Current-Methods Integration",
     "topic_group": "Mixed Current-Methods Integration",
-    "question_text": "Which statement best compares NGS and fish DNA barcoding?",
+    "question_text": "Which comparison best distinguishes fish DNA barcoding from next-generation sequencing?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Barcoding may use sequencing and bioinformatics to identify species; NGS is a broader high-throughput sequencing technology."
+        "text": "Species-identification workflow / high-throughput sequencing platform"
       },
       {
         "letter_original": "B",
-        "text": "Barcoding is protein quantitation; NGS is Gram staining."
+        "text": "Protein quantitation / Gram staining"
       },
       {
         "letter_original": "C",
-        "text": "Barcoding requires CAR T cells; NGS requires T overhangs."
+        "text": "CAR T therapy / T-overhang cloning"
       },
       {
         "letter_original": "D",
-        "text": "Barcoding uses no DNA; NGS uses no sequencing."
+        "text": "No DNA / no sequencing"
       },
       {
         "letter_original": "E",
-        "text": "They are unrelated to sequence comparison."
+        "text": "Unrelated to sequence comparison"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Barcoding may use sequencing and bioinformatics to identify species; NGS is a broader high-throughput sequencing technology.",
-      "Barcoding is protein quantitation; NGS is Gram staining.",
-      "Barcoding requires CAR T cells; NGS requires T overhangs.",
-      "Barcoding uses no DNA; NGS uses no sequencing.",
-      "They are unrelated to sequence comparison."
+      "Species-identification workflow / high-throughput sequencing platform",
+      "Protein quantitation / Gram staining",
+      "CAR T therapy / T-overhang cloning",
+      "No DNA / no sequencing",
+      "Unrelated to sequence comparison"
     ],
-    "correct_answer_text": "Barcoding may use sequencing and bioinformatics to identify species; NGS is a broader high-throughput sequencing technology.",
+    "correct_answer_text": "Species-identification workflow / high-throughput sequencing platform",
     "correct_letter_original": "A",
-    "explanation": "Barcoding may use sequencing and bioinformatics to identify species; NGS is a broader high-throughput sequencing technology. is correct because it is the best match for the mechanism, feature, or application described in the stem.",
+    "explanation": "Species-identification workflow / high-throughput sequencing platform is correct because it is the best match for the mechanism, feature, or application described in the stem.",
     "source_cue": "Second-Edition Update Set / Mixed Current-Methods Integration / Q248",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -219100,40 +218828,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Mixed Current-Methods Integration",
     "topic_group": "Mixed Current-Methods Integration",
-    "question_text": "Which statement best captures the main reason these newer methods extend the 2011 core material rather than replace it?",
+    "question_text": "Which principle is shared by many newer second-edition methods?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "They build on the same principles of DNA complementarity, enzyme specificity, amplification, sequencing, and cell engineering."
+        "text": "DNA complementarity, amplification, sequencing, and cell engineering"
       },
       {
         "letter_original": "B",
-        "text": "They eliminate the need for DNA, RNA, proteins, and cells."
+        "text": "No DNA, RNA, proteins, or cells"
       },
       {
         "letter_original": "C",
-        "text": "They are all staining methods."
+        "text": "All staining chemistry"
       },
       {
         "letter_original": "D",
-        "text": "They are all forms of SDS-PAGE."
+        "text": "All SDS-PAGE workflows"
       },
       {
         "letter_original": "E",
-        "text": "They require no controls or validation."
+        "text": "No controls or validation"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "They build on the same principles of DNA complementarity, enzyme specificity, amplification, sequencing, and cell engineering.",
-      "They eliminate the need for DNA, RNA, proteins, and cells.",
-      "They are all staining methods.",
-      "They are all forms of SDS-PAGE.",
-      "They require no controls or validation."
+      "DNA complementarity, amplification, sequencing, and cell engineering",
+      "No DNA, RNA, proteins, or cells",
+      "All staining chemistry",
+      "All SDS-PAGE workflows",
+      "No controls or validation"
     ],
-    "correct_answer_text": "They build on the same principles of DNA complementarity, enzyme specificity, amplification, sequencing, and cell engineering.",
+    "correct_answer_text": "DNA complementarity, amplification, sequencing, and cell engineering",
     "correct_letter_original": "A",
-    "explanation": "They build on the same principles of DNA complementarity, enzyme specificity, amplification, sequencing, and cell engineering. is correct because it is the best match for the mechanism, feature, or application described in the stem.",
+    "explanation": "DNA complementarity, amplification, sequencing, and cell engineering is correct because it is the best match for the mechanism, feature, or application described in the stem.",
     "source_cue": "Second-Edition Update Set / Mixed Current-Methods Integration / Q249",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "high",
@@ -219168,40 +218896,40 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "second_edition_update",
     "chapter_or_category": "Mixed Current-Methods Integration",
     "topic_group": "Mixed Current-Methods Integration",
-    "question_text": "Which answer best represents the most useful way to study the second-edition update topics?",
+    "question_text": "Which study strategy best fits the newer second-edition update topics?",
     "choices": [
       {
         "letter_original": "A",
-        "text": "Match each named technique to its mechanism, key enzyme or signal, and best application."
+        "text": "Match each method to its mechanism, key signal, and best use"
       },
       {
         "letter_original": "B",
-        "text": "Memorize only the years of every discovery."
+        "text": "Memorize only discovery years"
       },
       {
         "letter_original": "C",
-        "text": "Treat all PCR-related methods as identical."
+        "text": "Treat all PCR methods as identical"
       },
       {
         "letter_original": "D",
-        "text": "Ignore organisms and enzyme sources."
+        "text": "Ignore organisms and enzyme sources"
       },
       {
         "letter_original": "E",
-        "text": "Study only the career vignettes."
+        "text": "Study only career vignettes"
       }
     ],
     "choice_count": 5,
     "choice_texts": [
-      "Match each named technique to its mechanism, key enzyme or signal, and best application.",
-      "Memorize only the years of every discovery.",
-      "Treat all PCR-related methods as identical.",
-      "Ignore organisms and enzyme sources.",
-      "Study only the career vignettes."
+      "Match each method to its mechanism, key signal, and best use",
+      "Memorize only discovery years",
+      "Treat all PCR methods as identical",
+      "Ignore organisms and enzyme sources",
+      "Study only career vignettes"
     ],
-    "correct_answer_text": "Match each named technique to its mechanism, key enzyme or signal, and best application.",
+    "correct_answer_text": "Match each method to its mechanism, key signal, and best use",
     "correct_letter_original": "A",
-    "explanation": "Match each named technique to its mechanism, key enzyme or signal, and best application. is correct because it is the best match for the mechanism, feature, or application described in the stem.",
+    "explanation": "Match each method to its mechanism, key signal, and best use is correct because it is the best match for the mechanism, feature, or application described in the stem.",
     "source_cue": "Second-Edition Update Set / Mixed Current-Methods Integration / Q250",
     "primary_domain": "dna_structure_and_analysis",
     "domain_confidence": "medium",
@@ -219243,7 +218971,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       },
@@ -219252,7 +218980,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       },
@@ -219260,9 +218988,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
@@ -219270,8 +218998,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -219279,7 +219007,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       }
@@ -219355,7 +219083,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       },
@@ -219441,7 +219169,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -219457,9 +219185,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth",
           "Biomanufacturing Technician - Upstream - measures viable cell concentration before product harvest",
-          "Biomanufacturing Technician - Upstream - would make sterile connections between a bioreactor, harvest tank, hold tank, and containers"
+          "Biomanufacturing Technician - Upstream - makes sterile connections among bioreactors, tanks, and product containers"
         ]
       },
       {
@@ -219525,7 +219253,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -219542,7 +219270,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -219561,7 +219289,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       }
@@ -219629,7 +219357,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -219645,7 +219373,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -219739,7 +219467,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -219806,7 +219534,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -219902,7 +219630,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Instrumentation / Calibration Technician - prepares calibration certificates and out-of-tolerance reports",
           "Instrumentation / Calibration Technician - maybenefit from an ASQ Calibration Technician Certificate",
-          "Instrumentation / Calibration Technician - isassociated with associate training in electronics, instrumentation technology, or engineering technology"
+          "Instrumentation / Calibration Technician - ismost associated with electronics or instrumentation-technology training"
         ]
       },
       {
@@ -219919,7 +219647,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       },
@@ -219928,7 +219656,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       },
@@ -219988,7 +219716,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Purification Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification?",
+    "question_text": "Which career handles buffer prep, protein concentration, and formulation after purification?",
     "choices": [
       {
         "letter_original": "A",
@@ -219996,7 +219724,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Biomanufacturing Technician - Downstream - usually follows upstream cell growth and prepares product for later use",
           "Biomanufacturing Technician - Downstream - handles the stage where products are harvested, tested, purified, and packaged",
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work"
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training"
         ]
       },
       {
@@ -220021,8 +219749,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Purification Technician",
         "choice_context": [
-          "Purification Technician - prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification",
-          "Purification Technician - mayrequire a four-year degree in biochemistry or a related field for protein-purification work",
+          "Purification Technician - handles buffer prep, protein concentration, and formulation after purification",
+          "Purification Technician - ismost associated with protein-purification work in biochemistry",
           "Purification Technician - monitors protein purity using fluorescence technologies, SDS-PAGE, and western blot"
         ]
       },
@@ -220099,7 +219827,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -220176,13 +219904,13 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Laboratory Safety Associate",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career handles chemical and radioactive waste in the context of laboratory safety standards?",
+    "question_text": "Which career handles chemical and radioactive waste for laboratory safety standards?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -220192,7 +219920,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -220278,7 +220006,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -220371,8 +220099,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       },
       {
@@ -220390,7 +220118,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Biomanufacturing Technician - Downstream - usually follows upstream cell growth and prepares product for later use",
           "Biomanufacturing Technician - Downstream - handles the stage where products are harvested, tested, purified, and packaged",
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work"
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training"
         ]
       },
       {
@@ -220465,7 +220193,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       },
@@ -220474,7 +220202,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       },
@@ -220483,7 +220211,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       },
@@ -220502,7 +220230,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       }
     ],
@@ -220558,7 +220286,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -220646,15 +220374,15 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Agricultural Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career best matches an Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing?",
+    "question_text": "Which career is most associated with crop/animal sample protocols and animal-feed testing?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
@@ -220662,7 +220390,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Animal Technician",
         "choice_context": [
           "Animal Technician - isassociated with ALAT, LAT, and LATG certifications",
-          "Animal Technician - best matchesan associate degree in veterinary technology with work involving mice and rats used in product testing",
+          "Animal Technician - ismost associated with veterinary-technology training and rodent product-testing work",
           "Animal Technician - isassociated with an associate degree in veterinary technology"
         ]
       },
@@ -220670,8 +220398,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -220680,7 +220408,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Greenhouse or Field Technician",
         "choice_context": [
           "Greenhouse or Field Technician - mayhandle APHIS-regulated plant material before disposal",
-          "Greenhouse or Field Technician - isassociated with plant/crop/botany or agriculture/agronomy training for whole-plant care",
+          "Greenhouse or Field Technician - ismost associated with plant or agronomy training for whole-plant care",
           "Greenhouse or Field Technician - mayuse farm equipment while maintaining biotech plants"
         ]
       },
@@ -220688,7 +220416,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Plant Tissue Culture Technician",
         "choice_context": [
-          "Plant Tissue Culture Technician - mayrequire coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation",
+          "Plant Tissue Culture Technician - ismost associated with plant-biology training for sterile plant propagation",
           "Plant Tissue Culture Technician - mayreserve bachelor's-level training for plant breeder or lead cultivator roles",
           "Plant Tissue Culture Technician - ismost associated with micropropagation, clones, and laminar flow hoods"
         ]
@@ -220784,7 +220512,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       }
     ],
@@ -220834,7 +220562,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Biomanufacturing Technician - Upstream",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth?",
+    "question_text": "Which career prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth?",
     "choices": [
       {
         "letter_original": "A",
@@ -220849,18 +220577,18 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
         "letter_original": "C",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth",
           "Biomanufacturing Technician - Upstream - measures viable cell concentration before product harvest",
-          "Biomanufacturing Technician - Upstream - would make sterile connections between a bioreactor, harvest tank, hold tank, and containers"
+          "Biomanufacturing Technician - Upstream - makes sterile connections among bioreactors, tanks, and product containers"
         ]
       },
       {
@@ -220928,7 +220656,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Molecular Biology Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career may require an associate degree in biotechnology or microbiology when the work involves PCR and cloning?",
+    "question_text": "Which career is most associated with PCR and cloning work in a biotechnology or microbiology setting?",
     "choices": [
       {
         "letter_original": "A",
@@ -220961,7 +220689,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -220972,7 +220700,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       }
     ],
@@ -221029,8 +220757,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -221038,7 +220766,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       },
@@ -221056,7 +220784,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       },
@@ -221065,7 +220793,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       }
@@ -221124,7 +220852,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Product Development Technician - isassociated with creating medical science products such as devices",
           "Product Development Technician - likely requires a four-year degree or beyond for medical-product development work",
-          "Product Development Technician - isassociated with coronary artery stents, orthopedic devices, dental products, and surgical products"
+          "Product Development Technician - ismost associated with coronary artery stents, dental products, and surgical products"
         ]
       },
       {
@@ -221243,7 +220971,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -221304,15 +221032,15 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Environmental Health & Safety Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career may require a two-year associate degree plus lab or science experience for facility safety work?",
+    "question_text": "Which career is most associated with facility safety work after lab or science training?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -221320,7 +221048,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       },
@@ -221329,7 +221057,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       },
@@ -221347,7 +221075,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       }
@@ -221498,7 +221226,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Laboratory Assistant",
         "choice_context": [
-          "Laboratory Assistant - commonly starts with high school or some college coursework and provides general lab support",
+          "Laboratory Assistant - commonly provides general lab support after high school or some college coursework",
           "Laboratory Assistant - maintains glassware and similar-item inventory as a general support role",
           "Laboratory Assistant - tests prepared items for sterility and maintains clean-room lab support"
         ]
@@ -221507,9 +221235,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
@@ -221517,8 +221245,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -221527,7 +221255,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       },
       {
@@ -221535,7 +221263,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Animal Technician",
         "choice_context": [
           "Animal Technician - isassociated with ALAT, LAT, and LATG certifications",
-          "Animal Technician - best matchesan associate degree in veterinary technology with work involving mice and rats used in product testing",
+          "Animal Technician - ismost associated with veterinary-technology training and rodent product-testing work",
           "Animal Technician - isassociated with an associate degree in veterinary technology"
         ]
       }
@@ -221611,7 +221339,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -221688,7 +221416,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Instrumentation / Calibration Technician - prepares calibration certificates and out-of-tolerance reports",
           "Instrumentation / Calibration Technician - maybenefit from an ASQ Calibration Technician Certificate",
-          "Instrumentation / Calibration Technician - isassociated with associate training in electronics, instrumentation technology, or engineering technology"
+          "Instrumentation / Calibration Technician - ismost associated with electronics or instrumentation-technology training"
         ]
       },
       {
@@ -221789,7 +221517,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -221874,7 +221602,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -221902,7 +221630,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -221969,7 +221697,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -222006,7 +221734,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -222080,7 +221808,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -222089,9 +221817,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -222100,7 +221828,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -222156,7 +221884,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Plant Tissue Culture Technician",
         "choice_context": [
-          "Plant Tissue Culture Technician - mayrequire coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation",
+          "Plant Tissue Culture Technician - ismost associated with plant-biology training for sterile plant propagation",
           "Plant Tissue Culture Technician - mayreserve bachelor's-level training for plant breeder or lead cultivator roles",
           "Plant Tissue Culture Technician - ismost associated with micropropagation, clones, and laminar flow hoods"
         ]
@@ -222166,7 +221894,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Greenhouse or Field Technician",
         "choice_context": [
           "Greenhouse or Field Technician - mayhandle APHIS-regulated plant material before disposal",
-          "Greenhouse or Field Technician - isassociated with plant/crop/botany or agriculture/agronomy training for whole-plant care",
+          "Greenhouse or Field Technician - ismost associated with plant or agronomy training for whole-plant care",
           "Greenhouse or Field Technician - mayuse farm equipment while maintaining biotech plants"
         ]
       },
@@ -222174,9 +221902,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
@@ -222184,8 +221912,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -222193,7 +221921,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       }
@@ -222244,15 +221972,15 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Animal Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career best matches an associate degree in veterinary technology with work involving mice and rats used in product testing?",
+    "question_text": "Which career is most associated with veterinary-technology training and rodent product-testing work?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
@@ -222269,7 +221997,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Animal Technician",
         "choice_context": [
           "Animal Technician - isassociated with ALAT, LAT, and LATG certifications",
-          "Animal Technician - best matchesan associate degree in veterinary technology with work involving mice and rats used in product testing",
+          "Animal Technician - ismost associated with veterinary-technology training and rodent product-testing work",
           "Animal Technician - isassociated with an associate degree in veterinary technology"
         ]
       },
@@ -222287,7 +222015,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       }
@@ -222345,7 +222073,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -222371,7 +222099,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -222456,7 +222184,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -222466,7 +222194,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -222475,7 +222203,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       }
@@ -222561,7 +222289,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -222653,7 +222381,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -222721,7 +222449,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       },
@@ -222739,8 +222467,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -222814,7 +222542,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -222902,7 +222630,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Food Technologist",
     "topic_group": "Education / Certification",
-    "question_text": "Which career may prefer HACCP certification when the work involves processing conditions and food safety parameters?",
+    "question_text": "Which career is most associated with food-safety parameters and HACCP?",
     "choices": [
       {
         "letter_original": "A",
@@ -222927,8 +222655,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -222944,8 +222672,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       }
@@ -223029,8 +222757,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -223217,7 +222945,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -223322,7 +223050,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Product Development Technician - isassociated with creating medical science products such as devices",
           "Product Development Technician - likely requires a four-year degree or beyond for medical-product development work",
-          "Product Development Technician - isassociated with coronary artery stents, orthopedic devices, dental products, and surgical products"
+          "Product Development Technician - ismost associated with coronary artery stents, dental products, and surgical products"
         ]
       }
     ],
@@ -223372,14 +223100,14 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Environmental Science and Protection Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career is associated with an associate degree in environmental science, environmental health, or public health?",
+    "question_text": "Which career is most associated with environmental-science or public-health training?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       },
@@ -223397,8 +223125,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -223406,7 +223134,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       },
@@ -223415,7 +223143,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       }
@@ -223585,7 +223313,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -223662,15 +223390,15 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       },
       {
         "letter_original": "B",
         "text": "Purification Technician",
         "choice_context": [
-          "Purification Technician - prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification",
-          "Purification Technician - mayrequire a four-year degree in biochemistry or a related field for protein-purification work",
+          "Purification Technician - handles buffer prep, protein concentration, and formulation after purification",
+          "Purification Technician - ismost associated with protein-purification work in biochemistry",
           "Purification Technician - monitors protein purity using fluorescence technologies, SDS-PAGE, and western blot"
         ]
       },
@@ -223687,8 +223415,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -223765,16 +223493,16 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
         "letter_original": "C",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth",
           "Biomanufacturing Technician - Upstream - measures viable cell concentration before product harvest",
-          "Biomanufacturing Technician - Upstream - would make sterile connections between a bioreactor, harvest tank, hold tank, and containers"
+          "Biomanufacturing Technician - Upstream - makes sterile connections among bioreactors, tanks, and product containers"
         ]
       },
       {
@@ -223857,7 +223585,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -223936,13 +223664,13 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Laboratory Assistant",
     "topic_group": "Education / Certification",
-    "question_text": "Which career commonly starts with high school or some college coursework and provides general lab support?",
+    "question_text": "Which career commonly provides general lab support after high school or some college coursework?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Laboratory Assistant",
         "choice_context": [
-          "Laboratory Assistant - commonly starts with high school or some college coursework and provides general lab support",
+          "Laboratory Assistant - commonly provides general lab support after high school or some college coursework",
           "Laboratory Assistant - maintains glassware and similar-item inventory as a general support role",
           "Laboratory Assistant - tests prepared items for sterility and maintains clean-room lab support"
         ]
@@ -223951,7 +223679,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Glass Washer",
         "choice_context": [
-          "Glass Washer - maystart as entry-level biotechnology work while the worker pursues further education and focuses on glassware",
+          "Glass Washer - centers on glassware support and often serves as entry-level biotechnology work",
           "Glass Washer - collects dirty glassware after laboratory experiments",
           "Glass Washer - disposes of experiment liquids and chemicals as part of glassware handling"
         ]
@@ -223979,7 +223707,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Animal Technician",
         "choice_context": [
           "Animal Technician - isassociated with ALAT, LAT, and LATG certifications",
-          "Animal Technician - best matchesan associate degree in veterinary technology with work involving mice and rats used in product testing",
+          "Animal Technician - ismost associated with veterinary-technology training and rodent product-testing work",
           "Animal Technician - isassociated with an associate degree in veterinary technology"
         ]
       }
@@ -224037,7 +223765,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -224168,7 +223896,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -224224,7 +223952,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -224262,7 +223990,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       }
     ],
@@ -224337,7 +224065,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       },
@@ -224346,7 +224074,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -224430,9 +224158,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -224517,7 +224245,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Instrumentation / Calibration Technician - prepares calibration certificates and out-of-tolerance reports",
           "Instrumentation / Calibration Technician - maybenefit from an ASQ Calibration Technician Certificate",
-          "Instrumentation / Calibration Technician - isassociated with associate training in electronics, instrumentation technology, or engineering technology"
+          "Instrumentation / Calibration Technician - ismost associated with electronics or instrumentation-technology training"
         ]
       },
       {
@@ -224543,7 +224271,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       }
@@ -224704,7 +224432,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -224782,7 +224510,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Manufacturing Assistant",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career may work in a BSL-2 lab and humidity-controlled environment while doing entry-level production support?",
+    "question_text": "Which career handles entry-level production support in controlled manufacturing environments?",
     "choices": [
       {
         "letter_original": "A",
@@ -224806,9 +224534,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth",
           "Biomanufacturing Technician - Upstream - measures viable cell concentration before product harvest",
-          "Biomanufacturing Technician - Upstream - would make sterile connections between a bioreactor, harvest tank, hold tank, and containers"
+          "Biomanufacturing Technician - Upstream - makes sterile connections among bioreactors, tanks, and product containers"
         ]
       },
       {
@@ -224824,7 +224552,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -224900,7 +224628,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -224911,7 +224639,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -224977,7 +224705,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -224987,7 +224715,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -225064,7 +224792,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Agricultural Technician",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career is most closely linked to collecting plant tissue, soil, and water samples as a field technician?",
+    "question_text": "Which career is most associated with collecting plant tissue, soil, and water samples in the field?",
     "choices": [
       {
         "letter_original": "A",
@@ -225088,7 +224816,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -225107,7 +224835,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       }
@@ -225166,7 +224894,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -225192,7 +224920,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -225258,7 +224986,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Laboratory Assistant",
         "choice_context": [
-          "Laboratory Assistant - commonly starts with high school or some college coursework and provides general lab support",
+          "Laboratory Assistant - commonly provides general lab support after high school or some college coursework",
           "Laboratory Assistant - maintains glassware and similar-item inventory as a general support role",
           "Laboratory Assistant - tests prepared items for sterility and maintains clean-room lab support"
         ]
@@ -225269,7 +224997,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Biomanufacturing Technician - Downstream - usually follows upstream cell growth and prepares product for later use",
           "Biomanufacturing Technician - Downstream - handles the stage where products are harvested, tested, purified, and packaged",
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work"
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training"
         ]
       },
       {
@@ -225278,7 +225006,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Product Development Technician - isassociated with creating medical science products such as devices",
           "Product Development Technician - likely requires a four-year degree or beyond for medical-product development work",
-          "Product Development Technician - isassociated with coronary artery stents, orthopedic devices, dental products, and surgical products"
+          "Product Development Technician - ismost associated with coronary artery stents, dental products, and surgical products"
         ]
       },
       {
@@ -225346,15 +225074,15 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Laboratory Safety Associate",
     "topic_group": "Education / Certification",
-    "question_text": "Which career may benefit from biosafety and hazardous-material certifications in a lab-specific safety role?",
+    "question_text": "Which career is most associated with biosafety and hazardous-material credentials in lab safety?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -225362,7 +225090,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       },
@@ -225371,7 +225099,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       },
@@ -225389,7 +225117,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       }
@@ -225446,9 +225174,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -225540,7 +225268,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Plant Tissue Culture Technician",
         "choice_context": [
-          "Plant Tissue Culture Technician - mayrequire coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation",
+          "Plant Tissue Culture Technician - ismost associated with plant-biology training for sterile plant propagation",
           "Plant Tissue Culture Technician - mayreserve bachelor's-level training for plant breeder or lead cultivator roles",
           "Plant Tissue Culture Technician - ismost associated with micropropagation, clones, and laminar flow hoods"
         ]
@@ -225550,8 +225278,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       },
       {
@@ -225567,7 +225295,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -225652,7 +225380,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -225670,7 +225398,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -225729,7 +225457,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       },
@@ -225746,7 +225474,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -225842,14 +225570,14 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
         "letter_original": "D",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -225945,7 +225673,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -226012,7 +225740,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -226115,7 +225843,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -226192,15 +225920,15 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Biomanufacturing Technician - Downstream",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career can be prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work?",
+    "question_text": "Which career is most associated with post-harvest production work after bioprocess training?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth",
           "Biomanufacturing Technician - Upstream - measures viable cell concentration before product harvest",
-          "Biomanufacturing Technician - Upstream - would make sterile connections between a bioreactor, harvest tank, hold tank, and containers"
+          "Biomanufacturing Technician - Upstream - makes sterile connections among bioreactors, tanks, and product containers"
         ]
       },
       {
@@ -226216,7 +225944,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -226234,9 +225962,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       }
     ],
@@ -226294,7 +226022,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       },
       {
@@ -226302,8 +226030,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -226329,7 +226057,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       }
@@ -226397,7 +226125,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       },
       {
@@ -226413,8 +226141,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -226423,7 +226151,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       }
@@ -226480,7 +226208,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -226575,7 +226303,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -226601,7 +226329,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -226662,7 +226390,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Food Technologist",
     "topic_group": "Education / Certification",
-    "question_text": "Which career is associated with an associate degree in food science, microbiology, biotechnology, or a related field?",
+    "question_text": "Which career is most associated with food-science or microbiology training?",
     "choices": [
       {
         "letter_original": "A",
@@ -226677,9 +226405,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
@@ -226704,8 +226432,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       }
@@ -226772,7 +226500,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -226798,7 +226526,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -226876,7 +226604,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Product Development Technician - isassociated with creating medical science products such as devices",
           "Product Development Technician - likely requires a four-year degree or beyond for medical-product development work",
-          "Product Development Technician - isassociated with coronary artery stents, orthopedic devices, dental products, and surgical products"
+          "Product Development Technician - ismost associated with coronary artery stents, dental products, and surgical products"
         ]
       },
       {
@@ -226885,7 +226613,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Instrumentation / Calibration Technician - prepares calibration certificates and out-of-tolerance reports",
           "Instrumentation / Calibration Technician - maybenefit from an ASQ Calibration Technician Certificate",
-          "Instrumentation / Calibration Technician - isassociated with associate training in electronics, instrumentation technology, or engineering technology"
+          "Instrumentation / Calibration Technician - ismost associated with electronics or instrumentation-technology training"
         ]
       },
       {
@@ -227053,7 +226781,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -227062,9 +226790,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Biofuel Technician",
         "choice_context": [
-          "Biofuel Technician - ismost associated with grain preparation, algae culture, oil chemistry, and separations technology",
-          "Biofuel Technician - isassociated with manufacturing operations and hazardous materials in a fuel-production setting",
-          "Biofuel Technician - best matchesa two-year degree when the work involves fermenters, distillation systems, and biodiesel production"
+          "Biofuel Technician - ismost associated with grain prep, algae culture, and oil chemistry in fuel production",
+          "Biofuel Technician - ismost associated with manufacturing operations and hazardous materials in fuel production",
+          "Biofuel Technician - ismost associated with fermenters, distillation systems, and biodiesel production"
         ]
       },
       {
@@ -227072,16 +226800,16 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       },
       {
         "letter_original": "E",
         "text": "Purification Technician",
         "choice_context": [
-          "Purification Technician - prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification",
-          "Purification Technician - mayrequire a four-year degree in biochemistry or a related field for protein-purification work",
+          "Purification Technician - handles buffer prep, protein concentration, and formulation after purification",
+          "Purification Technician - ismost associated with protein-purification work in biochemistry",
           "Purification Technician - monitors protein purity using fluorescence technologies, SDS-PAGE, and western blot"
         ]
       }
@@ -227174,9 +226902,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       }
     ],
@@ -227241,7 +226969,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -227268,9 +226996,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       }
     ],
@@ -227362,7 +227090,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -227429,7 +227157,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -227508,7 +227236,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Facilities Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career can often start with high school plus vocational training and focuses on building utilities?",
+    "question_text": "Which career can often start with high school plus vocational training for building utilities?",
     "choices": [
       {
         "letter_original": "A",
@@ -227516,7 +227244,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Instrumentation / Calibration Technician - prepares calibration certificates and out-of-tolerance reports",
           "Instrumentation / Calibration Technician - maybenefit from an ASQ Calibration Technician Certificate",
-          "Instrumentation / Calibration Technician - isassociated with associate training in electronics, instrumentation technology, or engineering technology"
+          "Instrumentation / Calibration Technician - ismost associated with electronics or instrumentation-technology training"
         ]
       },
       {
@@ -227532,7 +227260,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Glass Washer",
         "choice_context": [
-          "Glass Washer - maystart as entry-level biotechnology work while the worker pursues further education and focuses on glassware",
+          "Glass Washer - centers on glassware support and often serves as entry-level biotechnology work",
           "Glass Washer - collects dirty glassware after laboratory experiments",
           "Glass Washer - disposes of experiment liquids and chemicals as part of glassware handling"
         ]
@@ -227542,7 +227270,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       },
@@ -227550,7 +227278,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Laboratory Assistant",
         "choice_context": [
-          "Laboratory Assistant - commonly starts with high school or some college coursework and provides general lab support",
+          "Laboratory Assistant - commonly provides general lab support after high school or some college coursework",
           "Laboratory Assistant - maintains glassware and similar-item inventory as a general support role",
           "Laboratory Assistant - tests prepared items for sterility and maintains clean-room lab support"
         ]
@@ -227602,14 +227330,14 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Plant Tissue Culture Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career may require coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation?",
+    "question_text": "Which career is most associated with plant-biology training for sterile plant propagation?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Greenhouse or Field Technician",
         "choice_context": [
           "Greenhouse or Field Technician - mayhandle APHIS-regulated plant material before disposal",
-          "Greenhouse or Field Technician - isassociated with plant/crop/botany or agriculture/agronomy training for whole-plant care",
+          "Greenhouse or Field Technician - ismost associated with plant or agronomy training for whole-plant care",
           "Greenhouse or Field Technician - mayuse farm equipment while maintaining biotech plants"
         ]
       },
@@ -227617,17 +227345,17 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
         "letter_original": "C",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -227644,7 +227372,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Plant Tissue Culture Technician",
         "choice_context": [
-          "Plant Tissue Culture Technician - mayrequire coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation",
+          "Plant Tissue Culture Technician - ismost associated with plant-biology training for sterile plant propagation",
           "Plant Tissue Culture Technician - mayreserve bachelor's-level training for plant breeder or lead cultivator roles",
           "Plant Tissue Culture Technician - ismost associated with micropropagation, clones, and laminar flow hoods"
         ]
@@ -227704,7 +227432,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -227825,7 +227553,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -227908,7 +227636,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -227926,8 +227654,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Purification Technician",
         "choice_context": [
-          "Purification Technician - prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification",
-          "Purification Technician - mayrequire a four-year degree in biochemistry or a related field for protein-purification work",
+          "Purification Technician - handles buffer prep, protein concentration, and formulation after purification",
+          "Purification Technician - ismost associated with protein-purification work in biochemistry",
           "Purification Technician - monitors protein purity using fluorescence technologies, SDS-PAGE, and western blot"
         ]
       }
@@ -228013,7 +227741,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -228021,7 +227749,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       }
@@ -228078,9 +227806,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth",
           "Biomanufacturing Technician - Upstream - measures viable cell concentration before product harvest",
-          "Biomanufacturing Technician - Upstream - would make sterile connections between a bioreactor, harvest tank, hold tank, and containers"
+          "Biomanufacturing Technician - Upstream - makes sterile connections among bioreactors, tanks, and product containers"
         ]
       },
       {
@@ -228096,7 +227824,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -228190,7 +227918,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -228209,8 +227937,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       }
     ],
@@ -228260,7 +227988,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Genomics Technician",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career may require prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis?",
+    "question_text": "Which career focuses on sequence analysis after molecular-biology work with DNA and RNA?",
     "choices": [
       {
         "letter_original": "A",
@@ -228277,7 +228005,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -228354,14 +228082,14 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Validation Specialist",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career measures instrument or software performance to determine whether tools perform as described?",
+    "question_text": "Which career validates instrument or software performance against expected specifications?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -228380,7 +228108,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -228472,7 +228200,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -228548,8 +228276,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -228576,8 +228304,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       },
       {
@@ -228642,9 +228370,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth",
           "Biomanufacturing Technician - Upstream - measures viable cell concentration before product harvest",
-          "Biomanufacturing Technician - Upstream - would make sterile connections between a bioreactor, harvest tank, hold tank, and containers"
+          "Biomanufacturing Technician - Upstream - makes sterile connections among bioreactors, tanks, and product containers"
         ]
       },
       {
@@ -228660,9 +228388,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -228830,7 +228558,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Laboratory Assistant",
         "choice_context": [
-          "Laboratory Assistant - commonly starts with high school or some college coursework and provides general lab support",
+          "Laboratory Assistant - commonly provides general lab support after high school or some college coursework",
           "Laboratory Assistant - maintains glassware and similar-item inventory as a general support role",
           "Laboratory Assistant - tests prepared items for sterility and maintains clean-room lab support"
         ]
@@ -228840,8 +228568,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       },
       {
@@ -228867,7 +228595,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       }
@@ -228960,7 +228688,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -229019,7 +228747,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -229056,7 +228784,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -229121,7 +228849,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -229140,7 +228868,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -229200,7 +228928,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Biomanufacturing Technician - Upstream",
     "topic_group": "Education / Certification",
-    "question_text": "Which career can often be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest?",
+    "question_text": "Which career is most associated with biomanufacturing training and controlled growth before harvest?",
     "choices": [
       {
         "letter_original": "A",
@@ -229216,8 +228944,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       },
       {
@@ -229244,7 +228972,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       }
     ],
@@ -229320,7 +229048,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Instrumentation / Calibration Technician - prepares calibration certificates and out-of-tolerance reports",
           "Instrumentation / Calibration Technician - maybenefit from an ASQ Calibration Technician Certificate",
-          "Instrumentation / Calibration Technician - isassociated with associate training in electronics, instrumentation technology, or engineering technology"
+          "Instrumentation / Calibration Technician - ismost associated with electronics or instrumentation-technology training"
         ]
       },
       {
@@ -229395,7 +229123,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Greenhouse or Field Technician",
         "choice_context": [
           "Greenhouse or Field Technician - mayhandle APHIS-regulated plant material before disposal",
-          "Greenhouse or Field Technician - isassociated with plant/crop/botany or agriculture/agronomy training for whole-plant care",
+          "Greenhouse or Field Technician - ismost associated with plant or agronomy training for whole-plant care",
           "Greenhouse or Field Technician - mayuse farm equipment while maintaining biotech plants"
         ]
       },
@@ -229403,9 +229131,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
@@ -229421,7 +229149,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Plant Tissue Culture Technician",
         "choice_context": [
-          "Plant Tissue Culture Technician - mayrequire coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation",
+          "Plant Tissue Culture Technician - ismost associated with plant-biology training for sterile plant propagation",
           "Plant Tissue Culture Technician - mayreserve bachelor's-level training for plant breeder or lead cultivator roles",
           "Plant Tissue Culture Technician - ismost associated with micropropagation, clones, and laminar flow hoods"
         ]
@@ -229430,8 +229158,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       }
@@ -229482,7 +229210,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Environmental Health & Safety Technician",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career would recommend equipment changes after evaluating safety conditions with plant managers and engineers?",
+    "question_text": "Which career recommends equipment changes after reviewing plant safety conditions?",
     "choices": [
       {
         "letter_original": "A",
@@ -229498,7 +229226,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -229508,14 +229236,14 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
         "letter_original": "D",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -229525,7 +229253,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       }
@@ -229576,15 +229304,15 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Biomanufacturing Technician - Downstream",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career best matches ultrafiltration and diafiltration after a recombinant protein has been produced?",
+    "question_text": "Which career best matches ultrafiltration and diafiltration after recombinant protein production?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -229600,9 +229328,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth",
           "Biomanufacturing Technician - Upstream - measures viable cell concentration before product harvest",
-          "Biomanufacturing Technician - Upstream - would make sterile connections between a bioreactor, harvest tank, hold tank, and containers"
+          "Biomanufacturing Technician - Upstream - makes sterile connections among bioreactors, tanks, and product containers"
         ]
       },
       {
@@ -229705,7 +229433,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -229771,7 +229499,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -229779,7 +229507,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -229799,7 +229527,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -229807,7 +229535,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       }
@@ -229864,7 +229592,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Laboratory Assistant",
         "choice_context": [
-          "Laboratory Assistant - commonly starts with high school or some college coursework and provides general lab support",
+          "Laboratory Assistant - commonly provides general lab support after high school or some college coursework",
           "Laboratory Assistant - maintains glassware and similar-item inventory as a general support role",
           "Laboratory Assistant - tests prepared items for sterility and maintains clean-room lab support"
         ]
@@ -229884,7 +229612,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Biomanufacturing Technician - Downstream - usually follows upstream cell growth and prepares product for later use",
           "Biomanufacturing Technician - Downstream - handles the stage where products are harvested, tested, purified, and packaged",
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work"
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training"
         ]
       },
       {
@@ -229902,7 +229630,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Product Development Technician - isassociated with creating medical science products such as devices",
           "Product Development Technician - likely requires a four-year degree or beyond for medical-product development work",
-          "Product Development Technician - isassociated with coronary artery stents, orthopedic devices, dental products, and surgical products"
+          "Product Development Technician - ismost associated with coronary artery stents, dental products, and surgical products"
         ]
       }
     ],
@@ -230061,8 +229789,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -230079,9 +229807,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
@@ -230089,7 +229817,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       }
@@ -230146,9 +229874,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -230234,13 +229962,13 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Food Sample Inspector",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career measures, weighs, samples, and takes temperatures of agricultural products during inspections?",
+    "question_text": "Which career inspects agricultural products by measuring, weighing, sampling, and taking temperatures?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -230259,7 +229987,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       },
@@ -230334,7 +230062,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Laboratory Assistant",
         "choice_context": [
-          "Laboratory Assistant - commonly starts with high school or some college coursework and provides general lab support",
+          "Laboratory Assistant - commonly provides general lab support after high school or some college coursework",
           "Laboratory Assistant - maintains glassware and similar-item inventory as a general support role",
           "Laboratory Assistant - tests prepared items for sterility and maintains clean-room lab support"
         ]
@@ -230343,7 +230071,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Glass Washer",
         "choice_context": [
-          "Glass Washer - maystart as entry-level biotechnology work while the worker pursues further education and focuses on glassware",
+          "Glass Washer - centers on glassware support and often serves as entry-level biotechnology work",
           "Glass Washer - collects dirty glassware after laboratory experiments",
           "Glass Washer - disposes of experiment liquids and chemicals as part of glassware handling"
         ]
@@ -230353,8 +230081,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       },
       {
@@ -230371,7 +230099,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       }
@@ -230457,7 +230185,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -230654,7 +230382,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -230704,23 +230432,23 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Biofuel Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career is most associated with grain preparation, algae culture, oil chemistry, and separations technology?",
+    "question_text": "Which career is most associated with grain prep, algae culture, and oil chemistry in fuel production?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
         "letter_original": "B",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -230728,9 +230456,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Biofuel Technician",
         "choice_context": [
-          "Biofuel Technician - ismost associated with grain preparation, algae culture, oil chemistry, and separations technology",
-          "Biofuel Technician - isassociated with manufacturing operations and hazardous materials in a fuel-production setting",
-          "Biofuel Technician - best matchesa two-year degree when the work involves fermenters, distillation systems, and biodiesel production"
+          "Biofuel Technician - ismost associated with grain prep, algae culture, and oil chemistry in fuel production",
+          "Biofuel Technician - ismost associated with manufacturing operations and hazardous materials in fuel production",
+          "Biofuel Technician - ismost associated with fermenters, distillation systems, and biodiesel production"
         ]
       },
       {
@@ -230746,8 +230474,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Purification Technician",
         "choice_context": [
-          "Purification Technician - prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification",
-          "Purification Technician - mayrequire a four-year degree in biochemistry or a related field for protein-purification work",
+          "Purification Technician - handles buffer prep, protein concentration, and formulation after purification",
+          "Purification Technician - ismost associated with protein-purification work in biochemistry",
           "Purification Technician - monitors protein purity using fluorescence technologies, SDS-PAGE, and western blot"
         ]
       }
@@ -230805,7 +230533,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -230814,7 +230542,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -230822,7 +230550,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -230842,7 +230570,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -230892,13 +230620,13 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Greenhouse or Field Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career is associated with plant/crop/botany or agriculture/agronomy training for whole-plant care?",
+    "question_text": "Which career is most associated with plant or agronomy training for whole-plant care?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Plant Tissue Culture Technician",
         "choice_context": [
-          "Plant Tissue Culture Technician - mayrequire coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation",
+          "Plant Tissue Culture Technician - ismost associated with plant-biology training for sterile plant propagation",
           "Plant Tissue Culture Technician - mayreserve bachelor's-level training for plant breeder or lead cultivator roles",
           "Plant Tissue Culture Technician - ismost associated with micropropagation, clones, and laminar flow hoods"
         ]
@@ -230907,17 +230635,17 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
         "letter_original": "C",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -230935,7 +230663,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Greenhouse or Field Technician",
         "choice_context": [
           "Greenhouse or Field Technician - mayhandle APHIS-regulated plant material before disposal",
-          "Greenhouse or Field Technician - isassociated with plant/crop/botany or agriculture/agronomy training for whole-plant care",
+          "Greenhouse or Field Technician - ismost associated with plant or agronomy training for whole-plant care",
           "Greenhouse or Field Technician - mayuse farm equipment while maintaining biotech plants"
         ]
       }
@@ -231030,7 +230758,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -231087,7 +230815,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -231105,7 +230833,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -231198,7 +230926,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -231218,7 +230946,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       }
     ],
@@ -231293,7 +231021,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -231406,7 +231134,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       }
     ],
@@ -231473,15 +231201,15 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       },
       {
         "letter_original": "C",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -231489,8 +231217,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Purification Technician",
         "choice_context": [
-          "Purification Technician - prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification",
-          "Purification Technician - mayrequire a four-year degree in biochemistry or a related field for protein-purification work",
+          "Purification Technician - handles buffer prep, protein concentration, and formulation after purification",
+          "Purification Technician - ismost associated with protein-purification work in biochemistry",
           "Purification Technician - monitors protein purity using fluorescence technologies, SDS-PAGE, and western blot"
         ]
       },
@@ -231594,7 +231322,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -231659,7 +231387,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -231678,7 +231406,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -231780,7 +231508,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -231832,15 +231560,15 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Biomanufacturing Technician - Upstream",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career would make sterile connections between a bioreactor, harvest tank, hold tank, and containers?",
+    "question_text": "Which career makes sterile connections among bioreactors, tanks, and product containers?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -231857,7 +231585,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -231874,9 +231602,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth",
           "Biomanufacturing Technician - Upstream - measures viable cell concentration before product harvest",
-          "Biomanufacturing Technician - Upstream - would make sterile connections between a bioreactor, harvest tank, hold tank, and containers"
+          "Biomanufacturing Technician - Upstream - makes sterile connections among bioreactors, tanks, and product containers"
         ]
       }
     ],
@@ -231934,7 +231662,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Biomanufacturing Technician - Downstream - usually follows upstream cell growth and prepares product for later use",
           "Biomanufacturing Technician - Downstream - handles the stage where products are harvested, tested, purified, and packaged",
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work"
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training"
         ]
       },
       {
@@ -231942,16 +231670,16 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       },
       {
         "letter_original": "C",
         "text": "Purification Technician",
         "choice_context": [
-          "Purification Technician - prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification",
-          "Purification Technician - mayrequire a four-year degree in biochemistry or a related field for protein-purification work",
+          "Purification Technician - handles buffer prep, protein concentration, and formulation after purification",
+          "Purification Technician - ismost associated with protein-purification work in biochemistry",
           "Purification Technician - monitors protein purity using fluorescence technologies, SDS-PAGE, and western blot"
         ]
       },
@@ -232028,7 +231756,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -232129,7 +231857,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -232232,7 +231960,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -232309,7 +232037,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       },
@@ -232336,7 +232064,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -232344,7 +232072,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -232440,7 +232168,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -232515,7 +232243,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -232533,7 +232261,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       }
@@ -232608,7 +232336,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -232685,7 +232413,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -232713,7 +232441,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -232772,14 +232500,14 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Laboratory Safety Associate",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career maintains lab coats, face shields, chemical hazard kits, first aid supplies, and chemical inventories?",
+    "question_text": "Which career maintains lab coats, hazard kits, first-aid supplies, and chemical inventories?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -232814,7 +232542,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -232910,7 +232638,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -232968,7 +232696,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Product Development Technician - isassociated with creating medical science products such as devices",
           "Product Development Technician - likely requires a four-year degree or beyond for medical-product development work",
-          "Product Development Technician - isassociated with coronary artery stents, orthopedic devices, dental products, and surgical products"
+          "Product Development Technician - ismost associated with coronary artery stents, dental products, and surgical products"
         ]
       },
       {
@@ -232993,8 +232721,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Purification Technician",
         "choice_context": [
-          "Purification Technician - prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification",
-          "Purification Technician - mayrequire a four-year degree in biochemistry or a related field for protein-purification work",
+          "Purification Technician - handles buffer prep, protein concentration, and formulation after purification",
+          "Purification Technician - ismost associated with protein-purification work in biochemistry",
           "Purification Technician - monitors protein purity using fluorescence technologies, SDS-PAGE, and western blot"
         ]
       },
@@ -233004,7 +232732,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Biomanufacturing Technician - Downstream - usually follows upstream cell growth and prepares product for later use",
           "Biomanufacturing Technician - Downstream - handles the stage where products are harvested, tested, purified, and packaged",
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work"
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training"
         ]
       }
     ],
@@ -233088,7 +232816,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -233096,7 +232824,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -233148,7 +232876,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Biofuel Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career is associated with manufacturing operations and hazardous materials in a fuel-production setting?",
+    "question_text": "Which career is most associated with manufacturing operations and hazardous materials in fuel production?",
     "choices": [
       {
         "letter_original": "A",
@@ -233164,8 +232892,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       },
       {
@@ -233173,7 +232901,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       },
@@ -233181,9 +232909,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Biofuel Technician",
         "choice_context": [
-          "Biofuel Technician - ismost associated with grain preparation, algae culture, oil chemistry, and separations technology",
-          "Biofuel Technician - isassociated with manufacturing operations and hazardous materials in a fuel-production setting",
-          "Biofuel Technician - best matchesa two-year degree when the work involves fermenters, distillation systems, and biodiesel production"
+          "Biofuel Technician - ismost associated with grain prep, algae culture, and oil chemistry in fuel production",
+          "Biofuel Technician - ismost associated with manufacturing operations and hazardous materials in fuel production",
+          "Biofuel Technician - ismost associated with fermenters, distillation systems, and biodiesel production"
         ]
       },
       {
@@ -233463,7 +233191,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -233472,7 +233200,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -233524,7 +233252,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Instrumentation / Calibration Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career is associated with associate training in electronics, instrumentation technology, or engineering technology?",
+    "question_text": "Which career is most associated with electronics or instrumentation-technology training?",
     "choices": [
       {
         "letter_original": "A",
@@ -233540,7 +233268,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       },
@@ -233550,7 +233278,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Instrumentation / Calibration Technician - prepares calibration certificates and out-of-tolerance reports",
           "Instrumentation / Calibration Technician - maybenefit from an ASQ Calibration Technician Certificate",
-          "Instrumentation / Calibration Technician - isassociated with associate training in electronics, instrumentation technology, or engineering technology"
+          "Instrumentation / Calibration Technician - ismost associated with electronics or instrumentation-technology training"
         ]
       },
       {
@@ -233651,8 +233379,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -233727,9 +233455,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -233754,7 +233482,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -233823,7 +233551,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -233841,7 +233569,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -234038,7 +233766,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -234103,7 +233831,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Plant Tissue Culture Technician",
         "choice_context": [
-          "Plant Tissue Culture Technician - mayrequire coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation",
+          "Plant Tissue Culture Technician - ismost associated with plant-biology training for sterile plant propagation",
           "Plant Tissue Culture Technician - mayreserve bachelor's-level training for plant breeder or lead cultivator roles",
           "Plant Tissue Culture Technician - ismost associated with micropropagation, clones, and laminar flow hoods"
         ]
@@ -234130,7 +233858,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -234182,7 +233910,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Instrumentation / Calibration Technician",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy?",
+    "question_text": "Which career checks balances, centrifuges, incubators, and conductivity meters for accuracy?",
     "choices": [
       {
         "letter_original": "A",
@@ -234190,7 +233918,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -234225,7 +233953,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       }
@@ -234309,7 +234037,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -234414,7 +234142,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -234470,9 +234198,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -234602,7 +234330,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -234652,15 +234380,15 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Biofuel Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career best matches a two-year degree when the work involves fermenters, distillation systems, and biodiesel production?",
+    "question_text": "Which career is most associated with fermenters, distillation systems, and biodiesel production?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       },
       {
@@ -234685,18 +234413,18 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
         "letter_original": "E",
         "text": "Biofuel Technician",
         "choice_context": [
-          "Biofuel Technician - ismost associated with grain preparation, algae culture, oil chemistry, and separations technology",
-          "Biofuel Technician - isassociated with manufacturing operations and hazardous materials in a fuel-production setting",
-          "Biofuel Technician - best matchesa two-year degree when the work involves fermenters, distillation systems, and biodiesel production"
+          "Biofuel Technician - ismost associated with grain prep, algae culture, and oil chemistry in fuel production",
+          "Biofuel Technician - ismost associated with manufacturing operations and hazardous materials in fuel production",
+          "Biofuel Technician - ismost associated with fermenters, distillation systems, and biodiesel production"
         ]
       }
     ],
@@ -234746,7 +234474,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Quality Control Technician - Microbiology",
     "topic_group": "Education / Certification",
-    "question_text": "Which career may prefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help?",
+    "question_text": "Which career is most associated with product-improvement work that may prefer a four-year degree?",
     "choices": [
       {
         "letter_original": "A",
@@ -234754,7 +234482,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       },
       {
@@ -234779,8 +234507,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -234847,7 +234575,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       },
@@ -234864,8 +234592,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -234874,7 +234602,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       },
@@ -234883,8 +234611,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       }
     ],
@@ -234959,7 +234687,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -234968,7 +234696,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -235147,7 +234875,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -235156,7 +234884,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -235232,7 +234960,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -235258,7 +234986,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -235310,14 +235038,14 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Agricultural Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career is associated with an Associate in Animal Science when the context is crop and animal sample protocols?",
+    "question_text": "Which career is most associated with crop and animal sample protocols after animal-science training?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Animal Technician",
         "choice_context": [
           "Animal Technician - isassociated with ALAT, LAT, and LATG certifications",
-          "Animal Technician - best matchesan associate degree in veterinary technology with work involving mice and rats used in product testing",
+          "Animal Technician - ismost associated with veterinary-technology training and rodent product-testing work",
           "Animal Technician - isassociated with an associate degree in veterinary technology"
         ]
       },
@@ -235325,17 +235053,17 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
         "letter_original": "C",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -235344,7 +235072,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Greenhouse or Field Technician",
         "choice_context": [
           "Greenhouse or Field Technician - mayhandle APHIS-regulated plant material before disposal",
-          "Greenhouse or Field Technician - isassociated with plant/crop/botany or agriculture/agronomy training for whole-plant care",
+          "Greenhouse or Field Technician - ismost associated with plant or agronomy training for whole-plant care",
           "Greenhouse or Field Technician - mayuse farm equipment while maintaining biotech plants"
         ]
       },
@@ -235352,7 +235080,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Plant Tissue Culture Technician",
         "choice_context": [
-          "Plant Tissue Culture Technician - mayrequire coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation",
+          "Plant Tissue Culture Technician - ismost associated with plant-biology training for sterile plant propagation",
           "Plant Tissue Culture Technician - mayreserve bachelor's-level training for plant breeder or lead cultivator roles",
           "Plant Tissue Culture Technician - ismost associated with micropropagation, clones, and laminar flow hoods"
         ]
@@ -235410,8 +235138,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -235437,9 +235165,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
@@ -235447,8 +235175,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       }
     ],
@@ -235533,7 +235261,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Product Development Technician - isassociated with creating medical science products such as devices",
           "Product Development Technician - likely requires a four-year degree or beyond for medical-product development work",
-          "Product Development Technician - isassociated with coronary artery stents, orthopedic devices, dental products, and surgical products"
+          "Product Development Technician - ismost associated with coronary artery stents, dental products, and surgical products"
         ]
       },
       {
@@ -235592,13 +235320,13 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Cell Culture Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career may require an associate degree in biotechnology when the work involves maintaining mammalian cell lines?",
+    "question_text": "Which career is most associated with mammalian cell-line maintenance in a biotechnology setting?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -235608,8 +235336,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
           "Biomanufacturing Technician - Upstream - ismost associated with mammalian cells in bioreactors and microbial cells in fermenters",
-          "Biomanufacturing Technician - Upstream - canoften be entered with a two-year associate degree in a biomanufacturing pathway and focuses on controlled growth before harvest",
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth"
+          "Biomanufacturing Technician - Upstream - ismost associated with biomanufacturing training and controlled growth before harvest",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth"
         ]
       },
       {
@@ -235693,7 +235421,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -235703,7 +235431,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -235787,7 +235515,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Greenhouse or Field Technician",
         "choice_context": [
           "Greenhouse or Field Technician - mayhandle APHIS-regulated plant material before disposal",
-          "Greenhouse or Field Technician - isassociated with plant/crop/botany or agriculture/agronomy training for whole-plant care",
+          "Greenhouse or Field Technician - ismost associated with plant or agronomy training for whole-plant care",
           "Greenhouse or Field Technician - mayuse farm equipment while maintaining biotech plants"
         ]
       },
@@ -235795,7 +235523,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Plant Tissue Culture Technician",
         "choice_context": [
-          "Plant Tissue Culture Technician - mayrequire coursework in horticulture, botany, plant biology, or agronomy for sterile lab plant propagation",
+          "Plant Tissue Culture Technician - ismost associated with plant-biology training for sterile plant propagation",
           "Plant Tissue Culture Technician - mayreserve bachelor's-level training for plant breeder or lead cultivator roles",
           "Plant Tissue Culture Technician - ismost associated with micropropagation, clones, and laminar flow hoods"
         ]
@@ -235813,16 +235541,16 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
         "letter_original": "E",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -235880,9 +235608,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - best matchesan Associate in Animal Science when the work centers on crop/animal sample protocols and animal-feed testing",
-          "Agricultural Technician - isassociated with an Associate in Animal Science when the context is crop and animal sample protocols",
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician"
+          "Agricultural Technician - ismost associated with crop/animal sample protocols and animal-feed testing",
+          "Agricultural Technician - ismost associated with crop and animal sample protocols after animal-science training",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field"
         ]
       },
       {
@@ -235899,7 +235627,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Animal Technician",
         "choice_context": [
           "Animal Technician - isassociated with ALAT, LAT, and LATG certifications",
-          "Animal Technician - best matchesan associate degree in veterinary technology with work involving mice and rats used in product testing",
+          "Animal Technician - ismost associated with veterinary-technology training and rodent product-testing work",
           "Animal Technician - isassociated with an associate degree in veterinary technology"
         ]
       },
@@ -235916,7 +235644,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Laboratory Assistant",
         "choice_context": [
-          "Laboratory Assistant - commonly starts with high school or some college coursework and provides general lab support",
+          "Laboratory Assistant - commonly provides general lab support after high school or some college coursework",
           "Laboratory Assistant - maintains glassware and similar-item inventory as a general support role",
           "Laboratory Assistant - tests prepared items for sterility and maintains clean-room lab support"
         ]
@@ -235976,7 +235704,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Instrumentation / Calibration Technician - prepares calibration certificates and out-of-tolerance reports",
           "Instrumentation / Calibration Technician - maybenefit from an ASQ Calibration Technician Certificate",
-          "Instrumentation / Calibration Technician - isassociated with associate training in electronics, instrumentation technology, or engineering technology"
+          "Instrumentation / Calibration Technician - ismost associated with electronics or instrumentation-technology training"
         ]
       },
       {
@@ -236087,7 +235815,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -236172,7 +235900,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       },
@@ -236189,7 +235917,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -236257,7 +235985,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       },
@@ -236283,7 +236011,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -236350,9 +236078,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -236368,9 +236096,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Biomanufacturing Technician - Upstream",
         "choice_context": [
-          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during production growth",
+          "Biomanufacturing Technician - Upstream - prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth",
           "Biomanufacturing Technician - Upstream - measures viable cell concentration before product harvest",
-          "Biomanufacturing Technician - Upstream - would make sterile connections between a bioreactor, harvest tank, hold tank, and containers"
+          "Biomanufacturing Technician - Upstream - makes sterile connections among bioreactors, tanks, and product containers"
         ]
       },
       {
@@ -236386,7 +236114,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -236438,7 +236166,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Purification Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career may require a four-year degree in biochemistry or a related field for protein-purification work?",
+    "question_text": "Which career is most associated with protein-purification work in biochemistry?",
     "choices": [
       {
         "letter_original": "A",
@@ -236471,8 +236199,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Purification Technician",
         "choice_context": [
-          "Purification Technician - prepares buffers, concentrates proteins, and performs formulation or aliquoting after purification",
-          "Purification Technician - mayrequire a four-year degree in biochemistry or a related field for protein-purification work",
+          "Purification Technician - handles buffer prep, protein concentration, and formulation after purification",
+          "Purification Technician - ismost associated with protein-purification work in biochemistry",
           "Purification Technician - monitors protein purity using fluorescence technologies, SDS-PAGE, and western blot"
         ]
       },
@@ -236480,7 +236208,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Molecular Biology Technician",
         "choice_context": [
-          "Molecular Biology Technician - mayrequire an associate degree in biotechnology or microbiology when the work involves PCR and cloning",
+          "Molecular Biology Technician - ismost associated with PCR and cloning work in a biotechnology or microbiology setting",
           "Molecular Biology Technician - isassociated with protein expression vectors and clone propagation",
           "Molecular Biology Technician - maywork with clone propagation and antibody-related techniques in a molecular lab"
         ]
@@ -236556,7 +236284,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -236565,7 +236293,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -236626,7 +236354,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Quality Control Technician - Chemistry",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career performs daily bench work testing raw materials, packaging materials, and finished products chemically?",
+    "question_text": "Which career performs daily chemical testing of raw materials, packaging, and finished products?",
     "choices": [
       {
         "letter_original": "A",
@@ -236727,7 +236455,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - handles workplace exposure monitoring, industrial hygiene, and safety training",
-          "Environmental Health & Safety Technician - mayrequire a two-year associate degree plus lab or science experience for facility safety work",
+          "Environmental Health & Safety Technician - ismost associated with facility safety work after lab or science training",
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention"
         ]
       },
@@ -236736,7 +236464,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Science and Protection Technician",
         "choice_context": [
           "Environmental Science and Protection Technician - mayrequire hazmat certification when inspecting environmental sites",
-          "Environmental Science and Protection Technician - isassociated with an associate degree in environmental science, environmental health, or public health",
+          "Environmental Science and Protection Technician - ismost associated with environmental-science or public-health training",
           "Environmental Science and Protection Technician - maytest buildings for radon in states that require licensing"
         ]
       },
@@ -236745,7 +236473,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       },
@@ -236763,8 +236491,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Laboratory Safety Associate",
         "choice_context": [
           "Laboratory Safety Associate - documents attendance at lab safety training sessions",
-          "Laboratory Safety Associate - maybenefit from biosafety and hazardous-material certifications in a lab-specific safety role",
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards"
+          "Laboratory Safety Associate - ismost associated with biosafety and hazardous-material credentials in lab safety",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards"
         ]
       }
     ],
@@ -236814,7 +236542,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Product Development Technician",
     "topic_group": "Education / Certification",
-    "question_text": "Which career is associated with coronary artery stents, orthopedic devices, dental products, and surgical products?",
+    "question_text": "Which career is most associated with coronary artery stents, dental products, and surgical products?",
     "choices": [
       {
         "letter_original": "A",
@@ -236840,7 +236568,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Product Development Technician - isassociated with creating medical science products such as devices",
           "Product Development Technician - likely requires a four-year degree or beyond for medical-product development work",
-          "Product Development Technician - isassociated with coronary artery stents, orthopedic devices, dental products, and surgical products"
+          "Product Development Technician - ismost associated with coronary artery stents, dental products, and surgical products"
         ]
       },
       {
@@ -236915,7 +236643,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Instrumentation / Calibration Technician",
         "choice_context": [
           "Instrumentation / Calibration Technician - measures pressure, flow, force, torque, humidity, mass, and electrical parameters",
-          "Instrumentation / Calibration Technician - checks analytical balances, centrifuges, incubators, and conductivity meters for measurement accuracy",
+          "Instrumentation / Calibration Technician - checks balances, centrifuges, incubators, and conductivity meters for accuracy",
           "Instrumentation / Calibration Technician - calibrates mechanical and laboratory instruments throughout biomanufacturing facilities"
         ]
       },
@@ -236924,7 +236652,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -236932,7 +236660,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -236952,7 +236680,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       }
     ],
@@ -237002,7 +236730,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Quality Control Technician - Microbiology",
     "topic_group": "Education / Certification",
-    "question_text": "Which career evaluates raw materials, supplies, and finished packaged products for microbiology quality?",
+    "question_text": "Which career evaluates raw materials, supplies, and finished products for microbiology quality?",
     "choices": [
       {
         "letter_original": "A",
@@ -237035,8 +236763,8 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "D",
         "text": "Food Technologist",
         "choice_context": [
-          "Food Technologist - mayprefer HACCP certification when the work involves processing conditions and food safety parameters",
-          "Food Technologist - isassociated with an associate degree in food science, microbiology, biotechnology, or a related field",
+          "Food Technologist - ismost associated with food-safety parameters and HACCP",
+          "Food Technologist - ismost associated with food-science or microbiology training",
           "Food Technologist - mayconduct GMP inspections and report SQF deviations in food manufacturing"
         ]
       },
@@ -237046,7 +236774,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Quality Control Technician - Microbiology - updates microbiology lab SOPs after contamination-related testing",
           "Quality Control Technician - Microbiology - monitors sterility and microbial contamination in finished packaged product",
-          "Quality Control Technician - Microbiology - mayprefer a four-year degree plus 1-2 years of experience, though targeted two-year training may help"
+          "Quality Control Technician - Microbiology - ismost associated with product-improvement work that may prefer a four-year degree"
         ]
       }
     ],
@@ -237103,7 +236831,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Animal Technician",
         "choice_context": [
           "Animal Technician - isassociated with ALAT, LAT, and LATG certifications",
-          "Animal Technician - best matchesan associate degree in veterinary technology with work involving mice and rats used in product testing",
+          "Animal Technician - ismost associated with veterinary-technology training and rodent product-testing work",
           "Animal Technician - isassociated with an associate degree in veterinary technology"
         ]
       },
@@ -237111,7 +236839,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Laboratory Assistant",
         "choice_context": [
-          "Laboratory Assistant - commonly starts with high school or some college coursework and provides general lab support",
+          "Laboratory Assistant - commonly provides general lab support after high school or some college coursework",
           "Laboratory Assistant - maintains glassware and similar-item inventory as a general support role",
           "Laboratory Assistant - tests prepared items for sterility and maintains clean-room lab support"
         ]
@@ -237121,7 +236849,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Greenhouse or Field Technician",
         "choice_context": [
           "Greenhouse or Field Technician - mayhandle APHIS-regulated plant material before disposal",
-          "Greenhouse or Field Technician - isassociated with plant/crop/botany or agriculture/agronomy training for whole-plant care",
+          "Greenhouse or Field Technician - ismost associated with plant or agronomy training for whole-plant care",
           "Greenhouse or Field Technician - mayuse farm equipment while maintaining biotech plants"
         ]
       },
@@ -237138,7 +236866,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Glass Washer",
         "choice_context": [
-          "Glass Washer - maystart as entry-level biotechnology work while the worker pursues further education and focuses on glassware",
+          "Glass Washer - centers on glassware support and often serves as entry-level biotechnology work",
           "Glass Washer - collects dirty glassware after laboratory experiments",
           "Glass Washer - disposes of experiment liquids and chemicals as part of glassware handling"
         ]
@@ -237190,13 +236918,13 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Glass Washer",
     "topic_group": "Education / Certification",
-    "question_text": "Which career may start as entry-level biotechnology work while the worker pursues further education and focuses on glassware?",
+    "question_text": "Which career centers on glassware support and often serves as entry-level biotechnology work?",
     "choices": [
       {
         "letter_original": "A",
         "text": "Laboratory Assistant",
         "choice_context": [
-          "Laboratory Assistant - commonly starts with high school or some college coursework and provides general lab support",
+          "Laboratory Assistant - commonly provides general lab support after high school or some college coursework",
           "Laboratory Assistant - maintains glassware and similar-item inventory as a general support role",
           "Laboratory Assistant - tests prepared items for sterility and maintains clean-room lab support"
         ]
@@ -237205,7 +236933,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Glass Washer",
         "choice_context": [
-          "Glass Washer - maystart as entry-level biotechnology work while the worker pursues further education and focuses on glassware",
+          "Glass Washer - centers on glassware support and often serves as entry-level biotechnology work",
           "Glass Washer - collects dirty glassware after laboratory experiments",
           "Glass Washer - disposes of experiment liquids and chemicals as part of glassware handling"
         ]
@@ -237233,7 +236961,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Facilities Technician",
         "choice_context": [
           "Facilities Technician - maybenefit from a boiler-operations license",
-          "Facilities Technician - canoften start with high school plus vocational training and focuses on building utilities",
+          "Facilities Technician - canoften start with high school plus vocational training for building utilities",
           "Facilities Technician - performs preventive maintenance on biomanufacturing building systems"
         ]
       }
@@ -237420,7 +237148,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "E",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -237601,7 +237329,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Validation Specialist - performs temperature mapping and compares results to acceptance criteria",
           "Validation Specialist - documents proof that equipment, software, methods, or processes meet acceptance criteria",
-          "Validation Specialist - measures instrument or software performance to determine whether tools perform as described"
+          "Validation Specialist - validates instrument or software performance against expected specifications"
         ]
       },
       {
@@ -237754,7 +237482,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Biomanufacturing Technician - Downstream",
     "topic_group": "Responsibility Match",
-    "question_text": "Which career most directly communicates with upstream staff after cells have produced the target material?",
+    "question_text": "Which career communicates with upstream staff after cells produce the target material?",
     "choices": [
       {
         "letter_original": "A",
@@ -237769,7 +237497,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Manufacturing Assistant",
         "choice_context": [
-          "Manufacturing Assistant - maywork in a BSL-2 lab and humidity-controlled environment while doing entry-level production support",
+          "Manufacturing Assistant - handles entry-level production support in controlled manufacturing environments",
           "Manufacturing Assistant - loads machines, checks materials, pouches, kits, and packages finished products",
           "Manufacturing Assistant - isassociated with pouching, kitting, loading machines, and checking materials"
         ]
@@ -237778,9 +237506,9 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "Biomanufacturing Technician - Downstream",
         "choice_context": [
-          "Biomanufacturing Technician - Downstream - canbe prepared by an AAS in biotechnology, bioprocess technology, or industrial pharmaceutical technology for post-harvest production work",
+          "Biomanufacturing Technician - Downstream - ismost associated with post-harvest production work after bioprocess training",
           "Biomanufacturing Technician - Downstream - uses chromatography within a manufacturing harvest-and-packaging workflow",
-          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after a recombinant protein has been produced"
+          "Biomanufacturing Technician - Downstream - best matchesultrafiltration and diafiltration after recombinant protein production"
         ]
       },
       {
@@ -237855,7 +237583,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -237891,7 +237619,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Food Sample Inspector",
         "choice_context": [
           "Food Sample Inspector - inspects restaurants, supermarkets, and slaughterhouses",
-          "Food Sample Inspector - measures, weighs, samples, and takes temperatures of agricultural products during inspections",
+          "Food Sample Inspector - inspects agricultural products by measuring, weighing, sampling, and taking temperatures",
           "Food Sample Inspector - uses HACCP while inspecting food-handling organizations"
         ]
       }
@@ -237968,7 +237696,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "choice_context": [
           "Genomics Technician - characterizes and compares DNA and RNA sequences",
           "Genomics Technician - mayuse Nanodrop, Nanopore MinION, Illumina, or Sanger sequencing",
-          "Genomics Technician - mayrequire prior molecular biology lab experience working with DNA and RNA, but focuses on sequence analysis"
+          "Genomics Technician - focuses on sequence analysis after molecular-biology work with DNA and RNA"
         ]
       },
       {
@@ -238036,7 +237764,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "source_group": "careers",
     "chapter_or_category": "Compliance Specialist",
     "topic_group": "Education / Certification",
-    "question_text": "Which career is most closely associated with CAPA when the context is regulatory deviations and submissions?",
+    "question_text": "Which career is most closely associated with CAPA for regulatory deviations and submissions?",
     "choices": [
       {
         "letter_original": "A",
@@ -238145,7 +237873,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Agricultural Technician",
         "choice_context": [
-          "Agricultural Technician - ismost closely linked to collecting plant tissue, soil, and water samples as a field technician",
+          "Agricultural Technician - ismost associated with collecting plant tissue, soil, and water samples in the field",
           "Agricultural Technician - maymonitor FDA and Department of Agriculture compliance for agricultural materials",
           "Agricultural Technician - isthe best match for the alternate title County Extension Agent"
         ]
@@ -238239,7 +237967,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "B",
         "text": "Laboratory Safety Associate",
         "choice_context": [
-          "Laboratory Safety Associate - handles chemical and radioactive waste in the context of laboratory safety standards",
+          "Laboratory Safety Associate - handles chemical and radioactive waste for laboratory safety standards",
           "Laboratory Safety Associate - isalso described as Lab Safety Officer or Lab Safety Specialist",
           "Laboratory Safety Associate - trains workers on routine lab safety standards"
         ]
@@ -238249,7 +237977,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "Environmental Health & Safety Technician",
         "choice_context": [
           "Environmental Health & Safety Technician - manages broad bioscience-facility safety programs and workplace hazard prevention",
-          "Environmental Health & Safety Technician - would recommend equipment changes after evaluating safety conditions with plant managers and engineers",
+          "Environmental Health & Safety Technician - recommends equipment changes after reviewing plant safety conditions",
           "Environmental Health & Safety Technician - installs and maintains equipment that samples air, water, and the workplace environment"
         ]
       },
@@ -238405,19 +238133,19 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
   }
 ];
 window.HOSA_BIOTECH_BANK_SUMMARY = {
-  "generatedAt": "2026-06-17T05:23:09.881Z",
-  "totalQuestions": 3440,
-  "defaultUsableQuestions": 2955,
+  "generatedAt": "2026-06-17T19:31:13.757Z",
+  "totalQuestions": 3436,
+  "defaultUsableQuestions": 2951,
   "sourceCounts": {
     "Old ChatGPT Master Bank (Final Randomized)": 562,
     "Entity Bank Practice Platform": 545,
-    "Chapter 7 Practice Platform": 316,
+    "Chapter 7 Practice Platform": 313,
     "Chapter 8 Practice Platform": 269,
     "Second-Edition Update Bank (250)": 250,
     "Chapter 4 Practice Platform": 249,
     "Chapter 3 Practice Platform": 225,
     "Chapter 6 Practice Platform": 225,
-    "Chapter 5 Practice Platform": 224,
+    "Chapter 5 Practice Platform": 223,
     "Careers Final V6 Last-Polish (204)": 204,
     "Chapter 2 Practice Platform": 199,
     "Chapter 1 Final Standalone Bank": 171,
@@ -238428,15 +238156,15 @@ window.HOSA_BIOTECH_BANK_SUMMARY = {
     "biotechnology_industry_practices_and_careers": 460,
     "microbiology_and_cell_culture": 445,
     "immunological_applications": 437,
-    "polymerase_chain_reaction": 407,
-    "protein_structure_function_and_analysis": 395,
-    "basic_laboratory_skills": 325,
-    "bacterial_transformation": 313,
+    "polymerase_chain_reaction": 406,
+    "protein_structure_function_and_analysis": 392,
+    "basic_laboratory_skills": 326,
+    "bacterial_transformation": 312,
     "governmental_regulation_of_biotechnology": 160,
     "biotechnology_in_health": 36
   },
   "priorityCounts": {
-    "normal": 2462,
+    "normal": 2458,
     "high_yield_seed": 633,
     "low_priority": 311,
     "gold_anchor": 19,
@@ -238445,7 +238173,7 @@ window.HOSA_BIOTECH_BANK_SUMMARY = {
   "config": {
     "app_name": "HOSA Biotechnology Simulation Platform",
     "version": "1.0.0",
-    "generated_at": "2026-06-17T05:23:09.881Z",
+    "generated_at": "2026-06-17T19:31:13.757Z",
     "default_mode": "hosa_weighted_full_simulation",
     "default_test_length": 50,
     "default_timer_minutes": 50,
@@ -238477,6 +238205,6 @@ window.HOSA_BIOTECH_BANK_SUMMARY = {
       "protein_structure_function_and_analysis": "Protein Structure / Function / Analysis",
       "immunological_applications": "Immunological Applications"
     },
-    "default_usable_question_count": 2955
+    "default_usable_question_count": 2951
   }
 };

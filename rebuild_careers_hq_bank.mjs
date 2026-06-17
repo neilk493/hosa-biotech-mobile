@@ -410,6 +410,66 @@ function buildCareerV6Explanation(questionText, correctAnswerText) {
   return `${correctAnswerText} is correct because the responsibility, workflow, or work environment described in the stem most directly matches that career.`;
 }
 
+const CAREER_V6_STEM_OVERRIDES = new Map([
+  [9, "Which career handles buffer prep, protein concentration, and formulation after purification?"],
+  [16, "Which career is most associated with crop/animal sample protocols and animal-feed testing?"],
+  [18, "Which career prepares sterile media and monitors pH, temperature, and dissolved oxygen during growth?"],
+  [19, "Which career is most associated with PCR and cloning work in a biotechnology or microbiology setting?"],
+  [23, "Which career is most associated with facility safety work after lab or science training?"],
+  [33, "Which career is most associated with veterinary-technology training and rodent product-testing work?"],
+  [40, "Which career is most associated with food-safety parameters and HACCP?"],
+  [45, "Which career is most associated with environmental-science or public-health training?"],
+  [51, "Which career commonly provides general lab support after high school or some college coursework?"],
+  [60, "Which career handles entry-level production support in controlled manufacturing environments?"],
+  [63, "Which career is most associated with collecting plant tissue, soil, and water samples in the field?"],
+  [66, "Which career is most associated with biosafety and hazardous-material credentials in lab safety?"],
+  [75, "Which career is most associated with post-harvest production work after bioprocess training?"],
+  [80, "Which career is most associated with food-science or microbiology training?"],
+  [90, "Which career is most associated with plant-biology training for sterile plant propagation?"],
+  [97, "Which career focuses on sequence analysis after molecular-biology work with DNA and RNA?"],
+  [98, "Which career validates instrument or software performance against expected specifications?"],
+  [107, "Which career is most associated with biomanufacturing training and controlled growth before harvest?"],
+  [110, "Which career recommends equipment changes after reviewing plant safety conditions?"],
+  [111, "Which career best matches ultrafiltration and diafiltration after recombinant protein production?"],
+  [118, "Which career inspects agricultural products by measuring, weighing, sampling, and taking temperatures?"],
+  [123, "Which career is most associated with grain prep, algae culture, and oil chemistry in fuel production?"],
+  [125, "Which career is most associated with plant or agronomy training for whole-plant care?"],
+  [135, "Which career makes sterile connections among bioreactors, tanks, and product containers?"],
+  [145, "Which career maintains lab coats, hazard kits, first-aid supplies, and chemical inventories?"],
+  [149, "Which career is most associated with manufacturing operations and hazardous materials in fuel production?"],
+  [153, "Which career is most associated with electronics or instrumentation-technology training?"],
+  [160, "Which career checks balances, centrifuges, incubators, and conductivity meters for accuracy?"],
+  [165, "Which career is most associated with fermenters, distillation systems, and biodiesel production?"],
+  [166, "Which career is most associated with product-improvement work that may prefer a four-year degree?"],
+  [172, "Which career is most associated with crop and animal sample protocols after animal-science training?"],
+  [175, "Which career is most associated with mammalian cell-line maintenance in a biotechnology setting?"],
+  [184, "Which career is most associated with protein-purification work in biochemistry?"],
+  [186, "Which career performs daily chemical testing of raw materials, packaging, and finished products?"],
+  [188, "Which career is most associated with coronary artery stents, dental products, and surgical products?"],
+  [190, "Which career evaluates raw materials, supplies, and finished products for microbiology quality?"],
+  [192, "Which career centers on glassware support and often serves as entry-level biotechnology work?"],
+  [198, "Which career communicates with upstream staff after cells produce the target material?"],
+]);
+
+function polishCareerQuestionText(questionNumber, questionText) {
+  if (CAREER_V6_STEM_OVERRIDES.has(questionNumber)) {
+    return CAREER_V6_STEM_OVERRIDES.get(questionNumber);
+  }
+
+  return normalizeWhitespace(String(questionText || ""))
+    .replace(/\bwhen the work centers on\b/gi, "for")
+    .replace(/\bwhen the work involves\b/gi, "for")
+    .replace(/\bwhen the context is\b/gi, "for")
+    .replace(/\bin the context of\b/gi, "for")
+    .replace(/\bwhile the worker pursues further education and focuses on\b/gi, "for")
+    .replace(/\bwhile doing\b/gi, "for")
+    .replace(/\band focuses on\b/gi, "for")
+    .replace(/\band the work centers on\b/gi, "for")
+    .replace(/\band centers on\b/gi, "for")
+    .replace(/\s+,/g, ",")
+    .replace(/\s+\?/g, "?");
+}
+
 function extractCareerV6AnswerKey(text) {
   const answerMap = new Map();
   const cleaned = String(text || "")
@@ -453,7 +513,8 @@ function parseCareerQuestionBank(text, legacyCareerProfiles) {
     if (!currentQuestionNumber) return;
     const questionSection = currentBlock.join("\n");
     const { questionText, choices } = parseChoiceSection(questionSection);
-    if (!questionText) {
+    const polishedQuestionText = polishCareerQuestionText(currentQuestionNumber, questionText);
+    if (!polishedQuestionText) {
       throw new Error(`Career V6 question #${currentQuestionNumber} is missing question text.`);
     }
     if (choices.length !== 5) {
@@ -478,7 +539,7 @@ function parseCareerQuestionBank(text, legacyCareerProfiles) {
     const correctAnswerText = normalizeWhitespace(correctChoice.text);
     parsed.push({
       questionNumber: currentQuestionNumber,
-      questionText,
+      questionText: polishedQuestionText,
       choices,
       correctLetter: currentCorrectLetter,
       correctAnswerText,
@@ -686,6 +747,473 @@ function canonicalSecondEditionSection(rawLine) {
   return SECOND_EDITION_SECTION_ALIASES.get(normalized) || "";
 }
 
+const SECOND_EDITION_POLISH_OVERRIDES = new Map([
+  [11, {
+    questionText: "What best distinguishes CRISPR editing from plasmid transformation?",
+    choices: [
+      "Antibody use / enzyme use",
+      "DNA delivery / RNA-guided genome editing",
+      "DNA amplification / DNA delivery",
+      "PAM requirement / no PAM requirement",
+      "Protein editing / translation",
+    ],
+    correctLetter: "B",
+  }],
+  [23, {
+    questionText: "Which scientist is most associated with Gibson Assembly?",
+    choices: [
+      "Kary Mullis",
+      "Daniel Gibson",
+      "Francisco Mojica",
+      "Frederick Sanger",
+      "Emmanuelle Charpentier",
+    ],
+    correctLetter: "B",
+  }],
+  [30, {
+    questionText: "Which pairing correctly distinguishes Golden Gate Assembly from Gibson Assembly?",
+    choices: [
+      "Guide RNA / Cas9",
+      "Type IIS overhangs / overlapping DNA ends",
+      "A-tailed inserts / 40-bp overlaps",
+      "Emulsion PCR / bridge PCR",
+      "Antibody assay / overlap assembly",
+    ],
+    correctLetter: "B",
+  }],
+  [52, {
+    questionText: "Which comparison correctly distinguishes Illumina sequencing by synthesis from Sanger sequencing?",
+    choices: [
+      "Reversible blocking / permanent termination",
+      "No polymerase / DNA polymerase",
+      "Protein sequencing / DNA sequencing",
+      "Bridge PCR / capillary electrophoresis",
+      "No fluorescence / fluorescence",
+    ],
+    correctLetter: "A",
+  }],
+  [78, {
+    questionText: "Which comparison best distinguishes CAR T therapy from monoclonal antibody therapy?",
+    choices: [
+      "DNA sequencing / protein staining",
+      "Antigen loss / Gram staining",
+      "Living engineered cells / antibody proteins",
+      "PCR amplification / cell infusion",
+      "Restriction digestion / vaccine design",
+    ],
+    correctLetter: "C",
+  }],
+  [99, {
+    questionText: "Which institute is most directly associated with the 2010 synthetic-cell/synthetic-genome story?",
+    choices: [
+      "National Institutes of Health",
+      "J. Craig Venter Institute",
+      "Broad Institute",
+      "Centers for Disease Control and Prevention",
+      "United States Department of Agriculture",
+    ],
+    correctLetter: "B",
+  }],
+  [100, {
+    questionText: "Which statement best describes how newer second-edition methods relate to core PCR-era concepts?",
+    choices: [
+      "Polymerase is replaced by antibodies.",
+      "All newer methods require 95 degrees C cycling.",
+      "NGS is Sanger sequencing with larger gels.",
+      "They extend the same core nucleic-acid logic into newer methods.",
+      "CRISPR is another name for restriction digestion.",
+    ],
+    correctLetter: "D",
+  }],
+  [120, {
+    questionText: "Which pair is most associated with programmable \"genetic scissors\" and the 2020 Chemistry Nobel Prize?",
+    correctLetter: "A",
+  }],
+  [121, {
+    questionText: "Francisco Mojica is most associated with which CRISPR idea?",
+    choices: [
+      "Thermal-cycler PCR",
+      "Repeat-spacer immune-function link",
+      "First CAR T therapy",
+      "ddNTP chain termination",
+      "pGLO plasmid design",
+    ],
+    correctLetter: "B",
+  }],
+  [135, {
+    questionText: "Which cloning method is most associated with the 2010 synthetic-genome work at JCVI?",
+    choices: [
+      "Gibson Assembly",
+      "Golden Gate Assembly",
+      "TOPO TA cloning",
+      "Blunt-end ligation",
+      "Gateway cloning",
+    ],
+    correctLetter: "A",
+  }],
+  [156, {
+    questionText: "Which description correctly matches endpoint PCR, qPCR, and digital PCR?",
+    choices: [
+      "Final band / fluorescence curve / positive partition count",
+      "Antibody assay / agarose gel / Gram stain",
+      "Quantitative by default / qualitative only / sequencing",
+      "No primers / no polymerase / no template",
+      "Same method / different dye",
+    ],
+    correctLetter: "A",
+  }],
+  [175, {
+    questionText: "Which statement about isothermal amplification is most accurate?",
+    choices: [
+      "Different mechanisms, same constant-temperature goal",
+      "Longer-denaturation PCR",
+      "No nucleic-acid amplification",
+      "ddNTP-dependent amplification",
+      "Type IIS-dependent amplification",
+    ],
+    correctLetter: "A",
+  }],
+  [216, {
+    questionText: "Which comparison best distinguishes fluorometric DNA quantitation from digital PCR?",
+    choices: [
+      "Total DNA amount / target copy number",
+      "Positive droplets / A260 absorbance",
+      "Sequencing / protein staining",
+      "DNA editing / PCR-product ligation",
+      "Identical methods",
+    ],
+    correctLetter: "A",
+  }],
+  [228, {
+    questionText: "Which description best matches CAR T therapy?",
+    choices: [
+      "Living engineered-cell therapy",
+      "Seafood barcoding method",
+      "Gram-stain reagent",
+      "Type IIS cloning method",
+      "Fluorometric DNA assay",
+    ],
+    correctLetter: "A",
+  }],
+  [246, {
+    questionText: "Which feature of Gibson Assembly made it useful in early synthetic-genome assembly projects?",
+    choices: [
+      "Overlapping DNA ends",
+      "RNA-guided cleavage",
+      "Bead-based emulsion amplification",
+      "T-overhang vector capture",
+      "ddNTP chain termination",
+    ],
+    correctLetter: "A",
+  }],
+  [247, {
+    questionText: "Which comparison best matches LAMP and digital PCR?",
+    choices: [
+      "Amplification mechanism / partition-count quantification",
+      "Droplet partitioning / loop-primer design",
+      "Sequencing method / cloning method",
+      "Antibody assay / cell therapy",
+      "Identical methods",
+    ],
+    correctLetter: "A",
+  }],
+  [248, {
+    questionText: "Which comparison best distinguishes fish DNA barcoding from next-generation sequencing?",
+    choices: [
+      "Species-identification workflow / high-throughput sequencing platform",
+      "Protein quantitation / Gram staining",
+      "CAR T therapy / T-overhang cloning",
+      "No DNA / no sequencing",
+      "Unrelated to sequence comparison",
+    ],
+    correctLetter: "A",
+  }],
+  [249, {
+    questionText: "Which principle is shared by many newer second-edition methods?",
+    choices: [
+      "DNA complementarity, amplification, sequencing, and cell engineering",
+      "No DNA, RNA, proteins, or cells",
+      "All staining chemistry",
+      "All SDS-PAGE workflows",
+      "No controls or validation",
+    ],
+    correctLetter: "A",
+  }],
+  [250, {
+    questionText: "Which study strategy best fits the newer second-edition update topics?",
+    choices: [
+      "Match each method to its mechanism, key signal, and best use",
+      "Memorize only discovery years",
+      "Treat all PCR methods as identical",
+      "Ignore organisms and enzyme sources",
+      "Study only career vignettes",
+    ],
+    correctLetter: "A",
+  }],
+  [38, {
+    questionText: "Why is digital PCR often considered an absolute-quantification method?",
+    choices: [
+      "Complete sequencing of every molecule",
+      "A260 absorbance measurement",
+      "Antibody-based concentration testing",
+      "Gel-extraction concentration estimates",
+      "Partition counting without a standard curve",
+    ],
+    correctLetter: "E",
+  }],
+  [44, {
+    questionText: "Which temperature pattern correctly matches LAMP and standard PCR?",
+    choices: [
+      "PCR at one temperature / LAMP thermal cycling",
+      "Digital PCR fixed at 65 degrees C",
+      "Isothermal methods at 95 degrees C every cycle",
+      "LAMP at one temperature / PCR denaturation-annealing-extension cycles",
+      "qPCR without thermal cycling",
+    ],
+    correctLetter: "D",
+  }],
+  [75, {
+    questionText: "Why can DNA barcoding outperform morphology for processed seafood?",
+    choices: [
+      "Protein bands alone identify species",
+      "DNA can remain informative after visible traits are lost",
+      "Processed seafood contains no DNA",
+      "Morphology is required before PCR",
+      "COI occurs only in unprocessed tissue",
+    ],
+    correctLetter: "B",
+  }],
+  [85, {
+    questionText: "Why is CAR T therapy not simply a vaccine?",
+    choices: [
+      "PCR-based detection assay",
+      "Future-prevention antibody memory",
+      "Bacterial transformation workflow",
+      "Engineered-cell treatment of existing target cells",
+      "Seafood substitution test",
+    ],
+    correctLetter: "D",
+  }],
+  [86, {
+    questionText: "Why can fluorometric DNA quantitation be more specific than A260 absorbance?",
+    choices: [
+      "Selective dye binding to nucleic acids",
+      "No DNA-binding chemistry",
+      "Protein-only detection at 595 nm",
+      "Bacterial colony counting",
+      "COI species identification",
+    ],
+    correctLetter: "A",
+  }],
+  [128, {
+    questionText: "What best distinguishes Golden Gate Assembly from ordinary EcoRI sticky-end cloning?",
+    choices: [
+      "Type IIS cutting outside the recognition site",
+      "ddNTP chain termination",
+      "Antibody-dependent detection",
+      "No ligase requirement",
+      "Protein quantitation",
+    ],
+    correctLetter: "A",
+  }],
+  [140, {
+    questionText: "What is the main practical advantage of TOPO TA cloning?",
+    choices: [
+      "Rapid vector insertion without separate digest and ligation steps",
+      "Parallel sequencing of millions of fragments",
+      "Guide-RNA chromosome editing",
+      "Poisson-based DNA quantitation",
+      "Gram staining",
+    ],
+    correctLetter: "A",
+  }],
+  [152, {
+    questionText: "Why can digital PCR detect rare alleles in a wild-type background?",
+    choices: [
+      "Partitioning separates rare targets into individual reactions",
+      "Wild-type DNA is converted into mutant DNA",
+      "Antibodies remove wild-type DNA",
+      "Gram's iodine stabilizes rare alleles",
+      "ddNTPs terminate wild-type strands",
+    ],
+    correctLetter: "A",
+  }],
+  [161, {
+    questionText: "Why can LAMP run without repeated 95 degrees C denaturation?",
+    choices: [
+      "Strand-displacing polymerase plus loop-primer design",
+      "DNA replacement by protein",
+      "Cas9 strand cutting",
+      "ddNTP ladder formation",
+      "Gram's iodine stabilization",
+    ],
+    correctLetter: "A",
+  }],
+  [180, {
+    questionText: "Why does NGS often require clonal amplification?",
+    choices: [
+      "Single DNA molecules produce signals that are too weak",
+      "Adapters must trigger antibody formation",
+      "DNA fragments must become T cells",
+      "Clonal amplification removes all sequencing errors",
+      "Clonal amplification replaces bioinformatics",
+    ],
+    correctLetter: "A",
+  }],
+  [190, {
+    questionText: "Why can homopolymer runs challenge pyrosequencing?",
+    choices: [
+      "Signal strength must reflect multiple incorporations",
+      "Identical bases cannot be copied",
+      "Pyrophosphate is not released",
+      "DNA sequence becomes protein",
+      "Identical bases become ddNTPs",
+    ],
+    correctLetter: "A",
+  }],
+  [198, {
+    questionText: "Which statement best describes short-read NGS?",
+    choices: [
+      "Many short fragments are sequenced in parallel",
+      "One chromosome is read end-to-end without computation",
+      "Proteins are sorted by gel size",
+      "Colonies are counted after transformation",
+      "Antibodies are detected by color",
+    ],
+    correctLetter: "A",
+  }],
+  [199, {
+    questionText: "Why is bioinformatics essential after NGS?",
+    choices: [
+      "Read filtering, alignment, assembly, and interpretation",
+      "Adapter ligation before sequencing",
+      "PCR in droplets",
+      "Antibody-to-T-cell conversion",
+      "DNA staining with ethidium bromide",
+    ],
+    correctLetter: "A",
+  }],
+  [230, {
+    questionText: "Why is antigen selection critical in CAR T therapy?",
+    choices: [
+      "Tumor targeting with limited normal-tissue damage",
+      "Any normal-tissue antigen is safe",
+      "The antigen must be a PCR primer",
+      "The antigen must contain a Type IIS site",
+      "The antigen must be mitochondrial DNA",
+    ],
+    correctLetter: "A",
+  }],
+  [34, {
+    questionText: "Which comparison best distinguishes qPCR from digital PCR?",
+    choices: [
+      "Fluorescence curves and Cq values / endpoint partition counting",
+      "DNA polymerase / no polymerase",
+      "Protein detection / DNA detection",
+      "Endpoint-only / real-time-only",
+      "Droplets / gels",
+    ],
+    correctLetter: "A",
+  }],
+  [54, {
+    questionText: "Why are reversible terminators useful in Illumina sequencing by synthesis?",
+    choices: [
+      "One incorporated base can be imaged each cycle",
+      "Adapters are digested after every cycle",
+      "Hydrogen ions are detected directly",
+      "Antibody complexes form during extension",
+      "All strands stop permanently at different lengths",
+    ],
+    correctLetter: "A",
+  }],
+  [127, {
+    questionText: "Why can Golden Gate Assembly place multiple fragments in a defined order?",
+    choices: [
+      "Designed overhangs match only the intended neighbor",
+      "Every fragment has the same blunt end",
+      "Polymerase reads bases by fluorescence",
+      "Topoisomerase adds A overhangs",
+      "Cas9 cuts beside a PAM",
+    ],
+    correctLetter: "A",
+  }],
+  [155, {
+    questionText: "Why is a standard curve often less central in digital PCR than in qPCR?",
+    choices: [
+      "Partition counts replace Cq comparison to standards",
+      "Digital PCR uses no primers",
+      "qPCR cannot produce fluorescence",
+      "Digital PCR measures protein concentration directly",
+      "qPCR cannot quantify DNA",
+    ],
+    correctLetter: "A",
+  }],
+  [197, {
+    questionText: "Why can paired-end sequencing be useful?",
+    choices: [
+      "Alignment and insert-size information",
+      "Permanent termination of both strands",
+      "No library preparation required",
+      "Fluorescence without imaging",
+      "Complete removal of sequencing errors",
+    ],
+    correctLetter: "A",
+  }],
+  [201, {
+    questionText: "Why is a mitochondrial gene often targeted in fish DNA barcoding?",
+    choices: [
+      "High copy number per cell",
+      "No sequence variation",
+      "Nuclear genes cannot be amplified",
+      "Mitochondria contain antibodies",
+      "COI occurs only in bacteria",
+    ],
+    correctLetter: "A",
+  }],
+  [212, {
+    questionText: "Why can A260 overestimate usable DNA concentration?",
+    choices: [
+      "RNA and free nucleotides also add UV absorbance",
+      "DNA does not absorb UV light",
+      "A260 detects only double-stranded DNA",
+      "A260 is protein-only",
+      "A260 requires antibodies",
+    ],
+    correctLetter: "A",
+  }],
+  [217, {
+    questionText: "Why might a fluorometer be preferred before NGS library preparation?",
+    choices: [
+      "It more specifically estimates usable DNA for library prep",
+      "It adds adapters to DNA fragments",
+      "It performs bridge amplification",
+      "It directly calls bases during sequencing",
+      "It replaces PCR controls",
+    ],
+    correctLetter: "A",
+  }],
+]);
+
+function applySecondEditionPolish(question) {
+  const override = SECOND_EDITION_POLISH_OVERRIDES.get(question.questionNumber);
+  if (!override) return question;
+
+  const nextQuestion = { ...question };
+  if (override.questionText) {
+    nextQuestion.questionText = normalizeWhitespace(override.questionText);
+  }
+  if (override.choices) {
+    nextQuestion.choices = override.choices.map((text, index) => ({
+      letter: String.fromCharCode(65 + index),
+      text: normalizeWhitespace(text),
+    }));
+  }
+  if (override.correctLetter) {
+    nextQuestion.correctLetter = override.correctLetter;
+  }
+  return nextQuestion;
+}
+
 function parseSecondEditionQuestions(rawText) {
   const lines = repairSecondEditionEncoding(rawText).split(/\r?\n/);
   const questions = [];
@@ -707,6 +1235,7 @@ function parseSecondEditionQuestions(rawText) {
       currentQuestion.choices.length >= 4 &&
       currentQuestion.correctLetter
     ) {
+      currentQuestion = applySecondEditionPolish(currentQuestion);
       const correctChoice = currentQuestion.choices.find((choice) => choice.letter === currentQuestion.correctLetter);
       if (!correctChoice) {
         throw new Error(`Second-edition question ${currentQuestion.questionNumber} is missing its keyed choice.`);
@@ -1066,6 +1595,19 @@ function isCareerVignetteEntityQuestion(question) {
   return /featured as\b/i.test(textBundle);
 }
 
+function isLaneSpecificExampleQuestion(question) {
+  const text = normalizeWhitespace(question.question_text || "");
+  const cue = normalizeWhitespace(question.source_cue || "");
+
+  if (/^Which lane contains /i.test(text)) return true;
+  if (/^Why is plasmid \d+ in the gel example not quantifiable\?/i.test(text)) return true;
+  if (/lane \d+/i.test(text) && /(gel example|his-tag purification result|his-tag result)/i.test(`${text} || ${cue}`)) {
+    return true;
+  }
+
+  return false;
+}
+
 function writeCompiledState(bank, config) {
   const generatedAt = new Date().toISOString();
   const defaultUsableQuestions = bank.filter(allowedInDefaultMixedPool).length;
@@ -1127,6 +1669,7 @@ function main() {
     if (question.source_group === "careers") return false;
     if (question.source_group === "second_edition_update") return false;
     if (isCareerVignetteEntityQuestion(question)) return false;
+    if (isLaneSpecificExampleQuestion(question)) return false;
     return true;
   });
 
