@@ -1577,8 +1577,9 @@ function buildChoiceContexts(bank) {
 }
 
 function isCareerVignetteEntityQuestion(question) {
-  if (question.source_group !== "entity_bank") return false;
-  if ((question.chapter_or_category || "") !== "Person") return false;
+  if (question.source_group !== "entity_bank") {
+    return false;
+  }
 
   const choiceTexts = Array.isArray(question.choice_texts)
     ? question.choice_texts
@@ -1592,7 +1593,31 @@ function isCareerVignetteEntityQuestion(question) {
     ...choiceTexts,
   ].join(" || ");
 
-  return /featured as\b/i.test(textBundle);
+  return [
+    /featured as\b/i,
+    /Amanda Williams/i,
+    /Katie Dalpozzo/i,
+    /Mihaela Sabau/i,
+    /clinical laboratory scientist/i,
+    /certifying-exam organization/i,
+    /performs FACS work/i,
+    /employment path/i,
+    /internship and employment path/i,
+    /employer\./i,
+    /Tracy High School/i,
+    /Science Department Chair/i,
+    /Authored Biotechnology: A Laboratory Skills Course/i,
+    /J\. Kirk Brown/i,
+    /George Cachianes/i,
+    /Abraham Lincoln High School/i,
+    /iGEM biotechnology project/i,
+    /Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work/i,
+    /Hosted the laboratory experience for Abraham Lincoln High School'?s iGEM project/i,
+    /Sponsored the iGEM competition entered by Abraham Lincoln High School students/i,
+    /Is the competition the Abraham Lincoln High School\/UCSF team entered/i,
+    /biotechnology education\/career content/i,
+    /project-resource site for biofuel work/i,
+  ].some((pattern) => pattern.test(textBundle));
 }
 
 function isLaneSpecificExampleQuestion(question) {
@@ -1600,7 +1625,7 @@ function isLaneSpecificExampleQuestion(question) {
   const cue = normalizeWhitespace(question.source_cue || "");
 
   if (/^Which lane contains /i.test(text)) return true;
-  if (/^Why is plasmid \d+ in the gel example not quantifiable\?/i.test(text)) return true;
+  if (/^Why is plasmid \d+ in the gel example not quantifiable\b/i.test(text)) return true;
   if (/lane \d+/i.test(text) && /(gel example|his-tag purification result|his-tag result)/i.test(`${text} || ${cue}`)) {
     return true;
   }

@@ -66957,74 +66957,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q001013",
-    "source_name": "Chapter 5 Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\chapter5_practice_platform\\chapter5_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "chapter5_practice_platform",
-    "source_group": "chapter_platform",
-    "chapter_or_category": "DNA Quantitation & Purity",
-    "topic_group": "dna quantitation, gel quantitation, a260, and cuvettes",
-    "question_text": "Why is plasmid 3 in the gel example not quantifiable by the shown standards?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "It is not visible on the gel."
-      },
-      {
-        "letter_original": "B",
-        "text": "It is a linear PCR primer."
-      },
-      {
-        "letter_original": "C",
-        "text": "It is more intense than any of the mass ruler bands."
-      },
-      {
-        "letter_original": "D",
-        "text": "It lacks a 1,000 bp band."
-      },
-      {
-        "letter_original": "E",
-        "text": "It contains RNA contamination."
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "It is not visible on the gel.",
-      "It is a linear PCR primer.",
-      "It is more intense than any of the mass ruler bands.",
-      "It lacks a 1,000 bp band.",
-      "It contains RNA contamination."
-    ],
-    "correct_answer_text": "It is more intense than any of the mass ruler bands.",
-    "correct_letter_original": "C",
-    "explanation": "Plasmid 3 exceeds the comparison range of the mass ruler bands. That is why concentration and purity values are interpreted together rather than as isolated numbers. These measurements tell you both how much nucleic acid you have and how clean it is. That matters because downstream steps like digestion, PCR, ligation, and sequencing all work better when the DNA concentration and purity are known rather than guessed.",
-    "source_cue": "Chapter 5, p. 147 / DNA quantitation, gel quantitation, A260, and cuvettes; Screenshot 25.",
-    "primary_domain": "bacterial_transformation",
-    "domain_confidence": "high",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "DNA Quantitation & Purity",
-      "p. 147",
-      "bacterial_transformation",
-      "normal"
-    ],
-    "notes": "",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q001015",
     "source_name": "Chapter 5 Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\chapter5_practice_platform\\chapter5_question_dataset.json",
@@ -126102,8 +126034,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       }
     ],
@@ -129536,8 +129467,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -129717,8 +129647,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       }
     ],
@@ -130832,8 +130761,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       }
     ],
@@ -130979,8 +130907,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -131329,8 +131256,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       }
     ],
@@ -131488,8 +131414,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -131669,8 +131594,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       }
     ],
@@ -132759,8 +132683,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -132810,89 +132733,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       "low_priority"
     ],
     "notes": "option_count=4 | missing_source_cue | manual_review_flag=true | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002497",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Year/Date",
-    "topic_group": "item_to_association",
-    "question_text": "Which of the following is associated with 2008?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "President Barack Obama lifted restrictions to allow public funding for existing and future privately derived human embryonic stem-cell lines.",
-        "choice_context": [
-          "2009"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Monsanto sold the Posilac patent to Eli Lilly for $300 million.",
-        "choice_context": [
-          "2008"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "E",
-        "text": "Real-time PCR was used in diagnosis and confirmation of the H1N1 pandemic outbreak.",
-        "choice_context": [
-          "2009"
-        ]
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "President Barack Obama lifted restrictions to allow public funding for existing and future privately derived human embryonic stem-cell lines.",
-      "Monsanto sold the Posilac patent to Eli Lilly for $300 million.",
-      "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-      "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-      "Real-time PCR was used in diagnosis and confirmation of the H1N1 pandemic outbreak."
-    ],
-    "correct_answer_text": "Monsanto sold the Posilac patent to Eli Lilly for $300 million.",
-    "correct_letter_original": "B",
-    "explanation": "The correct year is 2008: Monsanto sold the Posilac patent to Eli Lilly for $300 million.",
-    "source_cue": "",
-    "primary_domain": "governmental_regulation_of_biotechnology",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Year/Date",
-      "Medium",
-      "governmental_regulation_of_biotechnology",
-      "low_priority"
-    ],
-    "notes": "missing_source_cue | manual_review_flag=true | generic_entity_shell",
     "career_question_type": "",
     "shuffle_safe": true,
     "metadata_boosts": {
@@ -133179,8 +133019,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -136134,8 +135973,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -136184,87 +136022,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q002545",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Year/Date",
-    "topic_group": "item_to_association",
-    "question_text": "Which of the following is associated with 2006?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Chiron was acquired by Novartis International AG.",
-        "choice_context": [
-          "2006"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Induced pluripotent human cells were generated.",
-        "choice_context": []
-      },
-      {
-        "letter_original": "E",
-        "text": "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-        "choice_context": [
-          "2007"
-        ]
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-      "Chiron was acquired by Novartis International AG.",
-      "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-      "Induced pluripotent human cells were generated.",
-      "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
-    ],
-    "correct_answer_text": "Chiron was acquired by Novartis International AG.",
-    "correct_letter_original": "B",
-    "explanation": "The correct year is 2006: Chiron was acquired by Novartis International AG.",
-    "source_cue": "",
-    "primary_domain": "dna_structure_and_analysis",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Year/Date",
-      "Medium",
-      "dna_structure_and_analysis",
-      "low_priority"
-    ],
-    "notes": "missing_source_cue | manual_review_flag=true | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q002546",
     "source_name": "Entity Bank Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
@@ -136300,8 +136057,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -136448,8 +136204,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -137414,8 +137169,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -137461,89 +137215,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       "low_priority"
     ],
     "notes": "option_count=4 | missing_source_cue | manual_review_flag=true | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002561",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Year/Date",
-    "topic_group": "item_to_association",
-    "question_text": "Which of the following is associated with 2005?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "A potato hepatitis B vaccine was tested in a clinical trial.",
-        "choice_context": [
-          "2005"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Science retracted Woo Suk Hwang's papers and Hwang was dismissed.",
-        "choice_context": [
-          "2006"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Chiron was acquired by Novartis International AG.",
-        "choice_context": [
-          "2006"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "E",
-        "text": "GloFish, transgenic fish expressing GFP, were launched as pets in the United States.",
-        "choice_context": [
-          "2003"
-        ]
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "A potato hepatitis B vaccine was tested in a clinical trial.",
-      "Science retracted Woo Suk Hwang's papers and Hwang was dismissed.",
-      "Chiron was acquired by Novartis International AG.",
-      "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-      "GloFish, transgenic fish expressing GFP, were launched as pets in the United States."
-    ],
-    "correct_answer_text": "A potato hepatitis B vaccine was tested in a clinical trial.",
-    "correct_letter_original": "A",
-    "explanation": "The correct year is 2005: A potato hepatitis B vaccine was tested in a clinical trial.",
-    "source_cue": "",
-    "primary_domain": "governmental_regulation_of_biotechnology",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Year/Date",
-      "Medium",
-      "governmental_regulation_of_biotechnology",
-      "low_priority"
-    ],
-    "notes": "missing_source_cue | manual_review_flag=true | generic_entity_shell",
     "career_question_type": "",
     "shuffle_safe": true,
     "metadata_boosts": {
@@ -137737,8 +137408,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -137795,89 +137465,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q002565",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Year/Date",
-    "topic_group": "item_to_association",
-    "question_text": "Which of the following is associated with 2006?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Science retracted Woo Suk Hwang's papers and Hwang was dismissed.",
-        "choice_context": [
-          "2006"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "A potato hepatitis B vaccine was tested in a clinical trial.",
-        "choice_context": [
-          "2005"
-        ]
-      },
-      {
-        "letter_original": "E",
-        "text": "MRSA caused almost 100,000 infections and 18,000 deaths in the United States.",
-        "choice_context": [
-          "2005"
-        ]
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "Science retracted Woo Suk Hwang's papers and Hwang was dismissed.",
-      "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-      "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-      "A potato hepatitis B vaccine was tested in a clinical trial.",
-      "MRSA caused almost 100,000 infections and 18,000 deaths in the United States."
-    ],
-    "correct_answer_text": "Science retracted Woo Suk Hwang's papers and Hwang was dismissed.",
-    "correct_letter_original": "A",
-    "explanation": "The correct year is 2006: Science retracted Woo Suk Hwang's papers and Hwang was dismissed.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Year/Date",
-      "Medium",
-      "biotechnology_industry_practices_and_careers",
-      "low_priority"
-    ],
-    "notes": "missing_source_cue | manual_review_flag=true | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q002566",
     "source_name": "Entity Bank Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
@@ -137924,8 +137511,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       }
     ],
@@ -138038,246 +137624,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       "low_priority"
     ],
     "notes": "missing_source_cue | manual_review_flag=true | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002568",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Year/Date",
-    "topic_group": "association_to_item",
-    "question_text": "In what year did the following occur: Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "2008",
-        "choice_context": [
-          "Monsanto sold the Posilac patent to Eli Lilly for $300 million.",
-          "Advanced Cell Technology developed a method to derive human embryonic stem-cell lines without destroying the embryo.",
-          "The scientists who discovered and worked on GFP were awarded the Nobel Prize in Chemistry."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "2006",
-        "choice_context": [
-          "Chiron was acquired by Novartis International AG.",
-          "Science retracted Woo Suk Hwang's papers and Hwang was dismissed."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "2009",
-        "choice_context": [
-          "Roche acquired Genentech for $46 billion.",
-          "The FDA allowed Geron to conduct the first human clinical trial involving cells derived from human embryonic stem cells.",
-          "Real-time PCR was used in diagnosis and confirmation of the H1N1 pandemic outbreak.",
-          "Woo Suk Hwang was convicted of embezzlement and bioethics violations.",
-          "+ 2 more fact(s) in this category."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "2007",
-        "choice_context": [
-          "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "2008",
-      "2006",
-      "2009",
-      "2007"
-    ],
-    "correct_answer_text": "2007",
-    "correct_letter_original": "D",
-    "explanation": "The correct year is 2007: Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Year/Date",
-      "Medium",
-      "immunological_applications",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | manual_review_flag=true | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002569",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Year/Date",
-    "topic_group": "item_to_association",
-    "question_text": "Which of the following is associated with 2007?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "The scientists who discovered and worked on GFP were awarded the Nobel Prize in Chemistry.",
-        "choice_context": [
-          "2008"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Science retracted Woo Suk Hwang's papers and Hwang was dismissed.",
-        "choice_context": [
-          "2006"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Monsanto sold the Posilac patent to Eli Lilly for $300 million.",
-        "choice_context": [
-          "2008"
-        ]
-      },
-      {
-        "letter_original": "E",
-        "text": "Advanced Cell Technology developed a method to derive human embryonic stem-cell lines without destroying the embryo.",
-        "choice_context": [
-          "2008"
-        ]
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "The scientists who discovered and worked on GFP were awarded the Nobel Prize in Chemistry.",
-      "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-      "Science retracted Woo Suk Hwang's papers and Hwang was dismissed.",
-      "Monsanto sold the Posilac patent to Eli Lilly for $300 million.",
-      "Advanced Cell Technology developed a method to derive human embryonic stem-cell lines without destroying the embryo."
-    ],
-    "correct_answer_text": "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-    "correct_letter_original": "B",
-    "explanation": "The correct year is 2007: Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Year/Date",
-      "Medium",
-      "immunological_applications",
-      "low_priority"
-    ],
-    "notes": "missing_source_cue | manual_review_flag=true | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002570",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Person",
-    "topic_group": "association_to_item",
-    "question_text": "Which person best matches this biotech contribution or role: Authored Biotechnology: A Laboratory Skills Course and served as Science Department Chair at Tracy High School.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "George Cachianes",
-        "choice_context": [
-          "Associated with the Abraham Lincoln High School iGEM biotechnology project."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Katie Dalpozzo",
-        "choice_context": []
-      },
-      {
-        "letter_original": "C",
-        "text": "Wendell Lim",
-        "choice_context": [
-          "Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "J. Kirk Brown",
-        "choice_context": [
-          "Authored Biotechnology: A Laboratory Skills Course and served as Science Department Chair at Tracy High School."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "George Cachianes",
-      "Katie Dalpozzo",
-      "Wendell Lim",
-      "J. Kirk Brown"
-    ],
-    "correct_answer_text": "J. Kirk Brown",
-    "correct_letter_original": "D",
-    "explanation": "J. Kirk Brown is the correct match for this biotech contribution or role: Authored Biotechnology: A Laboratory Skills Course and served as Science Department Chair at Tracy High School.",
-    "source_cue": "",
-    "primary_domain": "governmental_regulation_of_biotechnology",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Person",
-      "Low",
-      "governmental_regulation_of_biotechnology",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
     "career_question_type": "",
     "shuffle_safe": true,
     "metadata_boosts": {
@@ -141823,9 +141169,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "D",
         "text": "Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001.",
-        "choice_context": [
-          "George W. Bush"
-        ]
+        "choice_context": []
       }
     ],
     "choice_count": 4,
@@ -143885,8 +143229,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "George W. Bush",
         "choice_context": [
-          "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008.",
-          "Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001."
+          "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008."
         ]
       },
       {
@@ -143934,303 +143277,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       "Person",
       "Medium",
       "biotechnology_industry_practices_and_careers",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002657",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Person",
-    "topic_group": "association_to_item",
-    "question_text": "Which person best matches this biotech contribution or role: Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Wendell Lim",
-        "choice_context": [
-          "Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "George Cachianes",
-        "choice_context": [
-          "Associated with the Abraham Lincoln High School iGEM biotechnology project."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "J. Kirk Brown",
-        "choice_context": [
-          "Authored Biotechnology: A Laboratory Skills Course and served as Science Department Chair at Tracy High School."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Alice Schwartz",
-        "choice_context": []
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Wendell Lim",
-      "George Cachianes",
-      "J. Kirk Brown",
-      "Alice Schwartz"
-    ],
-    "correct_answer_text": "Wendell Lim",
-    "correct_letter_original": "A",
-    "explanation": "Wendell Lim is the correct match for this biotech contribution or role: Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Person",
-      "Medium",
-      "immunological_applications",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002658",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Person",
-    "topic_group": "item_to_association",
-    "question_text": "Which biotech contribution or role is best matched to Wendell Lim?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Associated with the Abraham Lincoln High School iGEM biotechnology project.",
-        "choice_context": [
-          "George Cachianes"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Was one of the UC Berkeley students whose work led to Bio-Rad beginning in 1952.",
-        "choice_context": []
-      },
-      {
-        "letter_original": "C",
-        "text": "Authored Biotechnology: A Laboratory Skills Course and served as Science Department Chair at Tracy High School.",
-        "choice_context": [
-          "J. Kirk Brown"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007.",
-        "choice_context": [
-          "Wendell Lim"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Associated with the Abraham Lincoln High School iGEM biotechnology project.",
-      "Was one of the UC Berkeley students whose work led to Bio-Rad beginning in 1952.",
-      "Authored Biotechnology: A Laboratory Skills Course and served as Science Department Chair at Tracy High School.",
-      "Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007."
-    ],
-    "correct_answer_text": "Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007.",
-    "correct_letter_original": "D",
-    "explanation": "The correct relationship is Wendell Lim: Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Person",
-      "Medium",
-      "immunological_applications",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002659",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Person",
-    "topic_group": "association_to_item",
-    "question_text": "Which person best matches this biotech contribution or role: Associated with the Abraham Lincoln High School iGEM biotechnology project.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Wendell Lim",
-        "choice_context": [
-          "Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "J. Kirk Brown",
-        "choice_context": [
-          "Authored Biotechnology: A Laboratory Skills Course and served as Science Department Chair at Tracy High School."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "George Cachianes",
-        "choice_context": [
-          "Associated with the Abraham Lincoln High School iGEM biotechnology project."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "George W. Bush",
-        "choice_context": [
-          "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008.",
-          "Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Wendell Lim",
-      "J. Kirk Brown",
-      "George Cachianes",
-      "George W. Bush"
-    ],
-    "correct_answer_text": "George Cachianes",
-    "correct_letter_original": "C",
-    "explanation": "George Cachianes is the correct match for this biotech contribution or role: Associated with the Abraham Lincoln High School iGEM biotechnology project.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Person",
-      "Low",
-      "immunological_applications",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002660",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Person",
-    "topic_group": "item_to_association",
-    "question_text": "Which biotech contribution or role is best matched to George Cachianes?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Associated with the Abraham Lincoln High School iGEM biotechnology project.",
-        "choice_context": [
-          "George Cachianes"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007.",
-        "choice_context": [
-          "Wendell Lim"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Authored Biotechnology: A Laboratory Skills Course and served as Science Department Chair at Tracy High School.",
-        "choice_context": [
-          "J. Kirk Brown"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001.",
-        "choice_context": [
-          "George W. Bush"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Associated with the Abraham Lincoln High School iGEM biotechnology project.",
-      "Invited Abraham Lincoln High School students into a UCSF laboratory for an iGEM project in 2007.",
-      "Authored Biotechnology: A Laboratory Skills Course and served as Science Department Chair at Tracy High School.",
-      "Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001."
-    ],
-    "correct_answer_text": "Associated with the Abraham Lincoln High School iGEM biotechnology project.",
-    "correct_letter_original": "A",
-    "explanation": "The correct relationship is George Cachianes: Associated with the Abraham Lincoln High School iGEM biotechnology project.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Person",
-      "Low",
-      "immunological_applications",
       "normal"
     ],
     "notes": "option_count=4 | missing_source_cue",
@@ -149043,79 +148089,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q002744",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with J. Craig Venter Institute?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Selected naturally occurring oil-eating bacteria after the 2010 BP oil spill to improve oil degradation.",
-        "choice_context": [
-          "Evolugate"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-        "choice_context": [
-          "Massachusetts Institute of Technology (MIT)"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Organized the 1975 Asilomar Conference on recombinant DNA biohazards.",
-        "choice_context": [
-          "National Academy of Sciences"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Site where the first entirely synthetic bacterial cell was created in 2010.",
-        "choice_context": []
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Selected naturally occurring oil-eating bacteria after the 2010 BP oil spill to improve oil degradation.",
-      "Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-      "Organized the 1975 Asilomar Conference on recombinant DNA biohazards.",
-      "Site where the first entirely synthetic bacterial cell was created in 2010."
-    ],
-    "correct_answer_text": "Site where the first entirely synthetic bacterial cell was created in 2010.",
-    "correct_letter_original": "D",
-    "explanation": "The correct relationship is J. Craig Venter Institute: Site where the first entirely synthetic bacterial cell was created in 2010.",
-    "source_cue": "",
-    "primary_domain": "microbiology_and_cell_culture",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "High",
-      "microbiology_and_cell_culture",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q002745",
     "source_name": "Entity Bank Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
@@ -149262,81 +148235,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q002747",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: Formed in 2001 and announced the Human Proteome Project.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Genentech",
-        "choice_context": [
-          "Founded in 1976; linked in the text to recombinant human insulin and Herceptin."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "National Geographic Society",
-        "choice_context": [
-          "Initiated the Genographic Project."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Human Proteome Organisation (HUPO)",
-        "choice_context": [
-          "Formed in 2001 and announced the Human Proteome Project."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Abraham Lincoln High School",
-        "choice_context": [
-          "School described as participating in an iGEM biotechnology project."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Genentech",
-      "National Geographic Society",
-      "Human Proteome Organisation (HUPO)",
-      "Abraham Lincoln High School"
-    ],
-    "correct_answer_text": "Human Proteome Organisation (HUPO)",
-    "correct_letter_original": "C",
-    "explanation": "Human Proteome Organisation (HUPO) is the correct match for this biotech contribution or role: Formed in 2001 and announced the Human Proteome Project.",
-    "source_cue": "",
-    "primary_domain": "protein_structure_function_and_analysis",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "High",
-      "protein_structure_function_and_analysis",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q002748",
     "source_name": "Entity Bank Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
@@ -149364,9 +148262,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "C",
         "text": "Formed in 2001 and announced the Human Proteome Project.",
-        "choice_context": [
-          "Human Proteome Organisation (HUPO)"
-        ]
+        "choice_context": []
       },
       {
         "letter_original": "D",
@@ -149712,306 +148608,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q002753",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: Hosted the laboratory experience for Abraham Lincoln High School's iGEM project.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Massachusetts Institute of Technology (MIT)",
-        "choice_context": [
-          "Sponsored the iGEM competition entered by Abraham Lincoln High School students."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "University of California, San Francisco (UCSF)",
-        "choice_context": [
-          "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Abraham Lincoln High School",
-        "choice_context": [
-          "School described as participating in an iGEM biotechnology project."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "International Genetically Engineered Machine Competition (iGEM)",
-        "choice_context": [
-          "Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Massachusetts Institute of Technology (MIT)",
-      "University of California, San Francisco (UCSF)",
-      "Abraham Lincoln High School",
-      "International Genetically Engineered Machine Competition (iGEM)"
-    ],
-    "correct_answer_text": "University of California, San Francisco (UCSF)",
-    "correct_letter_original": "B",
-    "explanation": "University of California, San Francisco (UCSF) is the correct match for this biotech contribution or role: Hosted the laboratory experience for Abraham Lincoln High School's iGEM project.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "immunological_applications",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002754",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with University of California, San Francisco (UCSF)?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-        "choice_context": [
-          "Massachusetts Institute of Technology (MIT)"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "School described as participating in an iGEM biotechnology project.",
-        "choice_context": [
-          "Abraham Lincoln High School"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Is identified as the university attended by Bio-Rad's founders.",
-        "choice_context": [
-          "University of California, Berkeley"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project.",
-        "choice_context": [
-          "University of California, San Francisco (UCSF)"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-      "School described as participating in an iGEM biotechnology project.",
-      "Is identified as the university attended by Bio-Rad's founders.",
-      "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project."
-    ],
-    "correct_answer_text": "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project.",
-    "correct_letter_original": "D",
-    "explanation": "The correct relationship is University of California, San Francisco (UCSF): Hosted the laboratory experience for Abraham Lincoln High School's iGEM project.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "immunological_applications",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002755",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: School described as participating in an iGEM biotechnology project.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "University of California, San Francisco (UCSF)",
-        "choice_context": [
-          "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Massachusetts Institute of Technology (MIT)",
-        "choice_context": [
-          "Sponsored the iGEM competition entered by Abraham Lincoln High School students."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Abraham Lincoln High School",
-        "choice_context": [
-          "School described as participating in an iGEM biotechnology project."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "International Genetically Engineered Machine Competition (iGEM)",
-        "choice_context": [
-          "Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "University of California, San Francisco (UCSF)",
-      "Massachusetts Institute of Technology (MIT)",
-      "Abraham Lincoln High School",
-      "International Genetically Engineered Machine Competition (iGEM)"
-    ],
-    "correct_answer_text": "Abraham Lincoln High School",
-    "correct_letter_original": "C",
-    "explanation": "Abraham Lincoln High School is the correct match for this biotech contribution or role: School described as participating in an iGEM biotechnology project.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "immunological_applications",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002756",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with Abraham Lincoln High School?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Is cited as a project-resource site for biofuel work.",
-        "choice_context": [
-          "Great Lakes Bioenergy Research Center"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Referenced with biotechnology education/career content.",
-        "choice_context": [
-          "Howard Hughes Medical Institute (HHMI)"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "School described as participating in an iGEM biotechnology project.",
-        "choice_context": [
-          "Abraham Lincoln High School"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Identified as a federal source of biotechnology-related research support.",
-        "choice_context": [
-          "Department of Defense (DOD)"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Is cited as a project-resource site for biofuel work.",
-      "Referenced with biotechnology education/career content.",
-      "School described as participating in an iGEM biotechnology project.",
-      "Identified as a federal source of biotechnology-related research support."
-    ],
-    "correct_answer_text": "School described as participating in an iGEM biotechnology project.",
-    "correct_letter_original": "C",
-    "explanation": "The correct relationship is Abraham Lincoln High School: School described as participating in an iGEM biotechnology project.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "immunological_applications",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q002757",
     "source_name": "Entity Bank Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
@@ -150149,156 +148745,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       "Organization",
       "Medium",
       "basic_laboratory_skills",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002759",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: Referenced with biotechnology education/career content.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Massachusetts Institute of Technology (MIT)",
-        "choice_context": [
-          "Sponsored the iGEM competition entered by Abraham Lincoln High School students."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "United Nations Convention on Biological Diversity",
-        "choice_context": [
-          "Provided a definition of biotechnology in 1992; the definition was expanded in 2003."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "National Institute for Occupational Safety and Health (NIOSH)",
-        "choice_context": [
-          "Is named as an agency investigating health concerns about exposure to nanoparticles."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Howard Hughes Medical Institute (HHMI)",
-        "choice_context": [
-          "Referenced with biotechnology education/career content."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Massachusetts Institute of Technology (MIT)",
-      "United Nations Convention on Biological Diversity",
-      "National Institute for Occupational Safety and Health (NIOSH)",
-      "Howard Hughes Medical Institute (HHMI)"
-    ],
-    "correct_answer_text": "Howard Hughes Medical Institute (HHMI)",
-    "correct_letter_original": "D",
-    "explanation": "Howard Hughes Medical Institute (HHMI) is the correct match for this biotech contribution or role: Referenced with biotechnology education/career content.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_industry_practices_and_careers",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002760",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with Howard Hughes Medical Institute (HHMI)?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "School described as participating in an iGEM biotechnology project.",
-        "choice_context": [
-          "Abraham Lincoln High School"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Referenced with biotechnology education/career content.",
-        "choice_context": [
-          "Howard Hughes Medical Institute (HHMI)"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Biotechnology company associated with Biotechnology Explorer educational materials.",
-        "choice_context": [
-          "Bio-Rad Laboratories"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Provided a definition of biotechnology in 1992; the definition was expanded in 2003.",
-        "choice_context": [
-          "United Nations Convention on Biological Diversity"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "School described as participating in an iGEM biotechnology project.",
-      "Referenced with biotechnology education/career content.",
-      "Biotechnology company associated with Biotechnology Explorer educational materials.",
-      "Provided a definition of biotechnology in 1992; the definition was expanded in 2003."
-    ],
-    "correct_answer_text": "Referenced with biotechnology education/career content.",
-    "correct_letter_original": "B",
-    "explanation": "The correct relationship is Howard Hughes Medical Institute (HHMI): Referenced with biotechnology education/career content.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_industry_practices_and_careers",
       "low_priority"
     ],
     "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
@@ -157379,8 +155825,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       }
     ],
@@ -157534,8 +155979,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -157573,89 +156017,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       "low_priority"
     ],
     "notes": "option_count=4 | missing_source_cue | manual_review_flag=true | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002858",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Year/Date",
-    "topic_group": "item_to_association",
-    "question_text": "Which of the following is associated with 2005?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Chiron was acquired by Novartis International AG.",
-        "choice_context": [
-          "2006"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Science retracted Woo Suk Hwang's papers and Hwang was dismissed.",
-        "choice_context": [
-          "2006"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "MRSA caused almost 100,000 infections and 18,000 deaths in the United States.",
-        "choice_context": [
-          "2005"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "E",
-        "text": "GloFish, transgenic fish expressing GFP, were launched as pets in the United States.",
-        "choice_context": [
-          "2003"
-        ]
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "Chiron was acquired by Novartis International AG.",
-      "Science retracted Woo Suk Hwang's papers and Hwang was dismissed.",
-      "MRSA caused almost 100,000 infections and 18,000 deaths in the United States.",
-      "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-      "GloFish, transgenic fish expressing GFP, were launched as pets in the United States."
-    ],
-    "correct_answer_text": "MRSA caused almost 100,000 infections and 18,000 deaths in the United States.",
-    "correct_letter_original": "C",
-    "explanation": "The correct year is 2005: MRSA caused almost 100,000 infections and 18,000 deaths in the United States.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Year/Date",
-      "Medium",
-      "biotechnology_industry_practices_and_careers",
-      "low_priority"
-    ],
-    "notes": "missing_source_cue | manual_review_flag=true | generic_entity_shell",
     "career_question_type": "",
     "shuffle_safe": true,
     "metadata_boosts": {
@@ -157998,8 +156359,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -158186,8 +156546,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       }
     ],
@@ -158356,8 +156715,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       }
     ],
@@ -158745,8 +157103,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       },
       {
@@ -158803,89 +157160,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q002874",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Year/Date",
-    "topic_group": "item_to_association",
-    "question_text": "Which of the following is associated with 2008?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "The FDA allowed Geron to conduct the first human clinical trial involving cells derived from human embryonic stem cells.",
-        "choice_context": [
-          "2009"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "The scientists who discovered and worked on GFP were awarded the Nobel Prize in Chemistry.",
-        "choice_context": [
-          "2008"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-        "choice_context": [
-          "2007"
-        ]
-      },
-      {
-        "letter_original": "E",
-        "text": "Roche acquired Genentech for $46 billion.",
-        "choice_context": [
-          "2009"
-        ]
-      }
-    ],
-    "choice_count": 5,
-    "choice_texts": [
-      "The FDA allowed Geron to conduct the first human clinical trial involving cells derived from human embryonic stem cells.",
-      "The scientists who discovered and worked on GFP were awarded the Nobel Prize in Chemistry.",
-      "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work.",
-      "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-      "Roche acquired Genentech for $46 billion."
-    ],
-    "correct_answer_text": "The scientists who discovered and worked on GFP were awarded the Nobel Prize in Chemistry.",
-    "correct_letter_original": "B",
-    "explanation": "The correct year is 2008: The scientists who discovered and worked on GFP were awarded the Nobel Prize in Chemistry.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Year/Date",
-      "Medium",
-      "biotechnology_industry_practices_and_careers",
-      "low_priority"
-    ],
-    "notes": "missing_source_cue | manual_review_flag=true | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q002875",
     "source_name": "Entity Bank Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
@@ -158914,8 +157188,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "C",
         "text": "George W. Bush",
         "choice_context": [
-          "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008.",
-          "Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001."
+          "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008."
         ]
       },
       {
@@ -158936,157 +157209,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     "correct_answer_text": "George W. Bush",
     "correct_letter_original": "C",
     "explanation": "George W. Bush is the correct match for this biotech contribution or role: Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Person",
-      "Medium",
-      "biotechnology_industry_practices_and_careers",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue | manual_review_flag=true",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002876",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Person",
-    "topic_group": "item_to_association",
-    "question_text": "Which biotech contribution or role is best matched to George W. Bush?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Was cleared of the Leicestershire murders through DNA profiling evidence on November 21, 1986.",
-        "choice_context": [
-          "Richard Buckland"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Isolated GFP in 1962 and later shared the 2008 Nobel Prize connected to GFP.",
-        "choice_context": [
-          "Osamu Shimomura"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Associated with the Abraham Lincoln High School iGEM biotechnology project.",
-        "choice_context": [
-          "George Cachianes"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008.",
-        "choice_context": [
-          "George W. Bush"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Was cleared of the Leicestershire murders through DNA profiling evidence on November 21, 1986.",
-      "Isolated GFP in 1962 and later shared the 2008 Nobel Prize connected to GFP.",
-      "Associated with the Abraham Lincoln High School iGEM biotechnology project.",
-      "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008."
-    ],
-    "correct_answer_text": "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008.",
-    "correct_letter_original": "D",
-    "explanation": "The correct relationship is George W. Bush: Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Person",
-      "Medium",
-      "biotechnology_industry_practices_and_careers",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue | manual_review_flag=true",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002877",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Person",
-    "topic_group": "association_to_item",
-    "question_text": "Which person best matches this biotech contribution or role: Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Barack Obama",
-        "choice_context": [
-          "Lifted restrictions in 2009 to permit public funding for existing and future privately derived human embryonic stem-cell lines."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Woo Suk Hwang",
-        "choice_context": [
-          "Published stem-cell research later retracted and was convicted of embezzlement and bioethics violations."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "George W. Bush",
-        "choice_context": [
-          "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008.",
-          "Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "George Cachianes",
-        "choice_context": [
-          "Associated with the Abraham Lincoln High School iGEM biotechnology project."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Barack Obama",
-      "Woo Suk Hwang",
-      "George W. Bush",
-      "George Cachianes"
-    ],
-    "correct_answer_text": "George W. Bush",
-    "correct_letter_original": "C",
-    "explanation": "George W. Bush is the correct match for this biotech contribution or role: Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001.",
     "source_cue": "",
     "primary_domain": "biotechnology_industry_practices_and_careers",
     "domain_confidence": "low",
@@ -159140,9 +157262,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "C",
         "text": "Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001.",
-        "choice_context": [
-          "George W. Bush"
-        ]
+        "choice_context": []
       },
       {
         "letter_original": "D",
@@ -159200,8 +157320,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "letter_original": "A",
         "text": "George W. Bush",
         "choice_context": [
-          "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008.",
-          "Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001."
+          "Signed the Genetic Information Nondiscrimination Act into law on May 21, 2008."
         ]
       },
       {
@@ -159282,9 +157401,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "B",
         "text": "Permitted federal funding for research on a specified set of existing human embryonic stem-cell lines in 2001.",
-        "choice_context": [
-          "George W. Bush"
-        ]
+        "choice_context": []
       },
       {
         "letter_original": "C",
@@ -160069,156 +158186,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q002891",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Massachusetts Institute of Technology (MIT)",
-        "choice_context": [
-          "Sponsored the iGEM competition entered by Abraham Lincoln High School students."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "University of California, San Francisco (UCSF)",
-        "choice_context": [
-          "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "International Genetically Engineered Machine Competition (iGEM)",
-        "choice_context": [
-          "Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Abraham Lincoln High School",
-        "choice_context": [
-          "School described as participating in an iGEM biotechnology project."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Massachusetts Institute of Technology (MIT)",
-      "University of California, San Francisco (UCSF)",
-      "International Genetically Engineered Machine Competition (iGEM)",
-      "Abraham Lincoln High School"
-    ],
-    "correct_answer_text": "Massachusetts Institute of Technology (MIT)",
-    "correct_letter_original": "A",
-    "explanation": "Massachusetts Institute of Technology (MIT) is the correct match for this biotech contribution or role: Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "immunological_applications",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002892",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with Massachusetts Institute of Technology (MIT)?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts.",
-        "choice_context": [
-          "International Genetically Engineered Machine Competition (iGEM)"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project.",
-        "choice_context": [
-          "University of California, San Francisco (UCSF)"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-        "choice_context": [
-          "Massachusetts Institute of Technology (MIT)"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "School described as participating in an iGEM biotechnology project.",
-        "choice_context": [
-          "Abraham Lincoln High School"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts.",
-      "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project.",
-      "Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-      "School described as participating in an iGEM biotechnology project."
-    ],
-    "correct_answer_text": "Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-    "correct_letter_original": "C",
-    "explanation": "The correct relationship is Massachusetts Institute of Technology (MIT): Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "immunological_applications",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q002893",
     "source_name": "Entity Bank Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
@@ -160265,8 +158232,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
         "text": "2007",
         "choice_context": [
           "The EPA approved a genetically modified Pseudomonas putida biosensor device that glows in the presence of trichloroethylene.",
-          "The Energy Independence and Security Act required expanded biofuel use by 2022.",
-          "Wendell Lim invited Abraham Lincoln High School students into a UCSF laboratory for iGEM work."
+          "The Energy Independence and Security Act required expanded biofuel use by 2022."
         ]
       }
     ],
@@ -161452,9 +159418,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "C",
         "text": "Human Proteome Organisation (HUPO)",
-        "choice_context": [
-          "Formed in 2001 and announced the Human Proteome Project."
-        ]
+        "choice_context": []
       },
       {
         "letter_original": "D",
@@ -161534,9 +159498,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "D",
         "text": "Formed in 2001 and announced the Human Proteome Project.",
-        "choice_context": [
-          "Human Proteome Organisation (HUPO)"
-        ]
+        "choice_context": []
       }
     ],
     "choice_count": 4,
@@ -161813,9 +159775,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "A",
         "text": "Formed in 2001 and announced the Human Proteome Project.",
-        "choice_context": [
-          "Human Proteome Organisation (HUPO)"
-        ]
+        "choice_context": []
       },
       {
         "letter_original": "B",
@@ -161902,9 +159862,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "C",
         "text": "American Society of Clinical Pathology",
-        "choice_context": [
-          "Is identified as the certifying-exam organization for clinical laboratory scientist work."
-        ]
+        "choice_context": []
       },
       {
         "letter_original": "D",
@@ -162250,81 +160208,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q002920",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with Medichem?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Oversees public-health and select-agent laboratory compliance contexts, including the Division of Select Agents and Toxins.",
-        "choice_context": [
-          "Centers for Disease Control and Prevention (CDC)"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Received FDA allowance in 2009 for the first human clinical trial involving cells derived from human embryonic stem cells.",
-        "choice_context": [
-          "Geron"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Used laboratory notebooks to try to prove it invented the loratadine/Claritin method first.",
-        "choice_context": [
-          "Medichem"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-        "choice_context": [
-          "American Society of Clinical Pathology"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Oversees public-health and select-agent laboratory compliance contexts, including the Division of Select Agents and Toxins.",
-      "Received FDA allowance in 2009 for the first human clinical trial involving cells derived from human embryonic stem cells.",
-      "Used laboratory notebooks to try to prove it invented the loratadine/Claritin method first.",
-      "Is identified as the certifying-exam organization for clinical laboratory scientist work."
-    ],
-    "correct_answer_text": "Used laboratory notebooks to try to prove it invented the loratadine/Claritin method first.",
-    "correct_letter_original": "C",
-    "explanation": "The correct relationship is Medichem: Used laboratory notebooks to try to prove it invented the loratadine/Claritin method first.",
-    "source_cue": "",
-    "primary_domain": "basic_laboratory_skills",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Medium",
-      "basic_laboratory_skills",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q002921",
     "source_name": "Entity Bank Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
@@ -162508,9 +160391,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "D",
         "text": "Massachusetts Institute of Technology (MIT)",
-        "choice_context": [
-          "Sponsored the iGEM competition entered by Abraham Lincoln High School students."
-        ]
+        "choice_context": []
       }
     ],
     "choice_count": 4,
@@ -162574,9 +160455,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "C",
         "text": "Formed in 2001 and announced the Human Proteome Project.",
-        "choice_context": [
-          "Human Proteome Organisation (HUPO)"
-        ]
+        "choice_context": []
       },
       {
         "letter_original": "D",
@@ -164272,156 +162151,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q002947",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Massachusetts Institute of Technology (MIT)",
-        "choice_context": [
-          "Sponsored the iGEM competition entered by Abraham Lincoln High School students."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "International Genetically Engineered Machine Competition (iGEM)",
-        "choice_context": [
-          "Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "University of California, San Francisco (UCSF)",
-        "choice_context": [
-          "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Abraham Lincoln High School",
-        "choice_context": [
-          "School described as participating in an iGEM biotechnology project."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Massachusetts Institute of Technology (MIT)",
-      "International Genetically Engineered Machine Competition (iGEM)",
-      "University of California, San Francisco (UCSF)",
-      "Abraham Lincoln High School"
-    ],
-    "correct_answer_text": "International Genetically Engineered Machine Competition (iGEM)",
-    "correct_letter_original": "B",
-    "explanation": "International Genetically Engineered Machine Competition (iGEM) is the correct match for this biotech contribution or role: Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Medium",
-      "immunological_applications",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002948",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with International Genetically Engineered Machine Competition (iGEM)?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Patented an oil-eating bacterium after the 1980 U.S. Supreme Court decision.",
-        "choice_context": [
-          "Exxon"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts.",
-        "choice_context": [
-          "International Genetically Engineered Machine Competition (iGEM)"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Acquired Chiron Corporation in 2006.",
-        "choice_context": [
-          "Novartis International AG"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Identified as a government funding source for nonmedical science, engineering, and education/training research.",
-        "choice_context": [
-          "National Science Foundation (NSF)"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Patented an oil-eating bacterium after the 1980 U.S. Supreme Court decision.",
-      "Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts.",
-      "Acquired Chiron Corporation in 2006.",
-      "Identified as a government funding source for nonmedical science, engineering, and education/training research."
-    ],
-    "correct_answer_text": "Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts.",
-    "correct_letter_original": "B",
-    "explanation": "The correct relationship is International Genetically Engineered Machine Competition (iGEM): Is the competition the Abraham Lincoln High School/UCSF team entered to design a biological system from provided biological parts.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Medium",
-      "immunological_applications",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q002949",
     "source_name": "Entity Bank Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
@@ -164585,9 +162314,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "A",
         "text": "University of California, San Francisco (UCSF)",
-        "choice_context": [
-          "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project."
-        ]
+        "choice_context": []
       },
       {
         "letter_original": "B",
@@ -164606,9 +162333,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "D",
         "text": "John Muir Hospital",
-        "choice_context": [
-          "Is identified in Mihaela Sabau's internship and employment path."
-        ]
+        "choice_context": []
       }
     ],
     "choice_count": 4,
@@ -164637,531 +162362,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       "normal"
     ],
     "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002952",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with University of California, Berkeley?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Is identified as Katie Dalpozzo's employer.",
-        "choice_context": [
-          "Bavarian Nordic Immunotherapeutics"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Is identified as the university attended by Bio-Rad's founders.",
-        "choice_context": [
-          "University of California, Berkeley"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project.",
-        "choice_context": [
-          "University of California, San Francisco (UCSF)"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Is identified in Mihaela Sabau's internship and employment path.",
-        "choice_context": [
-          "John Muir Hospital"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Is identified as Katie Dalpozzo's employer.",
-      "Is identified as the university attended by Bio-Rad's founders.",
-      "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project.",
-      "Is identified in Mihaela Sabau's internship and employment path."
-    ],
-    "correct_answer_text": "Is identified as the university attended by Bio-Rad's founders.",
-    "correct_letter_original": "B",
-    "explanation": "The correct relationship is University of California, Berkeley: Is identified as the university attended by Bio-Rad's founders.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_industry_practices_and_careers",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002953",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: Is identified as Katie Dalpozzo's employer.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Bavarian Nordic Immunotherapeutics",
-        "choice_context": [
-          "Is identified as Katie Dalpozzo's employer."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "University of California, Berkeley",
-        "choice_context": [
-          "Is identified as the university attended by Bio-Rad's founders."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "John Muir Hospital",
-        "choice_context": [
-          "Is identified in Mihaela Sabau's internship and employment path."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "United States Patent and Trademark Office (USPTO)",
-        "choice_context": [
-          "Is the U.S. agency responsible for awarding patents."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Bavarian Nordic Immunotherapeutics",
-      "University of California, Berkeley",
-      "John Muir Hospital",
-      "United States Patent and Trademark Office (USPTO)"
-    ],
-    "correct_answer_text": "Bavarian Nordic Immunotherapeutics",
-    "correct_letter_original": "A",
-    "explanation": "Bavarian Nordic Immunotherapeutics is the correct match for this biotech contribution or role: Is identified as Katie Dalpozzo's employer.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_industry_practices_and_careers",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002954",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with Bavarian Nordic Immunotherapeutics?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Is identified as Katie Dalpozzo's employer.",
-        "choice_context": [
-          "Bavarian Nordic Immunotherapeutics"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Is identified in Mihaela Sabau's internship and employment path.",
-        "choice_context": [
-          "John Muir Hospital"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Is identified as the university attended by Bio-Rad's founders.",
-        "choice_context": [
-          "University of California, Berkeley"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-        "choice_context": [
-          "American Society of Clinical Pathology"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Is identified as Katie Dalpozzo's employer.",
-      "Is identified in Mihaela Sabau's internship and employment path.",
-      "Is identified as the university attended by Bio-Rad's founders.",
-      "Is identified as the certifying-exam organization for clinical laboratory scientist work."
-    ],
-    "correct_answer_text": "Is identified as Katie Dalpozzo's employer.",
-    "correct_letter_original": "A",
-    "explanation": "The correct relationship is Bavarian Nordic Immunotherapeutics: Is identified as Katie Dalpozzo's employer.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_industry_practices_and_careers",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002955",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: Is identified in Mihaela Sabau's internship and employment path.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "John Muir Hospital",
-        "choice_context": [
-          "Is identified in Mihaela Sabau's internship and employment path."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "American Society of Clinical Pathology",
-        "choice_context": [
-          "Is identified as the certifying-exam organization for clinical laboratory scientist work."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Bavarian Nordic Immunotherapeutics",
-        "choice_context": [
-          "Is identified as Katie Dalpozzo's employer."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "University of California, Berkeley",
-        "choice_context": [
-          "Is identified as the university attended by Bio-Rad's founders."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "John Muir Hospital",
-      "American Society of Clinical Pathology",
-      "Bavarian Nordic Immunotherapeutics",
-      "University of California, Berkeley"
-    ],
-    "correct_answer_text": "John Muir Hospital",
-    "correct_letter_original": "A",
-    "explanation": "John Muir Hospital is the correct match for this biotech contribution or role: Is identified in Mihaela Sabau's internship and employment path.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_industry_practices_and_careers",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002956",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with John Muir Hospital?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-        "choice_context": [
-          "American Society of Clinical Pathology"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Is identified in Mihaela Sabau's internship and employment path.",
-        "choice_context": [
-          "John Muir Hospital"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Is identified as Katie Dalpozzo's employer.",
-        "choice_context": [
-          "Bavarian Nordic Immunotherapeutics"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Is identified as the university attended by Bio-Rad's founders.",
-        "choice_context": [
-          "University of California, Berkeley"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-      "Is identified in Mihaela Sabau's internship and employment path.",
-      "Is identified as Katie Dalpozzo's employer.",
-      "Is identified as the university attended by Bio-Rad's founders."
-    ],
-    "correct_answer_text": "Is identified in Mihaela Sabau's internship and employment path.",
-    "correct_letter_original": "B",
-    "explanation": "The correct relationship is John Muir Hospital: Is identified in Mihaela Sabau's internship and employment path.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_industry_practices_and_careers",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002957",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "John Muir Hospital",
-        "choice_context": [
-          "Is identified in Mihaela Sabau's internship and employment path."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Department of Energy (DOE)",
-        "choice_context": [
-          "Identified as a funding source for biotechnology work related to energy."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "American Society of Clinical Pathology",
-        "choice_context": [
-          "Is identified as the certifying-exam organization for clinical laboratory scientist work."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Genoptix",
-        "choice_context": [
-          "Is the diagnostic-services company where Amanda Williams performs FACS work."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "John Muir Hospital",
-      "Department of Energy (DOE)",
-      "American Society of Clinical Pathology",
-      "Genoptix"
-    ],
-    "correct_answer_text": "American Society of Clinical Pathology",
-    "correct_letter_original": "C",
-    "explanation": "American Society of Clinical Pathology is the correct match for this biotech contribution or role: Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-    "source_cue": "",
-    "primary_domain": "basic_laboratory_skills",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "basic_laboratory_skills",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002958",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with American Society of Clinical Pathology?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Is identified in Mihaela Sabau's internship and employment path.",
-        "choice_context": [
-          "John Muir Hospital"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Identified as a funding source for biotechnology work related to energy.",
-        "choice_context": [
-          "Department of Energy (DOE)"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-        "choice_context": [
-          "American Society of Clinical Pathology"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Is identified as Katie Dalpozzo's employer.",
-        "choice_context": [
-          "Bavarian Nordic Immunotherapeutics"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Is identified in Mihaela Sabau's internship and employment path.",
-      "Identified as a funding source for biotechnology work related to energy.",
-      "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-      "Is identified as Katie Dalpozzo's employer."
-    ],
-    "correct_answer_text": "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-    "correct_letter_original": "C",
-    "explanation": "The correct relationship is American Society of Clinical Pathology: Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-    "source_cue": "",
-    "primary_domain": "basic_laboratory_skills",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "basic_laboratory_skills",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
     "career_question_type": "",
     "shuffle_safe": true,
     "metadata_boosts": {
@@ -165206,9 +162406,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "D",
         "text": "Bavarian Nordic Immunotherapeutics",
-        "choice_context": [
-          "Is identified as Katie Dalpozzo's employer."
-        ]
+        "choice_context": []
       }
     ],
     "choice_count": 4,
@@ -165237,81 +162435,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       "normal"
     ],
     "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002960",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with Leicestershire police?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Operates CODIS, the Combined DNA Index System.",
-        "choice_context": [
-          "Federal Bureau of Investigation (FBI)"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Is identified as the university attended by Bio-Rad's founders.",
-        "choice_context": [
-          "University of California, Berkeley"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Brought Alec Jeffreys into the first DNA-fingerprinting murder investigation.",
-        "choice_context": [
-          "Leicestershire police"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Sponsored the iGEM competition entered by Abraham Lincoln High School students.",
-        "choice_context": [
-          "Massachusetts Institute of Technology (MIT)"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Operates CODIS, the Combined DNA Index System.",
-      "Is identified as the university attended by Bio-Rad's founders.",
-      "Brought Alec Jeffreys into the first DNA-fingerprinting murder investigation.",
-      "Sponsored the iGEM competition entered by Abraham Lincoln High School students."
-    ],
-    "correct_answer_text": "Brought Alec Jeffreys into the first DNA-fingerprinting murder investigation.",
-    "correct_letter_original": "C",
-    "explanation": "The correct relationship is Leicestershire police: Brought Alec Jeffreys into the first DNA-fingerprinting murder investigation.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "immunological_applications",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
     "career_question_type": "",
     "shuffle_safe": true,
     "metadata_boosts": {
@@ -165397,379 +162520,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
     }
   },
   {
-    "corpus_id": "Q002962",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with Protein Data Bank (PDB)?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Hosts bioinformatics resources such as GenBank used in sequence analysis.",
-        "choice_context": [
-          "National Center for Biotechnology Information (NCBI)"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Hosts three-dimensional protein structures used in bioinformatics work.",
-        "choice_context": [
-          "Protein Data Bank (PDB)"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Identified as a funding source for biotechnology work related to energy.",
-        "choice_context": [
-          "Department of Energy (DOE)"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-        "choice_context": [
-          "American Society of Clinical Pathology"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Hosts bioinformatics resources such as GenBank used in sequence analysis.",
-      "Hosts three-dimensional protein structures used in bioinformatics work.",
-      "Identified as a funding source for biotechnology work related to energy.",
-      "Is identified as the certifying-exam organization for clinical laboratory scientist work."
-    ],
-    "correct_answer_text": "Hosts three-dimensional protein structures used in bioinformatics work.",
-    "correct_letter_original": "B",
-    "explanation": "The correct relationship is Protein Data Bank (PDB): Hosts three-dimensional protein structures used in bioinformatics work.",
-    "source_cue": "",
-    "primary_domain": "protein_structure_function_and_analysis",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Medium",
-      "protein_structure_function_and_analysis",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002963",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: Is the diagnostic-services company where Amanda Williams performs FACS work.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Genoptix",
-        "choice_context": [
-          "Is the diagnostic-services company where Amanda Williams performs FACS work."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "American Society of Clinical Pathology",
-        "choice_context": [
-          "Is identified as the certifying-exam organization for clinical laboratory scientist work."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Bio-Rad Laboratories",
-        "choice_context": [
-          "Biotechnology company associated with Biotechnology Explorer educational materials."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Great Lakes Bioenergy Research Center",
-        "choice_context": [
-          "Is cited as a project-resource site for biofuel work."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Genoptix",
-      "American Society of Clinical Pathology",
-      "Bio-Rad Laboratories",
-      "Great Lakes Bioenergy Research Center"
-    ],
-    "correct_answer_text": "Genoptix",
-    "correct_letter_original": "A",
-    "explanation": "Genoptix is the correct match for this biotech contribution or role: Is the diagnostic-services company where Amanda Williams performs FACS work.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_in_health",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_in_health",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002964",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with Genoptix?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Is cited as a project-resource site for biofuel work.",
-        "choice_context": [
-          "Great Lakes Bioenergy Research Center"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-        "choice_context": [
-          "American Society of Clinical Pathology"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Is the diagnostic-services company where Amanda Williams performs FACS work.",
-        "choice_context": [
-          "Genoptix"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Site where the first entirely synthetic bacterial cell was created in 2010.",
-        "choice_context": []
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Is cited as a project-resource site for biofuel work.",
-      "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-      "Is the diagnostic-services company where Amanda Williams performs FACS work.",
-      "Site where the first entirely synthetic bacterial cell was created in 2010."
-    ],
-    "correct_answer_text": "Is the diagnostic-services company where Amanda Williams performs FACS work.",
-    "correct_letter_original": "C",
-    "explanation": "The correct relationship is Genoptix: Is the diagnostic-services company where Amanda Williams performs FACS work.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_in_health",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_in_health",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002965",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "association_to_item",
-    "question_text": "Which organization is associated with the following role or development: Is cited as a project-resource site for biofuel work.",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "American Society of Clinical Pathology",
-        "choice_context": [
-          "Is identified as the certifying-exam organization for clinical laboratory scientist work."
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Great Lakes Bioenergy Research Center",
-        "choice_context": [
-          "Is cited as a project-resource site for biofuel work."
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Developmental Studies Hybridoma Bank",
-        "choice_context": [
-          "Is named as an NIH-created national antibody resource."
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "University of California, San Francisco (UCSF)",
-        "choice_context": [
-          "Hosted the laboratory experience for Abraham Lincoln High School's iGEM project."
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "American Society of Clinical Pathology",
-      "Great Lakes Bioenergy Research Center",
-      "Developmental Studies Hybridoma Bank",
-      "University of California, San Francisco (UCSF)"
-    ],
-    "correct_answer_text": "Great Lakes Bioenergy Research Center",
-    "correct_letter_original": "B",
-    "explanation": "Great Lakes Bioenergy Research Center is the correct match for this biotech contribution or role: Is cited as a project-resource site for biofuel work.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "normal",
-    "priority_weight_base": 2,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_industry_practices_and_careers",
-      "normal"
-    ],
-    "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002966",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with Great Lakes Bioenergy Research Center?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "School described as participating in an iGEM biotechnology project.",
-        "choice_context": [
-          "Abraham Lincoln High School"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-        "choice_context": [
-          "American Society of Clinical Pathology"
-        ]
-      },
-      {
-        "letter_original": "C",
-        "text": "Is cited as a project-resource site for biofuel work.",
-        "choice_context": [
-          "Great Lakes Bioenergy Research Center"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Is the diagnostic-services company where Amanda Williams performs FACS work.",
-        "choice_context": [
-          "Genoptix"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "School described as participating in an iGEM biotechnology project.",
-      "Is identified as the certifying-exam organization for clinical laboratory scientist work.",
-      "Is cited as a project-resource site for biofuel work.",
-      "Is the diagnostic-services company where Amanda Williams performs FACS work."
-    ],
-    "correct_answer_text": "Is cited as a project-resource site for biofuel work.",
-    "correct_letter_original": "C",
-    "explanation": "The correct relationship is Great Lakes Bioenergy Research Center: Is cited as a project-resource site for biofuel work.",
-    "source_cue": "",
-    "primary_domain": "biotechnology_industry_practices_and_careers",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "biotechnology_industry_practices_and_careers",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
     "corpus_id": "Q002967",
     "source_name": "Entity Bank Practice Platform",
     "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
@@ -165804,9 +162554,7 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       {
         "letter_original": "D",
         "text": "Great Lakes Bioenergy Research Center",
-        "choice_context": [
-          "Is cited as a project-resource site for biofuel work."
-        ]
+        "choice_context": []
       }
     ],
     "choice_count": 4,
@@ -165835,79 +162583,6 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
       "normal"
     ],
     "notes": "option_count=4 | missing_source_cue",
-    "career_question_type": "",
-    "shuffle_safe": true,
-    "metadata_boosts": {
-      "gold_anchor": false,
-      "high_yield_seed": false,
-      "manual_scored_high": false,
-      "provisional_high": false
-    }
-  },
-  {
-    "corpus_id": "Q002968",
-    "source_name": "Entity Bank Practice Platform",
-    "source_file": "C:\\Users\\neilk\\Downloads\\hosabtprep\\entity_bank_practice_platform\\entity_bank_question_dataset.json",
-    "source_type": "platform_used",
-    "source_platform": "entity_bank_practice_platform",
-    "source_group": "entity_bank",
-    "chapter_or_category": "Organization",
-    "topic_group": "item_to_association",
-    "question_text": "Which role or development is associated with Developmental Studies Hybridoma Bank?",
-    "choices": [
-      {
-        "letter_original": "A",
-        "text": "Is cited as a project-resource site for biofuel work.",
-        "choice_context": [
-          "Great Lakes Bioenergy Research Center"
-        ]
-      },
-      {
-        "letter_original": "B",
-        "text": "Site where the first entirely synthetic bacterial cell was created in 2010.",
-        "choice_context": []
-      },
-      {
-        "letter_original": "C",
-        "text": "Is named as a biotechnology company specializing in industrial enzyme manufacturing.",
-        "choice_context": [
-          "Genzyme"
-        ]
-      },
-      {
-        "letter_original": "D",
-        "text": "Is named as an NIH-created national antibody resource.",
-        "choice_context": [
-          "Developmental Studies Hybridoma Bank"
-        ]
-      }
-    ],
-    "choice_count": 4,
-    "choice_texts": [
-      "Is cited as a project-resource site for biofuel work.",
-      "Site where the first entirely synthetic bacterial cell was created in 2010.",
-      "Is named as a biotechnology company specializing in industrial enzyme manufacturing.",
-      "Is named as an NIH-created national antibody resource."
-    ],
-    "correct_answer_text": "Is named as an NIH-created national antibody resource.",
-    "correct_letter_original": "D",
-    "explanation": "The correct relationship is Developmental Studies Hybridoma Bank: Is named as an NIH-created national antibody resource.",
-    "source_cue": "",
-    "primary_domain": "immunological_applications",
-    "domain_confidence": "low",
-    "priority_tier": "low_priority",
-    "priority_weight_base": 0.5,
-    "manual_review": false,
-    "manual_review_reason": "",
-    "slc_sqt_anchor": false,
-    "slc_sqt_anchor_name": "",
-    "tags": [
-      "Organization",
-      "Low",
-      "immunological_applications",
-      "low_priority"
-    ],
-    "notes": "option_count=4 | missing_source_cue | generic_entity_shell",
     "career_question_type": "",
     "shuffle_safe": true,
     "metadata_boosts": {
@@ -238133,47 +234808,47 @@ window.HOSA_BIOTECH_QUESTION_BANK = [
   }
 ];
 window.HOSA_BIOTECH_BANK_SUMMARY = {
-  "generatedAt": "2026-06-17T19:31:13.757Z",
-  "totalQuestions": 3436,
-  "defaultUsableQuestions": 2951,
+  "generatedAt": "2026-06-17T19:57:33.044Z",
+  "totalQuestions": 3393,
+  "defaultUsableQuestions": 2938,
   "sourceCounts": {
     "Old ChatGPT Master Bank (Final Randomized)": 562,
-    "Entity Bank Practice Platform": 545,
+    "Entity Bank Practice Platform": 503,
     "Chapter 7 Practice Platform": 313,
     "Chapter 8 Practice Platform": 269,
     "Second-Edition Update Bank (250)": 250,
     "Chapter 4 Practice Platform": 249,
     "Chapter 3 Practice Platform": 225,
     "Chapter 6 Practice Platform": 225,
-    "Chapter 5 Practice Platform": 223,
+    "Chapter 5 Practice Platform": 222,
     "Careers Final V6 Last-Polish (204)": 204,
     "Chapter 2 Practice Platform": 199,
     "Chapter 1 Final Standalone Bank": 171,
     "Phase 2 SLC Anchor Addition": 1
   },
   "domainCounts": {
-    "dna_structure_and_analysis": 462,
-    "biotechnology_industry_practices_and_careers": 460,
-    "microbiology_and_cell_culture": 445,
-    "immunological_applications": 437,
+    "dna_structure_and_analysis": 461,
+    "biotechnology_industry_practices_and_careers": 446,
+    "microbiology_and_cell_culture": 444,
+    "immunological_applications": 421,
     "polymerase_chain_reaction": 406,
-    "protein_structure_function_and_analysis": 392,
-    "basic_laboratory_skills": 326,
-    "bacterial_transformation": 312,
-    "governmental_regulation_of_biotechnology": 160,
-    "biotechnology_in_health": 36
+    "protein_structure_function_and_analysis": 390,
+    "basic_laboratory_skills": 323,
+    "bacterial_transformation": 311,
+    "governmental_regulation_of_biotechnology": 157,
+    "biotechnology_in_health": 34
   },
   "priorityCounts": {
-    "normal": 2458,
+    "normal": 2439,
     "high_yield_seed": 633,
-    "low_priority": 311,
+    "low_priority": 287,
     "gold_anchor": 19,
     "avoid_until_review": 15
   },
   "config": {
     "app_name": "HOSA Biotechnology Simulation Platform",
     "version": "1.0.0",
-    "generated_at": "2026-06-17T19:31:13.757Z",
+    "generated_at": "2026-06-17T19:57:33.044Z",
     "default_mode": "hosa_weighted_full_simulation",
     "default_test_length": 50,
     "default_timer_minutes": 50,
@@ -238205,6 +234880,6 @@ window.HOSA_BIOTECH_BANK_SUMMARY = {
       "protein_structure_function_and_analysis": "Protein Structure / Function / Analysis",
       "immunological_applications": "Immunological Applications"
     },
-    "default_usable_question_count": 2951
+    "default_usable_question_count": 2938
   }
 };
