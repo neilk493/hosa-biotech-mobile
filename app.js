@@ -386,6 +386,100 @@
     return labels[mode] || mode.replace(/_/g, " ");
   }
 
+  function usesExactDomainDistribution(mode) {
+    return ["hosa_weighted_full_simulation", "custom_domain_mix"].includes(mode);
+  }
+
+  function sessionAffectsMemory(settings) {
+    return settings.feedbackMode !== "immediate_review";
+  }
+
+  function getWeakDomainSelectionSet(settings) {
+    const configured = Array.from(settings?.weakDomainSet || []);
+    const fallback = Object.keys(window.HosaBiotechLoader.DOMAIN_LABELS).slice(0, 4);
+    return new Set(configured.length ? configured : fallback);
+  }
+
+  function getFlexibleModeCandidates(settings) {
+    return state.bank.filter((question) => questionAllowed(question, settings));
+  }
+
+  function getAvailabilitySnapshot(settings) {
+    if (!state.bank?.length) {
+      return {
+        availableCount: 0,
+        requestedLength: settings.length,
+        exactShortages: [],
+      };
+    }
+
+    if (settings.mode === "bank_practice") {
+      const bank = state.bankCatalog?.byId?.[settings.selectedBankId];
+      const candidates = bank
+        ? bank.questions.filter((question) => questionAllowed(question, settings))
+        : [];
+      return {
+        availableCount: candidates.length,
+        requestedLength: settings.length,
+        exactShortages: [],
+      };
+    }
+
+    if (usesExactDomainDistribution(settings.mode) && settings.customDistribution) {
+      const byDomain = new Map();
+      state.bank
+        .filter((question) => questionAllowed(question, settings))
+        .forEach((question) => {
+          byDomain.set(question.primary_domain, (byDomain.get(question.primary_domain) || 0) + 1);
+        });
+
+      const exactShortages = Object.entries(settings.customDistribution)
+        .filter(([, needed]) => needed > 0)
+        .map(([domain, needed]) => {
+          const available = byDomain.get(domain) || 0;
+          return {
+            domain,
+            needed,
+            available,
+            short: Math.max(0, needed - available),
+          };
+        })
+        .filter((entry) => entry.short > 0);
+
+      return {
+        availableCount: Array.from(byDomain.values()).reduce((sum, value) => sum + value, 0),
+        requestedLength: settings.length,
+        exactShortages,
+      };
+    }
+
+    const candidates = getFlexibleModeCandidates(settings);
+    return {
+      availableCount: candidates.length,
+      requestedLength: settings.length,
+      exactShortages: [],
+    };
+  }
+
+  function getAvailabilityMarkup(settings) {
+    const snapshot = getAvailabilitySnapshot(settings);
+    if (!snapshot) return "";
+
+    if (usesExactDomainDistribution(settings.mode) && snapshot.exactShortages.length) {
+      const shortest = snapshot.exactShortages
+        .slice()
+        .sort((a, b) => b.short - a.short || a.domain.localeCompare(b.domain))[0];
+      const label = window.HosaBiotechLoader.DOMAIN_LABELS[shortest.domain] || shortest.domain;
+      return `Exact-quota check: ${label} has ${shortest.available} eligible for a quota of ${shortest.needed}.`;
+    }
+
+    if (snapshot.availableCount < snapshot.requestedLength) {
+      return `Available now: ${snapshot.availableCount} eligible question(s). This mode will use the full available pool instead of forcing ${snapshot.requestedLength}.`;
+    }
+
+    return `Available now: ${snapshot.availableCount} eligible question(s) under the current settings.`;
+  }
+
   function getModeDescriptor(mode) {
     const bank = getSelectedBankInfo();
     const subtopic = getSelectedSubtopicInfo(bank);
@@ -442,15 +536,65 @@
     };
   }
 
+  function getDynamicModeDescriptor(mode) {
+    const bank = getSelectedBankInfo();
+    const subtopic = getSelectedSubtopicInfo(bank);
+    const settings = collectSettings();
+    const affectsMemory = sessionAffectsMemory(settings);
+    const availabilityLine = getAvailabilityMarkup(settings);
+    const base = getModeDescriptor(mode);
+
+    const overrides = {
+      high_yield_only: {
+        summary: "Draws a randomized mixed review set from gold and high-yield questions only.",
+        detail: "Flexible practice mode. If the filtered pool is smaller than your requested length, it simply uses what is available.",
+      },
+      fresh_questions_only: {
+        summary: "Builds a randomized mixed set using only questions your scored-test history has never consumed.",
+        detail: "Good for discovery passes without forcing exact domain quotas.",
+      },
+      missed_questions: {
+        detail: "Flexible practice mode focused only on retry-eligible material from scored tests.",
+      },
+      weak_domains: {
+        summary: "Concentrates the session into your four weakest scored-test domains using your local history.",
+        detail: "Flexible practice mode. It stays inside your weak domains, then takes as many eligible questions as are available.",
+      },
+      bank_practice: {
+        detail: bank && subtopic
+          ? `Current focus: ${bank.label} • ${subtopic.label}. If fewer than ${settings.length} are currently eligible, the session uses the full available pool.`
+          : "Choose a bank and optional broad subtopic, then the session is drawn only from that pool.",
+      },
+      untimed_review_mode: {
+        detail: "Practice-only mode. It does not retire questions or update your scored-test memory.",
+      },
+    };
+
+    const merged = {
+      ...base,
+      ...(overrides[mode] || {}),
+    };
+
+    return {
+      ...merged,
+      availabilityLine,
+      memoryLine: affectsMemory
+        ? "This session affects scored-test memory, retirement, and weak-domain tracking."
+        : "This session is practice-only and does not affect scored-test memory, retirement, or weak-domain tracking.",
+    };
+  }
+
   function renderModeDescriptor(mode) {
     if (!dom.modeDescriptor) return;
-    const descriptor = getModeDescriptor(mode);
+    const descriptor = getDynamicModeDescriptor(mode);
     dom.modeDescriptor.innerHTML = `
       <div class="mode-brief-top">
         <strong>${descriptor.title}</strong>
       </div>
       <p>${descriptor.summary}</p>
       <div class="mode-brief-note">${descriptor.detail}</div>
+      <div class="mode-brief-note">${descriptor.availabilityLine}</div>
+      <div class="mode-brief-note">${descriptor.memoryLine}</div>
     `;
   }
 
@@ -466,17 +610,13 @@
     }
 
     const broadSubtopicCount = Math.max(0, bank.subtopics.length - 1);
+    const settings = collectSettings();
     const eligibleCount = bank.questions
       .filter((question) => {
         if (subtopic.id === "all_subtopics") return true;
         return toSubtopicId(inferBroadSubtopic(question, bank.id)) === subtopic.id;
       })
-      .filter((question) => {
-        const stats = getQuestionStats(question.corpus_id);
-        const unseen = !stats || !stats.attempts;
-        const retryEligible = isRetryEligibleStats(stats);
-        return unseen || retryEligible;
-      })
+      .filter((question) => isEligibleByMemory(question, settings))
       .filter((question) => questionMatchesPriorityMode(question, dom.priorityModeSelect.value))
       .length;
     const requestedLength = getLengthValue();
@@ -484,7 +624,7 @@
       ? `${eligibleCount} currently eligible questions across ${broadSubtopicCount} broad subtopic${broadSubtopicCount === 1 ? "" : "s"}.`
       : `${eligibleCount} currently eligible questions in ${subtopic.label}.`;
     const warningLine = eligibleCount < requestedLength
-      ? `<div class="selection-summary-warning">Current length asks for ${requestedLength}, but this selection only has ${eligibleCount} currently eligible questions.</div>`
+      ? `<div class="selection-summary-warning">Current length asks for ${requestedLength}, but this selection only has ${eligibleCount} currently eligible questions. The session will use the full available pool.</div>`
       : "";
 
     dom.bankSelectionSummary.innerHTML = `
@@ -495,7 +635,7 @@
       <p>${bank.description}</p>
       <div class="selection-summary-meta">
         <span>${coverageLine}</span>
-        <span>Randomized selection stays inside this bank only, and correctly answered unflagged questions retire until reset.</span>
+        <span>${sessionAffectsMemory(settings) ? "Randomized selection stays inside this bank only, and scored-test memory still controls retirement." : "Randomized selection stays inside this bank only, and this practice session will not change retirement history."}</span>
       </div>
       ${warningLine}
     `;
@@ -804,7 +944,7 @@
     const flagged = getFlaggedCount();
     const unanswered = getUnansweredCount();
     const answered = state.currentTest.questions.length - unanswered;
-    dom.submitConfirmSummary.textContent = `You are about to submit this simulation. You currently have ${flagged} flagged and ${unanswered} unanswered question(s).`;
+    dom.submitConfirmSummary.textContent = `You are about to submit this session. You currently have ${flagged} flagged and ${unanswered} unanswered question(s).`;
     dom.submitConfirmCounts.innerHTML = [
       { label: "Flagged", value: flagged },
       { label: "Unanswered", value: unanswered },
@@ -972,11 +1112,7 @@
       }
     }
 
-    if (mode === "weak_domains") {
-      customDistribution = buildWeakDomainDistribution(length);
-    }
-
-    if (!customDistribution && !["custom_domain_mix", "bank_practice"].includes(mode)) {
+    if (mode === "hosa_weighted_full_simulation") {
       customDistribution = window.HosaBiotechLoader.getScaledDistribution(state.config.exact_50_distribution, length);
     }
 
@@ -1047,6 +1183,7 @@
     if (question.priority_tier === "avoid_until_review") return false;
     if (!questionAllowedByCareerSource(question, settings.mode)) return false;
     if (settings.mode === "bank_practice" && !questionMatchesBankFilters(question, settings)) return false;
+    if (settings.mode === "weak_domains" && !getWeakDomainSelectionSet(settings).has(question.primary_domain)) return false;
     if (!isEligibleByMemory(question, settings)) return false;
     if (!questionMatchesPriorityMode(question, settings.priorityMode)) return false;
 
@@ -1085,6 +1222,10 @@
       return generateBankPracticeTest(settings);
     }
 
+    if (!usesExactDomainDistribution(settings.mode)) {
+      return generateFlexibleMixedTest(settings);
+    }
+
     const rng = createGenerationRng();
     const warnings = [];
     const selectedIds = new Set();
@@ -1117,11 +1258,7 @@
 
     shuffleArray(questions, rng);
 
-    const roundLabel = settings.roundMode
-      ? `Round ${state.history.roundCounter + 1}`
-      : settings.mode === "custom_domain_mix"
-        ? "Custom Mix"
-        : "Simulation";
+    const roundLabel = getDefaultRoundLabel(settings);
 
     const preparedQuestions = questions.map((question, index) => prepareQuestionForSession(question, index, settings, rng));
 
@@ -1129,6 +1266,45 @@
       testId: `test-${Date.now()}`,
       createdAt: Date.now(),
       roundLabel,
+      mode: settings.mode,
+      settings,
+      crossOutMode: false,
+      warnings,
+      questions: preparedQuestions,
+      startedAt: Date.now(),
+      endsAt: settings.timerEnabled ? Date.now() + settings.timerMinutes * 60 * 1000 : null,
+    };
+  }
+
+  function getDefaultRoundLabel(settings) {
+    if (settings.roundMode) return `Round ${state.history.roundCounter + 1}`;
+    if (settings.mode === "custom_domain_mix") return "Custom Mix";
+    if (settings.mode === "hosa_weighted_full_simulation") return "Simulation";
+    return getModeLabel(settings.mode);
+  }
+
+  function generateFlexibleMixedTest(settings) {
+    const rng = createGenerationRng();
+    const warnings = [];
+    const candidates = getFlexibleModeCandidates(settings);
+
+    if (!candidates.length) {
+      throw new Error(`${getModeLabel(settings.mode)} currently has 0 eligible questions under the active filters. Adjust the bank, priority filter, or reset scored-test history.`);
+    }
+
+    const actualLength = Math.min(settings.length, candidates.length);
+    if (actualLength < settings.length) {
+      warnings.push(`Requested ${settings.length} question(s), but only ${actualLength} are currently eligible. This practice session uses the full available pool.`);
+    }
+
+    const picked = sampleRandomWithoutReplacement(candidates, actualLength, rng);
+    shuffleArray(picked, rng);
+    const preparedQuestions = picked.map((question, index) => prepareQuestionForSession(question, index, settings, rng));
+
+    return {
+      testId: `test-${Date.now()}`,
+      createdAt: Date.now(),
+      roundLabel: getDefaultRoundLabel(settings),
       mode: settings.mode,
       settings,
       crossOutMode: false,
@@ -1152,14 +1328,15 @@
 
     const candidates = allCandidates;
 
-    if (candidates.length < settings.length) {
-      throw new Error(`${bank.label}${subtopic && subtopic.id !== "all_subtopics" ? ` - ${subtopic.label}` : ""} only has ${candidates.length} eligible question(s) for a requested length of ${settings.length}. Correctly answered unflagged questions are retired until you reset history.`);
+    if (!candidates.length) {
+      throw new Error(`${bank.label}${subtopic && subtopic.id !== "all_subtopics" ? ` - ${subtopic.label}` : ""} currently has 0 eligible questions under the active filters.`);
     }
 
-    const picked = sampleRandomWithoutReplacement(candidates, settings.length, rng);
-    if (picked.length < settings.length) {
-      throw new Error(`${bank.label} could not produce enough randomized picks for this bank-practice session.`);
+    const actualLength = Math.min(settings.length, candidates.length);
+    if (actualLength < settings.length) {
+      warnings.push(`${bank.label}${subtopic && subtopic.id !== "all_subtopics" ? ` - ${subtopic.label}` : ""} only has ${actualLength} currently eligible question(s), so this session uses the full available pool.`);
     }
+    const picked = sampleRandomWithoutReplacement(candidates, actualLength, rng);
 
     shuffleArray(picked, rng);
     const preparedQuestions = picked.map((question, index) => prepareQuestionForSession(question, index, settings, rng));
@@ -1389,7 +1566,7 @@
     if (test.contextLine) metaParts.push(test.contextLine);
     metaParts.push(`${test.questions.length} questions`);
     metaParts.push(test.settings.timerEnabled ? `${test.settings.timerMinutes} minute timer` : "untimed");
-    metaParts.push("end grading");
+    metaParts.push(test.settings.feedbackMode === "immediate_review" ? "instant feedback" : "end grading");
     dom.roundMeta.textContent = metaParts.join(" • ");
     updateCrossOutModeButton();
     renderQuestionGrid();
@@ -1638,6 +1815,7 @@
       roundLabel: test.roundLabel,
       mode: test.mode,
       modeLabel: dom.testModeChip.textContent,
+      feedbackMode: test.settings.feedbackMode,
       completedAt: endedAt,
       correct: correctCount,
       incorrect: incorrectCount,
@@ -1661,6 +1839,11 @@
   }
 
   function updateHistoryFromResult(result) {
+    if (result.feedbackMode === "immediate_review") {
+      renderSetupSummary();
+      return;
+    }
+
     result.reviewEntries.forEach((item) => {
       const id = item.entry.question.corpus_id;
       const stats = state.history.questionStats[id] || {
@@ -1954,6 +2137,11 @@
     });
 
     dom.priorityModeSelect.addEventListener("change", () => {
+      updateSetupModeUi();
+      renderSetupWarnings([]);
+    });
+
+    dom.feedbackModeSelect.addEventListener("change", () => {
       updateSetupModeUi();
       renderSetupWarnings([]);
     });
